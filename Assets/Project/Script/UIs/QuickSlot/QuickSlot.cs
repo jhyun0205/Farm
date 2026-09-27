@@ -1,11 +1,13 @@
+using CoreEngine;
+using CoreEngine.EventBus;
+using CoreEngine.Helpers;
+using CoreEngine.Interface;
 using Farm.Character;
+using Farm.Controller;
 using System.Collections;
+using System.Reflection;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using Farm.Controller;
-using CoreEngine.EventBus;
-using CoreEngine.Interface;
-using CoreEngine;
 
 namespace Farm.UI.Item
 {
@@ -22,43 +24,22 @@ namespace Farm.UI.Item
         /// </summary>
         public void OnItemSlotChanged(int index);
     }
-    public class QuickSlot : BaseUi, IQuickSlotUpdate
+    public class QuickSlot : CoreMonoBehaviour, IQuickSlotUpdate
     {
         private BaseButton[] itemSlots;
         private ItemViewer[] itemViewers;
-        private GameController controller;
 
         // [추가] UI에서 현재 선택된 슬롯 번호를 기억하기 위한 변수
         private int currentIndex = -1;
 
-        InterfacePublisher<IQuickSlotUpdate> _publisher;
+        private readonly InterfaceBinderContainer _binder = new();
+        private readonly InterfaceReceiver<QuickSlotControl> _controllerReceiver = new();
 
-        protected override void Awake()
+        protected void Awake()
         {
-            base.Awake();
-            _publisher = new(this);
-        }
-
-        public override void OnExit()
-        {
-            // 이벤트 정리
-            for (int i = 0; i < itemSlots.Length; i++)
-            {
-                itemSlots[i].ClearCallback();
-            }
-
-
-            //if (controller != null)
-            //{
-            //    controller.Event_OnControllTargetSet -= OnControllTargetSet;
-            //    controller.Event_OnControllTargetRemoved -= OnControllTargetRemoved;
-            //}
-            EventBus<ControlTargetChangedEvent>.Unsubscribe(OnControlTargetChanged);
-        }
-
-        protected override IEnumerator OnInitialize()
-        {
-            yield return base.OnInitialize();
+            _binder.Add(_controllerReceiver);
+            _binder.Add(new InterfacePublisher<IQuickSlotUpdate>(this));
+            _binder.BindAll();
 
             itemSlots = GetComponentsInChildren<BaseButton>();
             itemViewers = new ItemViewer[itemSlots.Length];
@@ -70,19 +51,30 @@ namespace Farm.UI.Item
                 // 같은 오브젝트에 붙은 뷰어 가져오기
                 itemViewers[i] = itemSlots[i].GetComponent<ItemViewer>();
 
-                yield return itemSlots[i].Initialize();
+                itemSlots[i].Initialize();
 
                 // 버튼 클릭 시 로컬 함수 호출
                 itemSlots[i].AddCallback(() => OnSlotClicked(index));
             }
-
+            EventBus<ControlTargetChangedEvent>.Subscribe(OnControlTargetChanged);
             //controller.Event_OnControllTargetSet += OnControllTargetSet;
             //controller.Event_OnControllTargetRemoved += OnControllTargetRemoved;
+        }
 
-            EventBus<ControlTargetChangedEvent>.Subscribe(OnControlTargetChanged);
-            
-            _publisher.Bind();
-            yield return null;
+        private void OnDestroy()
+        {
+            _binder.UnbindAll();
+            // 이벤트 정리
+            for (int i = 0; i < itemSlots.Length; i++)
+            {
+                itemSlots[i].ClearCallback();
+            }
+            EventBus<ControlTargetChangedEvent>.Unsubscribe(OnControlTargetChanged);
+            //if (controller != null)
+            //{
+            //    controller.Event_OnControllTargetSet -= OnControllTargetSet;
+            //    controller.Event_OnControllTargetRemoved -= OnControllTargetRemoved;
+            //}
         }
 
         private void OnControlTargetChanged(ControlTargetChangedEvent evt)
@@ -93,8 +85,6 @@ namespace Farm.UI.Item
             }
         }
 
-        
-
         private void OnSlotClicked(int index)
         {
             // [추가] 이미 선택된 버튼을 또 눌렀다면 아무 작업도 하지 않고 무시
@@ -104,6 +94,7 @@ namespace Farm.UI.Item
             }
 
             // V -> C [O]
+            if (!_controllerReceiver.TryGet(out var controller)) return;
             controller.HandleUI_QuickSlotClicked(index);
         }
 
@@ -168,6 +159,11 @@ namespace Farm.UI.Item
 
             GameObject targetSlot = itemSlots[currentIndex].gameObject;
             itemSlots[currentIndex].SetInteractable(false);
+            if(EventSystem.current == null)
+            {
+                LogHelper.LogWarning("EventSystem.current가 아직 준비되지 않음");
+                return;
+            }
             EventSystem.current.SetSelectedGameObject(targetSlot);
         }
 

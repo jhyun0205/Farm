@@ -20,7 +20,7 @@ namespace Temp
 
             foreach (BaseButton button in _buttonList)
             {
-                yield return button.Initialize();
+                button.Initialize();
             }
 
             SetButtonCallback();

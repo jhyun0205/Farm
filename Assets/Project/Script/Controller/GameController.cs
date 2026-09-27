@@ -21,7 +21,11 @@ namespace Farm.Controller
             ControlTarget = controlTarget;
         }
     }
-    public class GameController : BaseActor, ITickable
+    public interface QuickSlotControl
+    {
+        public void HandleUI_QuickSlotClicked(int index);
+    }
+    public class GameController : BaseActor, ITickable, QuickSlotControl
     {
         //private UserInputManager inputManager;
         //private UiController uiController;
@@ -54,6 +58,7 @@ namespace Farm.Controller
             _interfaceBinder.Add(_moveInputReceiver);
             _interfaceBinder.Add(_sprintInputReceiver);
             _interfaceBinder.Add(_scrollDeltaInputReceiver);
+            _interfaceBinder.Add(new InterfacePublisher<QuickSlotControl>(this));
         }
 
         protected override void OnEnable()
@@ -152,7 +157,7 @@ namespace Farm.Controller
         {
             if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
             {
-                Debug.Log("UI 클릭 중이므로 아이템 사용 액션을 무시");
+                LogHelper.Log("UI 클릭 중이므로 아이템 사용 액션을 무시");
                 return;
             }
             inventory?.UseItem();

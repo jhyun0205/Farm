@@ -5,7 +5,7 @@ using UnityEngine.Events;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Button))]
-public class BaseButton : MonoBehaviour, IInitialize
+public class BaseButton : MonoBehaviour
 {
     private Button _button;
     private Button.ButtonClickedEvent _onClick;
@@ -16,23 +16,14 @@ public class BaseButton : MonoBehaviour, IInitialize
 
     }
 
-    public IEnumerator Initialize()
+    public void Initialize()
     {
         if(!TryGetComponent(out _button))
         {
             Debug.LogError("버튼 컴포넌트 캐싱 실패");
-            yield break;
         }
         _onClick = _button.onClick;
-        yield return null;
     }
-
-    public IEnumerator LateInitialize()
-    {
-        yield break;
-    }
-
-
 
     public bool IsInteractable => _button.interactable;
 

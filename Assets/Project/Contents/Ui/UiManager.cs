@@ -15,7 +15,7 @@ namespace Farm.UI
         {
             return uiEnum switch
             {
-                UiType.QuickSlot => typeof(QuickSlot),
+                //UiType.QuickSlot => typeof(QuickSlot),
                 _ => null
             };
         }

@@ -5,12 +5,14 @@ using Farm.GameData.Item;
 using Farm.GameData;
 using CoreEngine.Interface;
 using Farm.UI.Item;
+using System;
+using CoreEngine.Pool;
 
 namespace Farm.Character
 {
 
     [System.Serializable]
-    public class CharacterInventory : BaseDatabaseAccess<ItemStaticManager, ItemData>
+    public class CharacterInventory : BaseDatabaseAccess<ItemStaticManager, ItemData>,ISpawnable
     {
         protected int curItemIndex;
         //protected InfoItemContainer curItemSlot;
@@ -21,9 +23,15 @@ namespace Farm.Character
         //public event Action<int/*slotIndex*/> Event_OnItemSlotChanged;
         //public event Action Event_OnItemUseInput;
 
-        InterfaceReceiver<IQuickSlotUpdate> _quickSlotUpdateReceiver = new();
+        private readonly InterfaceReceiver<IQuickSlotUpdate> _quickSlotUpdateReceiver = new();
 
         private CharacterActionController actionController;
+
+        public override void Dispose()
+        {
+            base.Dispose();
+            (this as ISpawnable).OnDespawn();
+        }
 
         protected override void OnInitialized()
         {
@@ -37,8 +45,13 @@ namespace Farm.Character
             curItemIndex = 0;
 
             Host.TryGetFeature(out actionController);
-            _quickSlotUpdateReceiver.Bind();
+            
+            // 최소 한개의 아이템이 선택되도록
+        }
 
+        void ISpawnable.OnSpawn()
+        {
+            _quickSlotUpdateReceiver.Bind();
 #if UNITY_EDITOR
             Debug.LogWarning("테스트 구문");
             AcquireItem(1, 1);
@@ -49,7 +62,11 @@ namespace Farm.Character
             AcquireItem(1201, 99);
             AcquireItem(1301, 99);
 #endif
-            // 최소 한개의 아이템이 선택되도록
+        }
+
+        void ISpawnable.OnDespawn()
+        {
+            _quickSlotUpdateReceiver.Unbind();
         }
 
         public ItemDataContainer GetItem(int index)
@@ -208,9 +225,7 @@ namespace Farm.Character
             }
         }
 
-
-
-
+        
     }
 }
 

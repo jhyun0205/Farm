@@ -1219,7 +1219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Farm.UI.UiManager
   myScope: 2
-  OpenUiOnSceneLoaded: 00000000
+  OpenUiOnSceneLoaded: 
 --- !u!4 &304688530
 Transform:
   m_ObjectHideFlags: 0
@@ -34012,18 +34012,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21260b33b77ea0247947c32492c2c8ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UiController
-  myScope: 2
-  _priority: 0
-  _uiSelection:
-    _uiList:
-    - m_AssetGUID: bd8a9e6ba63f9754eb6a69610d66e6f8
-      m_SubObjectName: 
-      m_SubObjectType: 
-      m_SubObjectGUID: 
-      m_CachedAsset: {fileID: 0}
-      m_CachedGUID: 
-      m_EditorAssetChanged: 0
-  <IsActive>k__BackingField: 0
 --- !u!1001 &7336459799333756347
 PrefabInstance:
   m_ObjectHideFlags: 0
