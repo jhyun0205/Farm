@@ -3,3 +3,4 @@ index,nameTag, description,maxStack,sellPrice,consumableType,effectValue
 1101,토마토 씨, 씨앗을 심어 토마토을 수확 할 수 있다.,99,0,,
 1201,호박 씨, 씨앗을 심어 호박을 수확 할 수 있다.,99,0,,
 1301, 딸기 씨, 씨앗을 심어 딸기을 수확 할 수 있다.,99,0,,
+1401,지렁이,바다에 던져,99,0

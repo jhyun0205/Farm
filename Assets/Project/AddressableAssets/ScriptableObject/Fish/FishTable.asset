@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83a1248c15bfd0c439be1bb4e1126617, type: 3}
+  m_Name: FishTable
+  m_EditorClassIdentifier: Assembly-CSharp::Farm.Fishing.FishTable
+  basic:
+  - {fileID: 11400000, guid: db94676d1403ce94ebe8daa6c8e8eb74, type: 2}
+  low:
+  - {fileID: 11400000, guid: 7908a1a990e055d478ba82958154114b, type: 2}
+  mid:
+  - {fileID: 11400000, guid: 293efcb016201014c97f89528e1f8124, type: 2}
+  high:
+  - {fileID: 11400000, guid: fd64ee5b8d2a05a4daab9187dfe841f0, type: 2}

@@ -305,19 +305,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 324
-        width: 12
-        height: 11
+        x: 0
+        y: 320
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fc8214a3800ad35a0800000000000000
+      spriteID: 25ad3541b681e16458f9317dfa3d05fc
       internalID: -6539895126674560817
       vertices: []
       indices: 
@@ -327,19 +327,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_1
       rect:
         serializedVersion: 2
-        x: 18
-        y: 324
-        width: 12
-        height: 11
+        x: 16
+        y: 320
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 280a77fd16ee2dfb0800000000000000
+      spriteID: 08d2d232306936c4eb996bd1b58a3427
       internalID: -4624371763227680638
       vertices: []
       indices: 
@@ -349,19 +349,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_2
       rect:
         serializedVersion: 2
-        x: 34
-        y: 324
-        width: 12
-        height: 11
+        x: 32
+        y: 320
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5e94d30236091a300800000000000000
+      spriteID: b396b20e716ce564bbd9bd8132132fc0
       internalID: 261649008781248997
       vertices: []
       indices: 
@@ -371,19 +371,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_3
       rect:
         serializedVersion: 2
-        x: 50
-        y: 324
-        width: 12
-        height: 11
+        x: 48
+        y: 320
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5803c987d890f1630800000000000000
+      spriteID: 50159d09a05dc6b4aa3f7447dec23359
       internalID: 3899846305544679557
       vertices: []
       indices: 
@@ -393,19 +393,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_4
       rect:
         serializedVersion: 2
-        x: 66
-        y: 324
-        width: 12
-        height: 11
+        x: 64
+        y: 320
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 913709baed4061320800000000000000
+      spriteID: ed1bc039451994b4598c795e5dced491
       internalID: 2528213595222733593
       vertices: []
       indices: 
@@ -415,19 +415,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_5
       rect:
         serializedVersion: 2
-        x: 82
-        y: 324
-        width: 12
-        height: 11
+        x: 80
+        y: 320
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5bbf5d865c88f6c10800000000000000
+      spriteID: 9dd70a8a5ec8cfb4a94cc79f3cdfdb3e
       internalID: 2049006736925653941
       vertices: []
       indices: 
@@ -437,19 +437,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_6
       rect:
         serializedVersion: 2
-        x: 98
-        y: 324
-        width: 12
-        height: 11
+        x: 96
+        y: 320
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5c8443a2b1b128bf0800000000000000
+      spriteID: 659e5d1a1b97be747b4c60dc1cc77fbe
       internalID: -323666419731117883
       vertices: []
       indices: 
@@ -459,19 +459,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_7
       rect:
         serializedVersion: 2
-        x: 114
-        y: 324
-        width: 12
-        height: 11
+        x: 112
+        y: 320
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 18fce79e7385bc970800000000000000
+      spriteID: 40981b79945b3d54395b429dc09891aa
       internalID: 8776205296025390977
       vertices: []
       indices: 
@@ -481,19 +481,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_8
       rect:
         serializedVersion: 2
-        x: 130
-        y: 324
-        width: 12
-        height: 11
+        x: 128
+        y: 320
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f1702b9ab1917f860800000000000000
+      spriteID: 72c16f27dd2259d4493de6ca3e867511
       internalID: 7563541705793865503
       vertices: []
       indices: 
@@ -503,19 +503,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_9
       rect:
         serializedVersion: 2
-        x: 2
-        y: 308
-        width: 12
-        height: 11
+        x: 0
+        y: 304
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a86f799e3880c3540800000000000000
+      spriteID: dda3673d8a42b0e479622e19394766b9
       internalID: 4988871849872455306
       vertices: []
       indices: 
@@ -525,19 +525,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_10
       rect:
         serializedVersion: 2
-        x: 18
-        y: 308
-        width: 12
-        height: 11
+        x: 16
+        y: 304
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 64c4c16b0cc56ef10800000000000000
+      spriteID: c022bf5fe9bc55546aa317806abd84c0
       internalID: 2298626642578000966
       vertices: []
       indices: 
@@ -547,19 +547,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_11
       rect:
         serializedVersion: 2
-        x: 34
-        y: 308
-        width: 12
-        height: 11
+        x: 32
+        y: 304
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 21b01c44211e28200800000000000000
+      spriteID: 1d8ca0eb62f418347875282d19f1ddb9
       internalID: 180954403627404050
       vertices: []
       indices: 
@@ -569,19 +569,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_12
       rect:
         serializedVersion: 2
-        x: 50
-        y: 308
-        width: 12
-        height: 11
+        x: 48
+        y: 304
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fcd3842ceb2040a20800000000000000
+      spriteID: b7ec5a8a2b4a88a4ebcf807ee0b97380
       internalID: 3027547867826372047
       vertices: []
       indices: 
@@ -591,19 +591,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_13
       rect:
         serializedVersion: 2
-        x: 66
-        y: 308
-        width: 12
-        height: 11
+        x: 64
+        y: 304
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 28684a8eb2856a8a0800000000000000
+      spriteID: 116f481f4354a6940ac80ccbae6e5f5d
       internalID: -6294246483593755006
       vertices: []
       indices: 
@@ -613,19 +613,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_14
       rect:
         serializedVersion: 2
-        x: 82
-        y: 308
-        width: 12
-        height: 11
+        x: 80
+        y: 304
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a47ae4d694cb5f790800000000000000
+      spriteID: d6e3143946721c342a1cbcc4d2fdc06b
       internalID: -7496878981135816886
       vertices: []
       indices: 
@@ -635,19 +635,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_15
       rect:
         serializedVersion: 2
-        x: 98
-        y: 308
-        width: 12
-        height: 11
+        x: 96
+        y: 304
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 458d4537efc0b2e60800000000000000
+      spriteID: eb8855bc16f52374796031b82cfbd595
       internalID: 7938453055166797908
       vertices: []
       indices: 
@@ -657,19 +657,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_16
       rect:
         serializedVersion: 2
-        x: 114
-        y: 308
-        width: 12
-        height: 11
+        x: 112
+        y: 304
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3b945f26f002c6e00800000000000000
+      spriteID: 1ee28039e017f1e4bb9a9af532fc7cb6
       internalID: 1039240864472582579
       vertices: []
       indices: 
@@ -679,19 +679,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_17
       rect:
         serializedVersion: 2
-        x: 130
-        y: 308
-        width: 12
-        height: 11
+        x: 128
+        y: 304
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f7a7a795d2be3ad50800000000000000
+      spriteID: 585cf13739c6b7641968dfe861152578
       internalID: 6747495246738389631
       vertices: []
       indices: 
@@ -701,19 +701,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_18
       rect:
         serializedVersion: 2
-        x: 2
-        y: 292
-        width: 12
-        height: 11
+        x: 0
+        y: 288
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e82e33308a2b550b0800000000000000
+      spriteID: f06db1e82ec465c4b9cd5121844af588
       internalID: -5740485715335847282
       vertices: []
       indices: 
@@ -723,19 +723,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_19
       rect:
         serializedVersion: 2
-        x: 18
-        y: 292
-        width: 12
-        height: 11
+        x: 16
+        y: 288
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6deca7a2fffc70be0800000000000000
+      spriteID: e005479e717bd464e9ad5acd68a5d987
       internalID: -1511010455123210538
       vertices: []
       indices: 
@@ -746,18 +746,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 291
-        width: 15
-        height: 13
+        y: 288
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 47fa6ddda6d97b840800000000000000
+      spriteID: de039ed713cc4584f9a2dab85b91777a
       internalID: 5239829773782790004
       vertices: []
       indices: 
@@ -767,19 +767,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_21
       rect:
         serializedVersion: 2
-        x: 50
-        y: 292
-        width: 12
-        height: 11
+        x: 48
+        y: 288
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3f230c10584eacf70800000000000000
+      spriteID: c5dbee10a8de0d94fab179146bd972b5
       internalID: 9208423648023556851
       vertices: []
       indices: 
@@ -789,19 +789,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_22
       rect:
         serializedVersion: 2
-        x: 66
-        y: 292
-        width: 12
-        height: 11
+        x: 64
+        y: 288
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ea4104c20f7502fa0800000000000000
+      spriteID: 8fbfa75988e39404b9235851eb0ca2f3
       internalID: -5827561228771257170
       vertices: []
       indices: 
@@ -811,19 +811,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_23
       rect:
         serializedVersion: 2
-        x: 82
-        y: 292
-        width: 12
-        height: 11
+        x: 80
+        y: 288
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8a8e31916a472fd20800000000000000
+      spriteID: b19146f2a8441e24cb1cad7ea1d23a56
       internalID: 3310836932804864168
       vertices: []
       indices: 
@@ -833,19 +833,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_24
       rect:
         serializedVersion: 2
-        x: 98
-        y: 292
-        width: 12
-        height: 11
+        x: 96
+        y: 288
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f5772eb10ac8c1fd0800000000000000
+      spriteID: 4022fd43c5c0eba4bb159928c9c12b97
       internalID: -2369864684613240993
       vertices: []
       indices: 
@@ -855,19 +855,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_25
       rect:
         serializedVersion: 2
-        x: 114
-        y: 292
-        width: 12
-        height: 11
+        x: 112
+        y: 288
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 33108559680e7ca50800000000000000
+      spriteID: 85b08a9077014264b90164d9bf6a229d
       internalID: 6541443852414746931
       vertices: []
       indices: 
@@ -877,19 +877,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_26
       rect:
         serializedVersion: 2
-        x: 130
-        y: 292
-        width: 12
-        height: 11
+        x: 128
+        y: 288
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: aa2d3716ea2ee1a90800000000000000
+      spriteID: af72002e9a9ac6f459f01332b34bea69
       internalID: -7341181103980162390
       vertices: []
       indices: 
@@ -899,19 +899,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_27
       rect:
         serializedVersion: 2
-        x: 2
-        y: 276
-        width: 12
-        height: 11
+        x: 0
+        y: 272
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 763809aeebcb99910800000000000000
+      spriteID: fcc4db3deb8303f4a84bab91fca223e0
       internalID: 1844713050550076263
       vertices: []
       indices: 
@@ -921,19 +921,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_28
       rect:
         serializedVersion: 2
-        x: 18
-        y: 276
-        width: 12
-        height: 11
+        x: 16
+        y: 272
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dcca1d7061760d030800000000000000
+      spriteID: f3f87f171cd753d458a941cfc2a48da8
       internalID: 3517424653294480589
       vertices: []
       indices: 
@@ -943,19 +943,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_29
       rect:
         serializedVersion: 2
-        x: 34
-        y: 276
-        width: 12
-        height: 11
+        x: 32
+        y: 272
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 82e2dfe9d94a29000800000000000000
+      spriteID: c5f2afff1de6b5e469c5a14027c24eed
       internalID: 41276343483969064
       vertices: []
       indices: 
@@ -965,19 +965,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_30
       rect:
         serializedVersion: 2
-        x: 50
-        y: 276
-        width: 12
-        height: 11
+        x: 48
+        y: 272
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4ec6ae245d0d0a260800000000000000
+      spriteID: 80a722c280ff15845a36d3c9e06c88d9
       internalID: 7106909826359913700
       vertices: []
       indices: 
@@ -987,19 +987,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_31
       rect:
         serializedVersion: 2
-        x: 66
-        y: 276
-        width: 12
-        height: 11
+        x: 64
+        y: 272
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5fe0c4ed60e1f0e70800000000000000
+      spriteID: 1828ce1147dc10b478d876558b964fb9
       internalID: 9083511988277743349
       vertices: []
       indices: 
@@ -1009,19 +1009,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_32
       rect:
         serializedVersion: 2
-        x: 82
-        y: 276
-        width: 12
-        height: 11
+        x: 80
+        y: 272
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 407839e5415eb9fb0800000000000000
+      spriteID: 6fd920e6d9ea0444aab6d951d13a0fdb
       internalID: -4639863115426330876
       vertices: []
       indices: 
@@ -1031,19 +1031,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_33
       rect:
         serializedVersion: 2
-        x: 98
-        y: 276
-        width: 12
-        height: 11
+        x: 96
+        y: 272
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 029a8542ae455b060800000000000000
+      spriteID: d671c82e389ac8846854fbb8b3114612
       internalID: 6968569363034581280
       vertices: []
       indices: 
@@ -1053,19 +1053,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_34
       rect:
         serializedVersion: 2
-        x: 114
-        y: 276
-        width: 12
-        height: 11
+        x: 112
+        y: 272
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5bcee568e90e1d8f0800000000000000
+      spriteID: d188da086137f084cb4a5055fab221fa
       internalID: -517385510707073867
       vertices: []
       indices: 
@@ -1075,19 +1075,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_35
       rect:
         serializedVersion: 2
-        x: 130
-        y: 276
-        width: 12
-        height: 11
+        x: 128
+        y: 272
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 465350c754599fb60800000000000000
+      spriteID: 9f975621390ef45469fb5a675bf9b4a3
       internalID: 7780413956925240676
       vertices: []
       indices: 
@@ -1097,19 +1097,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_36
       rect:
         serializedVersion: 2
-        x: 2
-        y: 260
-        width: 12
-        height: 11
+        x: 0
+        y: 256
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eeb0245a8e9b79260800000000000000
+      spriteID: bbcf5c5b909de8243948c0dc089ef8d4
       internalID: 7104351346056367086
       vertices: []
       indices: 
@@ -1119,19 +1119,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_37
       rect:
         serializedVersion: 2
-        x: 18
-        y: 260
-        width: 12
-        height: 11
+        x: 16
+        y: 256
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 727041dd3e1a8c320800000000000000
+      spriteID: 54a572fc16eb9d14f81225a67616d416
       internalID: 2578488786708334375
       vertices: []
       indices: 
@@ -1141,19 +1141,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_38
       rect:
         serializedVersion: 2
-        x: 34
-        y: 260
-        width: 12
-        height: 11
+        x: 32
+        y: 256
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a276d5b1a66bee230800000000000000
+      spriteID: 51a79ca6a5806a645a256cf60cef10b6
       internalID: 3670071313195427626
       vertices: []
       indices: 
@@ -1163,19 +1163,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_39
       rect:
         serializedVersion: 2
-        x: 50
-        y: 260
-        width: 12
-        height: 11
+        x: 48
+        y: 256
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 550b1bb1f4c557f00800000000000000
+      spriteID: 14b324196c51a7841b09e0b041ec391e
       internalID: 1113897977680867413
       vertices: []
       indices: 
@@ -1185,19 +1185,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_40
       rect:
         serializedVersion: 2
-        x: 66
-        y: 260
-        width: 12
-        height: 11
+        x: 64
+        y: 256
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7fc1006bfeb664210800000000000000
+      spriteID: 2102ea715a4db114cb9dfb39a570dcb9
       internalID: 1316858618347265271
       vertices: []
       indices: 
@@ -1207,19 +1207,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_41
       rect:
         serializedVersion: 2
-        x: 82
-        y: 260
-        width: 12
-        height: 11
+        x: 80
+        y: 256
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00d6b2cb8bcefe1b0800000000000000
+      spriteID: 2403e84e7e93fc44492984d83612a7d3
       internalID: -5625017131387360000
       vertices: []
       indices: 
@@ -1229,19 +1229,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_42
       rect:
         serializedVersion: 2
-        x: 98
-        y: 260
-        width: 12
-        height: 11
+        x: 96
+        y: 256
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7464c293b734e1280800000000000000
+      spriteID: cca82b9b19a58574e87b1856fd8de423
       internalID: -9070738402958358969
       vertices: []
       indices: 
@@ -1251,19 +1251,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_43
       rect:
         serializedVersion: 2
-        x: 114
-        y: 260
-        width: 12
-        height: 12
+        x: 112
+        y: 256
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d2228c3efd0448cf0800000000000000
+      spriteID: ea9c045e0ca18d94693102921f4ca195
       internalID: -251004348882476499
       vertices: []
       indices: 
@@ -1273,19 +1273,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_44
       rect:
         serializedVersion: 2
-        x: 130
-        y: 260
-        width: 12
-        height: 12
+        x: 128
+        y: 256
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a99663c474eb75de0800000000000000
+      spriteID: 78bf8d9c7d92b9e47bec59168427cb85
       internalID: -1344396750316213862
       vertices: []
       indices: 
@@ -1295,19 +1295,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_45
       rect:
         serializedVersion: 2
-        x: 2
-        y: 244
-        width: 12
-        height: 12
+        x: 0
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e418c3e78ccfdd8c0800000000000000
+      spriteID: 8c6218599e3a09040b625000bc939e52
       internalID: -3972741358229356210
       vertices: []
       indices: 
@@ -1317,19 +1317,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_46
       rect:
         serializedVersion: 2
-        x: 18
-        y: 244
-        width: 12
-        height: 13
+        x: 16
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4df1d647d0ce2fee0800000000000000
+      spriteID: d9363318f4ccbcb45a69cb416ba56afd
       internalID: -1228660205786685484
       vertices: []
       indices: 
@@ -1339,19 +1339,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_47
       rect:
         serializedVersion: 2
-        x: 34
-        y: 244
-        width: 12
-        height: 13
+        x: 32
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9f8fdbfb670e64be0800000000000000
+      spriteID: 31008f23970fc9947bc31a193bd2323a
       internalID: -1493259425799079687
       vertices: []
       indices: 
@@ -1361,19 +1361,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_48
       rect:
         serializedVersion: 2
-        x: 50
-        y: 244
-        width: 12
-        height: 11
+        x: 48
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d20431e2bdaf2c270800000000000000
+      spriteID: 14c9b3ddcdfc3ea42a4609c6a6597ec5
       internalID: 8269447685083447341
       vertices: []
       indices: 
@@ -1383,19 +1383,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_49
       rect:
         serializedVersion: 2
-        x: 66
-        y: 244
-        width: 12
-        height: 11
+        x: 64
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e7082d4e6db470d40800000000000000
+      spriteID: 873f91d8da43d914e86e588e73141129
       internalID: 5550488452091510910
       vertices: []
       indices: 
@@ -1405,19 +1405,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_50
       rect:
         serializedVersion: 2
-        x: 82
-        y: 244
-        width: 12
-        height: 11
+        x: 80
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b19ec3528ba8401f0800000000000000
+      spriteID: e0e5babc49ea6c543b302141fbfb0d5a
       internalID: -1079585487158712037
       vertices: []
       indices: 
@@ -1427,19 +1427,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_51
       rect:
         serializedVersion: 2
-        x: 98
-        y: 243
-        width: 10
-        height: 13
+        x: 96
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8ed930dff57acbae0800000000000000
+      spriteID: 4d1f3b68555b0ba4e9ca9b451ceb44a8
       internalID: -1532165742504206872
       vertices: []
       indices: 
@@ -1449,19 +1449,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_52
       rect:
         serializedVersion: 2
-        x: 117
-        y: 243
-        width: 6
-        height: 13
+        x: 112
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 021d2a9cc08098360800000000000000
+      spriteID: 97176b0e0409f46408eacdf4fc6bdd32
       internalID: 7172272732579746080
       vertices: []
       indices: 
@@ -1471,19 +1471,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_53
       rect:
         serializedVersion: 2
-        x: 130
-        y: 244
-        width: 12
-        height: 10
+        x: 128
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ea329a0291fb65170800000000000000
+      spriteID: f9cef6339e7a315499cc02c2c5cb857e
       internalID: 8166925088926016430
       vertices: []
       indices: 
@@ -1493,19 +1493,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_54
       rect:
         serializedVersion: 2
-        x: 2
-        y: 228
-        width: 12
-        height: 10
+        x: 0
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7c26fc6a2c02461d0800000000000000
+      spriteID: 8f931f1aa94fe3743be6da51ea255826
       internalID: -3358523401717194041
       vertices: []
       indices: 
@@ -1515,19 +1515,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_55
       rect:
         serializedVersion: 2
-        x: 18
-        y: 228
-        width: 12
-        height: 10
+        x: 16
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: afc298ea3325249d0800000000000000
+      spriteID: 969b79f8806b58f4494490c80ffe1417
       internalID: -2791578437091250950
       vertices: []
       indices: 
@@ -1537,19 +1537,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_56
       rect:
         serializedVersion: 2
-        x: 34
-        y: 228
-        width: 12
-        height: 10
+        x: 32
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b8b59a1a5d58a58b0800000000000000
+      spriteID: 0300372073b144a49bf1f3c765f4c96a
       internalID: -5162666870240093301
       vertices: []
       indices: 
@@ -1559,19 +1559,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_57
       rect:
         serializedVersion: 2
-        x: 50
-        y: 228
-        width: 12
-        height: 10
+        x: 48
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 22eeb141bc18e2320800000000000000
+      spriteID: 74744a91b53d7a141960eea929ef2332
       internalID: 2535106349471886882
       vertices: []
       indices: 
@@ -1581,19 +1581,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_58
       rect:
         serializedVersion: 2
-        x: 66
-        y: 228
-        width: 12
-        height: 10
+        x: 64
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b721f3813cf655a40800000000000000
+      spriteID: d3e1790c8e8bc964695691a920c50c52
       internalID: 5356310215543165563
       vertices: []
       indices: 
@@ -1603,19 +1603,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_59
       rect:
         serializedVersion: 2
-        x: 82
-        y: 228
-        width: 12
-        height: 10
+        x: 80
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e3bb69ec737149420800000000000000
+      spriteID: 3fd913d53dd5df0438dcd7168ed5dd6d
       internalID: 2635757210375207742
       vertices: []
       indices: 
@@ -1625,19 +1625,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_60
       rect:
         serializedVersion: 2
-        x: 98
-        y: 228
-        width: 12
-        height: 10
+        x: 96
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d15cec0561721a440800000000000000
+      spriteID: 843daff032bae314cba60804827a27aa
       internalID: 4945276842628007197
       vertices: []
       indices: 
@@ -1648,18 +1648,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 227
+        y: 224
         width: 16
-        height: 13
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 05d0a3e92dcb3b8a0800000000000000
+      spriteID: 89057261d655fd441b56f82ecb680250
       internalID: -6290476641722692272
       vertices: []
       indices: 
@@ -1669,19 +1669,19 @@ TextureImporter:
       name: speech bubble, emojis, reaction_62
       rect:
         serializedVersion: 2
-        x: 129
-        y: 227
-        width: 13
-        height: 13
+        x: 128
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 93229349119b0a2d0800000000000000
+      spriteID: 9d2f3b82cea552d409cae801e09c31ce
       internalID: -3269409844318625223
       vertices: []
       indices: 
@@ -1692,19 +1692,2769 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 144
-        height: 225
+        y: 208
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c512a17cc93d9d5e0800000000000000
+      spriteID: b9d55da900097354fa434ad32285e63c
       internalID: -1884242298769104548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_64
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7bf4d3adf8cf249b19b26837bfb893
+      internalID: 1817075742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7716d7aacb89b543a533331074cc7f7
+      internalID: -2142350374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_66
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749fc95cbaad0b74d831a2b69f22f53b
+      internalID: -1515242208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_67
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381bfbe8f6190a74ead9511b9a4880a7
+      internalID: -753313049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_68
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792cecd5d0677de4db99813ccbabfb0c
+      internalID: -1475837173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_69
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e43048b13d698f42a4a697eb46088c7
+      internalID: -1973292927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_70
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3456c1f36db683148a556b1ba7bcaa61
+      internalID: 802887083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c8f777be2a3064dae30419500b3864
+      internalID: -1695971246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3750c330754f0408305e091629c85d
+      internalID: -1303795165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_73
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e7b3d116178c04b9f12b373dd8bdbe
+      internalID: -993875850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_74
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6607f1327ff487f4192d75332fa11aa1
+      internalID: -2002355978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_75
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c439f9a8ac67e446970d2e7dd12b4fc
+      internalID: 884631244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_76
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85191501e2d230b458c5e4f52d86148d
+      internalID: -271910835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_77
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896c52ad1db9e2d43a6ad93306844c57
+      internalID: 373416094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_78
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27505f62c609a2c439bb09bfe06cb65a
+      internalID: -1781358761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_79
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7ba617850da914aba22a961d55dcea
+      internalID: 508433175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc29915512d3a6e46b94d8e4cd28165a
+      internalID: 1793147098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bced1d9b30ffcd94e8e70c65cc93c359
+      internalID: 523950950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_82
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd4f4fb7aa33714ab3f63e2eb52c308
+      internalID: 76224873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_83
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7fe5ed0f396da448da0df1cc9db2aa
+      internalID: 931809204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_84
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc1c1bb67986e440a3b2451d88af3a2
+      internalID: 329988411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_85
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bab2666db198be4e9a4b3151aefd884
+      internalID: -1452430780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_86
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a15387992ffb684db8f5def2be25f8e
+      internalID: -1676460985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_87
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6560f9cb74ef64f4bbf2e06da2112664
+      internalID: 1380815436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_88
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3664733bee6cf7c4ab1a3b730c9c8337
+      internalID: 498060259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59a6be990cb0794ca7df2cc799f18e4
+      internalID: -328893708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff96b304e6fc224d8ec1b7b0df21d0f
+      internalID: -935466412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_91
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98656f4fd70c0441b34468952c3a9d3
+      internalID: 65659265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_92
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba878cd56504ddd499d57bd69548d4c7
+      internalID: -411415979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_93
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6673bd87ba6c1364db21b3acba2130a6
+      internalID: -1934074009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_94
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27602ce30834a8548b3861edd9893c5a
+      internalID: 466271663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_95
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61cab16923aa3964f8400dfec5ca0b18
+      internalID: 1102314955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_96
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c04f5dd9bd8495439b4cc89be32a375
+      internalID: -401707590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_97
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fd9e9578e5b8c41939f2e0a19087ab
+      internalID: -676004501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334c1910b7035d14e9afce69b8bc3fea
+      internalID: 761682417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31bfbd4c932a424184338ae11a6da4c
+      internalID: 353724614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_100
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e227edf4faa1a9e409f3b7267d9794cd
+      internalID: 1369937766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_101
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712511f5376cb3147b89d44b9ad00888
+      internalID: -1246661078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_102
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1a452fe16e0e34facc5450136ec74a
+      internalID: 1748041478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_103
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65bc0009bf1e2146a77b839e600dcea
+      internalID: 1356681739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_104
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af89f983ed65d4149b2551c757fa2245
+      internalID: 1855456500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_105
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a19d978219015c49a80bcfa65b2bc9b
+      internalID: -1178453200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_106
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01400704e8a5908478f6fa39393000be
+      internalID: -1109645474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_107
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73400da621bc5744ab339063a2b2f89d
+      internalID: -1007831015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c886777bbdcb804ab6a04b3e5991890
+      internalID: 315398711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_109
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b040c6042819a4ba3f3551486f182e
+      internalID: -611322990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_110
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05875b5abd298a146be5bc63c02845bc
+      internalID: -873849943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_111
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9650325c6a3702e499a6cb9ba1ade109
+      internalID: -1611145876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_112
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b22bea16d33fa48b885d9ee962d54c
+      internalID: 1440757383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_113
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9175bc88ed458c4478556d1960b1d001
+      internalID: 550330494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_114
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b5cf8bf58333c40a63762dd3f7f9cc
+      internalID: -1416568079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_115
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e6250f696b50a41a59a894052b4c3e
+      internalID: -1466744790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee66d27caed3d5a409ff960aa7b898cd
+      internalID: -10499370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa1d3036ccb5454e908ff31f53ef25b
+      internalID: -421511776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_118
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9d88840d105fd4fb5d10cc1f3713a0
+      internalID: -1851264654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_119
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a524dee838c25143bf14953cf456e49
+      internalID: -678830898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_120
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4bf1da5427552439b56f103e44f5cd
+      internalID: 1960569105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_121
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0925e12697df8884191a1903e78ca652
+      internalID: 1079699530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_122
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754f665a1bfcfa841b6a92c9de4c7f8c
+      internalID: 184302762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_123
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec8699f6ba3eaf468b3bca8bef3f4e2
+      internalID: -1505271247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_124
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8154b3d6dbb7a764295c30b201423650
+      internalID: 1825244455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_125
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f2b9a0785025e409194b0214942bf0
+      internalID: -1978683059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89262eeb9f9e321409da5a27547a1b3e
+      internalID: -1072923012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_127
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774855e51c5524649951e05e9d06125d
+      internalID: 235800518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_128
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2b120305b7fac45841d2a80aa5a233
+      internalID: -1028594597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_129
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7f0a7225f55ba4685d69f8849ab4f6
+      internalID: 1550889218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_130
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eda6f78697d3dd428658d65e65e33eb
+      internalID: 1050576445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_131
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0bbac92dd4865428edb68ae9a93ee1
+      internalID: -2031793531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_132
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d261d89ecdd36df4f9c407dbe4e40647
+      internalID: 14285304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_133
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d82f34ab77a8d42972a72651d1f69b
+      internalID: -658711644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_134
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bf41a05637db54881bc45714e6f961
+      internalID: 670919419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a980918132934754c9610c3553220a1b
+      internalID: -270841064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_136
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c53d5c1d7ccf8949a5d6097b66a28a8
+      internalID: -1877807033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_137
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6826be27da4ceb24498bb0f5ae52c59d
+      internalID: -782538083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_138
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afc7c77fc13ae3488d9e1c019fc88dd
+      internalID: 40766772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_139
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd2e23b1f6e12a4f8c5f8b6a812f472
+      internalID: -1571901160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_140
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205e2d229c3db6b4ca4ddbb4fe889b10
+      internalID: 1107179184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_141
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24ac35d299279e4895594973381f7d6
+      internalID: 1720527058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_142
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00767e02d297219458e0e7e154e190f9
+      internalID: 163630233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_143
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84cecd0df0e8350438b04411781dceec
+      internalID: 10163103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52879bb9bb1b6f418cb162d2e5ac2b8
+      internalID: 34123444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_145
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ffce2bc333f0641bd0b5e8fa1a36b2
+      internalID: 1773165451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_146
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecee760dbc922e488bae599ee1dcbe2
+      internalID: -589941603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_147
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6d1ef6c4497d84584409034c09a818
+      internalID: -2068594448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_148
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9667e2a6e1ff9544288315ac6eaec679
+      internalID: 1759691407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_149
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fd0ecc272477641a1d09293dddd75e
+      internalID: -1441299992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_150
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bb42d1aba1e204b8acb32fdc70b4a1
+      internalID: 1787834699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_151
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548936b53de63c4499ca33b08244f111
+      internalID: -348312257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_152
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0bf734ce9f31ea4bbe1c0c448a1ed6d
+      internalID: -589345239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_153
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57deb7f9c877275419c006e693680335
+      internalID: -1462618863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_154
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0cd46f869d3de4ca61418d053b7697
+      internalID: -1819955947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_155
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9ac8b3c4a40a54fa9122e3ef9be59f
+      internalID: -1512636987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_156
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9dd23572845134abc4aa7525a5aaf3
+      internalID: 760723165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_157
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd22269530b8edf41ba1ae21dceb3d56
+      internalID: 1730057191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_158
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6719c82f312842e43b416c46ec25c62c
+      internalID: -99548356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_159
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0705eb05464a0384da06f7d12f2dc020
+      internalID: -1849788121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_160
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2e9bdd8b5a2204f99189a6d25e285b
+      internalID: 956868169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_161
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f234af8bcc016b24a84e65c9cb6fef00
+      internalID: 495010665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_162
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db08fba518127ea458ac80bd32e4b07b
+      internalID: -1158585926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_163
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717349bf2ff0c4c45922030f063b26d3
+      internalID: -2095807696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_164
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34125d6b4db29b4cbc8e4ebdee81061
+      internalID: -141251050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_165
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35959d930dd2aef40a46c9d54ab1525f
+      internalID: 301927291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_166
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19917c74715ce01449b194e0a2ae9ab7
+      internalID: -1783984140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_167
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4dc9f4aafe93745bc0527c6fa7f3f0
+      internalID: -555516519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_168
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb86a755ae2b9ca4eb5e6e44f4d199a8
+      internalID: -1129003092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_169
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e6b273c7473e448b04395e2cde9352
+      internalID: 1993695222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_170
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ff99b55793ab64fa01db3eae34e5f1
+      internalID: 574957469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_171
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31c27ac06c8df24f869be2607b95495
+      internalID: -1311150638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_172
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8bc7fec1b15644e898a1daf68bd176
+      internalID: 2096514974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_173
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6ce0697eeebef439899edd974591aa
+      internalID: 1529560535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_174
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc9548c0385fee4da72d478b8455403
+      internalID: 1146790228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_175
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de840345d8169104bade295f854e6125
+      internalID: 540389323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_176
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d465cd859f27fe544a06083676b33b4c
+      internalID: -203041021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_177
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ea793893f13564d8d6e01a1c7a9842
+      internalID: -2044662915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_178
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0581667d055a254a91f92ef1a041a22
+      internalID: -608778665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_179
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c0c197bec85404686fce12c297ea32
+      internalID: -1461014267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c643623c0342741a8f4b1578a789c7
+      internalID: -116273858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_181
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bfe64f0c14f4d4e9d9863d1806a3eb
+      internalID: 1866892434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_182
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d16bc0f71ccb414b9d415aac79b86c0
+      internalID: 586661561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_183
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc4a92f37c4ca149b233300a03fbf0f
+      internalID: -649749484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_184
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a379e17eb464d4048bb564c921fa8075
+      internalID: -1753876437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_185
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9734596380f027e46884528311e1dc74
+      internalID: 2052989970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_186
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fddcadbd7a41848acfa6b6d676d446
+      internalID: -949655513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_187
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47d23f5be443f7409b83bd9709c0e63
+      internalID: 1493271494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speech bubble, emojis, reaction_188
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399436e16d2fd89418de5fd9cbe67ed3
+      internalID: 1779747840
       vertices: []
       indices: 
       edges: []
@@ -1713,7 +4463,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 68f485124ce0c6240bb3ea2fe6dfde0c
     internalID: 0
     vertices: []
     indices: 
@@ -1721,19 +4471,110 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       speech bubble, emojis, reaction_0: -6539895126674560817
       speech bubble, emojis, reaction_1: -4624371763227680638
       speech bubble, emojis, reaction_10: 2298626642578000966
+      speech bubble, emojis, reaction_100: 1369937766
+      speech bubble, emojis, reaction_101: -1246661078
+      speech bubble, emojis, reaction_102: 1748041478
+      speech bubble, emojis, reaction_103: 1356681739
+      speech bubble, emojis, reaction_104: 1855456500
+      speech bubble, emojis, reaction_105: -1178453200
+      speech bubble, emojis, reaction_106: -1109645474
+      speech bubble, emojis, reaction_107: -1007831015
+      speech bubble, emojis, reaction_108: 315398711
+      speech bubble, emojis, reaction_109: -611322990
       speech bubble, emojis, reaction_11: 180954403627404050
+      speech bubble, emojis, reaction_110: -873849943
+      speech bubble, emojis, reaction_111: -1611145876
+      speech bubble, emojis, reaction_112: 1440757383
+      speech bubble, emojis, reaction_113: 550330494
+      speech bubble, emojis, reaction_114: -1416568079
+      speech bubble, emojis, reaction_115: -1466744790
+      speech bubble, emojis, reaction_116: -10499370
+      speech bubble, emojis, reaction_117: -421511776
+      speech bubble, emojis, reaction_118: -1851264654
+      speech bubble, emojis, reaction_119: -678830898
       speech bubble, emojis, reaction_12: 3027547867826372047
+      speech bubble, emojis, reaction_120: 1960569105
+      speech bubble, emojis, reaction_121: 1079699530
+      speech bubble, emojis, reaction_122: 184302762
+      speech bubble, emojis, reaction_123: -1505271247
+      speech bubble, emojis, reaction_124: 1825244455
+      speech bubble, emojis, reaction_125: -1978683059
+      speech bubble, emojis, reaction_126: -1072923012
+      speech bubble, emojis, reaction_127: 235800518
+      speech bubble, emojis, reaction_128: -1028594597
+      speech bubble, emojis, reaction_129: 1550889218
       speech bubble, emojis, reaction_13: -6294246483593755006
+      speech bubble, emojis, reaction_130: 1050576445
+      speech bubble, emojis, reaction_131: -2031793531
+      speech bubble, emojis, reaction_132: 14285304
+      speech bubble, emojis, reaction_133: -658711644
+      speech bubble, emojis, reaction_134: 670919419
+      speech bubble, emojis, reaction_135: -270841064
+      speech bubble, emojis, reaction_136: -1877807033
+      speech bubble, emojis, reaction_137: -782538083
+      speech bubble, emojis, reaction_138: 40766772
+      speech bubble, emojis, reaction_139: -1571901160
       speech bubble, emojis, reaction_14: -7496878981135816886
+      speech bubble, emojis, reaction_140: 1107179184
+      speech bubble, emojis, reaction_141: 1720527058
+      speech bubble, emojis, reaction_142: 163630233
+      speech bubble, emojis, reaction_143: 10163103
+      speech bubble, emojis, reaction_144: 34123444
+      speech bubble, emojis, reaction_145: 1773165451
+      speech bubble, emojis, reaction_146: -589941603
+      speech bubble, emojis, reaction_147: -2068594448
+      speech bubble, emojis, reaction_148: 1759691407
+      speech bubble, emojis, reaction_149: -1441299992
       speech bubble, emojis, reaction_15: 7938453055166797908
+      speech bubble, emojis, reaction_150: 1787834699
+      speech bubble, emojis, reaction_151: -348312257
+      speech bubble, emojis, reaction_152: -589345239
+      speech bubble, emojis, reaction_153: -1462618863
+      speech bubble, emojis, reaction_154: -1819955947
+      speech bubble, emojis, reaction_155: -1512636987
+      speech bubble, emojis, reaction_156: 760723165
+      speech bubble, emojis, reaction_157: 1730057191
+      speech bubble, emojis, reaction_158: -99548356
+      speech bubble, emojis, reaction_159: -1849788121
       speech bubble, emojis, reaction_16: 1039240864472582579
+      speech bubble, emojis, reaction_160: 956868169
+      speech bubble, emojis, reaction_161: 495010665
+      speech bubble, emojis, reaction_162: -1158585926
+      speech bubble, emojis, reaction_163: -2095807696
+      speech bubble, emojis, reaction_164: -141251050
+      speech bubble, emojis, reaction_165: 301927291
+      speech bubble, emojis, reaction_166: -1783984140
+      speech bubble, emojis, reaction_167: -555516519
+      speech bubble, emojis, reaction_168: -1129003092
+      speech bubble, emojis, reaction_169: 1993695222
       speech bubble, emojis, reaction_17: 6747495246738389631
+      speech bubble, emojis, reaction_170: 574957469
+      speech bubble, emojis, reaction_171: -1311150638
+      speech bubble, emojis, reaction_172: 2096514974
+      speech bubble, emojis, reaction_173: 1529560535
+      speech bubble, emojis, reaction_174: 1146790228
+      speech bubble, emojis, reaction_175: 540389323
+      speech bubble, emojis, reaction_176: -203041021
+      speech bubble, emojis, reaction_177: -2044662915
+      speech bubble, emojis, reaction_178: -608778665
+      speech bubble, emojis, reaction_179: -1461014267
       speech bubble, emojis, reaction_18: -5740485715335847282
+      speech bubble, emojis, reaction_180: -116273858
+      speech bubble, emojis, reaction_181: 1866892434
+      speech bubble, emojis, reaction_182: 586661561
+      speech bubble, emojis, reaction_183: -649749484
+      speech bubble, emojis, reaction_184: -1753876437
+      speech bubble, emojis, reaction_185: 2052989970
+      speech bubble, emojis, reaction_186: -949655513
+      speech bubble, emojis, reaction_187: 1493271494
+      speech bubble, emojis, reaction_188: 1779747840
       speech bubble, emojis, reaction_19: -1511010455123210538
       speech bubble, emojis, reaction_2: 261649008781248997
       speech bubble, emojis, reaction_20: 5239829773782790004
@@ -1784,9 +4625,45 @@ TextureImporter:
       speech bubble, emojis, reaction_61: -6290476641722692272
       speech bubble, emojis, reaction_62: -3269409844318625223
       speech bubble, emojis, reaction_63: -1884242298769104548
+      speech bubble, emojis, reaction_64: 1817075742
+      speech bubble, emojis, reaction_65: -2142350374
+      speech bubble, emojis, reaction_66: -1515242208
+      speech bubble, emojis, reaction_67: -753313049
+      speech bubble, emojis, reaction_68: -1475837173
+      speech bubble, emojis, reaction_69: -1973292927
       speech bubble, emojis, reaction_7: 8776205296025390977
+      speech bubble, emojis, reaction_70: 802887083
+      speech bubble, emojis, reaction_71: -1695971246
+      speech bubble, emojis, reaction_72: -1303795165
+      speech bubble, emojis, reaction_73: -993875850
+      speech bubble, emojis, reaction_74: -2002355978
+      speech bubble, emojis, reaction_75: 884631244
+      speech bubble, emojis, reaction_76: -271910835
+      speech bubble, emojis, reaction_77: 373416094
+      speech bubble, emojis, reaction_78: -1781358761
+      speech bubble, emojis, reaction_79: 508433175
       speech bubble, emojis, reaction_8: 7563541705793865503
+      speech bubble, emojis, reaction_80: 1793147098
+      speech bubble, emojis, reaction_81: 523950950
+      speech bubble, emojis, reaction_82: 76224873
+      speech bubble, emojis, reaction_83: 931809204
+      speech bubble, emojis, reaction_84: 329988411
+      speech bubble, emojis, reaction_85: -1452430780
+      speech bubble, emojis, reaction_86: -1676460985
+      speech bubble, emojis, reaction_87: 1380815436
+      speech bubble, emojis, reaction_88: 498060259
+      speech bubble, emojis, reaction_89: -328893708
       speech bubble, emojis, reaction_9: 4988871849872455306
+      speech bubble, emojis, reaction_90: -935466412
+      speech bubble, emojis, reaction_91: 65659265
+      speech bubble, emojis, reaction_92: -411415979
+      speech bubble, emojis, reaction_93: -1934074009
+      speech bubble, emojis, reaction_94: 466271663
+      speech bubble, emojis, reaction_95: 1102314955
+      speech bubble, emojis, reaction_96: -401707590
+      speech bubble, emojis, reaction_97: -676004501
+      speech bubble, emojis, reaction_98: 761682417
+      speech bubble, emojis, reaction_99: 353724614
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

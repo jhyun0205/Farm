@@ -18,5 +18,8 @@ MonoBehaviour:
   icon: {fileID: 0}
   maxStack: 1
   sellPrice: 100
-  effects: []
+  effects_OnUse: []
+  effects_OnAnimEvent: []
+  conditions: []
+  constraints: []
   maxDurability: 100
