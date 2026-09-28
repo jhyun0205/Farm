@@ -1,3 +1,5 @@
+using Farm.Character;
+using Farm.GameData.Item;
 using UnityEngine;
 
 namespace Farm.Fishing
@@ -6,8 +8,12 @@ namespace Farm.Fishing
     public class CastFishing : BaseItemEffect
     {
         public override void ApplyEffect(BaseCharacter character, ItemDataContainer item)
-        { 
-            character.GetFeature<FishModule>().TryFish();
+        {
+            //character.GetFeature<FishModule>().TryFish();
+            if(character.TryGetFeature(out FishModule fishFeature))
+            {
+                fishFeature.TryFish();
+            }
         }
     }
 }

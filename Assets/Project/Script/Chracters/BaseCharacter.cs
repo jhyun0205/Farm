@@ -4,6 +4,7 @@ using CoreEngine.Pool;
 using Farm.Character.Move;
 using Farm.Character.StateMachine;
 using Farm.Egg;
+using Farm.Fishing;
 using UnityEngine;
 
 namespace Farm.Character
@@ -21,6 +22,7 @@ namespace Farm.Character
         [SerializeField] protected CharacterEggEncyclopedia eggEncyclopedia = new();
         [SerializeField] protected CharacterActionController actionController = new();
         [SerializeField] protected CharacterMoveFeature moveFeature = new();
+        [SerializeField] protected FishModule fishFeature = new();
         #endregion
 
         public TickGroup TickGroup => TickGroup.Character;
@@ -40,6 +42,7 @@ namespace Farm.Character
             FeatureHandler.RegisterFeature(eggEncyclopedia);
             FeatureHandler.RegisterFeature(actionController);
             FeatureHandler.RegisterFeature(moveFeature);
+            FeatureHandler.RegisterFeature(fishFeature);
         }
 
         public override void OnSpawn()
@@ -51,15 +54,11 @@ namespace Farm.Character
         public virtual void Tick(float deltaTime)
         {
             FeatureHandler.Tick_InitializedFeatures(deltaTime);
-            //tileChecker.Tick(deltaTime);
-            //stateController.Tick(deltaTime);
         }
 
         public virtual void FixedTick(float fixedDeltaTime)
         {
             FeatureHandler.FixedTick_InitializedFeatures(fixedDeltaTime);
-            //moveFeature.FixedTick(fixedDeltaTime);
-            //stateController.FixedTick(fixedDeltaTime);
         }
 
         protected override void OnValidate()

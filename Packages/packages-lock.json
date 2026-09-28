@@ -367,9 +367,10 @@
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.2.2",
         "com.unity.cinemachine": "3.1.7",
-        "com.unity.addressables": "2.9.1"
+        "com.unity.addressables": "2.9.1",
+        "com.unity.2d.sprite": "1.0.0"
       },
-      "hash": "aed726452422fb726ef26b28c6551371626fd096"
+      "hash": "1b482960f6b9c3c4a15614699d69a61434bd222b"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",

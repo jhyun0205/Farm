@@ -1,12 +1,20 @@
-using UnityEngine;
-using UnityEngine.Tilemaps;
+using CoreEngine;
+using CoreEngine.Actor;
+using CoreEngine.Facades;
+using Farm.Character;
+using Farm.Character.Move;
+using Farm.GameData.Item;
+using Farm.GameRule;
+using Farm.Input;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Tilemaps;
 
 namespace Farm.Fishing
 {
-    public class FishModule : BaseCharacterModule, IActorFeature
+    public class FishModule : BaseActorFeature, IDisposable, ITick
     {
         private const int FISHING_ROD_INDEX = 4; // 낚싯대 아이템 index
 
@@ -44,23 +52,26 @@ namespace Farm.Fishing
         public event Action<EmojiType> Event_OnBiteIconChanged;
 
         //캐릭터가 모듈에 뭍었을때 한번 실행 컴포넌트 참조 연결, 이벤트 구독
-        public override void Initialize(BaseCharacter owner)
-        {
-            base.Initialize(owner);
-            _anim = owner.GetComponent<baseCharacterAnim>();
 
-            inventory = owner.GetFeature<CharacterInventory>();
+        protected override void OnInitialized()
+        {
+            //_anim = owner.GetComponent<baseCharacterAnim>();
+            _anim = Host.GetComponent<CharacterAnimFeature>();
+
+            //inventory = owner.GetFeature<CharacterInventory>();
+            Host.TryGetFeature(out CharacterInventory inventory);
+
             inventory.Event_OnSelectedSlotChanged += OnSelectedSlotChanged;
 
-            inputManager = GameManager.GetManager<UserInputManager>();
+            //inputManager = GameManager.GetManager<UserInputManager>();
+            inputManager = CoreFacade.GetManager<UserInputManager>();
             inputManager.Event_OnSwitchReelInput += CycleReelTier;
 
             //타일맵 캐싱
             upperLayers = terrainGrid.GetComponentsInChildren<Tilemap>();
         }
 
-        //캐릭터가 사라질때 실행 구독 전부 해제
-        public override void Exit()
+        void IDisposable.Dispose()
         {
             inventory.Event_OnSelectedSlotChanged -= OnSelectedSlotChanged;
             inputManager.Event_OnSwitchReelInput -= CycleReelTier;
@@ -127,20 +138,24 @@ namespace Farm.Fishing
         private Tilemap[] upperLayers;
 
         private Vector2 lastFacingDir = Vector2.down;
-        baseCharacterAnim _anim;
+        CharacterAnimFeature _anim;
 
         //결과를 밖으로 방송
         public event Action<bool> Event_OnFishingResult;
 
         //플레이어가 바라보는 방향 갱신, 이동 감지해서 강제 중단
-        public override void Tick(float deltaTime)
+        public void Tick(float deltaTime)
         {
-            if (Owner.isMove)
+            Host.TryGetFeature<CharacterMoveFeature>(out var moveFeature);
+            //if (Owner.isMove)
+            if (moveFeature.isMove)
             {
-                lastFacingDir = SnapToCardinal(Owner.inputMove);
+                //lastFacingDir = SnapToCardinal(Owner.inputMove);
+                lastFacingDir = SnapToCardinal(moveFeature.inputMove);
             }
 
-            if (isFishingActive && Owner.inputMove.sqrMagnitude > 0.01f)
+            //if (isFishingActive && Owner.inputMove.sqrMagnitude > 0.01f)
+            if (isFishingActive && moveFeature.inputMove.sqrMagnitude > 0.01f)
             {
                 ResolveMiss(isGenuineMiss: false);
             }
@@ -186,8 +201,11 @@ namespace Farm.Fishing
             _anim.SetIsFishing(true);
             isFishingActive = true;
             Owner.canMove = false;
-            if (unlockCoroutine != null) StopCoroutine(unlockCoroutine);
-            fishingCoroutine = StartCoroutine(FishingSequence());
+
+            //if (unlockCoroutine != null) StopCoroutine(unlockCoroutine);
+            if (unlockCoroutine != null) Host.StopCoroutine(unlockCoroutine);
+            //fishingCoroutine = StartCoroutine(FishingSequence());
+            fishingCoroutine = Host.StartCoroutine(FishingSequence());
         }
 
         //정면 셀이 맨 위에가 물인가 
@@ -218,7 +236,7 @@ namespace Farm.Fishing
         private Vector3Int GetFrontCell()
         {
             // 캐릭터 위치에서 바라보는 방향으로 1칸 만큼 이동한 월드좌표를 구함
-            Vector3 frontWorldPos = Owner.transform.position + (Vector3)lastFacingDir;
+            Vector3 frontWorldPos = Host.transform.position + (Vector3)lastFacingDir;
             //2d라서 z 값 고정
             frontWorldPos.z = 0f;
             // 정수로 변환후 반환
@@ -319,7 +337,8 @@ namespace Farm.Fishing
             //대기 판정이 null이 아니라면
             if (fishingCoroutine != null)
             {   //강제로 멈춰서 중복 방지
-                StopCoroutine(fishingCoroutine);
+                //StopCoroutine(fishingCoroutine);
+                Host.StopCoroutine(fishingCoroutine);
             }
         }
         //지정된 시간 만큼 기다렸다가 이동 장금 해제
@@ -342,10 +361,14 @@ namespace Farm.Fishing
             if (unlockCoroutine != null) 
             {
                 // 초기화
-                StopCoroutine(unlockCoroutine);
+                //StopCoroutine(unlockCoroutine);
+                Host.StopCoroutine(unlockCoroutine);
             }
             //duration 뒤에 잠금 풀리게 예약하고 코루틴 참조를 저장
-            unlockCoroutine = StartCoroutine(UnlockMoveAfterDelay(duration, autoRecast));
+            //unlockCoroutine = StartCoroutine(UnlockMoveAfterDelay(duration, autoRecast));
+            unlockCoroutine = Host.StartCoroutine(UnlockMoveAfterDelay(duration, autoRecast));
         }
+
+        
     }
 }
