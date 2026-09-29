@@ -16,6 +16,9 @@ namespace Farm.Character.Move
         public bool IsSprint { get; private set; }
         private Rigidbody2D _rigidbody;
 
+        // 낚시 중 다른 액션 이동을 잠그는 용
+        public bool canMove = true;
+
         protected override void OnInitialized()
         {
             base.OnInitialized();
@@ -53,7 +56,7 @@ namespace Farm.Character.Move
 
         private void Physics_Move(float fixedDataTime)
         {
-            if(isMove)
+            if(isMove && canMove)
             {
                 // 탑다운 선형 움직임
                 Vector2 nextVec = inputMove.normalized * moveSpeed;

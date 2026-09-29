@@ -1,12 +1,14 @@
 
-using UnityEngine;
+using CoreEngine.EventBus;
 using CoreEngine.Extensions;
-using Farm.GameData.Item;
-using Farm.GameData;
 using CoreEngine.Interface;
+using CoreEngine.Pool;
+using Farm.GameData;
+using Farm.GameData.Item;
 using Farm.UI.Item;
 using System;
-using CoreEngine.Pool;
+using UnityEngine;
+using static Farm.Character.CharacterInventory;
 
 namespace Farm.Character
 {
@@ -97,6 +99,7 @@ namespace Farm.Character
             quickSlotUpdate.OnSelectedSlotChanged(curItemIndex);
             actionController.EquipItem(curItemIndex);
             //Event_OnSelectedSlotChanged?.Invoke(curItemIndex);
+            EventBus<SelectedSlotChangedEvent>.Publish(new SelectedSlotChangedEvent { SlotIndex = curItemIndex });
         }
 
         // 마우스 클릭이나 숫자키 등으로 특정 슬롯을 직접 지정할 때 사용
@@ -109,6 +112,7 @@ namespace Farm.Character
                 quickSlotUpdate.OnSelectedSlotChanged(curItemIndex);
                 actionController.EquipItem(curItemIndex);
                 //Event_OnSelectedSlotChanged?.Invoke(curItemIndex);
+                EventBus<SelectedSlotChangedEvent>.Publish(new SelectedSlotChangedEvent { SlotIndex = curItemIndex });
             }
             else
             {
@@ -225,6 +229,10 @@ namespace Farm.Character
             }
         }
 
+       public struct SelectedSlotChangedEvent : IEvent
+        {
+            public int SlotIndex;
+        }
         
     }
 }

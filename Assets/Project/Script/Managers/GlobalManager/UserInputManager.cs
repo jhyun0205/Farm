@@ -14,6 +14,7 @@ namespace Farm.Input
 
     #region 입력 이벤트
     public struct UseItemEvent : IEvent { }
+    public struct SwitchReelInputEvent : IEvent { } // 릴 전환용 
     #endregion
 
     public class UserInputManager : BaseInputManager<UserInputActions>, 
@@ -45,6 +46,7 @@ namespace Farm.Input
             base.OnExit();
 
             PlayerActions.UseItem.performed -= OnUseItemInput;
+            PlayerActions.SwitchReel.performed -= OnSwitchReelInput;
 
             interfacePublisherBinder.UnbindAll();
         }
@@ -54,6 +56,7 @@ namespace Farm.Input
             yield return base.OnInitialize();
 
             PlayerActions.UseItem.performed += OnUseItemInput;
+            PlayerActions.SwitchReel.performed += OnSwitchReelInput;
 
             interfacePublisherBinder.Add(new InterfacePublisher<IMoveInput>(this));
             interfacePublisherBinder.Add(new InterfacePublisher<ISprintInput>(this));
@@ -67,6 +70,11 @@ namespace Farm.Input
         {
             EventBus<UseItemEvent>.Publish(new UseItemEvent());
             //Event_OnUseItemInput?.Invoke();
+        }
+
+        private void OnSwitchReelInput(InputAction.CallbackContext context)
+        {
+            EventBus<SwitchReelInputEvent>.Publish(new SwitchReelInputEvent());
         }
 
         public void OnOpenUi()

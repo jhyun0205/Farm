@@ -1,5 +1,6 @@
 using CoreEngine;
 using CoreEngine.Actor;
+using CoreEngine.EventBus;
 using CoreEngine.Facades;
 using Farm.Character;
 using Farm.Character.Move;
@@ -11,6 +12,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using static Farm.Character.CharacterInventory;
 
 namespace Farm.Fishing
 {
@@ -46,10 +48,14 @@ namespace Farm.Fishing
         // 애니메이션 재생시간 기준 값
         private const float End_ANIM_DURATION = 0.5f;
 
+        // 예전에 사용하던 Owner를 별도로 나눠서 접근하기 위해 선언해야함
+        private CharacterMoveFeature moveFeature;
+
         //낚싯대 릴 개수 (기본, 하, 중, 상)
         public int reelTier { get; private set; } = 0;
         // 상태 뷰를 알리기 위한 방송
         public event Action<EmojiType> Event_OnBiteIconChanged;
+
 
         //캐릭터가 모듈에 뭍었을때 한번 실행 컴포넌트 참조 연결, 이벤트 구독
 
@@ -60,12 +66,14 @@ namespace Farm.Fishing
 
             //inventory = owner.GetFeature<CharacterInventory>();
             Host.TryGetFeature(out CharacterInventory inventory);
+            // moveFeature 최초 1번만 캐싱
+            Host.TryGetFeature(out moveFeature);
 
-            inventory.Event_OnSelectedSlotChanged += OnSelectedSlotChanged;
+            EventBus<SelectedSlotChangedEvent>.Subscribe(OnSelectedSlotChanged);
 
             //inputManager = GameManager.GetManager<UserInputManager>();
             inputManager = CoreFacade.GetManager<UserInputManager>();
-            inputManager.Event_OnSwitchReelInput += CycleReelTier;
+            EventBus<SwitchReelInputEvent>.Subscribe(OnSwitchReelInput);
 
             //타일맵 캐싱
             upperLayers = terrainGrid.GetComponentsInChildren<Tilemap>();
@@ -73,16 +81,16 @@ namespace Farm.Fishing
 
         void IDisposable.Dispose()
         {
-            inventory.Event_OnSelectedSlotChanged -= OnSelectedSlotChanged;
-            inputManager.Event_OnSwitchReelInput -= CycleReelTier;
+            EventBus<SelectedSlotChangedEvent>.Unsubscribe(OnSelectedSlotChanged);
+            EventBus<SwitchReelInputEvent>.Unsubscribe(OnSwitchReelInput);
         }
 
         //===낚싯대 장비 여부===
 
         //지금 든게 낚시대인지 아닌지 판단하기 위한 함수
-        private void OnSelectedSlotChanged(int index)
+        private void OnSelectedSlotChanged(SelectedSlotChangedEvent evt)
         {
-            ItemDataContainer item = inventory.GetItem(index);
+            ItemDataContainer item = inventory.GetItem(evt.SlotIndex);
             isFishingRodEquipped = !item.IsEmpty() && item.Get().Index == FISHING_ROD_INDEX;
 
             // 낚시 진행중 다른 장비로 교체 시
@@ -91,6 +99,11 @@ namespace Farm.Fishing
                 // 중단처리
                 ResolveMiss(isGenuineMiss: false);
             }
+        }
+
+        private void OnSwitchReelInput(SwitchReelInputEvent evt)
+        {
+            CycleReelTier();
         }
 
         //낚시대를 들고있을때만 릴 단계를 변경할수있게
@@ -146,7 +159,6 @@ namespace Farm.Fishing
         //플레이어가 바라보는 방향 갱신, 이동 감지해서 강제 중단
         public void Tick(float deltaTime)
         {
-            Host.TryGetFeature<CharacterMoveFeature>(out var moveFeature);
             //if (Owner.isMove)
             if (moveFeature.isMove)
             {
@@ -178,7 +190,7 @@ namespace Farm.Fishing
             }
 
             //판정 애니메이션 잠금 중이면 새 캐스팅 시도 자체를 무시
-            if (!Owner.canMove) return; 
+            if (!moveFeature.canMove) return; 
 
             bool isFishing = IsSeaTile();
             //결과를 이벤트로 방송
@@ -200,7 +212,7 @@ namespace Farm.Fishing
             Debug.Log("낚시중");
             _anim.SetIsFishing(true);
             isFishingActive = true;
-            Owner.canMove = false;
+            moveFeature.canMove = false;
 
             //if (unlockCoroutine != null) StopCoroutine(unlockCoroutine);
             if (unlockCoroutine != null) Host.StopCoroutine(unlockCoroutine);
@@ -296,7 +308,7 @@ namespace Farm.Fishing
             // 상태 초기화 + 코루틴 정지
             EndFishingSequence();
             // 움직이지 못하게 false
-            Owner.canMove = false;
+            moveFeature.canMove = false;
             // 성공 애니메이션 재생
             _anim.SetFishCatch();
             Debug.Log("물고기를 잡았다!");
@@ -309,7 +321,7 @@ namespace Farm.Fishing
             //상태 초기화와 코루틴 정지
             EndFishingSequence();
             // 판정 애니메이션 동안 움직이지 못하게 false
-            Owner.canMove = false;
+            moveFeature.canMove = false;
             // 실패 판정 애니메이션 재생
             _anim.SetFishMiss();
             // 애니메이션이 나왔다면 실패 or 정지 인지 확인후 출력
@@ -347,7 +359,7 @@ namespace Farm.Fishing
             // 딜레이 초만큼 멈췄다가 다시 이어감 
             yield return new WaitForSeconds(delay);
             //시간 되면 이동 잠금 해제
-            Owner.canMove = true;
+            moveFeature.canMove = true;
             
             if (autoRecast && IsSeaTile())// 캐치로 인한 잠금해제 +  여전히 바다를 보고있다면 
             {
