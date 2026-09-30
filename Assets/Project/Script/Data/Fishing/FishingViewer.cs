@@ -5,13 +5,13 @@ namespace Farm.Fishing
     public class FishingViewer : MonoBehaviour
     {
         //이벤트를 구독할 대상
-        private FishModule fishModule;
+        private FishFeture fishModule;
         // 이모지를 화면에 그려줄 대상
         private CharacterEmoji characterEmoji;
 
         private void Awake()
         {
-            fishModule = GetComponentInParent<FishModule>(); // FishModule을 찾아서 참조 저장
+            fishModule = GetComponentInParent<FishFeture>(); // FishModule을 찾아서 참조 저장
             characterEmoji = GetComponent<CharacterEmoji>(); // 오브젝트에 CharacterEmoji참조 저장
         }
 

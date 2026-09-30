@@ -2,6 +2,8 @@ using CoreEngine;
 using CoreEngine.Actor;
 using CoreEngine.EventBus;
 using CoreEngine.Facades;
+using CoreEngine.GameData;
+using CoreEngine.Helpers;
 using Farm.Character;
 using Farm.Character.Move;
 using Farm.GameData.Item;
@@ -16,16 +18,12 @@ using static Farm.Character.CharacterInventory;
 
 namespace Farm.Fishing
 {
-    public class FishModule : BaseActorFeature, IDisposable, ITick
+    [Serializable]
+    public class FishFeture : BaseActorFeature, IDisposable, ITick
     {
+        #region
         private const int FISHING_ROD_INDEX = 4; // 낚싯대 아이템 index
 
-        //낚시대를 들고있는지 확인하기위해
-        private CharacterInventory inventory;
-        // 릴 전환 입력 구독을 위한 참조
-        private UserInputManager inputManager;
-        //지금 낚시대를 장착중인가
-        private bool isFishingRodEquipped;
         // 낚시 최소, 최대 대기시간
         private const float Min_Wait = 5f;
         private const float Max_Wait = 20f;
@@ -36,17 +34,38 @@ namespace Farm.Fishing
         // ? 이후 !로 넘어갈 확률 
         private const float Bite_Chance = 0.7f;
 
+        // 애니메이션 재생시간 기준 값
+        private const float End_ANIM_DURATION = 0.5f;
+        #endregion
+
+        //지금 낚시대를 장착중인가
+        private bool isFishingRodEquipped;
         //캐스팅~판정까지 전체 시퀀스 진행 여부
         private bool isFishingActive;
         // ! 구간 성공 가능인지
         private bool isBiteCanFish;
         // 실행중긴 대기/ 판정 코루틴을 나중에 강제 중단하기 위해 보관
+        //낚시대를 들고있는지 확인하기위해
+        private CharacterInventory inventory;
+        // 릴 전환 입력 구독을 위한 참조
+        private UserInputManager inputManager;
         private Coroutine fishingCoroutine;
         // 실행중인 이동 잠금 코루틴을 취소하기 위해 보관
         private Coroutine unlockCoroutine;
 
-        // 애니메이션 재생시간 기준 값
-        private const float End_ANIM_DURATION = 0.5f;
+        [SerializeField, ReadOnly] private Tilemap waterTilemap; //인스펙터에서 씬의 "Water"Tilemap 오브젝트 가져오기
+        //[SerializeField, ReadOnly] private Grid terrainGrid; //인스펙터에서 위쪽 레이어부터 순서대로 넣기
+        [SerializeField, ReadOnly] private FishTable table;
+        //private DataTableHandler<FishTable, FishData> fishTableHandler;
+
+        private Tilemap[] upperLayers;
+
+        private Vector2 lastFacingDir = Vector2.down;
+        CharacterAnimFeature _anim;
+
+        //결과를 밖으로 방송
+        public event Action<bool> Event_OnFishingResult;
+
 
         // 예전에 사용하던 Owner를 별도로 나눠서 접근하기 위해 선언해야함
         private CharacterMoveFeature moveFeature;
@@ -62,12 +81,14 @@ namespace Farm.Fishing
         protected override void OnInitialized()
         {
             //_anim = owner.GetComponent<baseCharacterAnim>();
-            _anim = Host.GetComponent<CharacterAnimFeature>();
-
+            Host.TryGetFeature(out _anim);
             //inventory = owner.GetFeature<CharacterInventory>();
-            Host.TryGetFeature(out CharacterInventory inventory);
+            Host.TryGetFeature(out inventory);
             // moveFeature 최초 1번만 캐싱
             Host.TryGetFeature(out moveFeature);
+
+            GameDataManager manager = CoreFacade.GetManager<GameDataManager>();
+            // TODO: TableHandler 사용
 
             EventBus<SelectedSlotChangedEvent>.Subscribe(OnSelectedSlotChanged);
 
@@ -76,7 +97,7 @@ namespace Farm.Fishing
             EventBus<SwitchReelInputEvent>.Subscribe(OnSwitchReelInput);
 
             //타일맵 캐싱
-            upperLayers = terrainGrid.GetComponentsInChildren<Tilemap>();
+            //upperLayers = terrainGrid.GetComponentsInChildren<Tilemap>();
         }
 
         void IDisposable.Dispose()
@@ -105,7 +126,6 @@ namespace Farm.Fishing
         {
             CycleReelTier();
         }
-
         //낚시대를 들고있을때만 릴 단계를 변경할수있게
         public void CycleReelTier()
         {
@@ -144,17 +164,7 @@ namespace Farm.Fishing
 
         //=== 방향추적 ===
 
-        [SerializeField] private Tilemap waterTilemap; //인스펙터에서 씬의 "Water"Tilemap 오브젝트 가져오기
-        [SerializeField] private Grid terrainGrid; //인스펙터에서 위쪽 레이어부터 순서대로 넣기
-        [SerializeField] private FishTable table;
-
-        private Tilemap[] upperLayers;
-
-        private Vector2 lastFacingDir = Vector2.down;
-        CharacterAnimFeature _anim;
-
-        //결과를 밖으로 방송
-        public event Action<bool> Event_OnFishingResult;
+        
 
         //플레이어가 바라보는 방향 갱신, 이동 감지해서 강제 중단
         public void Tick(float deltaTime)
@@ -224,6 +234,11 @@ namespace Farm.Fishing
         public bool IsSeaTile()
         {
             Vector3Int frontCell = GetFrontCell();
+            if(waterTilemap == null)
+            {
+                LogHelper.LogWarning($"{nameof(waterTilemap)} is null");
+                return false;
+            }
 
             if (!waterTilemap.HasTile(frontCell))
             {
@@ -247,6 +262,12 @@ namespace Farm.Fishing
         //캐릭터 1칸 위치값 실수에서 정수로 변환후 반환 WorldToCell 이용
         private Vector3Int GetFrontCell()
         {
+            if (waterTilemap == null)
+            {
+                LogHelper.LogWarning($"{nameof(waterTilemap)} is null");
+                return default;
+            }
+
             // 캐릭터 위치에서 바라보는 방향으로 1칸 만큼 이동한 월드좌표를 구함
             Vector3 frontWorldPos = Host.transform.position + (Vector3)lastFacingDir;
             //2d라서 z 값 고정

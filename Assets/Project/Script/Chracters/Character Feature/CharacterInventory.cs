@@ -55,14 +55,14 @@ namespace Farm.Character
         {
             _quickSlotUpdateReceiver.Bind();
 #if UNITY_EDITOR
-            Debug.LogWarning("테스트 구문");
-            AcquireItem(1, 1);
-            AcquireItem(2, 2);
-            AcquireItem(3, 3);
-            AcquireItem(1001, 99);
-            AcquireItem(1101, 99);
-            AcquireItem(1201, 99);
-            AcquireItem(1301, 99);
+            //Debug.LogWarning("테스트 구문");
+            //AcquireItem(1, 1);
+            //AcquireItem(2, 2);
+            //AcquireItem(3, 3);
+            //AcquireItem(1001, 99);
+            //AcquireItem(1101, 99);
+            //AcquireItem(1201, 99);
+            //AcquireItem(1301, 99);
 #endif
         }
 

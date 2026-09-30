@@ -1,10 +1,10 @@
 
 namespace Farm.GameData.Item
 {
-    public enum ConsumableType
-    {
-        Seed,
-    }
+    //public enum ConsumableType
+    //{
+    //    Seed,
+    //}
 
 
     public class ItemData_Consumable : ItemData

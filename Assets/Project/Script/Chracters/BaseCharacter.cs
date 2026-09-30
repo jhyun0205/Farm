@@ -22,7 +22,7 @@ namespace Farm.Character
         [SerializeField] protected CharacterEggEncyclopedia eggEncyclopedia = new();
         [SerializeField] protected CharacterActionController actionController = new();
         [SerializeField] protected CharacterMoveFeature moveFeature = new();
-        [SerializeField] protected FishModule fishFeature = new();
+        [SerializeField] protected FishFeture fishFeature = new();
         #endregion
 
         public TickGroup TickGroup => TickGroup.Character;
@@ -33,13 +33,14 @@ namespace Farm.Character
 
         protected override void RegisterFeatures()
         {
+            // 초기화 순서이자 FeatureHandler.Tick, FeatureHandler.FixedTick 순서
             FeatureHandler.RegisterFeature(animFeature);
             FeatureHandler.RegisterFeature(stateController);
-            FeatureHandler.RegisterFeature(tileChecker);
             FeatureHandler.RegisterFeature(inventory);
             FeatureHandler.RegisterFeature(questBook);
             FeatureHandler.RegisterFeature(cropDataSheet);
             FeatureHandler.RegisterFeature(eggEncyclopedia);
+            FeatureHandler.RegisterFeature(tileChecker);
             FeatureHandler.RegisterFeature(actionController);
             FeatureHandler.RegisterFeature(moveFeature);
             FeatureHandler.RegisterFeature(fishFeature);
