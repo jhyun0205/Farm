@@ -6,7 +6,7 @@ namespace Farm.GameData.Item
     //    Seed,
     //}
 
-
+    [System.Serializable]
     public class ItemData_Consumable : ItemData
     {
         public ConsumableType consumableType;

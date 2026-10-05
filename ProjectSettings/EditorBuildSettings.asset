@@ -9,14 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Global Scene.unity
     guid: 4e9884adbf8000a4995723d8468063fc
   - enabled: 1
-    path: Assets/Scenes/Extension Scenes/StateMachine Scene.unity
-    guid: 2ae5d241dc108fe4f97875d88f99dfab
-  - enabled: 1
     path: Assets/Scenes/Extension Scenes/GameData Scene.unity
     guid: 7bf864dac15fc4c429ee4861b8b76e9b
   - enabled: 1
     path: Assets/Scenes/Extension Scenes/Pooling Scene.unity
     guid: b6b54c42121542540bc9a7d7574a5351
+  - enabled: 1
+    path: Assets/Scenes/Extension Scenes/StateMachine Scene.unity
+    guid: 2ae5d241dc108fe4f97875d88f99dfab
   - enabled: 1
     path: Assets/Scenes/Title Scene.unity
     guid: f232e9b3db0b40640b43cfe6bc535b2a
