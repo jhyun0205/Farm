@@ -1,4 +1,4 @@
-﻿{id},{name}, {description},{maxStack},{sellPrice}
+{id/int/UNIQUE/NOT NULL},{name/string/UNIQUE/NOT NULL},{description/string/NOT NULL},{maxStack/int/CHECK(VALUE >= 1 AND VALUE <= 99)},{sellPrice/int/CHECK(VALUE >= 0)}
 10001,쌀 200g,수확한 쌀을 쌀가마니에 모았다,99,0
 10101,토마토,맛있게 여물은 토마토다,99,0
 10201,호박,속이 꽉찬 호박이다. 할로윈에 쓸만해 보인다,99,0

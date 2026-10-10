@@ -1,0 +1,10 @@
+{
+    "projectName": "Healing Farm",
+    "toolkitVersion": "1.1.0",
+    "settings": {
+        "maxSuperkeyLength": 2,
+        "includeSubDirectories": true,
+        "excludePrefix": "Disabled"
+    },
+    "created_at": "Migrated from .root"
+}

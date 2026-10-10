@@ -1,0 +1,18 @@
+{
+  "candidateKeys": [
+    [
+      "ItemName"
+    ]
+  ],
+  "primaryKey": [
+    "ItemName"
+  ],
+  "foreignKeys": {
+    "targetItem": {
+      "columns": [
+        "ItemName"
+      ],
+      "targetTable": "Item\\TableItem.csv"
+    }
+  }
+}

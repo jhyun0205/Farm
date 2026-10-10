@@ -1,5 +1,6 @@
-index,nameTag,season,days_ToMaturity,result_ItemIndex
+﻿index,nameTag,season,days_ToMaturity,result_ItemIndex
 1,쌀,0,1,10001
 101,토마토,1,1,10101
 201,호박,2,1,10201
 301,딸기,3,1,10301
+401,옥수수,3,1,10301

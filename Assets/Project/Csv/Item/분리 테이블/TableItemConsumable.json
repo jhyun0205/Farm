@@ -1,0 +1,54 @@
+{
+  "primaryKey": [
+    "id",
+    "name"
+  ],
+  "foreignKeys": {},
+  "superKeys": [
+    [
+      "id"
+    ],
+    [
+      "name"
+    ],
+    [
+      "description"
+    ],
+    [
+      "id",
+      "name"
+    ],
+    [
+      "id",
+      "description"
+    ],
+    [
+      "id",
+      "maxStack"
+    ],
+    [
+      "id",
+      "sellPrice"
+    ],
+    [
+      "name",
+      "description"
+    ],
+    [
+      "name",
+      "maxStack"
+    ],
+    [
+      "name",
+      "sellPrice"
+    ],
+    [
+      "description",
+      "maxStack"
+    ],
+    [
+      "description",
+      "sellPrice"
+    ]
+  ]
+}

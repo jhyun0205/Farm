@@ -1,0 +1,14 @@
+{
+  "candidateKeys": [
+    [
+      "name"
+    ],
+    [
+      "description"
+    ]
+  ],
+  "primaryKey": [
+    "name"
+  ],
+  "foreignKeys": {}
+}

@@ -9,7 +9,7 @@ namespace Farm.GameData.Item
     [System.Serializable]
     public class ItemData_Consumable : ItemData
     {
-        public ConsumableType consumableType;
-        public float effectValue;
+        //public ConsumableType consumableType;
+        //public float effectValue;
     }
 }

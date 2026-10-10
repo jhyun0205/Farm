@@ -1,4 +1,4 @@
-﻿{id},{name}, {description},{maxStack},{sellPrice},{consumableType},{effectValue}
+{id/int/UNIQUE/NOT NULL},{name/string/UNIQUE/NOT NULL},{description/string/NOT NULL},{maxStack/int/CHECK(VALUE >= 1 AND VALUE <= 99)},{sellPrice/int/CHECK(VALUE >= 0)},{consumableType/enum},{effectValue/float}
 1001,쌀, 씨앗을 심어 쌀를 수확 할 수 있다.,99,0,,
 1101,토마토 씨, 씨앗을 심어 토마토을 수확 할 수 있다.,99,0,,
 1201,호박 씨, 씨앗을 심어 호박을 수확 할 수 있다.,99,0,,
