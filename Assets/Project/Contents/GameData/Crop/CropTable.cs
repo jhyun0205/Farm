@@ -51,10 +51,6 @@ namespace Farm.GameData.Crop
             }
             return result;
         }
-        protected override string GetPrimaryKey()
-        {
-            throw new System.NotImplementedException();
-        }
     }
     public class CropTable : BaseTable<CropRecord>
     {

@@ -13,10 +13,6 @@ namespace Farm.GameData.Item
 
         public int MaxDurability => maxDurability;
 
-        protected override string GetPrimaryKey()
-        {
-            throw new System.NotImplementedException();
-        }
     }
 
     public class ItemDurableTable : BaseTable<ItemDurableRecord>

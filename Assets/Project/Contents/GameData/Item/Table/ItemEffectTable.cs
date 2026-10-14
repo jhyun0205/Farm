@@ -19,11 +19,6 @@ namespace Farm.GameData.Item
             itemEffectID.Get().Apply(character, itemFK.Get(), effectValues);
         }
 
-
-        protected override string GetPrimaryKey()
-        {
-            throw new System.NotImplementedException();
-        }
     }
     public class ItemEffectTable : BaseTable<ItemEffectRecord>
     {

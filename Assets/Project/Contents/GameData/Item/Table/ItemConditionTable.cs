@@ -12,10 +12,6 @@ namespace Farm.GameData.Item
 
         public Condition GetCondition() => ConditionID.Get();
 
-        protected override string GetPrimaryKey()
-        {
-            throw new System.NotImplementedException();
-        }
     }
     public class ItemConditionTable : BaseTable<ItemConditionRecord>
     {

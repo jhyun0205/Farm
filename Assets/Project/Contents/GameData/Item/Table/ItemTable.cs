@@ -36,10 +36,6 @@ namespace Farm.GameData.Item
         public int MaxStack => maxStack;
         public int SellPrice => sellPrice;
 
-        protected override string GetPrimaryKey()
-        {
-            throw new System.NotImplementedException();
-        }
     }
 
     public class ItemTable : BaseTable<ItemRecord>
