@@ -58,14 +58,14 @@ namespace Farm.GameData.Crop
     }
     public class CropTable : BaseTable<CropRecord>
     {
-        public uint INDEX_SEEDITEM;
-        public uint INDEX_CROPITEM;
+        public const uint INDEX_SEED = 0;
+        public const uint INDEX_CROP = 1;
         protected override List<KeyValuePair<uint, GetForeignKeyHash>> GetReverseIndexBuilder()
         {
             return new()
             {
-                new(INDEX_SEEDITEM, record => record.SeedItemFK.ID),
-                new(INDEX_CROPITEM, record => record.CropItemFK.ID)
+                new(INDEX_SEED, record => record.SeedItemFK.ID),
+                new(INDEX_CROP, record => record.CropItemFK.ID)
             };
         }
     }
