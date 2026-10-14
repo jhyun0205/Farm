@@ -45,13 +45,13 @@ namespace Farm.GameData.Item
         /// <summary>
         /// 만족해야 하는 조건
         /// </summary>
-        [SerializeField] BaseCondition[] conditions;
+        [SerializeField] Condition[] conditions;
 
 
         /// <summary>
         /// 만족하면 안되는 조건(제약조건)
         /// </summary>
-        [SerializeField] BaseCondition[] constraints;
+        [SerializeField] Condition[] constraints;
 
         public BaseItemEffect[] GetEffect_OnUse() => effects_OnUse;
         public BaseItemEffect[] GetEffect_OnAnimEvent() => effects_OnAnimEvent;

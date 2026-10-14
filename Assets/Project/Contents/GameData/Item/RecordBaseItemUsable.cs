@@ -7,7 +7,8 @@ using UnityEngine;
 
 namespace Farm.GameData.Item
 {
-    public abstract class RecordBaseItemUsable : RecordBaseItem
+    // 아이템 사용 조건을 결정하는 
+    public abstract class ItemUseRecord : BaseRecord
     {
         //[TableColumn, SerializeField] AssetId<BaseItemEffect>[] effects_OnUse; // 사용즉시 적용할 효과
         //[TableColumn, SerializeField] AssetId<BaseItemEffect>[] effects_OnAnimEvent; // 사용 후 애니메이션 이벤트로 적용할 효과
@@ -20,24 +21,24 @@ namespace Farm.GameData.Item
         //public AssetId<BaseCondition>[] Constraints => constraints;
 
 
-        public virtual bool TryUse(BaseActor user)
-        {
-            //if (conditions != null)
-            //{
-            //    // 사용 가능여부 확인
-            //    // 배열이 비어있으면 true
-            //    bool able = Array.TrueForAll(conditions, condition => condition.Get().IsSatisfied(user));
-            //    if (!able) return false;
-            //}
+        //public virtual bool TryUse(BaseActor user)
+        //{
+        //    if (conditions != null)
+        //    {
+        //        // 사용 가능여부 확인
+        //        // 배열이 비어있으면 true
+        //        bool able = Array.TrueForAll(conditions, condition => condition.Get().IsSatisfied(user));
+        //        if (!able) return false;
+        //    }
 
-            //if (constraints != null)
-            //{
-            //    // 사용 불가능한지 확인
-            //    // 배열이 비어있으면 false
-            //    bool disable = Array.Exists(constraints, constraints => constraints.Get().IsSatisfied(user));
-            //    if (disable) return false;
-            //}
-            return true;
-        }
+        //    if (constraints != null)
+        //    {
+        //        // 사용 불가능한지 확인
+        //        // 배열이 비어있으면 false
+        //        bool disable = Array.Exists(constraints, constraints => constraints.Get().IsSatisfied(user));
+        //        if (disable) return false;
+        //    }
+        //    return true;
+        //}
     }
 }
