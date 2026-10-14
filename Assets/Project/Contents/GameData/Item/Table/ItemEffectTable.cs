@@ -1,4 +1,5 @@
 using CoreEngine.GameData;
+using Farm.Character;
 using UnityEngine;
 
 namespace Farm.GameData.Item
@@ -8,12 +9,14 @@ namespace Farm.GameData.Item
         [TableColumn, SerializeField] private int id;
         [TableColumn, SerializeField] private string name;
 
-        [TableColumn, SerializeField] private AssetId<Effect, EffectRegistry> itemEffectID;
-        [TableColumn, SerializeField] private float[] effectValues;
+        [TableColumn, SerializeField] private AssetId<ItemEffect, ItemEffectRegistry> itemEffectID;
+        [TableColumn, SerializeField] private int[] effectValues;
 
-        public void ApplyEffect()
+        private ForeignKey<ItemRecord, ItemTable> itemFK;
+
+        public void ApplyEffect(BaseCharacter character)
         {
-            itemEffectID.Get().Apply(null, effectValues);
+            itemEffectID.Get().Apply(character, itemFK.Get(), effectValues);
         }
 
 
