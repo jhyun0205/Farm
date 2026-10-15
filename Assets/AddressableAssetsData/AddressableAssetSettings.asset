@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: 4bef5f83cbc1bfd4d997c2d7fe14d941
   m_currentHash:
     serializedVersion: 2
-    Hash: 08acdffcc81898364d6a47a2c53939cf
+    Hash: 00000000000000000000000000000000
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_CatalogRequestsTimeout: 0
@@ -67,6 +67,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 67af2780628f41141b19838c134302c2, type: 2}
   - {fileID: 11400000, guid: 94cae3b3dd563a944b15178168b0a0a7, type: 2}
   - {fileID: 11400000, guid: 3d287bffda2fd684483b9f928cc2f9b9, type: 2}
+  - {fileID: 11400000, guid: fc7960fd5d47d604dbcb2d8b686eca27, type: 2}
   - {fileID: 11400000, guid: b57a04b790aeae0499dcba7964ba7239, type: 2}
   m_BuildSettings:
     m_LogResourceManagerExceptions: 1
@@ -115,6 +116,7 @@ MonoBehaviour:
     - MagicalEggData
     - ScenedUi
     - GlobalUi
+    - Preload
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: fdaf67222acf6cc4587c38eb19d4d9ff, type: 2}

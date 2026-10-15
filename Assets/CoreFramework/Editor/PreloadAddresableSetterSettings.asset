@@ -15,24 +15,36 @@ MonoBehaviour:
   TargetGroupName: Preload Group
   TargetLabel: Preload
   TypeStates:
-  - TypeFullName: CoreEngine.GameData.SpriteRegistry
+  - TypeFullName: Farm.GameData.Crop.CropTable
+    TypeName: CropTable
+    IsEnabled: 1
+  - TypeFullName: Farm.GameData.Item.ItemDurableTable
+    TypeName: ItemDurableTable
+    IsEnabled: 1
+  - TypeFullName: Farm.GameData.Item.ItemEffectRegistry
+    TypeName: ItemEffectRegistry
+    IsEnabled: 1
+  - TypeFullName: Farm.GameData.Item.ItemEffectTable
+    TypeName: ItemEffectTable
+    IsEnabled: 1
+  - TypeFullName: Farm.GameData.Item.ItemTable
+    TypeName: ItemTable
+    IsEnabled: 1
+  - TypeFullName: Farm.GameData.Item.ItemUseRuleRegistry
+    TypeName: ItemUseRuleRegistry
+    IsEnabled: 1
+  - TypeFullName: Farm.GameData.Item.ItemUseRuleSetTable
+    TypeName: ItemUseRuleSetTable
+    IsEnabled: 1
+  - TypeFullName: Farm.GameData.SpriteRegistry
     TypeName: SpriteRegistry
     IsEnabled: 1
-  - TypeFullName: Farm.GameData.Item.TableItemConsumable
-    TypeName: TableItemConsumable
-    IsEnabled: 1
-  - TypeFullName: Farm.GameData.Item.TableItemEquipment
-    TypeName: TableItemEquipment
-    IsEnabled: 1
-  - TypeFullName: Farm.GameData.Item.TableItemMaterial
-    TypeName: TableItemMaterial
-    IsEnabled: 1
-  - TypeFullName: CoreEngine.GameData.Test.TestArrayTable
-    TypeName: TestArrayTable
+  - TypeFullName: CoreEngine.GameData.Test.TestRefereceTable
+    TypeName: TestRefereceTable
+    IsEnabled: 0
+  - TypeFullName: CoreEngine.GameData.TestSpriteRegistry
+    TypeName: TestSpriteRegistry
     IsEnabled: 0
   - TypeFullName: CoreEngine.GameData.Test.TestTable
     TypeName: TestTable
-    IsEnabled: 0
-  - TypeFullName: CoreEngine.GameData.TextureRegistry
-    TypeName: TextureRegistry
     IsEnabled: 0
