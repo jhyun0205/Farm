@@ -1,0 +1,50 @@
+{
+  "superKeys": [
+    [
+      "id"
+    ],
+    [
+      "name"
+    ],
+    [
+      "id",
+      "name"
+    ],
+    [
+      "id",
+      "season"
+    ],
+    [
+      "id",
+      "daysToMaturity"
+    ],
+    [
+      "name",
+      "season"
+    ],
+    [
+      "name",
+      "daysToMaturity"
+    ]
+  ],
+  "primaryKey": [
+    "id",
+    "name"
+  ],
+  "foreignKeys": {
+    "seedItemFK": {
+      "columns": [
+        "seedId",
+        "seedName"
+      ],
+      "targetTable": "ItemTable.csv"
+    },
+    "cropItemFK": {
+      "columns": [
+        "id",
+        "name"
+      ],
+      "targetTable": "ItemTable.csv"
+    }
+  }
+}

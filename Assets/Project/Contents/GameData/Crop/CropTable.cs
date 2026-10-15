@@ -9,32 +9,37 @@ namespace Farm.GameData.Crop
     public class CropRecord : BaseRecord
     {
         #region Schema
+        // 기본 정보 및 수확물 아이템 식별 정보
+        [TableColumn, SerializeField] private int id;
+        [TableColumn, SerializeField] private string name;
 
-        [TableColumn, SerializeField] private int cropID;
-        [TableColumn, SerializeField] private string cropName;
+        // 재배 정보
         [TableColumn, SerializeField] private Season season; // 제철인 계절
         [TableColumn, SerializeField] private int daysToMaturity; // 수확까지 걸리는 날짜 (계산할때는 시간으로 환산)
+
+        // 성장 리소스
         [TableColumn, SerializeField] private AssetId<Sprite, SpriteRegistry>[] growthSpriteIds;
 
-        [TableColumn, SerializeField] private int seedID;
+        // 씨앗 아이템 참조
+        [TableColumn, SerializeField] private int seedId;
         [TableColumn, SerializeField] private string seedName;
 
         /// <summary>
         /// <b>Coposite of</b><br/>
-        /// <see cref="seedID"/>, <see cref="seedName"/>
+        /// <see cref="seedId"/>, <see cref="seedName"/>
         /// </summary>
         private ForeignKey<ItemRecord, ItemTable> seedItemFK;
 
         /// <summary>
         /// <b>Coposite of</b><br/>
-        /// <see cref="cropID"/>, <see cref="cropName"/>
+        /// <see cref="id"/>, <see cref="name"/>
         /// </summary>
         ForeignKey<ItemRecord, ItemTable> cropItemFK;
 
         #endregion
 
 
-        public string CropName => cropName;
+        public string CropName => name;
         public Season Season => season;
         public int DaysToMaturity => daysToMaturity;
 

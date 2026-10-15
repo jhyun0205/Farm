@@ -1,0 +1,38 @@
+{
+  "superKeys": [
+    [
+      "itemId"
+    ],
+    [
+      "itemName"
+    ],
+    [
+      "itemEffectID"
+    ],
+    [
+      "itemId",
+      "itemName"
+    ],
+    [
+      "itemId",
+      "itemEffectID"
+    ],
+    [
+      "itemName",
+      "itemEffectID"
+    ]
+  ],
+  "primaryKey": [
+    "itemId",
+    "itemName"
+  ],
+  "foreignKeys": {
+    "itemFK": {
+      "columns": [
+        "itemId",
+        "itemName"
+      ],
+      "targetTable": "ItemTable.csv"
+    }
+  }
+}

@@ -21,7 +21,7 @@
         "itemId",
         "itemName"
       ],
-      "targetTable": "Item/ItemTable.csv"
+      "targetTable": "ItemTable.csv"
     }
   }
 }

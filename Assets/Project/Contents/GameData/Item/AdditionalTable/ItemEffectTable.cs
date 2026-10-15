@@ -1,4 +1,5 @@
 using CoreEngine.GameData;
+using CoreEngine.Helpers;
 using Farm.Character;
 using UnityEngine;
 
@@ -16,7 +17,14 @@ namespace Farm.GameData.Item
 
         public void ApplyEffect(BaseCharacter character)
         {
-            itemEffectID.Get().Apply(character, itemFK.Get(), effectValues);
+            if(itemFK.Get() is ItemRecord item)
+            {
+                itemEffectID.Get().Apply(character, item, effectValues);
+            }
+            else
+            {
+                LogHelper.LogWarning($"{nameof(ApplyEffect)}: {nameof(itemFK)}.{nameof(itemFK.Get)} 실패");
+            }
         }
 
     }

@@ -9,9 +9,9 @@ namespace Farm.GameData.Item
 {
     public enum ItemType
     {
-        Equipment,  // 장비
+        Material,    // 재료
         Consumable, // 소모품
-        Material    // 재료
+        Equipment,  // 장비
     }
 
     [System.Serializable]
@@ -31,10 +31,10 @@ namespace Farm.GameData.Item
 
         public int Id => id;
         public string Name => name;
-        public ItemType ItemType => itemType;
         public string Description => description;
         public int MaxStack => maxStack;
         public int SellPrice => sellPrice;
+        public ItemType ItemType => itemType;
 
     }
 
