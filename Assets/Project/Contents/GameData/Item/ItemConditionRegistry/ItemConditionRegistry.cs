@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Farm.GameData
 {
-    public class ConditionRegistry : BaseAssetRegistry<Condition>
+    public class ItemConditionRegistry : BaseAssetRegistry<ItemCondition>
     {
     }
 }

@@ -25,15 +25,15 @@ namespace Farm.GameData.Item
         /// <returns></returns>
         public virtual bool TryUse(BaseCharacter user)
         {
-            // 사용 가능여부 확인
-            // 배열이 비어있으면 true
-            bool able = Array.TrueForAll(conditions, condition => condition.IsSatisfied(user));
-            if (!able) return false;
+            //// 사용 가능여부 확인
+            //// 배열이 비어있으면 true
+            //bool able = Array.TrueForAll(conditions, condition => condition.IsSatisfied(user));
+            //if (!able) return false;
 
-            // 사용 불가능한지 확인
-            // 배열이 비어있으면 false
-            bool disable = Array.Exists(constraints, constraints => constraints.IsSatisfied(user));
-            if (disable) return false;
+            //// 사용 불가능한지 확인
+            //// 배열이 비어있으면 false
+            //bool disable = Array.Exists(constraints, constraints => constraints.IsSatisfied(user));
+            //if (disable) return false;
 
             return true;
         }
@@ -45,13 +45,13 @@ namespace Farm.GameData.Item
         /// <summary>
         /// 만족해야 하는 조건
         /// </summary>
-        [SerializeField] Condition[] conditions;
+        [SerializeField] ItemCondition[] conditions;
 
 
         /// <summary>
         /// 만족하면 안되는 조건(제약조건)
         /// </summary>
-        [SerializeField] Condition[] constraints;
+        [SerializeField] ItemCondition[] constraints;
 
         public BaseItemEffect[] GetEffect_OnUse() => effects_OnUse;
         public BaseItemEffect[] GetEffect_OnAnimEvent() => effects_OnAnimEvent;

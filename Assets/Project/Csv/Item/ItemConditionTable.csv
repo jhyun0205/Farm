@@ -1,0 +1,1 @@
+{itemId/int/UNIQUE/NOT NULL},{itemName/string/UNIQUE/NOT NULL}
