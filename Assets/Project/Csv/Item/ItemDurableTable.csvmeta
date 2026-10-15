@@ -24,12 +24,12 @@
     "itemName"
   ],
   "foreignKeys": {
-    "targetItem": {
+    "itemFK": {
       "columns": [
         "itemId",
         "itemName"
       ],
-      "targetTable": "Item/TableItem.csv"
+      "targetTable": "Item/ItemTable.csv"
     }
   }
 }

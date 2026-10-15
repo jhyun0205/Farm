@@ -3,9 +3,9 @@ using Farm.Character;
 using Farm.GameData.Item;
 using UnityEngine;
 
-namespace Farm.GameData
+namespace Farm.GameData.Item
 {
-    public abstract class ItemCondition : ScriptableObject
+    public abstract class ItemUseRule : ScriptableObject
     {
         public abstract bool IsSatisfied(BaseCharacter itemOwner, ItemRecord item);
     }
