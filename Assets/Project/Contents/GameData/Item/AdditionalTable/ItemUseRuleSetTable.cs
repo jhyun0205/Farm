@@ -4,9 +4,9 @@ using UnityEngine;
 
 namespace Farm.GameData.Item
 {
-    using static UnityEngine.UIElements.UxmlAttributeDescription;
     using ItemUseRuleAssetID = AssetId<ItemUseRule, ItemUseRuleRegistry>;
 
+    [System.Serializable]
     public class ItemUseRuleSetRecord : BaseRecord
     {
         [TableColumn, SerializeField] private int itemId;
@@ -15,7 +15,7 @@ namespace Farm.GameData.Item
         [TableColumn, SerializeField] private ItemUseRuleAssetID[] requirements;
         [TableColumn, SerializeField] private ItemUseRuleAssetID[] restrictions;
 
-        private ForeignKey<ItemRecord, ItemTable> itemFK;
+        [SerializeField] private ForeignKey<ItemRecord, ItemTable> itemFK;
 
         public bool CanUse(BaseCharacter itemUser)
         {

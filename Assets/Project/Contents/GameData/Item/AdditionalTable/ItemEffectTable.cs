@@ -5,21 +5,22 @@ using UnityEngine;
 
 namespace Farm.GameData.Item
 {
+    [System.Serializable]
     public class ItemEffectRecord : BaseRecord
     {
-        [TableColumn, SerializeField] private int id;
-        [TableColumn, SerializeField] private string name;
+        [TableColumn, SerializeField] private int itemId;
+        [TableColumn, SerializeField] private string itemName;
 
-        [TableColumn, SerializeField] private AssetId<ItemEffect, ItemEffectRegistry> itemEffectID;
+        [TableColumn, SerializeField] private AssetId<ItemEffect, ItemEffectRegistry> itemEffectId;
         [TableColumn, SerializeField] private int[] effectValues;
+        [SerializeField] private ForeignKey<ItemRecord, ItemTable> itemFK;
 
-        private ForeignKey<ItemRecord, ItemTable> itemFK;
 
         public void ApplyEffect(BaseCharacter character)
         {
             if(itemFK.Get() is ItemRecord item)
             {
-                itemEffectID.Get().Apply(character, item, effectValues);
+                itemEffectId.Get().Apply(character, item, effectValues);
             }
             else
             {

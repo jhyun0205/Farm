@@ -6,6 +6,8 @@ using UnityEngine;
 namespace Farm.GameData.Crop
 {
     public enum Season {Spring, Summer, Autumn, Winter }
+
+    [System.Serializable]
     public class CropRecord : BaseRecord
     {
         #region Schema
@@ -28,13 +30,13 @@ namespace Farm.GameData.Crop
         /// <b>Coposite of</b><br/>
         /// <see cref="seedId"/>, <see cref="seedName"/>
         /// </summary>
-        private ForeignKey<ItemRecord, ItemTable> seedItemFK;
+        [SerializeField] private ForeignKey<ItemRecord, ItemTable> seedItemFK;
 
         /// <summary>
         /// <b>Coposite of</b><br/>
         /// <see cref="id"/>, <see cref="name"/>
         /// </summary>
-        ForeignKey<ItemRecord, ItemTable> cropItemFK;
+        [SerializeField] private ForeignKey<ItemRecord, ItemTable> cropItemFK;
 
         #endregion
 

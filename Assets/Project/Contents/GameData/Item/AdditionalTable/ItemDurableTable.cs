@@ -8,16 +8,17 @@ namespace Farm.GameData.Item
 {
     using ItemFK = ForeignKey<ItemRecord, ItemTable>;
 
+    [System.Serializable]
     public class ItemDurableRecord : BaseRecord
     {
         #region Schema
 
-        [TableColumn, SerializeField] private int id;
-        [TableColumn, SerializeField] private string name;
+        [TableColumn, SerializeField] private int itemId;
+        [TableColumn, SerializeField] private string itemName;
         [TableColumn, SerializeField] private int maxDurability;
+        [SerializeField] private ItemFK itemFK;
 
         #endregion
-        private ItemFK itemFK;
 
         public int MaxDurability => maxDurability;
 
