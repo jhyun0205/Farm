@@ -7,7 +7,7 @@
       "itemName"
     ],
     [
-      "itemEffectID"
+      "itemEffectId"
     ],
     [
       "itemId",
@@ -15,11 +15,11 @@
     ],
     [
       "itemId",
-      "itemEffectID"
+      "itemEffectId"
     ],
     [
       "itemName",
-      "itemEffectID"
+      "itemEffectId"
     ]
   ],
   "primaryKey": [

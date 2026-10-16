@@ -12,7 +12,81 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53e69f68ef0aa0444aacac46d5a963ce, type: 3}
   m_Name: CropTable
   m_EditorClassIdentifier: Assembly-CSharp::Farm.GameData.Crop.CropTable
-  _preloadCommands: []
+  _preloadCommands:
+  - rid: 5915455384053874771
+  _table:
+  - _hashCode: 10897578846927347670
+    _primarykey: "0\x1F\uC300"
+    id: 0
+    name: "\uC300"
+    season: 0
+    daysToMaturity: 7
+    growthSpriteIds:
+    - _id: 1
+    - _id: 2
+    seedId: 100
+    seedName: "\uBCCD\uC528"
+    seedItemFK:
+      _key: 
+      _hashcode: 0
+    cropItemFK:
+      _key: 
+      _hashcode: 0
+  - _hashCode: 1345328280549900292
+    _primarykey: "10\x1F\uD1A0\uB9C8\uD1A0"
+    id: 10
+    name: "\uD1A0\uB9C8\uD1A0"
+    season: 1
+    daysToMaturity: 3
+    growthSpriteIds:
+    - _id: 2
+    - _id: 4
+    seedId: 110
+    seedName: "\uD1A0\uB9C8\uD1A0 \uC528\uC557"
+    seedItemFK:
+      _key: 
+      _hashcode: 0
+    cropItemFK:
+      _key: 
+      _hashcode: 0
+  - _hashCode: 9088797670168237110
+    _primarykey: "20\x1F\uD638\uBC15"
+    id: 20
+    name: "\uD638\uBC15"
+    season: 2
+    daysToMaturity: 4
+    growthSpriteIds:
+    - _id: 3
+    - _id: 6
+    seedId: 120
+    seedName: "\uD638\uBC15 \uC528\uC557"
+    seedItemFK:
+      _key: 
+      _hashcode: 0
+    cropItemFK:
+      _key: 
+      _hashcode: 0
+  - _hashCode: 5848935447715128170
+    _primarykey: "30\x1F\uB538\uAE30"
+    id: 30
+    name: "\uB538\uAE30"
+    season: 3
+    daysToMaturity: 1
+    growthSpriteIds:
+    - _id: 4
+    - _id: 7
+    seedId: 130
+    seedName: "\uB538\uAE30 \uC528\uC557"
+    seedItemFK:
+      _key: 
+      _hashcode: 0
+    cropItemFK:
+      _key: 
+      _hashcode: 0
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 5915455384053874771
+      type: {class: 'AssetPreloadCommand`2[[UnityEngine.Sprite, UnityEngine.CoreModule],[Farm.GameData.SpriteRegistry, Assembly-CSharp]]', ns: CoreEngine.GameData, asm: CoreEngine}
+      data:
+        ids: 010000000000000002000000000000000300000000000000040000000000000006000000000000000700000000000000

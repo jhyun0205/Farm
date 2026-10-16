@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ItemEffectTable
   m_EditorClassIdentifier: Assembly-CSharp::Farm.GameData.Item.ItemEffectTable
   _preloadCommands: []
+  _table: []
   references:
     version: 2
     RefIds: []

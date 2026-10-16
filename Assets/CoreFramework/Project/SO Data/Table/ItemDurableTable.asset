@@ -13,6 +13,39 @@ MonoBehaviour:
   m_Name: ItemDurableTable
   m_EditorClassIdentifier: Assembly-CSharp::Farm.GameData.Item.ItemDurableTable
   _preloadCommands: []
+  _table:
+  - _hashCode: 3763436220294596299
+    _primarykey: "1000\x1F\uAD2D\uC774"
+    itemId: 1000
+    itemName: "\uAD2D\uC774"
+    maxDurability: 100
+    itemFK:
+      _key: 
+      _hashcode: 0
+  - _hashCode: 2552496223710345113
+    _primarykey: "1010\x1F\uBB3C\uBFCC\uB9AC\uAC8C"
+    itemId: 1010
+    itemName: "\uBB3C\uBFCC\uB9AC\uAC8C"
+    maxDurability: 100
+    itemFK:
+      _key: 
+      _hashcode: 0
+  - _hashCode: 15744571815879740152
+    _primarykey: "1020\x1F\uB0AB"
+    itemId: 1020
+    itemName: "\uB0AB"
+    maxDurability: 100
+    itemFK:
+      _key: 
+      _hashcode: 0
+  - _hashCode: 12834723538408282971
+    _primarykey: "1030\x1F\uB09A\uC2DC\uB300"
+    itemId: 1030
+    itemName: "\uB09A\uC2DC\uB300"
+    maxDurability: 100
+    itemFK:
+      _key: 
+      _hashcode: 0
   references:
     version: 2
     RefIds: []

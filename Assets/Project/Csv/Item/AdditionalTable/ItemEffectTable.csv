@@ -1,0 +1,1 @@
+{itemId/int/UNIQUE/NOT NULL},{itemName/string/UNIQUE/NOT NULL},{itemEffectId/AssetID/NOT NULL},{effectValues/int[]}
