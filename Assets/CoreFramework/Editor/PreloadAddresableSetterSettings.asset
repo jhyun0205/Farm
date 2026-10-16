@@ -39,12 +39,3 @@ MonoBehaviour:
   - TypeFullName: Farm.GameData.SpriteRegistry
     TypeName: SpriteRegistry
     IsEnabled: 1
-  - TypeFullName: CoreEngine.GameData.Test.TestRefereceTable
-    TypeName: TestRefereceTable
-    IsEnabled: 0
-  - TypeFullName: CoreEngine.GameData.TestSpriteRegistry
-    TypeName: TestSpriteRegistry
-    IsEnabled: 0
-  - TypeFullName: CoreEngine.GameData.Test.TestTable
-    TypeName: TestTable
-    IsEnabled: 0
