@@ -7,6 +7,18 @@
       "name"
     ],
     [
+      "season"
+    ],
+    [
+      "daysToMaturity"
+    ],
+    [
+      "seedId"
+    ],
+    [
+      "seedName"
+    ],
+    [
       "id",
       "name"
     ],
@@ -19,12 +31,52 @@
       "daysToMaturity"
     ],
     [
+      "id",
+      "seedId"
+    ],
+    [
+      "id",
+      "seedName"
+    ],
+    [
       "name",
       "season"
     ],
     [
       "name",
       "daysToMaturity"
+    ],
+    [
+      "name",
+      "seedId"
+    ],
+    [
+      "name",
+      "seedName"
+    ],
+    [
+      "season",
+      "daysToMaturity"
+    ],
+    [
+      "season",
+      "seedId"
+    ],
+    [
+      "season",
+      "seedName"
+    ],
+    [
+      "daysToMaturity",
+      "seedId"
+    ],
+    [
+      "daysToMaturity",
+      "seedName"
+    ],
+    [
+      "seedId",
+      "seedName"
     ]
   ],
   "primaryKey": [

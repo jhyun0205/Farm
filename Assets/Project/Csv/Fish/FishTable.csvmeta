@@ -1,0 +1,53 @@
+{
+  "superKeys": [
+    [
+      "id"
+    ],
+    [
+      "name"
+    ],
+    [
+      "grade"
+    ],
+    [
+      "weight"
+    ],
+    [
+      "id",
+      "name"
+    ],
+    [
+      "id",
+      "grade"
+    ],
+    [
+      "id",
+      "weight"
+    ],
+    [
+      "name",
+      "grade"
+    ],
+    [
+      "name",
+      "weight"
+    ],
+    [
+      "grade",
+      "weight"
+    ]
+  ],
+  "primaryKey": [
+    "id",
+    "name"
+  ],
+  "foreignKeys": {
+    "fishItemFK": {
+      "columns": [
+        "id",
+        "name"
+      ],
+      "targetTable": "ItemTable.csv"
+    }
+  }
+}

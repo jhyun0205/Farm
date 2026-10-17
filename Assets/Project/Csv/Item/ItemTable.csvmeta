@@ -7,9 +7,6 @@
       "name"
     ],
     [
-      "description"
-    ],
-    [
       "id",
       "name"
     ],
@@ -26,6 +23,10 @@
       "sellPrice"
     ],
     [
+      "id",
+      "itemType"
+    ],
+    [
       "name",
       "description"
     ],
@@ -38,12 +39,20 @@
       "sellPrice"
     ],
     [
+      "name",
+      "itemType"
+    ],
+    [
       "description",
       "maxStack"
     ],
     [
       "description",
       "sellPrice"
+    ],
+    [
+      "description",
+      "itemType"
     ]
   ],
   "primaryKey": [

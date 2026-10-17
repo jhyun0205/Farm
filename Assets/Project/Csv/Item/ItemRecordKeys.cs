@@ -9,21 +9,21 @@ namespace Farm.GameData.Item
 {
     public static class ItemRecordKeys
     {
-        /// <summary> 엑셀 행: 2 | 원본 PK: 0쌀 </summary>
-        public const ulong _0_쌀
-            = 10897578846927347670ul;
+        /// <summary> 엑셀 행: 2 | 원본 PK: 0괭이 </summary>
+        public const ulong _0_괭이
+            = 11766870585033640650ul;
 
-        /// <summary> 엑셀 행: 3 | 원본 PK: 10토마토 </summary>
-        public const ulong _10_토마토
-            = 1345328280549900292ul;
+        /// <summary> 엑셀 행: 3 | 원본 PK: 10물뿌리게 </summary>
+        public const ulong _10_물뿌리게
+            = 4841422392741222002ul;
 
-        /// <summary> 엑셀 행: 4 | 원본 PK: 20호박 </summary>
-        public const ulong _20_호박
-            = 9088797670168237110ul;
+        /// <summary> 엑셀 행: 4 | 원본 PK: 20낫 </summary>
+        public const ulong _20_낫
+            = 4098333574858121452ul;
 
-        /// <summary> 엑셀 행: 5 | 원본 PK: 30딸기 </summary>
-        public const ulong _30_딸기
-            = 5848935447715128170ul;
+        /// <summary> 엑셀 행: 5 | 원본 PK: 30낚시대 </summary>
+        public const ulong _30_낚시대
+            = 2036004366881202461ul;
 
         /// <summary> 엑셀 행: 6 | 원본 PK: 100볍씨 </summary>
         public const ulong _100_볍씨
@@ -45,21 +45,37 @@ namespace Farm.GameData.Item
         public const ulong _200_지렁이
             = 8723631167511823754ul;
 
-        /// <summary> 엑셀 행: 11 | 원본 PK: 1000괭이 </summary>
-        public const ulong _1000_괭이
-            = 3763436220294596299ul;
+        /// <summary> 엑셀 행: 11 | 원본 PK: 1000쌀 </summary>
+        public const ulong _1000_쌀
+            = 13512802981019505990ul;
 
-        /// <summary> 엑셀 행: 12 | 원본 PK: 1010물뿌리게 </summary>
-        public const ulong _1010_물뿌리게
-            = 2552496223710345113ul;
+        /// <summary> 엑셀 행: 12 | 원본 PK: 1100토마토 </summary>
+        public const ulong _1100_토마토
+            = 5584500590580720802ul;
 
-        /// <summary> 엑셀 행: 13 | 원본 PK: 1020낫 </summary>
-        public const ulong _1020_낫
-            = 15744571815879740152ul;
+        /// <summary> 엑셀 행: 13 | 원본 PK: 1200호박 </summary>
+        public const ulong _1200_호박
+            = 16073946364469268955ul;
 
-        /// <summary> 엑셀 행: 14 | 원본 PK: 1030낚시대 </summary>
-        public const ulong _1030_낚시대
-            = 12834723538408282971ul;
+        /// <summary> 엑셀 행: 14 | 원본 PK: 1300딸기 </summary>
+        public const ulong _1300_딸기
+            = 17699870478293781058ul;
+
+        /// <summary> 엑셀 행: 15 | 원본 PK: 2000Anchovy </summary>
+        public const ulong _2000_Anchovy
+            = 5899143905698679140ul;
+
+        /// <summary> 엑셀 행: 16 | 원본 PK: 2100Sea snake </summary>
+        public const ulong _2100_Sea_snake
+            = 7787822229840541659ul;
+
+        /// <summary> 엑셀 행: 17 | 원본 PK: 2200Seahorse </summary>
+        public const ulong _2200_Seahorse
+            = 17244049515394360358ul;
+
+        /// <summary> 엑셀 행: 18 | 원본 PK: 2300Frog </summary>
+        public const ulong _2300_Frog
+            = 12725757216501006307ul;
 
     }
 }
