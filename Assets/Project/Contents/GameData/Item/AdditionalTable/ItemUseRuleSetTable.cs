@@ -1,5 +1,6 @@
 using CoreEngine.GameData;
 using Farm.Character;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Farm.GameData.Item
@@ -9,6 +10,8 @@ namespace Farm.GameData.Item
     [System.Serializable]
     public class ItemUseRuleSetRecord : BaseRecord
     {
+        #region Schema
+
         [TableColumn, SerializeField] private int itemId;
         [TableColumn, SerializeField] private string itemName;
 
@@ -16,6 +19,10 @@ namespace Farm.GameData.Item
         [TableColumn, SerializeField] private ItemUseRuleAssetID[] restrictions;
 
         [SerializeField] private ForeignKey<ItemRecord, ItemTable> itemFK;
+
+        #endregion
+
+        public ForeignKey<ItemRecord, ItemTable> ItemFK => itemFK;
 
         public bool CanUse(BaseCharacter itemUser)
         {
@@ -54,7 +61,15 @@ namespace Farm.GameData.Item
     }
     public class ItemUseRuleSetTable : BaseTable<ItemUseRuleSetRecord>
     {
+        public const uint INDEX_RULE = 0;
 
+        protected override List<KeyValuePair<uint, GetForeignKeyHash>> GetReverseIndexBuilder()
+        {
+            return new()
+            {
+                new(INDEX_RULE, record => record.ItemFK.ID),
+            };
+        }
     }
 }
 
