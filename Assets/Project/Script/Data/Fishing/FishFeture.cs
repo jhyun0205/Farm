@@ -55,7 +55,7 @@ namespace Farm.Fishing
 
         [SerializeField, ReadOnly] private Tilemap waterTilemap; //인스펙터에서 씬의 "Water"Tilemap 오브젝트 가져오기
         //[SerializeField, ReadOnly] private Grid terrainGrid; //인스펙터에서 위쪽 레이어부터 순서대로 넣기
-        [SerializeField, ReadOnly] private FishTable table;
+        //[SerializeField, ReadOnly] private FishTable table;
         //private DataTableHandler<FishTable, FishData> fishTableHandler;
 
         private Tilemap[] upperLayers;
@@ -141,7 +141,7 @@ namespace Farm.Fishing
         public FishData RollFish()
         {
             //GetPool로 릴 단계가 허용하는 Pool을 받아옴
-            List<FishData> pool = table.GetPool(reelTier);
+            List<FishData> pool = null;// table.GetPool(reelTier);
             
             float totalWeight = 0f;
             foreach (FishData fish in pool)
