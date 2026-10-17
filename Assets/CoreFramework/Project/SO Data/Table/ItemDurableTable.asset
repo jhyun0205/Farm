@@ -14,38 +14,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Farm.GameData.Item.ItemDurableTable
   _preloadCommands: []
   _table:
-  - _hashCode: 3763436220294596299
-    _primarykey: "1000\x1F\uAD2D\uC774"
-    itemId: 1000
+  - _hashCode: 11766870585033640650
+    _primarykey: "0\x1F\uAD2D\uC774"
+    itemId: 0
     itemName: "\uAD2D\uC774"
     maxDurability: 100
     itemFK:
-      _key: 
-      _hashcode: 0
-  - _hashCode: 2552496223710345113
-    _primarykey: "1010\x1F\uBB3C\uBFCC\uB9AC\uAC8C"
-    itemId: 1010
+      _key: "0\x1F\uAD2D\uC774"
+      _hashcode: 11766870585033640650
+  - _hashCode: 4841422392741222002
+    _primarykey: "10\x1F\uBB3C\uBFCC\uB9AC\uAC8C"
+    itemId: 10
     itemName: "\uBB3C\uBFCC\uB9AC\uAC8C"
     maxDurability: 100
     itemFK:
-      _key: 
-      _hashcode: 0
-  - _hashCode: 15744571815879740152
-    _primarykey: "1020\x1F\uB0AB"
-    itemId: 1020
+      _key: "10\x1F\uBB3C\uBFCC\uB9AC\uAC8C"
+      _hashcode: 4841422392741222002
+  - _hashCode: 4098333574858121452
+    _primarykey: "20\x1F\uB0AB"
+    itemId: 20
     itemName: "\uB0AB"
     maxDurability: 100
     itemFK:
-      _key: 
-      _hashcode: 0
-  - _hashCode: 12834723538408282971
-    _primarykey: "1030\x1F\uB09A\uC2DC\uB300"
-    itemId: 1030
+      _key: "20\x1F\uB0AB"
+      _hashcode: 4098333574858121452
+  - _hashCode: 2036004366881202461
+    _primarykey: "30\x1F\uB09A\uC2DC\uB300"
+    itemId: 30
     itemName: "\uB09A\uC2DC\uB300"
     maxDurability: 100
     itemFK:
-      _key: 
-      _hashcode: 0
+      _key: "30\x1F\uB09A\uC2DC\uB300"
+      _hashcode: 2036004366881202461
   references:
     version: 2
     RefIds: []

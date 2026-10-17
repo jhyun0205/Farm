@@ -33,6 +33,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2bce0a207fbf84e4889215073402e425
+    m_Address: Assets/CoreFramework/Project/SO Data/Table/FishTable.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4afd9018dccf37c40af3ec4b16d877b2
     m_Address: Assets/CoreFramework/Project/SO Data/Registry/ItemUseRuleRegistry.asset
     m_ReadOnly: 0

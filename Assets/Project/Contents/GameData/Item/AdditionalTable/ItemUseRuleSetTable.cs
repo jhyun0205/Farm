@@ -67,7 +67,7 @@ namespace Farm.GameData.Item
         {
             return new()
             {
-                new(INDEX_RULE, record => record.ItemFK.ID),
+                new(INDEX_RULE, record => record.ItemFK.TargetHashedPK),
             };
         }
     }

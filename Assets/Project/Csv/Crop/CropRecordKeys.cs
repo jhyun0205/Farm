@@ -9,21 +9,21 @@ namespace Farm.GameData.Crop
 {
     public static class CropRecordKeys
     {
-        /// <summary> 엑셀 행: 2 | 원본 PK: 0쌀 </summary>
-        public const ulong _0_쌀
-            = 10897578846927347670ul;
+        /// <summary> 엑셀 행: 2 | 원본 PK: 1000쌀 </summary>
+        public const ulong _1000_쌀
+            = 13512802981019505990ul;
 
-        /// <summary> 엑셀 행: 3 | 원본 PK: 10토마토 </summary>
-        public const ulong _10_토마토
-            = 1345328280549900292ul;
+        /// <summary> 엑셀 행: 3 | 원본 PK: 1100토마토 </summary>
+        public const ulong _1100_토마토
+            = 5584500590580720802ul;
 
-        /// <summary> 엑셀 행: 4 | 원본 PK: 20호박 </summary>
-        public const ulong _20_호박
-            = 9088797670168237110ul;
+        /// <summary> 엑셀 행: 4 | 원본 PK: 1200호박 </summary>
+        public const ulong _1200_호박
+            = 16073946364469268955ul;
 
-        /// <summary> 엑셀 행: 5 | 원본 PK: 30딸기 </summary>
-        public const ulong _30_딸기
-            = 5848935447715128170ul;
+        /// <summary> 엑셀 행: 5 | 원본 PK: 1300딸기 </summary>
+        public const ulong _1300_딸기
+            = 17699870478293781058ul;
 
     }
 }

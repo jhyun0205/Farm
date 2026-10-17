@@ -18,6 +18,9 @@ MonoBehaviour:
   - TypeFullName: Farm.GameData.Crop.CropTable
     TypeName: CropTable
     IsEnabled: 1
+  - TypeFullName: Farm.GameData.Fish.FishTable
+    TypeName: FishTable
+    IsEnabled: 1
   - TypeFullName: Farm.GameData.Item.ItemDurableTable
     TypeName: ItemDurableTable
     IsEnabled: 1

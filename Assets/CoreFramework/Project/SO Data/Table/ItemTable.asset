@@ -14,40 +14,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Farm.GameData.Item.ItemTable
   _preloadCommands: []
   _table:
-  - _hashCode: 10897578846927347670
-    _primarykey: "0\x1F\uC300"
+  - _hashCode: 11766870585033640650
+    _primarykey: "0\x1F\uAD2D\uC774"
     id: 0
-    name: "\uC300"
-    itemType: 0
-    description: "\uC218\uD655\uD55C \uC300\uC744 \uD3EC\uB300\uC790\uB8E8\uC5D0
-      \uBAA8\uC558\uB2E4"
-    maxStack: 99
-    sellPrice: 0
-  - _hashCode: 1345328280549900292
-    _primarykey: "10\x1F\uD1A0\uB9C8\uD1A0"
+    name: "\uAD2D\uC774"
+    itemType: 2
+    description: "\uB300\uCDA9"
+    maxStack: 1
+    sellPrice: 100
+  - _hashCode: 4841422392741222002
+    _primarykey: "10\x1F\uBB3C\uBFCC\uB9AC\uAC8C"
     id: 10
-    name: "\uD1A0\uB9C8\uD1A0"
-    itemType: 0
-    description: "\uB9DB\uC788\uAC8C \uC5EC\uBB3C\uC740 \uD1A0\uB9C8\uD1A0\uB2E4"
-    maxStack: 99
-    sellPrice: 0
-  - _hashCode: 9088797670168237110
-    _primarykey: "20\x1F\uD638\uBC15"
+    name: "\uBB3C\uBFCC\uB9AC\uAC8C"
+    itemType: 2
+    description: "\uC544\uBB34"
+    maxStack: 1
+    sellPrice: 100
+  - _hashCode: 4098333574858121452
+    _primarykey: "20\x1F\uB0AB"
     id: 20
-    name: "\uD638\uBC15"
-    itemType: 0
-    description: "\uC18D\uC774 \uAF49\uCC2C \uD638\uBC15\uC774\uB2E4. \uD560\uB85C\uC708\uC5D0
-      \uC4F8\uB9CC\uD574 \uBCF4\uC778\uB2E4"
-    maxStack: 99
-    sellPrice: 0
-  - _hashCode: 5848935447715128170
-    _primarykey: "30\x1F\uB538\uAE30"
+    name: "\uB0AB"
+    itemType: 2
+    description: "\uC124\uBA85"
+    maxStack: 1
+    sellPrice: 100
+  - _hashCode: 2036004366881202461
+    _primarykey: "30\x1F\uB09A\uC2DC\uB300"
     id: 30
-    name: "\uB538\uAE30"
-    itemType: 0
-    description: "\uBE68\uAC04 \uB538\uAE30\uAC00 \uB9DB\uC788\uC5B4\uBCF4\uC778\uB2E4"
-    maxStack: 99
-    sellPrice: 0
+    name: "\uB09A\uC2DC\uB300"
+    itemType: 2
+    description: "\uB09A\uC2DC"
+    maxStack: 1
+    sellPrice: 100
   - _hashCode: 5612615940386700307
     _primarykey: "100\x1F\uBCCD\uC528"
     id: 100
@@ -92,38 +90,72 @@ MonoBehaviour:
     description: "\uBC14\uB2E4\uC5D0 \uB358\uC838"
     maxStack: 99
     sellPrice: 0
-  - _hashCode: 3763436220294596299
-    _primarykey: "1000\x1F\uAD2D\uC774"
+  - _hashCode: 13512802981019505990
+    _primarykey: "1000\x1F\uC300"
     id: 1000
-    name: "\uAD2D\uC774"
-    itemType: 2
+    name: "\uC300"
+    itemType: 0
+    description: "\uC218\uD655\uD55C \uC300\uC744 \uD3EC\uB300\uC790\uB8E8\uC5D0
+      \uBAA8\uC558\uB2E4"
+    maxStack: 99
+    sellPrice: 0
+  - _hashCode: 5584500590580720802
+    _primarykey: "1100\x1F\uD1A0\uB9C8\uD1A0"
+    id: 1100
+    name: "\uD1A0\uB9C8\uD1A0"
+    itemType: 0
+    description: "\uB9DB\uC788\uAC8C \uC5EC\uBB3C\uC740 \uD1A0\uB9C8\uD1A0\uB2E4"
+    maxStack: 99
+    sellPrice: 0
+  - _hashCode: 16073946364469268955
+    _primarykey: "1200\x1F\uD638\uBC15"
+    id: 1200
+    name: "\uD638\uBC15"
+    itemType: 0
+    description: "\uC18D\uC774 \uAF49\uCC2C \uD638\uBC15\uC774\uB2E4. \uD560\uB85C\uC708\uC5D0
+      \uC4F8\uB9CC\uD574 \uBCF4\uC778\uB2E4"
+    maxStack: 99
+    sellPrice: 0
+  - _hashCode: 17699870478293781058
+    _primarykey: "1300\x1F\uB538\uAE30"
+    id: 1300
+    name: "\uB538\uAE30"
+    itemType: 0
+    description: "\uBE68\uAC04 \uB538\uAE30\uAC00 \uB9DB\uC788\uC5B4\uBCF4\uC778\uB2E4"
+    maxStack: 99
+    sellPrice: 0
+  - _hashCode: 5899143905698679140
+    _primarykey: "2000\x1FAnchovy"
+    id: 2000
+    name: Anchovy
+    itemType: 0
     description: "\uB300\uCDA9"
-    maxStack: 1
-    sellPrice: 100
-  - _hashCode: 2552496223710345113
-    _primarykey: "1010\x1F\uBB3C\uBFCC\uB9AC\uAC8C"
-    id: 1010
-    name: "\uBB3C\uBFCC\uB9AC\uAC8C"
-    itemType: 2
-    description: "\uC544\uBB34"
-    maxStack: 1
-    sellPrice: 100
-  - _hashCode: 15744571815879740152
-    _primarykey: "1020\x1F\uB0AB"
-    id: 1020
-    name: "\uB0AB"
-    itemType: 2
-    description: "\uC124\uBA85"
-    maxStack: 1
-    sellPrice: 100
-  - _hashCode: 12834723538408282971
-    _primarykey: "1030\x1F\uB09A\uC2DC\uB300"
-    id: 1030
-    name: "\uB09A\uC2DC\uB300"
-    itemType: 2
-    description: "\uB09A\uC2DC"
-    maxStack: 1
-    sellPrice: 100
+    maxStack: 99
+    sellPrice: 1
+  - _hashCode: 7787822229840541659
+    _primarykey: "2100\x1FSea snake"
+    id: 2100
+    name: Sea snake
+    itemType: 0
+    description: "\uC544\uBB34\uAC70\uB098"
+    maxStack: 99
+    sellPrice: 2
+  - _hashCode: 17244049515394360358
+    _primarykey: "2200\x1FSeahorse"
+    id: 2200
+    name: Seahorse
+    itemType: 0
+    description: "\uB123\uC73C"
+    maxStack: 99
+    sellPrice: 3
+  - _hashCode: 12725757216501006307
+    _primarykey: "2300\x1FFrog"
+    id: 2300
+    name: Frog
+    itemType: 0
+    description: "\uC2DC\uC624"
+    maxStack: 99
+    sellPrice: 4
   references:
     version: 2
     RefIds: []
