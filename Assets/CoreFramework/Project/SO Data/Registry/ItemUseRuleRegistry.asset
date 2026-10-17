@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49766a785db5fef478245395e7892907, type: 3}
   m_Name: ItemUseRuleRegistry
   m_EditorClassIdentifier: Assembly-CSharp::Farm.GameData.Item.ItemUseRuleRegistry
-  _baseDirectory: 
+  _baseDirectory: Assets/CoreFramework/Project/SO Data/Registry/ItemUseRuleRegistry
   _entries: []

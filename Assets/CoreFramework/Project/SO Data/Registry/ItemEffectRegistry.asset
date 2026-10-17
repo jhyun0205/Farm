@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e2ff7a4002c01e408a3fd6fb05c96ad, type: 3}
   m_Name: ItemEffectRegistry
   m_EditorClassIdentifier: Assembly-CSharp::Farm.GameData.Item.ItemEffectRegistry
-  _baseDirectory: 
+  _baseDirectory: Assets/CoreFramework/Project/SO Data/Registry/ItemEffectRegistry
   _entries: []

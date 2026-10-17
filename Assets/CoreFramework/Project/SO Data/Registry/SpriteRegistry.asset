@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dcc71ca340f985418aaae342751f550, type: 3}
   m_Name: SpriteRegistry
   m_EditorClassIdentifier: Assembly-CSharp::Farm.GameData.SpriteRegistry
-  _baseDirectory: 
+  _baseDirectory: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry
   _entries: []
