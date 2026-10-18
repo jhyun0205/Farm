@@ -9,21 +9,9 @@ namespace Farm.GameData.Item
 {
     public static class ItemDurableRecordKeys
     {
-        /// <summary> 엑셀 행: 2 | 원본 PK: 0괭이 </summary>
-        public const ulong _0_괭이
-            = 11766870585033640650ul;
-
-        /// <summary> 엑셀 행: 3 | 원본 PK: 10물뿌리게 </summary>
-        public const ulong _10_물뿌리게
-            = 4841422392741222002ul;
-
-        /// <summary> 엑셀 행: 4 | 원본 PK: 20낫 </summary>
-        public const ulong _20_낫
-            = 4098333574858121452ul;
-
-        /// <summary> 엑셀 행: 5 | 원본 PK: 30낚시대 </summary>
-        public const ulong _30_낚시대
-            = 2036004366881202461ul;
+        /// <summary> 엑셀 행: 2 | 원본 PK: 11대용량 물뿌리개 </summary>
+        public const ulong _11_대용량_물뿌리개
+            = 12845698892237133902ul;
 
     }
 }
