@@ -1,43 +1,32 @@
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
-using UnityEngine;
+using CoreEngine.Helpers;
 
 namespace CoreEngine.GameData
 {
-    public class SaveDataRepository<TRecord, TDataToSave>
-        where TRecord : class, IRecord, new()
+    public class SaveDataRepository<TInstance, TRecord, TDataToSave>
+        where TInstance : BaseDataInstance<TRecord, TDataToSave>
+        where TRecord : class, IRecord
         where TDataToSave : class, IDataToSave, new()
     {
-        /// <summary>
-        /// 저장될 데이터의 구조체
-        /// </summary>
         [Serializable]
         public struct SaveData : IEquatable<SaveData>
         {
             public ulong RecordId;
             public TDataToSave DataToSave;
 
-            // 참조 주소(ReferenceEquals) 기반 동등성 비교
             public bool Equals(SaveData other)
             {
                 return RecordId == other.RecordId &&
                        ReferenceEquals(DataToSave, other.DataToSave);
             }
 
-            public override bool Equals(object obj)
-            {
-                return obj is SaveData other && Equals(other);
-            }
+            public override bool Equals(object obj) => obj is SaveData other && Equals(other);
 
-            // TRuntimeData의 Equals/GetHashCode 오버라이딩 여부와 관계없이 
-            // 순수 힙 메모리 주소 고유 해시값을 추출
             public override int GetHashCode()
             {
-                int runtimeDataHash = DataToSave != null
-                    ? RuntimeHelpers.GetHashCode(DataToSave)
-                    : 0;
-
+                int runtimeDataHash = DataToSave != null ? RuntimeHelpers.GetHashCode(DataToSave) : 0;
                 return HashCode.Combine(RecordId, runtimeDataHash);
             }
         }
@@ -45,74 +34,68 @@ namespace CoreEngine.GameData
         [Newtonsoft.Json.JsonProperty]
         private HashSet<SaveData> SaveDataSet = new();
 
-
-        public bool Add(BaseDataInstance<TRecord, TDataToSave> dataInstance)
+        public bool Add(TInstance dataInstance)
         {
-            if (dataInstance == null ||
-                dataInstance.Record == null ||
-                dataInstance.DataToSave == null)
+            if (dataInstance == null || dataInstance.Record == null || dataInstance.RuntimeData == null)
             {
-                Debug.LogWarning("Attempted to add a null data instance or runtime data.");
+                LogHelper.LogWarning("Attempted to add a null data instance or runtime data.");
                 return false;
             }
 
             var newInstance = new SaveData
             {
                 RecordId = dataInstance.Record.ID,
-                DataToSave = dataInstance.DataToSave
+                DataToSave = dataInstance.RuntimeData
             };
 
             return SaveDataSet.Add(newInstance);
         }
-        public bool Remove(BaseDataInstance<TRecord, TDataToSave> dataInstance)
+
+        public bool Remove(TInstance dataInstance)
         {
-            if (dataInstance == null ||
-                dataInstance.Record == null ||
-                dataInstance.DataToSave == null)
+            if (dataInstance == null || dataInstance.Record == null || dataInstance.RuntimeData == null)
             {
-                Debug.LogWarning("Attempted to remove a null data instance or runtime data.");
+                LogHelper.LogWarning("Attempted to remove a null data instance or runtime data.");
                 return false;
             }
 
             var instanceToRemove = new SaveData
             {
                 RecordId = dataInstance.Record.ID,
-                DataToSave = dataInstance.DataToSave
+                DataToSave = dataInstance.RuntimeData
             };
 
             return SaveDataSet.Remove(instanceToRemove);
         }
 
+        public void Clear() => SaveDataSet.Clear();
+
         public void Save()
         {
-            //TODO: Json으로 데이터 저장
+            // TODO: GZipStream + Newtonsoft.Json 직렬화 저장 로직
         }
 
-        public List<BaseDataInstance<TRecord, TDataToSave>> Load<TTable>(TableHandler<TTable, TRecord> tableHandler)
+        public List<TInstance> Load<TTable>(
+            TableHandler<TTable, TRecord> tableHandler,
+            Func<TRecord, TDataToSave, TInstance> instanceFactory)
             where TTable : BaseTable<TRecord>
         {
-            if (tableHandler == null) return new();
-
+            if (tableHandler == null || instanceFactory == null) return new();
             if (!LoadInternal()) return new();
 
-            if (SaveDataSet.Count == 0)
-            {
-                Debug.LogWarning("No save instances found to load.");
-                return new();
-            }
+            if (SaveDataSet.Count == 0) return new();
 
-            // 미리 공간 확보
-            List<BaseDataInstance<TRecord, TDataToSave>> result = new(SaveDataSet.Count);
+            List<TInstance> result = new(SaveDataSet.Count);
 
-            foreach (var instance in SaveDataSet)
+            foreach (var saved in SaveDataSet)
             {
-                if (tableHandler.TryGetRecord(instance.RecordId, out TRecord record))
+                if (tableHandler.TryGetRecord(saved.RecordId, out TRecord record))
                 {
-                    result.Add(new BaseDataInstance<TRecord, TDataToSave>(record, instance.DataToSave));
+                    result.Add(instanceFactory(record, saved.DataToSave));
                 }
                 else
                 {
-                    Debug.LogWarning($"Record with ID {instance.RecordId} not found in table.");
+                    LogHelper.LogWarning($"Record with ID {saved.RecordId} not found in table.");
                 }
             }
             return result;
@@ -120,17 +103,12 @@ namespace CoreEngine.GameData
 
         private bool LoadInternal()
         {
-            // TODO: Json 읽기 로직
-
-            HashSet<SaveData> loaded = null; // 임시 더미
-
+            HashSet<SaveData> loaded = null; // TODO: Json 역직렬화
             if (loaded is not null)
             {
                 SaveDataSet = loaded;
                 return true;
             }
-
-            // 파일이 없거나, 파싱에 실패해서 loaded가 null인 경우
             return false;
         }
     }
