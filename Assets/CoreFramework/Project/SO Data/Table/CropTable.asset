@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: CropTable
   m_EditorClassIdentifier: Assembly-CSharp::Farm.GameData.Crop.CropTable
   _preloadCommands:
-  - rid: 5915455410166825149
+  - rid: 5915455437089538124
   _table:
-  - _hashCode: 13512802981019505990
+  - _hash: 13512802981019505990
     _primarykey: "1000\x1F\uC300"
     id: 1000
     name: "\uC300"
@@ -28,11 +28,11 @@ MonoBehaviour:
     seedName: "\uBCCD\uC528"
     seedItemFK:
       _key: "100\x1F\uBCCD\uC528"
-      _hashcode: 5612615940386700307
+      _hash: 5612615940386700307
     cropItemFK:
       _key: "1000\x1F\uC300"
-      _hashcode: 13512802981019505990
-  - _hashCode: 5584500590580720802
+      _hash: 13512802981019505990
+  - _hash: 5584500590580720802
     _primarykey: "1100\x1F\uD1A0\uB9C8\uD1A0"
     id: 1100
     name: "\uD1A0\uB9C8\uD1A0"
@@ -45,11 +45,11 @@ MonoBehaviour:
     seedName: "\uD1A0\uB9C8\uD1A0 \uC528\uC557"
     seedItemFK:
       _key: "110\x1F\uD1A0\uB9C8\uD1A0 \uC528\uC557"
-      _hashcode: 1255195686443048827
+      _hash: 1255195686443048827
     cropItemFK:
       _key: "1100\x1F\uD1A0\uB9C8\uD1A0"
-      _hashcode: 5584500590580720802
-  - _hashCode: 16073946364469268955
+      _hash: 5584500590580720802
+  - _hash: 16073946364469268955
     _primarykey: "1200\x1F\uD638\uBC15"
     id: 1200
     name: "\uD638\uBC15"
@@ -62,11 +62,11 @@ MonoBehaviour:
     seedName: "\uD638\uBC15 \uC528\uC557"
     seedItemFK:
       _key: "120\x1F\uD638\uBC15 \uC528\uC557"
-      _hashcode: 6250691377383949178
+      _hash: 6250691377383949178
     cropItemFK:
       _key: "1200\x1F\uD638\uBC15"
-      _hashcode: 16073946364469268955
-  - _hashCode: 17699870478293781058
+      _hash: 16073946364469268955
+  - _hash: 17699870478293781058
     _primarykey: "1300\x1F\uB538\uAE30"
     id: 1300
     name: "\uB538\uAE30"
@@ -79,14 +79,14 @@ MonoBehaviour:
     seedName: "\uB538\uAE30 \uC528\uC557"
     seedItemFK:
       _key: "130\x1F\uB538\uAE30 \uC528\uC557"
-      _hashcode: 14952313971310913718
+      _hash: 14952313971310913718
     cropItemFK:
       _key: "1300\x1F\uB538\uAE30"
-      _hashcode: 17699870478293781058
+      _hash: 17699870478293781058
   references:
     version: 2
     RefIds:
-    - rid: 5915455410166825149
+    - rid: 5915455437089538124
       type: {class: 'AssetPreloadCommand`2[[UnityEngine.Sprite, UnityEngine.CoreModule],[Farm.GameData.SpriteRegistry, Assembly-CSharp]]', ns: CoreEngine.GameData, asm: CoreEngine}
       data:
         ids: 010000000000000002000000000000000300000000000000040000000000000006000000000000000700000000000000

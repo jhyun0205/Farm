@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Farm.GameData.Fish.FishTable
   _preloadCommands: []
   _table:
-  - _hashCode: 5899143905698679140
+  - _hash: 5899143905698679140
     _primarykey: "2000\x1FAnchovy"
     id: 2000
     name: Anchovy
@@ -22,8 +22,8 @@ MonoBehaviour:
     weight: 1000
     fishItemFK:
       _key: "2000\x1FAnchovy"
-      _hashcode: 5899143905698679140
-  - _hashCode: 7787822229840541659
+      _hash: 5899143905698679140
+  - _hash: 7787822229840541659
     _primarykey: "2100\x1FSea snake"
     id: 2100
     name: Sea snake
@@ -31,8 +31,8 @@ MonoBehaviour:
     weight: 100
     fishItemFK:
       _key: "2100\x1FSea snake"
-      _hashcode: 7787822229840541659
-  - _hashCode: 17244049515394360358
+      _hash: 7787822229840541659
+  - _hash: 17244049515394360358
     _primarykey: "2200\x1FSeahorse"
     id: 2200
     name: Seahorse
@@ -40,8 +40,8 @@ MonoBehaviour:
     weight: 10
     fishItemFK:
       _key: "2200\x1FSeahorse"
-      _hashcode: 17244049515394360358
-  - _hashCode: 12725757216501006307
+      _hash: 17244049515394360358
+  - _hash: 12725757216501006307
     _primarykey: "2300\x1FFrog"
     id: 2300
     name: Frog
@@ -49,7 +49,7 @@ MonoBehaviour:
     weight: 1
     fishItemFK:
       _key: "2300\x1FFrog"
-      _hashcode: 12725757216501006307
+      _hash: 12725757216501006307
   references:
     version: 2
     RefIds: []
