@@ -11,6 +11,8 @@ namespace Farm.GameData.Item
     [System.Serializable]
     public class ItemDurableRecord : BaseRecord
     {
+        
+
         #region Schema
 
         [TableColumn, SerializeField] private int itemId;
@@ -27,6 +29,7 @@ namespace Farm.GameData.Item
 
     public class ItemDurableTable : BaseTable<ItemDurableRecord>
     {
+        public const int DEFUALT_DURABLE = 100;
         public const uint INDEX_DURABLE = 0;
         protected override List<KeyValuePair<uint, GetForeignKeyHash>> GetReverseIndexBuilder()
         {

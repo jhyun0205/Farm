@@ -43,10 +43,22 @@ namespace Farm.GameData.Item
 
         private void InitializeRelationalData()
         {
-            MaxDurability = 0;
-            if (IsEquipment && _durableTable.TryGetReferencingRecords(ItemDurableTable.INDEX_DURABLE, Record, out var durables))
+            InitializeDurableRelation();
+        }
+
+        private void InitializeDurableRelation()
+        {
+            if (!IsEquipment) return;
+
+            // 테이블에 값이 있다면 해당 값을 사용
+            if (_durableTable.TryGetReferencingRecords(ItemDurableTable.INDEX_DURABLE, Record, out var durables))
             {
                 MaxDurability = durables[0].MaxDurability;
+            }
+            // 없다면 기본값을 사용
+            else
+            {
+                MaxDurability = ItemDurableTable.DEFUALT_DURABLE;
             }
         }
 
