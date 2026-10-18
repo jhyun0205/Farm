@@ -8,27 +8,27 @@ namespace CoreEngine.GameData
     {
     }
 
-    public class BaseDataInstance<TRecord, TDataToSave>
+    public class BaseDataInstance<TRecord, TRuntimeData>
         where TRecord : class, IRecord // 반드시 생성시 주입
-        where TDataToSave : class, IDataToSave, new()
+        where TRuntimeData : class, IDataToSave, new()
     {
         public TRecord Record { get; private set; }
-        public TDataToSave DataToSave { get; private set; }
+        public TRuntimeData RuntimeData { get; private set; }
 
 
-        public BaseDataInstance(TRecord record, TDataToSave runtimeData)
+        public BaseDataInstance(TRecord record, TRuntimeData runtimeData)
         {
             Record = record;
-            DataToSave = runtimeData;
+            RuntimeData = runtimeData;
         }
         public BaseDataInstance(TRecord record)
         {
             Record = record;
-            DataToSave = new TDataToSave();
+            RuntimeData = new TRuntimeData();
         }
-        public void SetRuntimeData(TDataToSave runtimeData)
+        public void SetRuntimeData(TRuntimeData runtimeData)
         {
-            DataToSave = runtimeData;
+            RuntimeData = runtimeData;
         }
     }
 }
