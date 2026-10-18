@@ -16,13 +16,16 @@ namespace Farm.Character
         [SerializeField] protected CharacterAnimFeature animFeature = new();
         [SerializeField] protected CharacterStateController stateController = new();
         [SerializeField] protected CharacterTileChecker tileChecker = new();
-        [SerializeField] protected CharacterInventory inventory = new();
+
+        //[SerializeField] protected CharacterInventory inventory = new();
+        [SerializeField] protected CharacterDataFeature dataFeature = new();
+
         [SerializeField] protected CharacterQuestBook questBook = new();
         [SerializeField] protected CharacterCropDataSheet cropDataSheet = new();
         [SerializeField] protected CharacterEggEncyclopedia eggEncyclopedia = new();
         [SerializeField] protected CharacterActionController actionController = new();
         [SerializeField] protected CharacterMoveFeature moveFeature = new();
-        [SerializeField] protected FishFeture fishFeature = new();
+        //[SerializeField] protected FishFeture fishFeature = new();
         #endregion
 
         public TickGroup TickGroup => TickGroup.Character;
@@ -36,14 +39,17 @@ namespace Farm.Character
             // 초기화 순서이자 FeatureHandler.Tick, FeatureHandler.FixedTick 순서
             FeatureHandler.RegisterFeature(animFeature);
             FeatureHandler.RegisterFeature(stateController);
-            FeatureHandler.RegisterFeature(inventory);
+
+            //FeatureHandler.RegisterFeature(inventory);
+            FeatureHandler.RegisterFeature(dataFeature);
+
             FeatureHandler.RegisterFeature(questBook);
             FeatureHandler.RegisterFeature(cropDataSheet);
             FeatureHandler.RegisterFeature(eggEncyclopedia);
             FeatureHandler.RegisterFeature(tileChecker);
             FeatureHandler.RegisterFeature(actionController);
             FeatureHandler.RegisterFeature(moveFeature);
-            FeatureHandler.RegisterFeature(fishFeature);
+            //FeatureHandler.RegisterFeature(fishFeature);
         }
 
         public override void OnSpawn()

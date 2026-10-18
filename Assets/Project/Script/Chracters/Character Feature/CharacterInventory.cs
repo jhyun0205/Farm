@@ -1,239 +1,213 @@
-
 using CoreEngine.EventBus;
 using CoreEngine.Extensions;
+using CoreEngine.GameData;
+using CoreEngine.Helpers;
 using CoreEngine.Interface;
-using CoreEngine.Pool;
 using Farm.GameData;
 using Farm.GameData.Item;
 using Farm.UI.Item;
 using System;
-using UnityEngine;
-using static Farm.Character.CharacterInventory;
+using System.Collections.Generic;
 
 namespace Farm.Character
 {
-
-    [System.Serializable]
-    public class CharacterInventory : BaseDatabaseAccess<ItemStaticManager, ItemData>,ISpawnable
+    [Serializable]
+    public class CharacterInventory : BaseDataHandler<ItemTable, ItemRecord, ItemInstance, ItemDataToSave>
     {
-        protected int curItemIndex;
-        //protected InfoItemContainer curItemSlot;
-        protected ItemDataContainer[] items = new ItemDataContainer[9];
-        public ItemDataContainer[] Items => items;
+        public const int QUICK_SLOT_SIZE = 9;
 
-        //public event Action<int/*slotIndex*/> Event_OnSelectedSlotChanged;
-        //public event Action<int/*slotIndex*/> Event_OnItemSlotChanged;
-        //public event Action Event_OnItemUseInput;
+        protected int curItemIndex;
+        protected ItemInstance[] items = new ItemInstance[QUICK_SLOT_SIZE];
+        public IReadOnlyList<ItemInstance> Items => items;
 
         private readonly InterfaceReceiver<IQuickSlotUpdate> _quickSlotUpdateReceiver = new();
-
         private CharacterActionController actionController;
-
-        public override void Dispose()
-        {
-            base.Dispose();
-            (this as ISpawnable).OnDespawn();
-        }
 
         protected override void OnInitialized()
         {
             base.OnInitialized();
-            // 게임 시작 시 빈 슬롯으로 깔끔하게 초기화
-            for (int i = 0; i < items.Length; i++)
-            {
-                items[i] = new ItemDataContainer();
-            }
-            // 초기 슬롯 인덱스 설정
+            Array.Clear(items, 0, items.Length);
             curItemIndex = 0;
-
             Host.TryGetFeature(out actionController);
-            
-            // 최소 한개의 아이템이 선택되도록
         }
 
-        void ISpawnable.OnSpawn()
+        public override void OnSpawn()
         {
+            base.OnSpawn();
             _quickSlotUpdateReceiver.Bind();
+
 #if UNITY_EDITOR
-            //Debug.LogWarning("테스트 구문");
-            //AcquireItem(1, 1);
-            //AcquireItem(2, 2);
-            //AcquireItem(3, 3);
-            //AcquireItem(1001, 99);
-            //AcquireItem(1101, 99);
-            //AcquireItem(1201, 99);
-            //AcquireItem(1301, 99);
+            // 테스트 획득 예시 (자동 생성된 ulong 키 사용)
+            // AcquireItem(ItemRecordKeys._0_괭이, 1);
+            // AcquireItem(ItemRecordKeys._100_볍씨, 50);
 #endif
         }
 
-        void ISpawnable.OnDespawn()
+        public override void OnDespawn()
         {
             _quickSlotUpdateReceiver.Unbind();
+            base.OnDespawn();
         }
 
-        public ItemDataContainer GetItem(int index)
+        public override void LoadData()
         {
-            if (items.TryGet(index, out var slot))
+            Array.Clear(items, 0, items.Length);
+
+            var loadedList = repository.Load(tableHandler, (record, saveData) => new ItemInstance(record, saveData));
+            foreach (var instance in loadedList)
             {
-                return slot;
+                int slotIdx = instance.RuntimeData.slotIndex;
+                if (0 <= slotIdx && slotIdx < items.Length && items[slotIdx] == null)
+                {
+                    items[slotIdx] = instance;
+                }
+                else
+                {
+                    LogHelper.LogWarning($"유효하지 않거나 중복된 슬롯 인덱스({slotIdx}) 로드됨.");
+                }
             }
-            return null;
+
+            if (_quickSlotUpdateReceiver.TryGet(out var quickSlotUpdate))
+            {
+                for (int i = 0; i < items.Length; i++)
+                {
+                    quickSlotUpdate.OnItemSlotChanged(i);
+                }
+            }
         }
 
-        // 컨트롤러(마우스 휠)에서 호출할 스크롤 처리 로직
+        public ItemInstance GetItem(int index)
+        {
+            return items.TryGet(index, out var slot) ? slot : null;
+        }
+
         public void ScrollSlot(float scrollDelta)
         {
             if (scrollDelta == 0) return;
-            if (!_quickSlotUpdateReceiver.TryGet(out var quickSlotUpdate)) return;
 
-            // UI에 있던 인덱스 순환 로직을 Model(인벤토리)로 가져옴
             if (scrollDelta > 0) curItemIndex--;
             else curItemIndex++;
 
             if (curItemIndex < 0) curItemIndex = items.Length - 1;
             else if (curItemIndex >= items.Length) curItemIndex = 0;
 
-            // 상태가 변했으므로 이벤트 발생
-            // -> 구독 중인 UI가 화면을 갱신함
-
-            quickSlotUpdate.OnSelectedSlotChanged(curItemIndex);
-            actionController.EquipItem(curItemIndex);
-            //Event_OnSelectedSlotChanged?.Invoke(curItemIndex);
-            EventBus<SelectedSlotChangedEvent>.Publish(new SelectedSlotChangedEvent { SlotIndex = curItemIndex });
+            NotifySelectedSlotChanged();
         }
 
-        // 마우스 클릭이나 숫자키 등으로 특정 슬롯을 직접 지정할 때 사용
         public void SetSelectedSlot(int index)
         {
-            if (!_quickSlotUpdateReceiver.TryGet(out var quickSlotUpdate)) return;
             if (0 <= index && index < items.Length)
             {
                 curItemIndex = index;
-                quickSlotUpdate.OnSelectedSlotChanged(curItemIndex);
-                actionController.EquipItem(curItemIndex);
-                //Event_OnSelectedSlotChanged?.Invoke(curItemIndex);
-                EventBus<SelectedSlotChangedEvent>.Publish(new SelectedSlotChangedEvent { SlotIndex = curItemIndex });
+                NotifySelectedSlotChanged();
             }
             else
             {
-                Debug.LogWarning($"Selected slot {index}");
+                LogHelper.LogWarning($"Selected slot out of range: {index}");
             }
         }
 
-        /// <summary>
-        /// 필드에서 아이템을 획득했을 때 호출 (itemID만 넘겨주면 됨!)
-        /// </summary>
-        public void AcquireItem(int itemID, int count = 1)
+        private void NotifySelectedSlotChanged()
         {
-            int curCount = count;
-            if (curCount < 0) return;
-            if (!_quickSlotUpdateReceiver.TryGet(out var quickSlotUpdate)) return;
-
-            // ItemManager를 통해 ID에 해당하는 원본 데이터를 가져옴
-            ItemData newItem = GetData(itemID);
-
-            // 이미 같은 아이템이 있는 공간 찾기
-            for (int i = 0; i < items.Length; i++)
+            if (_quickSlotUpdateReceiver.TryGet(out var quickSlotUpdate))
             {
-                ItemDataContainer itemslot = items[i];
-                if (!itemslot.IsEmpty() && itemslot.Get() == newItem)
+                quickSlotUpdate.OnSelectedSlotChanged(curItemIndex);
+            }
+            actionController?.EquipItem(curItemIndex);
+            EventBus<SelectedSlotChangedEvent>.Publish(new SelectedSlotChangedEvent { SlotIndex = curItemIndex });
+        }
+
+        /// <summary>
+        /// 필드에서 아이템 획득 시 호출 (ItemRecordKeys의 ulong 해시 전달)
+        /// </summary>
+        public void AcquireItem(ulong itemKey, int count = 1)
+        {
+            if (count <= 0) return;
+            if (!tableHandler.TryGetRecord(itemKey, out ItemRecord record)) return;
+
+            int remainCount = count;
+            _quickSlotUpdateReceiver.TryGet(out var quickSlotUpdate);
+
+            // 1단계: 이미 같은 아이템이 들어있고 여유 공간이 있는 슬롯들에 먼저 채움
+            for (int i = 0; i < items.Length && remainCount > 0; i++)
+            {
+                ItemInstance slot = items[i];
+                if (slot != null && slot.Record.HashedPK == itemKey && slot.CanAddMore())
                 {
-                    ChangeInPossessionAmount(itemslot, newItem, curCount, out curCount);
-                    quickSlotUpdate.OnItemSlotChanged(i);
-                    //Event_OnItemSlotChanged?.Invoke(i);
-                    break;
+                    slot.Push(remainCount, out remainCount);
+                    // 이미 존재하는 인스턴스의 수량만 변했으므로 ItemInstance 내부 이벤트로도 갱신되지만 명시적 호출 유지 가능
                 }
             }
 
-            if (curCount < 0) return;
-
-            // 같은 아이템이 없다면, 비어있는 슬롯 찾아서 새로 등록
-            for (int i = 0; i < items.Length; i++)
+            // 2단계: 남은 수량이 있다면 빈 슬롯(null)들을 순회하며 새 인스턴스 생성 (다중 슬롯 오버플로우 대응)
+            for (int i = 0; i < items.Length && remainCount > 0; i++)
             {
-                ItemDataContainer itemslot = items[i];
-                // 비었다면 설정후 개수 변화
-                if (itemslot.IsEmpty() && itemslot.Set(newItem))
+                if (items[i] == null)
                 {
-                    ChangeInPossessionAmount(itemslot, newItem, curCount, out curCount);
-                    quickSlotUpdate.OnItemSlotChanged(i);
-                    //Event_OnItemSlotChanged?.Invoke(i);
-                    return;
+                    ItemInstance newInstance = new ItemInstance(record, i);
+                    newInstance.Push(remainCount, out remainCount);
+
+                    items[i] = newInstance;
+                    repository.Add(newInstance);
+
+                    // null이었던 슬롯에 새 객체가 할당되었으므로 UI에 재연결 요청
+                    quickSlotUpdate?.OnItemSlotChanged(i);
                 }
             }
 
-            if (curCount > 0)
+            if (remainCount > 0)
             {
-                // 슬롯이 꽉 찼을 때의 처리 (아이템을 땅에 다시 떨구거나, 무시하거나)
-                Debug.LogWarning("인벤토리(퀵슬롯)가 꽉 찼습니다!");
+                LogHelper.LogWarning($"인벤토리(퀵슬롯)가 꽉 차서 {record.Name} {remainCount}개를 획득하지 못했습니다.");
+                // TODO: 남은 수량(remainCount)만큼 필드에 드랍 아이템 생성
             }
         }
 
-        /// <summary>
-        /// 아이템 개수 변경
-        /// </summary>
-        private void ChangeInPossessionAmount(ItemDataContainer container, ItemData newItem, int count, out int remain)
-        {
-            container.Push(count, out remain);
-            Debug.Log($"[획득] {newItem.NameTag} {count - remain}개 획득! (현재 슬롯에 총 {container.amount}개)");
-            if (remain > 0)
-            {
-                Debug.Log($"아이템({newItem.NameTag}) 상한 도달 -> {remain}개 획득 불가");
-                // TODO 아이템을 상한 이상으로 획득시 처리할 이벤트 넣을 곳
-            }
-        }
-
-
-        /// <summary>
-        /// 특정 슬롯의 아이템을 사용 (0번, 1번, 2번 슬롯)
-        /// </summary>
         public void UseItem(int count = 1)
         {
-#if UNITY_EDITOR
-            if (curItemIndex < 0 || curItemIndex >= items.Length)
-            {
-                Debug.LogError($"슬롯번호 {curItemIndex}는 슬롯 범위를 벗어남");
-                return;
-            }
-#endif
+            if (curItemIndex < 0 || curItemIndex >= items.Length) return;
 
-            ItemDataContainer item = items[curItemIndex];
-            if (item.IsEmpty())
+            ItemInstance item = items[curItemIndex];
+            if (item == null || item.IsEmpty())
             {
-                Debug.Log("빈 슬롯입니다.");
+                LogHelper.Log("빈 슬롯입니다.");
                 return;
             }
 
-            // 아이템 타입에 따른 사용
-            ItemData staticData = item.Get();
-            bool isSuccess = item.TryUse(Host as BaseCharacter, count);
-            // 사용 결과에 따른 처리
-            if (isSuccess)
+            if (item.TryUse(Host as BaseCharacter, count))
             {
-                Debug.Log($"{staticData.NameTag} 아이템 사용 성공");
-                // 성공했으니 종류에 따라 내구도를 깎거나 개수를 줄임!
-                if (staticData is ItemData_Equipment)
+                if (item.Record.ItemType == ItemType.Equipment)
                 {
                     item.ReduceDurability(count);
                 }
-                else if (staticData is ItemData_Consumable)
+                else if (item.Record.ItemType == ItemType.Consumable)
                 {
                     item.Pop(count, out _);
+
+                    // 소모품을 모두 사용했다면 저장소에서 제거하고 슬롯을 null로 비움
+                    if (item.IsEmpty())
+                    {
+                        repository.Remove(item);
+                        items[curItemIndex] = null;
+
+                        if (_quickSlotUpdateReceiver.TryGet(out var quickSlotUpdate))
+                        {
+                            quickSlotUpdate.OnItemSlotChanged(curItemIndex);
+                        }
+                    }
                 }
 
-                actionController.OnItemUseInput();
-                //Event_OnItemUseInput?.Invoke();
+                // TODO: ItemEffectTable에 연결된 즉시 발동 효과(ApplyEffect)가 있다면 여기서 실행 가능
+                actionController?.OnItemUseInput();
             }
             else
             {
-                Debug.LogWarning("사용 실패시 효과음 출력 바람");
+                LogHelper.LogWarning("사용 실패시 효과음 출력 바람");
             }
         }
 
-       public struct SelectedSlotChangedEvent : IEvent
+        public struct SelectedSlotChangedEvent : IEvent
         {
             public int SlotIndex;
         }
-        
     }
 }
-

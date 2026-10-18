@@ -10,10 +10,10 @@ namespace Farm.Fishing
         public override void ApplyEffect(BaseCharacter character, ItemDataContainer item)
         {
             //character.GetFeature<FishModule>().TryFish();
-            if(character.TryGetFeature(out FishFeture fishFeature))
-            {
-                fishFeature.TryFish();
-            }
+            //if(character.TryGetFeature(out FishFeture fishFeature))
+            //{
+            //    fishFeature.TryFish();
+            //}
         }
     }
 }

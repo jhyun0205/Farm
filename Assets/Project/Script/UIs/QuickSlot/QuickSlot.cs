@@ -101,7 +101,7 @@ namespace Farm.UI.Item
         // 컨트롤 타겟이 바뀔때마다 이벤트가 연결되는 대상 교체
         private void OnControllTargetSet(PlayableCharacter newCharacter)
         {
-            if (!newCharacter.TryGetFeature(out CharacterInventory inventory)) return;
+            if (!newCharacter.TryGetFeature(out CharacterDataFeature characterData)) return;
 
             //inventory.Event_OnSelectedSlotChanged += OnSelectedSlotChanged;
             //inventory.Event_OnItemSlotChanged += OnItemSlotChanged;
@@ -110,7 +110,7 @@ namespace Farm.UI.Item
             for (int i = 0; i < itemViewers.Length; i++)
             {
                 ItemViewer viewer = itemViewers[i];
-                viewer.Connect(inventory.Items[i]);
+                viewer.Connect(characterData.Inventory.Items[i]);
                 viewer.UpdateView();
             }
 

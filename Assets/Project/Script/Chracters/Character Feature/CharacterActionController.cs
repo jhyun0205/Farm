@@ -1,7 +1,10 @@
 using CoreEngine.Actor;
 using CoreEngine.Extensions;
+using CoreEngine.GameData;
+using CoreEngine.Helpers;
 using Farm.GameData.Item;
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Farm.Character
@@ -9,20 +12,22 @@ namespace Farm.Character
     [System.Serializable]
     public class CharacterActionController : BaseActorFeature, IDisposable
     {
-        // 현재 손에 들고 있는(선택된) 아이템
-        private ItemDataContainer currentItem;
-        private CharacterInventory inventory;
+        // 현재 손에 들고 있는(선택된) 아이템 인스턴스
+        private ItemInstance currentItem;
         private BaseCharacter character;
+        private CharacterInventory inventory;
 
+        // 테이블에서 현재 아이템과 연결된 이펙트를 즉시 조회하기 위한 핸들러
+        private static readonly TableHandler<ItemEffectTable, ItemEffectRecord> _effectTable = new();
 
         ~CharacterActionController()
         {
             Dispose();
         }
+
         public void Dispose()
         {
-            //inventory.Event_OnSelectedSlotChanged -= EquipItem;
-            //inventory.Event_OnItemUseInput -= OnItemUseInput;
+            // 해제할 이벤트/리소스가 있다면 여기서 정리
         }
 
         protected override void OnInitialized()
@@ -30,54 +35,84 @@ namespace Farm.Character
             base.OnInitialized();
             character = Host as BaseCharacter;
 
-            if (!Host.TryGetFeature(out inventory)) return;
-            //inventory.Event_OnSelectedSlotChanged += EquipItem;
-            //inventory.Event_OnItemUseInput += OnItemUseInput;
-        }
-
-
-        // 마우스 클릭이나 아이템 사용 버튼을 눌렀을 때 호출
-        public void OnItemUseInput()
-        {
-            if (currentItem.IsEmpty()) return;
-
-            BaseItemEffect[] OnUseEffects = currentItem.Get().GetEffect_OnUse();
-            if (OnUseEffects == null) return;
-
-            // 아이템이 가진 모든 효과 리스트를 순회하며 OnUse 실행
-            foreach (var effect in OnUseEffects)
+            // 통합 데이터 핸들러(CharacterDataFeature)를 통해 인벤토리를 가져옵니다.
+            if (Host.TryGetFeature(out CharacterDataFeature dataFeature))
             {
-                effect.ApplyEffect(character, currentItem);
-            }
-        }
-
-        // 유니티 애니메이션 창에서 Event로 등록할 공통 함수
-        public void OnAnimEventTrigger(int effectIndex)
-        {
-            if (currentItem.IsEmpty()) return;
-
-            BaseItemEffect[] OnAnimeEventEffects = currentItem.Get().GetEffect_OnAnimEvent();
-            if (OnAnimeEventEffects == null) return;
-
-            if (OnAnimeEventEffects.TryGet(effectIndex, out BaseItemEffect effect))
-            {
-                effect.ApplyEffect(character, currentItem);
+                inventory = dataFeature.Inventory;
             }
             else
             {
-                Debug.LogError("존재하지 않는 AnimeEvent");
+                LogHelper.LogWarning($"{nameof(CharacterDataFeature)}를 찾을 수 없어 인벤토리를 연결할 수 없습니다.");
             }
         }
 
-        // 인벤토리에서 아이템을 선택했을 때 호출해줄 함수
+        // 인벤토리에서 아이템을 선택/스크롤 했을 때 UI(또는 인벤토리) 측에서 호출
         public void EquipItem(int index)
         {
-            ItemDataContainer curItem = inventory.GetItem(index);
+            if (inventory == null) return;
+
+            ItemInstance curItem = inventory.GetItem(index);
             currentItem = curItem;
-            if (curItem.IsEmpty())
+
+            if (curItem == null || curItem.IsEmpty())
             {
-                Debug.LogWarning("비어있는 아이템");
+                // 빈 슬롯 선택됨
+                // TODO: 플레이어 손의 무기 모델링 숨김 처리 등 필요한 경우 이곳에 작성
             }
+        }
+
+        // 마우스 클릭이나 아이템 사용 버튼을 눌렀을 때 호출 (즉시 발동형 이펙트)
+        public void OnItemUseInput()
+        {
+            if (currentItem == null || currentItem.IsEmpty()) return;
+
+            // ItemEffectTable에서 현재 들고 있는 아이템을 참조하는 모든 효과를 조회
+            if (_effectTable.TryGetReferencingRecords(ItemEffectTable.INDEX_EFFECT, currentItem.Record, out var effects))
+            {
+                for (int i = 0; i < effects.Count; i++)
+                {
+                    // 클릭 즉시 사용(OnUse) 타입인 경우에만 발동
+                    if (effects[i].TriggerType == EffectTriggerType.OnUse)
+                    {
+                        effects[i].ApplyEffect(character);
+                    }
+                }
+            }
+        }
+
+        // 유니티 애니메이션 창에서 Event로 등록할 공통 함수 (타이밍 발동형 이펙트)
+        public void OnAnimEventTrigger(int effectIndex)
+        {
+            if (currentItem == null || currentItem.IsEmpty()) return;
+
+            if (_effectTable.TryGetReferencingRecords(ItemEffectTable.INDEX_EFFECT, currentItem.Record, out var effects))
+            {
+                // 애니메이션 이벤트 전용 효과만 임시 리스트로 추출 (인덱스 매칭을 위해)
+                List<ItemEffectRecord> animEffects = GetEffectsByTriggerType(effects, EffectTriggerType.OnAnimEvent);
+
+                if (0 <= effectIndex && effectIndex < animEffects.Count)
+                {
+                    animEffects[effectIndex].ApplyEffect(character);
+                }
+                else
+                {
+                    LogHelper.LogError($"존재하지 않는 AnimeEvent 인덱스: {effectIndex} (아이템: {currentItem.Record.Name})");
+                }
+            }
+        }
+
+        // [최적화 헬퍼] LINQ(.Where) 사용을 피하여 런타임 가비지 할당 최소화
+        private List<ItemEffectRecord> GetEffectsByTriggerType(IReadOnlyList<ItemEffectRecord> source, EffectTriggerType targetType)
+        {
+            List<ItemEffectRecord> result = new List<ItemEffectRecord>(source.Count);
+            for (int i = 0; i < source.Count; i++)
+            {
+                if (source[i].TriggerType == targetType)
+                {
+                    result.Add(source[i]);
+                }
+            }
+            return result;
         }
     }
 }
