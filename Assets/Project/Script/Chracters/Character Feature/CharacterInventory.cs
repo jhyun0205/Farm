@@ -38,8 +38,9 @@ namespace Farm.Character
 
 #if UNITY_EDITOR
             // 테스트 획득 예시 (자동 생성된 ulong 키 사용)
-            // AcquireItem(ItemRecordKeys._0_괭이, 1);
-            // AcquireItem(ItemRecordKeys._100_볍씨, 50);
+            AcquireItem(ItemRecordKeys._0_괭이, 1);
+            AcquireItem(ItemRecordKeys._30_낚시대, 1);
+            AcquireItem(ItemRecordKeys._100_볍씨, 50);
 #endif
         }
 
