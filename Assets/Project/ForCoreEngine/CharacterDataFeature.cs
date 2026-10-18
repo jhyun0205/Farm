@@ -18,7 +18,7 @@ namespace Farm.Character
         // [SerializeField] private CharacterEggEncyclopedia eggEncyclopedia = new();
 
         private readonly List<IDataHandler> _handlers = new();
-        private readonly Dictionary<Type, IDataHandler> _handlerDict = new();
+        //private readonly Dictionary<Type, IDataHandler> _handlerDict = new();
 
         public CharacterInventory Inventory => inventory;
 
@@ -41,19 +41,19 @@ namespace Farm.Character
         {
             if (handler == null) return;
             _handlers.Add(handler);
-            _handlerDict[typeof(T)] = handler;
+            //_handlerDict[typeof(T)] = handler;
         }
 
-        public bool TryGetHandler<T>(out T handler) where T : class, IDataHandler
-        {
-            if (_handlerDict.TryGetValue(typeof(T), out var raw))
-            {
-                handler = raw as T;
-                return handler != null;
-            }
-            handler = null;
-            return false;
-        }
+        //public bool TryGetHandler<T>(out T handler) where T : class, IDataHandler
+        //{
+        //    if (_handlerDict.TryGetValue(typeof(T), out var raw))
+        //    {
+        //        handler = raw as T;
+        //        return handler != null;
+        //    }
+        //    handler = null;
+        //    return false;
+        //}
 
         void ISpawnable.OnSpawn()
         {
