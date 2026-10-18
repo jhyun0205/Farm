@@ -1,5 +1,2 @@
 {itemId/int/UNIQUE/NOT NULL},{itemName/string/UNIQUE/NOT NULL},{maxDurability/int/CHECK(VALUE >= 1)}
-0,괭이,100
-10,물뿌리게,100
-20,낫,100
-30,낚시대,100
+11,대용량 물뿌리개,150

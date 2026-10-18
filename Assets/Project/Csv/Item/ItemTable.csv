@@ -1,6 +1,7 @@
 {id/int/UNIQUE/NOT NULL},{name/string/UNIQUE/NOT NULL},{description/string/NOT NULL},{maxStack/int/CHECK(VALUE >= 0 AND VALUE <= 99)},{sellPrice/int/CHECK(VALUE >= 0)},{itemType/enum/DEFAULT(0)/CHECK IN(0|1|2)}
 0,괭이,대충,1,100,2
-10,물뿌리게,아무,1,100,2
+10,물뿌리개,아무,1,100,2
+11,대용량 물뿌리개,더 많은 물을 담을 수 있다.,1,200,2
 20,낫,설명,1,100,2
 30,낚시대,낚시,1,100,2
 100,볍씨,씨앗을 심어 쌀를 수확 할 수 있다.,99,0,1
