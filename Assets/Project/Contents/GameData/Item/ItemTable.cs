@@ -9,9 +9,9 @@ namespace Farm.GameData.Item
 {
     public enum ItemType
     {
-        Material,    // 재료
-        Consumable, // 소모품
-        Equipment,  // 장비
+        Equipment = 0,  // 장비
+        Consumable = 1, // 소모품
+        Material = 2,    // 재료
     }
 
     [System.Serializable]
