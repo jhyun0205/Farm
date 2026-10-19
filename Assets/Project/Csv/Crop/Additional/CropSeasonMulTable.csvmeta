@@ -1,0 +1,11 @@
+{
+  "superKeys": [
+    [
+      "season"
+    ]
+  ],
+  "primaryKey": [
+    "season"
+  ],
+  "foreignKeys": {}
+}
