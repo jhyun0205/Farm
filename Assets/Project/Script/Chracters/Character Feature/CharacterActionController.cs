@@ -80,25 +80,49 @@ namespace Farm.Character
             }
         }
 
-        // 유니티 애니메이션 창에서 Event로 등록할 공통 함수 (타이밍 발동형 이펙트)
+        /// <summary>
+        /// 유니티 애니메이션 창에서 Event로 등록할 공통 함수 (타이밍 발동형 이펙트)
+        /// </summary>
         public void OnAnimEventTrigger(int effectIndex)
         {
-            if (currentItem == null || currentItem.IsEmpty()) return;
+            if (!TryGetOnAnimEffects(out var animEffects)) return;
+
+            if (0 <= effectIndex && effectIndex < animEffects.Count)
+            {
+                animEffects[effectIndex].ApplyEffect(character);
+            }
+            else
+            {
+                LogHelper.LogError($"존재하지 않는 AnimeEvent 인덱스: {effectIndex} (아이템: {currentItem.Record.Name})");
+            }
+        }
+
+        /// <summary>
+        /// 모든 AnimEvent 호출
+        /// </summary>
+        public void OnAnimEventTrigger()
+        {
+            if (!TryGetOnAnimEffects(out var animEffects)) return;
+            foreach (var effect in animEffects) effect.ApplyEffect(character);
+        }
+
+        private bool TryGetOnAnimEffects(out List<ItemEffectRecord> animEffects)
+        {
+            if (currentItem == null || currentItem.IsEmpty())
+            {
+                LogHelper.LogWarning("현재 선택된 아이템이 없음");
+                animEffects = null;
+                return false;
+            }
 
             if (_effectTable.TryGetReferencingRecords(ItemEffectTable.INDEX_EFFECT, currentItem.Record, out var effects))
             {
                 // 애니메이션 이벤트 전용 효과만 임시 리스트로 추출 (인덱스 매칭을 위해)
-                List<ItemEffectRecord> animEffects = GetEffectsByTriggerType(effects, EffectTriggerType.OnAnimEvent);
-
-                if (0 <= effectIndex && effectIndex < animEffects.Count)
-                {
-                    animEffects[effectIndex].ApplyEffect(character);
-                }
-                else
-                {
-                    LogHelper.LogError($"존재하지 않는 AnimeEvent 인덱스: {effectIndex} (아이템: {currentItem.Record.Name})");
-                }
+                animEffects = GetEffectsByTriggerType(effects, EffectTriggerType.OnAnimEvent);
+                return true;
             }
+            animEffects = null;
+            return false;
         }
 
         // [최적화 헬퍼] LINQ(.Where) 사용을 피하여 런타임 가비지 할당 최소화
@@ -112,6 +136,7 @@ namespace Farm.Character
                     result.Add(source[i]);
                 }
             }
+            LogHelper.Log($"추출한 {targetType.ToString()} 개수 : {result.Count}");
             return result;
         }
     }
