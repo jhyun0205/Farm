@@ -6,6 +6,8 @@ using UnityEngine;
 
 namespace Farm.GameData.Item
 {
+    using ItemEffectId = AssetId<ItemEffect, ItemEffectRegistry>;
+    using ItemFK = ForeignKey<ItemRecord, ItemTable>;
     public enum EffectTriggerType
     {
         OnUse,         // 클릭 시 즉시 발동
@@ -15,18 +17,20 @@ namespace Farm.GameData.Item
     [System.Serializable]
     public class ItemEffectRecord : BaseRecord
     {
+        #region Schema
+
         [TableColumn, SerializeField] private int itemId;
         [TableColumn, SerializeField] private string itemName;
-
-        // [추가됨] 이펙트 발동 시점 구분
+        [TableColumn, SerializeField] private ItemEffectId itemEffectId;
         [TableColumn, SerializeField] private EffectTriggerType triggerType;
-
-        [TableColumn, SerializeField] private AssetId<ItemEffect, ItemEffectRegistry> itemEffectId;
         [TableColumn, SerializeField] private int[] effectValues;
-        [SerializeField] private ForeignKey<ItemRecord, ItemTable> itemFK;
+
+        [SerializeField] private ItemFK itemFK;
+
+        #endregion
 
         public EffectTriggerType TriggerType => triggerType;
-        public ForeignKey<ItemRecord, ItemTable> ItemFK => itemFK;
+        public ItemFK ItemFK => itemFK;
 
         public void ApplyEffect(BaseCharacter character)
         {
