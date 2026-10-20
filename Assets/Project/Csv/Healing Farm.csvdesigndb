@@ -1,7 +1,7 @@
 {
     "projectName": "Healing Farm",
     "settings": {
-        "maxSuperkeyLength": 2,
+        "maxSuperkeyLength": 3,
         "includeSubDirectories": true,
         "excludePrefix": "Disabled"
     },

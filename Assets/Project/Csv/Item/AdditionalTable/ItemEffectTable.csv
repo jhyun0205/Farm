@@ -1,1 +1,1 @@
-{itemId/int/UNIQUE/NOT NULL},{itemName/string/UNIQUE/NOT NULL},{itemEffectId/AssetID/NOT NULL},{effectValues/int[]}
+{itemId/int/NOT NULL},{itemName/string/NOT NULL},{itemEffectId/AssetID/NOT NULL},{triggerType/enum/DEFAULT(OnUse)},{effectValues/int[]}

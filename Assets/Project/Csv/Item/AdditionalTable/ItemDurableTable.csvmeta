@@ -20,6 +20,11 @@
     [
       "itemName",
       "maxDurability"
+    ],
+    [
+      "itemId",
+      "itemName",
+      "maxDurability"
     ]
   ],
   "primaryKey": [

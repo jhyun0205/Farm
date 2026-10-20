@@ -10,6 +10,9 @@
       "itemEffectId"
     ],
     [
+      "triggerType"
+    ],
+    [
       "itemId",
       "itemName"
     ],
@@ -18,13 +21,46 @@
       "itemEffectId"
     ],
     [
+      "itemId",
+      "triggerType"
+    ],
+    [
       "itemName",
       "itemEffectId"
+    ],
+    [
+      "itemName",
+      "triggerType"
+    ],
+    [
+      "itemEffectId",
+      "triggerType"
+    ],
+    [
+      "itemId",
+      "itemName",
+      "itemEffectId"
+    ],
+    [
+      "itemId",
+      "itemName",
+      "triggerType"
+    ],
+    [
+      "itemId",
+      "itemEffectId",
+      "triggerType"
+    ],
+    [
+      "itemName",
+      "itemEffectId",
+      "triggerType"
     ]
   ],
   "primaryKey": [
     "itemId",
-    "itemName"
+    "itemName",
+    "itemEffectId"
   ],
   "foreignKeys": {
     "itemFK": {
