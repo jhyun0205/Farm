@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 3325196971106207750}
   - component: {fileID: 8909275914616605936}
   - component: {fileID: 5339906073391806079}
-  - component: {fileID: 8944485528522678402}
+  - component: {fileID: 5199440887647237262}
   m_Layer: 5
   m_Name: ItemSlot
   m_TagString: Untagged
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac8aa47c0ac0df84ca70a87b616e70b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BaseButton
---- !u!114 &8944485528522678402
+--- !u!114 &5199440887647237262
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -219,9 +219,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8856166992885088493}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5459f314eea2c842bc2c669fdac3b0f, type: 3}
+  m_Script: {fileID: 11500000, guid: 50552369265777a4499153d7f6fa5515, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ItemViewer
+  m_EditorClassIdentifier: Assembly-CSharp::Farm.UI.Item.ItemViewer
   nameText: {fileID: 0}
   descriptionText: {fileID: 0}
   iconImage: {fileID: 8606937412517067403}
+  amountText: {fileID: 0}
