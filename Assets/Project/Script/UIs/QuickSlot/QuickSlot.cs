@@ -176,6 +176,7 @@ namespace Farm.UI.Item
 
         void IQuickSlotUpdate.OnItemSlotChanged(int index)
         {
+            //itemViewers[index].Connect()
             itemViewers[index].UpdateView();
         }
     }

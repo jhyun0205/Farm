@@ -13,4 +13,30 @@ MonoBehaviour:
   m_Name: SpriteRegistry
   m_EditorClassIdentifier: Assembly-CSharp::Farm.GameData.SpriteRegistry
   _baseDirectory: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry
-  _entries: []
+  _entries:
+  - Id: 2000
+    PathDetail: Character/Fishing/Catch/Weapon/2000_FishingCatchWeapon1_0.asset
+  - Id: 2001
+    PathDetail: Character/Fishing/Catch/Weapon/2001_FishingCatchWeapon1_1.asset
+  - Id: 2002
+    PathDetail: Character/Fishing/Catch/Weapon/2002_FishingCatchWeapon1_2.asset
+  - Id: 2003
+    PathDetail: Character/Fishing/Catch/Weapon/2003_FishingCatchWeapon1_3.asset
+  - Id: 2004
+    PathDetail: Character/Fishing/Catch/Weapon/2004_FishingCatchWeapon1_4.asset
+  - Id: 2005
+    PathDetail: Character/Fishing/Catch/Weapon/2005_FishingCatchWeapon1_5.asset
+  - Id: 2006
+    PathDetail: Character/Fishing/Catch/Weapon/2006_FishingCatchWeapon1_6.asset
+  - Id: 2007
+    PathDetail: Character/Fishing/Catch/Weapon/2007_FishingCatchWeapon1_7.asset
+  - Id: 2008
+    PathDetail: Character/Fishing/Catch/Weapon/2008_FishingCatchWeapon1_8.asset
+  - Id: 2009
+    PathDetail: Character/Fishing/Catch/Weapon/2009_FishingCatchWeapon1_9.asset
+  - Id: 2010
+    PathDetail: Character/Fishing/Catch/Weapon/2010_FishingCatchWeapon1_10.asset
+  - Id: 2011
+    PathDetail: Character/Fishing/Catch/Weapon/2011_FishingCatchWeapon1_11.asset
+  - Id: 2012
+    PathDetail: Character/Fishing/Catch/Weapon/2012_FishingCatchWeapon1_12.asset

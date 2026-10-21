@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SpriteRegistry_Character_Fishing_Catch_Weapon
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: SpriteRegistry_Character_Fishing_Catch_Weapon
+  m_GUID: 53081e0d98d2a824789e0e5eaf8cb6b0
+  m_SerializeEntries:
+  - m_GUID: 112c73bff14baba4e97644a04bbd56ca
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Character/Fishing/Catch/Weapon/2003_FishingCatchWeapon1_3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c4afa84eaa0ec2448dfe67ee16a2278
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Character/Fishing/Catch/Weapon/2005_FishingCatchWeapon1_5.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 430a2f8a076dd054e816043e696fc9f0
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Character/Fishing/Catch/Weapon/2001_FishingCatchWeapon1_1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c610da2bf90b7742bc65024a1ab7c20
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Character/Fishing/Catch/Weapon/2000_FishingCatchWeapon1_0.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 793948733f89a464f81aaa9b192a9331
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Character/Fishing/Catch/Weapon/2007_FishingCatchWeapon1_7.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89c092ca14586854bb730ddd566028b2
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Character/Fishing/Catch/Weapon/2008_FishingCatchWeapon1_8.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 906545f29aeafa94f8ef0db774520392
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Character/Fishing/Catch/Weapon/2009_FishingCatchWeapon1_9.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7792e01bf0f8284586d3d224f008c55
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Character/Fishing/Catch/Weapon/2004_FishingCatchWeapon1_4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfb7643afb2dd254f8b4ef16a260214a
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Character/Fishing/Catch/Weapon/2010_FishingCatchWeapon1_10.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d02449b2a143d2d4a98fab3cb3ee9444
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Character/Fishing/Catch/Weapon/2006_FishingCatchWeapon1_6.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb01782b85a333747b3c1932736cdab7
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Character/Fishing/Catch/Weapon/2012_FishingCatchWeapon1_12.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ecf0ab0b49f2aba47a36161cb88c099e
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Character/Fishing/Catch/Weapon/2011_FishingCatchWeapon1_11.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc5cd407b93084c45afb2b96dcd49366
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Character/Fishing/Catch/Weapon/2002_FishingCatchWeapon1_2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b631d96092f96e44c8799570322cd6c6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 67b47a314fe4167438b023fb9f508621, type: 2}
+    - {fileID: 11400000, guid: 24d3e0f89f27064438a46a599eef27e1, type: 2}
