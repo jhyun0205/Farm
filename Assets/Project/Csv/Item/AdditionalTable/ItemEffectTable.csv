@@ -1,1 +1,0 @@
-{itemId/int/NOT NULL},{itemName/string/NOT NULL},{itemEffectId/AssetID/NOT NULL},{triggerType/enum/DEFAULT(OnUse)},{effectValues/int[]}

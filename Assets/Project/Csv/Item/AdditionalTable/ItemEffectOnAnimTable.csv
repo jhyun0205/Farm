@@ -1,0 +1,2 @@
+{itemId/int/NOT NULL},{itemName/string/NOT NULL},{index/int/NOT NULL/CHECK(VALUE >= 0)},{itemEffectId/AssetID/NOT NULL},{effectValues/int[]}
+0,괭이,0,1,

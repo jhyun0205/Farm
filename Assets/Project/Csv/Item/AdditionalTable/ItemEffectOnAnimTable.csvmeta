@@ -1,0 +1,74 @@
+{
+  "superKeys": [
+    [
+      "itemId"
+    ],
+    [
+      "itemName"
+    ],
+    [
+      "index"
+    ],
+    [
+      "itemEffectId"
+    ],
+    [
+      "itemId",
+      "itemName"
+    ],
+    [
+      "itemId",
+      "index"
+    ],
+    [
+      "itemId",
+      "itemEffectId"
+    ],
+    [
+      "itemName",
+      "index"
+    ],
+    [
+      "itemName",
+      "itemEffectId"
+    ],
+    [
+      "index",
+      "itemEffectId"
+    ],
+    [
+      "itemId",
+      "itemName",
+      "index"
+    ],
+    [
+      "itemId",
+      "itemName",
+      "itemEffectId"
+    ],
+    [
+      "itemId",
+      "index",
+      "itemEffectId"
+    ],
+    [
+      "itemName",
+      "index",
+      "itemEffectId"
+    ]
+  ],
+  "primaryKey": [
+    "itemId",
+    "itemName",
+    "index"
+  ],
+  "foreignKeys": {
+    "itemFK": {
+      "columns": [
+        "itemId",
+        "itemName"
+      ],
+      "targetTable": "ItemTable.csv"
+    }
+  }
+}
