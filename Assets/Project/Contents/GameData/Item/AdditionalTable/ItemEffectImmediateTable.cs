@@ -8,12 +8,7 @@ namespace Farm.GameData.Item
 {
     using ItemEffectId = AssetId<ItemEffect, ItemEffectRegistry>;
     using ItemFK = ForeignKey<ItemRecord, ItemTable>;
-    public enum EffectTriggerType
-    {
-        OnUse,         // 클릭 시 즉시 발동
-        OnAnimEvent    // 애니메이션 이벤트 타이밍에 발동
-    }
-
+    
     [System.Serializable]
     public class ItemEffectRecord : BaseRecord
     {
@@ -22,14 +17,12 @@ namespace Farm.GameData.Item
         [TableColumn, SerializeField] private int itemId;
         [TableColumn, SerializeField] private string itemName;
         [TableColumn, SerializeField] private ItemEffectId itemEffectId;
-        [TableColumn, SerializeField] private EffectTriggerType triggerType;
         [TableColumn, SerializeField] private int[] effectValues;
 
         [SerializeField] private ItemFK itemFK;
 
         #endregion
 
-        public EffectTriggerType TriggerType => triggerType;
         public ItemFK ItemFK => itemFK;
 
         public void ApplyEffect(BaseCharacter character)
@@ -45,9 +38,8 @@ namespace Farm.GameData.Item
         }
     }
 
-    public class ItemEffectTable : BaseTable<ItemEffectRecord>
+    public class ItemEffectImmediateTable : BaseTable<ItemEffectRecord>
     {
-        // [추가됨] 아이템 ID 기반으로 이펙트를 빠르게 찾기 위한 역조회 인덱스
         public const uint INDEX_EFFECT = 0;
 
         protected override List<KeyValuePair<uint, GetForeignKeyHash>> GetReverseIndexBuilder()
