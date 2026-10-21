@@ -7,6 +7,8 @@ using UnityEngine;
 
 namespace Farm.GameData.Item
 {
+    using ItemSpriteId = AssetId<Sprite, SpriteRegistry>;
+
     public enum ItemType
     {
         Equipment = 0,  // 장비
@@ -22,6 +24,7 @@ namespace Farm.GameData.Item
         [TableColumn, SerializeField] private int id;
         [TableColumn, SerializeField] private string name;
         [TableColumn, SerializeField] private ItemType itemType;
+        [TableColumn, SerializeField] private ItemSpriteId itemSpriteId;
         [TableColumn, SerializeField] private string description;
         [TableColumn, SerializeField] private int maxStack; // -1이면 무한대
         [TableColumn, SerializeField] private int sellPrice; // -1이면 판매불가
@@ -35,6 +38,7 @@ namespace Farm.GameData.Item
         public int MaxStack => maxStack;
         public int SellPrice => sellPrice;
         public ItemType ItemType => itemType;
+        public Sprite ItemSprite => itemSpriteId.Get();
 
     }
 
