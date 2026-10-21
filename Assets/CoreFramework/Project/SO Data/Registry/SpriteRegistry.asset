@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Farm.GameData.SpriteRegistry
   _baseDirectory: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry
   _entries:
+  - Id: 99999
+    PathDetail: "99999_\uB354\uBBF8.asset"
   - Id: 2000
     PathDetail: Character/Fishing/Catch/Weapon/2000_FishingCatchWeapon1_0.asset
   - Id: 2001

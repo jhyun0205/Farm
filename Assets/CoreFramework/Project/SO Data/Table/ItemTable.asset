@@ -12,13 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0392a5481e441024c8a00854cf35fe60, type: 3}
   m_Name: ItemTable
   m_EditorClassIdentifier: Assembly-CSharp::Farm.GameData.Item.ItemTable
-  _preloadCommands: []
+  _preloadCommands:
+  - rid: 5915455496901886032
   _table:
   - _hash: 11766870585033640650
     _primarykey: "0\x1F\uAD2D\uC774"
     id: 0
     name: "\uAD2D\uC774"
     itemType: 0
+    itemSpriteId:
+      _id: 99999
     description: "\uB300\uCDA9"
     maxStack: 1
     sellPrice: 100
@@ -27,6 +30,8 @@ MonoBehaviour:
     id: 10
     name: "\uBB3C\uBFCC\uB9AC\uAC1C"
     itemType: 0
+    itemSpriteId:
+      _id: 99999
     description: "\uC544\uBB34"
     maxStack: 1
     sellPrice: 100
@@ -35,6 +40,8 @@ MonoBehaviour:
     id: 11
     name: "\uB300\uC6A9\uB7C9 \uBB3C\uBFCC\uB9AC\uAC1C"
     itemType: 0
+    itemSpriteId:
+      _id: 99999
     description: "\uB354 \uB9CE\uC740 \uBB3C\uC744 \uB2F4\uC744 \uC218 \uC788\uB2E4."
     maxStack: 1
     sellPrice: 200
@@ -43,6 +50,8 @@ MonoBehaviour:
     id: 20
     name: "\uB0AB"
     itemType: 0
+    itemSpriteId:
+      _id: 99999
     description: "\uC124\uBA85"
     maxStack: 1
     sellPrice: 100
@@ -51,6 +60,8 @@ MonoBehaviour:
     id: 30
     name: "\uB09A\uC2DC\uB300"
     itemType: 0
+    itemSpriteId:
+      _id: 99999
     description: "\uB09A\uC2DC"
     maxStack: 1
     sellPrice: 100
@@ -59,6 +70,8 @@ MonoBehaviour:
     id: 100
     name: "\uBCCD\uC528"
     itemType: 1
+    itemSpriteId:
+      _id: 99999
     description: "\uC528\uC557\uC744 \uC2EC\uC5B4 \uC300\uB97C \uC218\uD655 \uD560
       \uC218 \uC788\uB2E4."
     maxStack: 99
@@ -68,6 +81,8 @@ MonoBehaviour:
     id: 110
     name: "\uD1A0\uB9C8\uD1A0 \uC528\uC557"
     itemType: 1
+    itemSpriteId:
+      _id: 99999
     description: "\uC528\uC557\uC744 \uC2EC\uC5B4 \uD1A0\uB9C8\uD1A0\uC744 \uC218\uD655
       \uD560 \uC218 \uC788\uB2E4."
     maxStack: 99
@@ -77,6 +92,8 @@ MonoBehaviour:
     id: 120
     name: "\uD638\uBC15 \uC528\uC557"
     itemType: 1
+    itemSpriteId:
+      _id: 99999
     description: "\uC528\uC557\uC744 \uC2EC\uC5B4 \uD638\uBC15\uC744 \uC218\uD655
       \uD560 \uC218 \uC788\uB2E4."
     maxStack: 99
@@ -86,6 +103,8 @@ MonoBehaviour:
     id: 130
     name: "\uB538\uAE30 \uC528\uC557"
     itemType: 1
+    itemSpriteId:
+      _id: 99999
     description: "\uC528\uC557\uC744 \uC2EC\uC5B4 \uB538\uAE30\uC744 \uC218\uD655
       \uD560 \uC218 \uC788\uB2E4."
     maxStack: 99
@@ -95,6 +114,8 @@ MonoBehaviour:
     id: 200
     name: "\uC9C0\uB801\uC774"
     itemType: 1
+    itemSpriteId:
+      _id: 99999
     description: "\uBC14\uB2E4\uC5D0 \uB358\uC838"
     maxStack: 99
     sellPrice: 0
@@ -103,6 +124,8 @@ MonoBehaviour:
     id: 1000
     name: "\uBCBC"
     itemType: 2
+    itemSpriteId:
+      _id: 99999
     description: "\uC218\uD655\uD55C \uC300\uC744 \uD3EC\uB300\uC790\uB8E8\uC5D0
       \uBAA8\uC558\uB2E4"
     maxStack: 99
@@ -112,6 +135,8 @@ MonoBehaviour:
     id: 1100
     name: "\uD1A0\uB9C8\uD1A0"
     itemType: 2
+    itemSpriteId:
+      _id: 99999
     description: "\uB9DB\uC788\uAC8C \uC5EC\uBB3C\uC740 \uD1A0\uB9C8\uD1A0\uB2E4"
     maxStack: 99
     sellPrice: 0
@@ -120,6 +145,8 @@ MonoBehaviour:
     id: 1200
     name: "\uD638\uBC15"
     itemType: 2
+    itemSpriteId:
+      _id: 99999
     description: "\uC18D\uC774 \uAF49\uCC2C \uD638\uBC15\uC774\uB2E4. \uD560\uB85C\uC708\uC5D0
       \uC4F8\uB9CC\uD574 \uBCF4\uC778\uB2E4"
     maxStack: 99
@@ -129,6 +156,8 @@ MonoBehaviour:
     id: 1300
     name: "\uB538\uAE30"
     itemType: 2
+    itemSpriteId:
+      _id: 99999
     description: "\uBE68\uAC04 \uB538\uAE30\uAC00 \uB9DB\uC788\uC5B4\uBCF4\uC778\uB2E4"
     maxStack: 99
     sellPrice: 0
@@ -137,6 +166,8 @@ MonoBehaviour:
     id: 2000
     name: Anchovy
     itemType: 2
+    itemSpriteId:
+      _id: 99999
     description: "\uC0DD\uC120"
     maxStack: 99
     sellPrice: 1
@@ -145,6 +176,8 @@ MonoBehaviour:
     id: 2100
     name: Sea snake
     itemType: 2
+    itemSpriteId:
+      _id: 99999
     description: "\uC785\uB2C8"
     maxStack: 99
     sellPrice: 2
@@ -153,6 +186,8 @@ MonoBehaviour:
     id: 2200
     name: Seahorse
     itemType: 2
+    itemSpriteId:
+      _id: 99999
     description: "\uB2E4"
     maxStack: 99
     sellPrice: 3
@@ -161,9 +196,15 @@ MonoBehaviour:
     id: 2300
     name: Frog
     itemType: 2
+    itemSpriteId:
+      _id: 99999
     description: .
     maxStack: 99
     sellPrice: 4
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 5915455496901886032
+      type: {class: 'AssetPreloadCommand`2[[UnityEngine.Sprite, UnityEngine.CoreModule],[Farm.GameData.SpriteRegistry, Assembly-CSharp]]', ns: CoreEngine.GameData, asm: CoreEngine}
+      data:
+        ids: 9f86010000000000
