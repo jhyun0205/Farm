@@ -5,6 +5,7 @@ using CoreEngine.Helpers;
 using Farm.GameData.Item;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace Farm.Character
@@ -18,7 +19,8 @@ namespace Farm.Character
         private CharacterInventory inventory;
 
         // 테이블에서 현재 아이템과 연결된 이펙트를 즉시 조회하기 위한 핸들러
-        private static readonly TableHandler<ItemEffectTable, ItemEffectRecord> _effectTable = new();
+        private static readonly TableHandler<ItemEffectImmediateTable, ItemEffectRecord> _immediateEffectTable = new();
+        private static readonly TableHandler<ItemEffectOnAnimTable, ItemIndexedEffectRecord> _onAnimEffectTable = new();
 
         ~CharacterActionController()
         {
@@ -67,15 +69,11 @@ namespace Farm.Character
             if (currentItem == null || currentItem.IsEmpty()) return;
 
             // ItemEffectTable에서 현재 들고 있는 아이템을 참조하는 모든 효과를 조회
-            if (_effectTable.TryGetReferencingRecords(ItemEffectTable.INDEX_EFFECT, currentItem.Record, out var effects))
+            if (_onAnimEffectTable.TryGetReferencingRecords(ItemEffectImmediateTable.INDEX_EFFECT, currentItem.Record, out var effects))
             {
                 for (int i = 0; i < effects.Count; i++)
                 {
-                    // 클릭 즉시 사용(OnUse) 타입인 경우에만 발동
-                    if (effects[i].TriggerType == EffectTriggerType.OnUse)
-                    {
-                        effects[i].ApplyEffect(character);
-                    }
+                    effects[i].ApplyEffect(character);
                 }
             }
         }
@@ -87,14 +85,23 @@ namespace Farm.Character
         {
             if (!TryGetOnAnimEffects(out var animEffects)) return;
 
-            if (0 <= effectIndex && effectIndex < animEffects.Count)
+            foreach(var effect in animEffects)
             {
-                animEffects[effectIndex].ApplyEffect(character);
+                if(effect.Index == effectIndex)
+                {
+                    effect.ApplyEffect(character);
+                    break;
+                }
             }
-            else
-            {
-                LogHelper.LogError($"존재하지 않는 AnimeEvent 인덱스: {effectIndex} (아이템: {currentItem.Record.Name})");
-            }
+
+            //if (0 <= effectIndex && effectIndex < animEffects.Count)
+            //{
+            //    animEffects[effectIndex].ApplyEffect(character);
+            //}
+            //else
+            //{
+            //    LogHelper.LogError($"존재하지 않는 AnimeEvent 인덱스: {effectIndex} (아이템: {currentItem.Record.Name})");
+            //}
         }
 
         /// <summary>
@@ -106,38 +113,21 @@ namespace Farm.Character
             foreach (var effect in animEffects) effect.ApplyEffect(character);
         }
 
-        private bool TryGetOnAnimEffects(out List<ItemEffectRecord> animEffects)
+        private bool TryGetOnAnimEffects(out IReadOnlyList<ItemIndexedEffectRecord> animEffects)
         {
+            animEffects = null;
             if (currentItem == null || currentItem.IsEmpty())
             {
                 LogHelper.LogWarning("현재 선택된 아이템이 없음");
-                animEffects = null;
                 return false;
             }
 
-            if (_effectTable.TryGetReferencingRecords(ItemEffectTable.INDEX_EFFECT, currentItem.Record, out var effects))
+            if (_onAnimEffectTable.TryGetReferencingRecords(ItemEffectOnAnimTable.INDEX_EFFECT, currentItem.Record, out var effects))
             {
-                // 애니메이션 이벤트 전용 효과만 임시 리스트로 추출 (인덱스 매칭을 위해)
-                animEffects = GetEffectsByTriggerType(effects, EffectTriggerType.OnAnimEvent);
+                animEffects = effects;
                 return true;
             }
-            animEffects = null;
             return false;
-        }
-
-        // [최적화 헬퍼] LINQ(.Where) 사용을 피하여 런타임 가비지 할당 최소화
-        private List<ItemEffectRecord> GetEffectsByTriggerType(IReadOnlyList<ItemEffectRecord> source, EffectTriggerType targetType)
-        {
-            List<ItemEffectRecord> result = new List<ItemEffectRecord>(source.Count);
-            for (int i = 0; i < source.Count; i++)
-            {
-                if (source[i].TriggerType == targetType)
-                {
-                    result.Add(source[i]);
-                }
-            }
-            LogHelper.Log($"추출한 {targetType.ToString()} 개수 : {result.Count}");
-            return result;
         }
     }
 }
