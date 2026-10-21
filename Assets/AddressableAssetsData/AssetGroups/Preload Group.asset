@@ -15,8 +15,8 @@ MonoBehaviour:
   m_GroupName: Preload Group
   m_GUID: 7a379f31a676d5d4caf17ed1af1ac405
   m_SerializeEntries:
-  - m_GUID: 1be8470d49b13884abc5d4d28c1bd827
-    m_Address: Assets/CoreFramework/Project/SO Data/Table/ItemEffectTable.asset
+  - m_GUID: 0b0fc4800ca5d5a4ab51d64408ce1b07
+    m_Address: Assets/CoreFramework/Project/SO Data/Table/ItemEffectOnAnimTable.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Preload
@@ -41,6 +41,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4afd9018dccf37c40af3ec4b16d877b2
     m_Address: Assets/CoreFramework/Project/SO Data/Registry/ItemUseRuleRegistry.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e654317cb678c541b732c08425481ef
+    m_Address: Assets/CoreFramework/Project/SO Data/Table/ItemEffectImmediateTable.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Preload

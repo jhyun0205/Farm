@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7297162488b811f4f932ca6b09dbc68e, type: 3}
+  m_Name: ItemEffectOnAnimTable
+  m_EditorClassIdentifier: Assembly-CSharp::Farm.GameData.Item.ItemEffectOnAnimTable
+  _preloadCommands: []
+  _table:
+  - _hash: 1572685681799812159
+    _primarykey: "0\x1F\uAD2D\uC774\x1F0"
+    itemId: 0
+    itemName: "\uAD2D\uC774"
+    itemEffectId:
+      _id: 1
+    effectValues: 
+    itemFK:
+      _key: "0\x1F\uAD2D\uC774"
+      _hash: 11766870585033640650
+    index: 0
+  references:
+    version: 2
+    RefIds: []

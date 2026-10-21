@@ -98,10 +98,10 @@ MonoBehaviour:
     description: "\uBC14\uB2E4\uC5D0 \uB358\uC838"
     maxStack: 99
     sellPrice: 0
-  - _hash: 13512802981019505990
-    _primarykey: "1000\x1F\uC300"
+  - _hash: 11597783462548648359
+    _primarykey: "1000\x1F\uBCBC"
     id: 1000
-    name: "\uC300"
+    name: "\uBCBC"
     itemType: 2
     description: "\uC218\uD655\uD55C \uC300\uC744 \uD3EC\uB300\uC790\uB8E8\uC5D0
       \uBAA8\uC558\uB2E4"

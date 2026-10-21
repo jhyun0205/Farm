@@ -24,11 +24,14 @@ MonoBehaviour:
   - TypeFullName: Farm.GameData.Item.ItemDurableTable
     TypeName: ItemDurableTable
     IsEnabled: 1
+  - TypeFullName: Farm.GameData.Item.ItemEffectImmediateTable
+    TypeName: ItemEffectImmediateTable
+    IsEnabled: 1
+  - TypeFullName: Farm.GameData.Item.ItemEffectOnAnimTable
+    TypeName: ItemEffectOnAnimTable
+    IsEnabled: 1
   - TypeFullName: Farm.GameData.Item.ItemEffectRegistry
     TypeName: ItemEffectRegistry
-    IsEnabled: 1
-  - TypeFullName: Farm.GameData.Item.ItemEffectTable
-    TypeName: ItemEffectTable
     IsEnabled: 1
   - TypeFullName: Farm.GameData.Item.ItemTable
     TypeName: ItemTable
