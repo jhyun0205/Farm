@@ -825,6 +825,120 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1001 &86112701
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 106443183}
+    m_Modifications:
+    - target: {fileID: 903365592958671646, guid: 097515aff67c6624393d485da7979803, type: 3}
+      propertyPath: m_Name
+      value: FishingMiniGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532244045378924824, guid: 097515aff67c6624393d485da7979803, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532244045378924824, guid: 097515aff67c6624393d485da7979803, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337324409230937567, guid: 097515aff67c6624393d485da7979803, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337324409230937567, guid: 097515aff67c6624393d485da7979803, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337324409230937567, guid: 097515aff67c6624393d485da7979803, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337324409230937567, guid: 097515aff67c6624393d485da7979803, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337324409230937567, guid: 097515aff67c6624393d485da7979803, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337324409230937567, guid: 097515aff67c6624393d485da7979803, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337324409230937567, guid: 097515aff67c6624393d485da7979803, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337324409230937567, guid: 097515aff67c6624393d485da7979803, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337324409230937567, guid: 097515aff67c6624393d485da7979803, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337324409230937567, guid: 097515aff67c6624393d485da7979803, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337324409230937567, guid: 097515aff67c6624393d485da7979803, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337324409230937567, guid: 097515aff67c6624393d485da7979803, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337324409230937567, guid: 097515aff67c6624393d485da7979803, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337324409230937567, guid: 097515aff67c6624393d485da7979803, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337324409230937567, guid: 097515aff67c6624393d485da7979803, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337324409230937567, guid: 097515aff67c6624393d485da7979803, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -594.5181
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337324409230937567, guid: 097515aff67c6624393d485da7979803, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -264.95596
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337324409230937567, guid: 097515aff67c6624393d485da7979803, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337324409230937567, guid: 097515aff67c6624393d485da7979803, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337324409230937567, guid: 097515aff67c6624393d485da7979803, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7381478271007220955, guid: 097515aff67c6624393d485da7979803, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 903365592958671646, guid: 097515aff67c6624393d485da7979803, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 769231942}
+  m_SourcePrefab: {fileID: 100100000, guid: 097515aff67c6624393d485da7979803, type: 3}
+--- !u!224 &106443183 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3638723471346839024, guid: 1434454203d2e4545920e75b3a836b62, type: 3}
+  m_PrefabInstance: {fileID: 1767510111200194302}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &191557949
 GameObject:
   m_ObjectHideFlags: 0
@@ -9200,6 +9314,16 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!224 &462043333 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8158355347875056974, guid: 097515aff67c6624393d485da7979803, type: 3}
+  m_PrefabInstance: {fileID: 86112701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &480230803 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1532244045378924824, guid: 097515aff67c6624393d485da7979803, type: 3}
+  m_PrefabInstance: {fileID: 86112701}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519853632
 GameObject:
   m_ObjectHideFlags: 0
@@ -9992,6 +10116,34 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &769231940 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 903365592958671646, guid: 097515aff67c6624393d485da7979803, type: 3}
+  m_PrefabInstance: {fileID: 86112701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &769231941 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2337324409230937567, guid: 097515aff67c6624393d485da7979803, type: 3}
+  m_PrefabInstance: {fileID: 86112701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &769231942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769231940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 966e724e62dcf6b4db9d8e1f93dc6ca4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Farm.Fishing.FishingMiniGame
+  bar: {fileID: 480230803}
+  targetBox: {fileID: 462043333}
+  arrow: {fileID: 1876673921}
+  targetBoxWidthRatio: 0.2
+  targetBoxSpeed: 0.2
+  arrowSpeed: 1.5
 --- !u!1001 &786188202
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19442,6 +19594,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!224 &1876673921 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8051387726492163041, guid: 097515aff67c6624393d485da7979803, type: 3}
+  m_PrefabInstance: {fileID: 86112701}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1932089099
 GameObject:
   m_ObjectHideFlags: 0
@@ -34023,7 +34180,10 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 2573292188550007035, guid: 1434454203d2e4545920e75b3a836b62, type: 3}
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 3638723471346839024, guid: 1434454203d2e4545920e75b3a836b62, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 769231941}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1434454203d2e4545920e75b3a836b62, type: 3}
 --- !u!1001 &2807738471664548778
