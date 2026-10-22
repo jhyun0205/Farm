@@ -1,0 +1,263 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SpriteRegistry_Icons_10000_Weapons1
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: SpriteRegistry_Icons_10000_Weapons1
+  m_GUID: e204af74fb70f144fa1c496a3539b0b0
+  m_SerializeEntries:
+  - m_GUID: 00c4ee4ee21b5be448ab9e33a4f87396
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10029_29.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 170d6e1084785c64b821a2c05c15e059
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10001_1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19828150e480d564eb871ed71d4953da
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10019_19.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 239f0de1d4a644b44a08f1ef466ec127
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10012_12.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29030423e6294934a85361c6a5ea7115
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10013_13.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34fcddcdd5973b84cbdfe4bd3495e517
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10031_31.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35d16765e85d05441b90dd6db031d9fe
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10039_39.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e69becea6416dc498587eb50188c70e
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10028_28.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e9dca08ab8d3a84fa402fc6df1fc819
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10017_17.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 435f5a04b243cd745a5b9d9fd1f07704
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10008_8.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49c5e77d706fb3c4997cadec0f5c9a31
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10009_9.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a855f325f16df340af78a4ee190be9c
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10006_6.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 513270694c9d808439728c4d46c2f6cb
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10025_25.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a3cb0441990cdc45ad7fd56d2b706b2
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10023_23.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6429a10d2797be141bb3a61858082cab
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10010_10.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 714954772e2272048bde49ef45660675
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10016_16.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 722f5116c0fdfc341a305c046e4868e8
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10045_45.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7779951c494b70f4e9e8546eda47c21a
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10020_20.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77eb5b7a79024e3458ca8c5aacbcda0b
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10040_40.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f2c9e6bc8f80d147be05323fa26fc41
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10024_24.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7fde87bb48991434693aa89b2f93222a
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10027_27.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83720df24b1e3a34f825fef9a7a943d3
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10041_41.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 837c11e3c4d81c641919c0dcc3d818e7
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10015_15.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92345ac47a0f2ce498b362196f7b4aa9
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10036_36.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b30fa0d51740f0439a38c29ad30dfe1
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10011_11.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c8190f859ef0364ab2b37eac0024292
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10047_47.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a451b30da5e7be343987b6d24f663274
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10007_7.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8b33f6be4467e74195da8024cc26d38
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10002_2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9537e92e6619d94bb3cb197a8ff0521
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10021_21.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a99cf871d524fd5499168f56f4fbbc64
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10034_34.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af270a67f3645da4086a7a1bda17729d
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10005_5.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6d5bad38c5fa964595db00762e7a05f
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10044_44.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bdb927eceb0ce9d4c8c790fc1c650c41
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10003_3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0e10ee0c49cc7a40b418008df43f877
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10018_18.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c660186f68acde246a3624d75c9d59ea
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10038_38.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8c088d0591d63b4ab7608abedc60e8c
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10032_32.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca7a8651baa8fff43988372c27ec4737
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10004_4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da806b7549267c9469975fe670123b85
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10022_22.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbeb9469c3269b944b84ccb6d9590996
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10026_26.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea2fcbbfb63a1464ea7893c6a0542903
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10030_30.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edec782ffd81098458425f1ec7d78582
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10043_43.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edf344d44acbec942877180fceb8ed65
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10033_33.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1691c1239f787b42b3d26489c3b3fc6
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10035_35.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f20e507be928e7847ab443b7cbbcdd7a
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10000_0.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f31ee5561d2d7ad4f98d71f0368ffa6b
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10042_42.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5e4f180a70a535459d5f598a9c44235
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10014_14.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f974bd9d093e76d48bbb7d6552ca5508
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10037_37.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fcb302a6d7bdb504688fd183fe61d93b
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/Icons/10000_Weapons1/10046_46.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b631d96092f96e44c8799570322cd6c6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5520aef854a0b784ba591353e65a552a, type: 2}
+    - {fileID: 11400000, guid: 5ff42fd0a5eff4648b69fe5beab40abd, type: 2}
