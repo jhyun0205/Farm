@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ItemTable
   m_EditorClassIdentifier: Assembly-CSharp::Farm.GameData.Item.ItemTable
   _preloadCommands:
-  - rid: 5915455506376294590
+  - rid: 1540464695327588435
   _table:
   - _hash: 11766870585033640650
     _primarykey: "0\x1F\uAD2D\uC774"
@@ -204,7 +204,7 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 5915455506376294590
+    - rid: 1540464695327588435
       type: {class: 'AssetPreloadCommand`2[[UnityEngine.Sprite, UnityEngine.CoreModule],[Farm.GameData.SpriteRegistry, Assembly-CSharp]]', ns: CoreEngine.GameData, asm: CoreEngine}
       data:
         ids: 9f86010000000000

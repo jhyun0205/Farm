@@ -1,5 +1,6 @@
 {id/int/UNIQUE/NOT NULL},{name/string/UNIQUE/NOT NULL},{grade/enum/CHECK IN(0|1|2|3|Normal|Low|Mid|High)},{weight/int/NOT NULL/CHECK(VALUE > 0)}
 2000,Anchovy,0,1000
+2001,Bream,0,1000
 2100,Sea snake,1,100
 2200,Seahorse,2,10
 2300,Frog,3,1

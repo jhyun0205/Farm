@@ -37,7 +37,7 @@ public class CharacterTileChecker : BaseActorFeature, IActorFeature, ITick
 
         if(targetTilemap == null)
         {
-            LogHelper.LogWarning("targetTilemap 동적 관리 필요");
+            //LogHelper.LogWarning("targetTilemap 동적 관리 필요");
             return;
         }
 

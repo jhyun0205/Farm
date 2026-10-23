@@ -925,6 +925,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6029492968872524548, guid: 097515aff67c6624393d485da7979803, type: 3}
+      propertyPath: m_Type
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7381478271007220955, guid: 097515aff67c6624393d485da7979803, type: 3}
     m_RemovedGameObjects: []
@@ -10141,66 +10145,12 @@ MonoBehaviour:
   bar: {fileID: 480230803}
   targetBox: {fileID: 462043333}
   arrow: {fileID: 1876673921}
+  gaugeFillImage: {fileID: 944811634}
   targetBoxWidthRatio: 0.2
-  targetBoxSpeed: 0.2
-  arrowSpeed: 1.5
---- !u!1001 &786188202
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2660491773962496629, guid: 176f481974d777b45918e5c503c0d21b, type: 3}
-      propertyPath: m_Name
-      value: Tori
-      objectReference: {fileID: 0}
-    - target: {fileID: 7056573058341501588, guid: 176f481974d777b45918e5c503c0d21b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.59383
-      objectReference: {fileID: 0}
-    - target: {fileID: 7056573058341501588, guid: 176f481974d777b45918e5c503c0d21b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.15103
-      objectReference: {fileID: 0}
-    - target: {fileID: 7056573058341501588, guid: 176f481974d777b45918e5c503c0d21b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7056573058341501588, guid: 176f481974d777b45918e5c503c0d21b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7056573058341501588, guid: 176f481974d777b45918e5c503c0d21b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7056573058341501588, guid: 176f481974d777b45918e5c503c0d21b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7056573058341501588, guid: 176f481974d777b45918e5c503c0d21b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7056573058341501588, guid: 176f481974d777b45918e5c503c0d21b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7056573058341501588, guid: 176f481974d777b45918e5c503c0d21b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7056573058341501588, guid: 176f481974d777b45918e5c503c0d21b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 176f481974d777b45918e5c503c0d21b, type: 3}
+  targetBoxSpeed: 0.3
+  miniGameDuration: 20
+  successGaugeGain: 20
+  failGaugeLoss: 10
 --- !u!1001 &834083909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10258,6 +10208,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 273d4bb83d55b4b4aa9d167522436510, type: 3}
+--- !u!114 &944811634 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6029492968872524548, guid: 097515aff67c6624393d485da7979803, type: 3}
+  m_PrefabInstance: {fileID: 86112701}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1 &1130454099
 GameObject:
   m_ObjectHideFlags: 0
@@ -34358,4 +34319,3 @@ SceneRoots:
   - {fileID: 297942957}
   - {fileID: 6292144794035441961}
   - {fileID: 1767510111200194302}
-  - {fileID: 786188202}
