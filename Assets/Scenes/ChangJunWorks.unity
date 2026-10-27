@@ -10147,7 +10147,7 @@ MonoBehaviour:
   arrow: {fileID: 1876673921}
   gaugeFillImage: {fileID: 944811634}
   targetBoxWidthRatio: 0.2
-  targetBoxSpeed: 0.3
+  targetBoxSpeed: 1.5
   miniGameDuration: 20
   successGaugeGain: 20
   failGaugeLoss: 10

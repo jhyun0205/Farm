@@ -15,6 +15,8 @@ namespace Farm.Character.Move
 
         public bool IsSprint { get; private set; }
         private Rigidbody2D _rigidbody;
+        // 스테미너 확인용
+        private CharacterStaminaFeature staminaFeature;
 
         // 낚시 중 다른 액션 이동을 잠그는 용
         public bool canMove = true;
@@ -26,6 +28,7 @@ namespace Farm.Character.Move
             {
                 LogHelper.LogWarning($"[{Host?.name}]에 {nameof(Rigidbody2D)} 없음");
             }
+            Host.TryGetFeature(out staminaFeature);
         }
 
         public void FixedTick(float fixedDeltaTime)
@@ -76,6 +79,10 @@ namespace Farm.Character.Move
 
         public void SetSprint(bool isSprint)
         {
+            if (isSprint && staminaFeature != null && staminaFeature.CurStamina <= 0f)
+            {
+                isSprint = false; // 스테미너가 0이면 스프린트 요청 자체를 거부
+            }
             IsSprint = isSprint;
         }
     }

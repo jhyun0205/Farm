@@ -25,6 +25,8 @@ namespace Farm.Character
         [SerializeField] protected CharacterEggEncyclopedia eggEncyclopedia = new();
         [SerializeField] protected CharacterActionController actionController = new();
         [SerializeField] protected CharacterMoveFeature moveFeature = new();
+        [SerializeField] protected CharacterStaminaFeature staminaFeature = new();
+        [SerializeField] protected CharacterStaminaRing staminaRing = new();
         //[SerializeField] protected FishFeture fishFeature = new();
         #endregion
 
@@ -48,7 +50,9 @@ namespace Farm.Character
             FeatureHandler.RegisterFeature(eggEncyclopedia);
             FeatureHandler.RegisterFeature(tileChecker);
             FeatureHandler.RegisterFeature(actionController);
+            FeatureHandler.RegisterFeature(staminaFeature);
             FeatureHandler.RegisterFeature(moveFeature);
+            FeatureHandler.RegisterFeature(staminaRing);
             //FeatureHandler.RegisterFeature(fishFeature);
         }
 
