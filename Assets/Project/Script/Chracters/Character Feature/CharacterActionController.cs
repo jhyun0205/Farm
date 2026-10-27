@@ -69,7 +69,7 @@ namespace Farm.Character
             if (currentItem == null || currentItem.IsEmpty()) return;
 
             // ItemEffectTable에서 현재 들고 있는 아이템을 참조하는 모든 효과를 조회
-            if (_onAnimEffectTable.TryGetReferencingRecords(ItemEffectImmediateTable.INDEX_EFFECT, currentItem.Record, out var effects))
+            if (_immediateEffectTable.TryGetReferencingRecords(ItemEffectImmediateTable.INDEX_EFFECT, currentItem.Record, out var effects))
             {
                 for (int i = 0; i < effects.Count; i++)
                 {
