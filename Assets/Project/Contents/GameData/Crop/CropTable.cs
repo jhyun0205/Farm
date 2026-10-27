@@ -20,7 +20,7 @@ namespace Farm.GameData.Crop
         [TableColumn, SerializeField] private int daysToMaturity; // 수확까지 걸리는 날짜 (계산할때는 시간으로 환산)
 
         // 성장 리소스
-        [TableColumn, SerializeField] private AssetId<Sprite, SpriteRegistry>[] growthSpriteIds;
+        [TableColumn, SerializeField] private AssetId<Sprite, TempSpriteRegistry>[] growthSpriteIds;
 
         // 씨앗 아이템 참조
         [TableColumn, SerializeField] private int seedId;

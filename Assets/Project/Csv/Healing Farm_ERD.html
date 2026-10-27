@@ -406,22 +406,25 @@
     <div class="legend">
         <div class="legend-item"><span class="dot" style="background:#007ACC;"></span> 정상 테이블</div>
         <div class="legend-item"><span class="dot" style="background:#DC3545;"></span> 위반/유령</div>
+        <div class="legend-item"><span class="dot" style="background:transparent;border:2px solid #FFD700;"></span> 선택됨(강조)</div>
         <div class="legend-item"><span style="color:#FFD700;font-weight:bold;">🔑</span> PK</div>
         <div class="legend-item"><span style="color:#00FF66;font-weight:bold;">🔗</span> FK</div>
         <div class="legend-item"><span style="color:#00E5FF;font-weight:bold;">━━▶</span> 정상참조</div>
         <div class="legend-item"><span style="color:#FF4444;font-weight:bold;">┅┅▶</span> 깨진참조</div>
     </div>
-    <div id="stats-info">생성 시각: 2026-10-21 11:59:51</div>
+    <div id="stats-info">생성 시각: 2026-10-27 16:54:37</div>
 </div>
 
 <script>
-const rawData = {"project_name": "Healing Farm", "workspace_root": "C:\\Users\\ycjun\\OneDrive\\문서\\Projects\\Git\\Dairy Farm\\Assets\\Project\\Csv", "generated_at": "2026-10-21 11:59:51", "nodes": [{"id": "CropSeasonMulTable.csv", "label": "CropSeasonMulTable.csv", "rel_path": "Crop/Additional/CropSeasonMulTable.csv", "row_count": 4, "columns": [{"name": "season", "type": "enum", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": true, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "seasonMaxMul", "type": "float", "constraints": ["NOT NULL"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "offSeasonMaxMul", "type": "float", "constraints": ["NOT NULL"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}], "errors": [], "has_error": false, "is_isolated": false, "is_missing_target": false}, {"id": "CropTable.csv", "label": "CropTable.csv", "rel_path": "Crop/CropTable.csv", "row_count": 4, "columns": [{"name": "id", "type": "int", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": true, "is_fk": true, "fk_Targets": ["cropItemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "name", "type": "string", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": true, "is_fk": true, "fk_Targets": ["cropItemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "season", "type": "enum", "constraints": ["NOT NULL"], "is_pk": false, "is_fk": true, "fk_Targets": ["seasonMulFK ➔ CropSeasonMulTable.csv"], "is_schema": true}, {"name": "daysToMaturity", "type": "int", "constraints": ["NOT NULL"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "growthSpriteIds", "type": "AssetID[]", "constraints": ["NOT NULL"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "seedId", "type": "int", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": false, "is_fk": true, "fk_Targets": ["seedItemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "seedName", "type": "string", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": false, "is_fk": true, "fk_Targets": ["seedItemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "defaultYieldCount", "type": "int", "constraints": ["NOT NULL"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}], "errors": [], "has_error": false, "is_isolated": false, "is_missing_target": false}, {"id": "FishTable.csv", "label": "FishTable.csv", "rel_path": "Fish/FishTable.csv", "row_count": 4, "columns": [{"name": "id", "type": "int", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": true, "is_fk": true, "fk_Targets": ["fishItemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "name", "type": "string", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": true, "is_fk": true, "fk_Targets": ["fishItemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "grade", "type": "enum", "constraints": ["CHECK IN(0|1|2|3|Normal|Low|Mid|High)"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "weight", "type": "int", "constraints": ["NOT NULL", "CHECK(VALUE > 0)"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}], "errors": [], "has_error": false, "is_isolated": false, "is_missing_target": false}, {"id": "ItemDurableTable.csv", "label": "ItemDurableTable.csv", "rel_path": "Item/AdditionalTable/ItemDurableTable.csv", "row_count": 1, "columns": [{"name": "itemId", "type": "int", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": true, "is_fk": true, "fk_Targets": ["itemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "itemName", "type": "string", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": true, "is_fk": true, "fk_Targets": ["itemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "maxDurability", "type": "int", "constraints": ["CHECK(VALUE >= 1)"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}], "errors": [], "has_error": false, "is_isolated": false, "is_missing_target": false}, {"id": "ItemEffectImmediateTable.csv", "label": "ItemEffectImmediateTable.csv", "rel_path": "Item/AdditionalTable/ItemEffectImmediateTable.csv", "row_count": 0, "columns": [{"name": "itemId", "type": "int", "constraints": ["NOT NULL"], "is_pk": true, "is_fk": true, "fk_Targets": ["itemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "itemName", "type": "string", "constraints": ["NOT NULL"], "is_pk": true, "is_fk": true, "fk_Targets": ["itemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "itemEffectId", "type": "AssetID", "constraints": ["NOT NULL"], "is_pk": true, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "effectValues", "type": "int[]", "constraints": [], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}], "errors": [], "has_error": false, "is_isolated": false, "is_missing_target": false}, {"id": "ItemEffectOnAnimTable.csv", "label": "ItemEffectOnAnimTable.csv", "rel_path": "Item/AdditionalTable/ItemEffectOnAnimTable.csv", "row_count": 1, "columns": [{"name": "itemId", "type": "int", "constraints": ["NOT NULL"], "is_pk": true, "is_fk": true, "fk_Targets": ["itemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "itemName", "type": "string", "constraints": ["NOT NULL"], "is_pk": true, "is_fk": true, "fk_Targets": ["itemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "index", "type": "int", "constraints": ["NOT NULL", "CHECK(VALUE >= 0)"], "is_pk": true, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "itemEffectId", "type": "AssetID", "constraints": ["NOT NULL"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "effectValues", "type": "int[]", "constraints": [], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}], "errors": [], "has_error": false, "is_isolated": false, "is_missing_target": false}, {"id": "ItemTable.csv", "label": "ItemTable.csv", "rel_path": "Item/ItemTable.csv", "row_count": 18, "columns": [{"name": "id", "type": "int", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": true, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "name", "type": "string", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": true, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "description", "type": "string", "constraints": ["NOT NULL"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "itemSpriteId", "type": "AssetID", "constraints": ["NOT NULL"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "maxStack", "type": "int", "constraints": ["CHECK(VALUE >= 0 AND VALUE <= 99)"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "sellPrice", "type": "int", "constraints": ["CHECK(VALUE >= 0)"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "itemType", "type": "enum", "constraints": ["DEFAULT(0)", "CHECK IN(0|1|2)"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}], "errors": [], "has_error": false, "is_isolated": false, "is_missing_target": false}, {"id": "ItemUseRuleSetTable.csv", "label": "ItemUseRuleSetTable.csv", "rel_path": "Item/AdditionalTable/ItemUseRuleSetTable.csv", "row_count": 0, "columns": [{"name": "itemId", "type": "int", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": true, "is_fk": true, "fk_Targets": ["itemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "itemName", "type": "string", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": true, "is_fk": true, "fk_Targets": ["itemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "requirements", "type": "AssetID[]", "constraints": ["CHECK(VALUE >= 0)"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "restrictions", "type": "AssetID[]", "constraints": ["CHECK(VALUE >= 0)"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}], "errors": [], "has_error": false, "is_isolated": false, "is_missing_target": false}], "edges": [{"id": "edge_0", "from": "CropTable.csv", "to": "CropSeasonMulTable.csv", "fk_name": "seasonMulFK", "local_cols": ["season"], "target_cols": ["season"], "is_valid": true, "error_msg": ""}, {"id": "edge_1", "from": "CropTable.csv", "to": "ItemTable.csv", "fk_name": "seedItemFK", "local_cols": ["seedId", "seedName"], "target_cols": ["id", "name"], "is_valid": true, "error_msg": ""}, {"id": "edge_2", "from": "CropTable.csv", "to": "ItemTable.csv", "fk_name": "cropItemFK", "local_cols": ["id", "name"], "target_cols": ["id", "name"], "is_valid": true, "error_msg": ""}, {"id": "edge_3", "from": "FishTable.csv", "to": "ItemTable.csv", "fk_name": "fishItemFK", "local_cols": ["id", "name"], "target_cols": ["id", "name"], "is_valid": true, "error_msg": ""}, {"id": "edge_4", "from": "ItemDurableTable.csv", "to": "ItemTable.csv", "fk_name": "itemFK", "local_cols": ["itemId", "itemName"], "target_cols": ["id", "name"], "is_valid": true, "error_msg": ""}, {"id": "edge_5", "from": "ItemEffectImmediateTable.csv", "to": "ItemTable.csv", "fk_name": "itemFK", "local_cols": ["itemId", "itemName"], "target_cols": ["id", "name"], "is_valid": true, "error_msg": ""}, {"id": "edge_6", "from": "ItemEffectOnAnimTable.csv", "to": "ItemTable.csv", "fk_name": "itemFK", "local_cols": ["itemId", "itemName"], "target_cols": ["id", "name"], "is_valid": true, "error_msg": ""}, {"id": "edge_7", "from": "ItemUseRuleSetTable.csv", "to": "ItemTable.csv", "fk_name": "itemFK", "local_cols": ["itemId", "itemName"], "target_cols": ["id", "name"], "is_valid": true, "error_msg": ""}]};
+const rawData = {"project_name": "Healing Farm", "workspace_root": "C:\\Users\\ycjun\\OneDrive\\문서\\Projects\\Git\\Dairy Farm\\Assets\\Project\\Csv", "generated_at": "2026-10-27 16:54:37", "nodes": [{"id": "CropSeasonMulTable.csv", "label": "CropSeasonMulTable.csv", "rel_path": "Crop/Additional/CropSeasonMulTable.csv", "row_count": 4, "columns": [{"name": "season", "type": "enum", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": true, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "seasonMaxMul", "type": "float", "constraints": ["NOT NULL"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "offSeasonMaxMul", "type": "float", "constraints": ["NOT NULL"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}], "errors": [], "has_error": false, "is_isolated": false, "is_missing_target": false}, {"id": "CropTable.csv", "label": "CropTable.csv", "rel_path": "Crop/CropTable.csv", "row_count": 4, "columns": [{"name": "id", "type": "int", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": true, "is_fk": true, "fk_Targets": ["cropItemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "name", "type": "string", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": true, "is_fk": true, "fk_Targets": ["cropItemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "season", "type": "enum", "constraints": ["NOT NULL"], "is_pk": false, "is_fk": true, "fk_Targets": ["seasonMulFK ➔ CropSeasonMulTable.csv"], "is_schema": true}, {"name": "daysToMaturity", "type": "int", "constraints": ["NOT NULL"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "growthSpriteIds", "type": "AssetID[]", "constraints": ["NOT NULL"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "seedId", "type": "int", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": false, "is_fk": true, "fk_Targets": ["seedItemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "seedName", "type": "string", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": false, "is_fk": true, "fk_Targets": ["seedItemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "defaultYieldCount", "type": "int", "constraints": ["NOT NULL"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}], "errors": [], "has_error": false, "is_isolated": false, "is_missing_target": false}, {"id": "FishTable.csv", "label": "FishTable.csv", "rel_path": "Fish/FishTable.csv", "row_count": 4, "columns": [{"name": "id", "type": "int", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": true, "is_fk": true, "fk_Targets": ["fishItemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "name", "type": "string", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": true, "is_fk": true, "fk_Targets": ["fishItemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "grade", "type": "enum", "constraints": ["CHECK IN(0|1|2|3|Normal|Low|Mid|High)"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "weight", "type": "int", "constraints": ["NOT NULL", "CHECK(VALUE > 0)"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}], "errors": [], "has_error": false, "is_isolated": false, "is_missing_target": false}, {"id": "ItemDurableTable.csv", "label": "ItemDurableTable.csv", "rel_path": "Item/AdditionalTable/ItemDurableTable.csv", "row_count": 1, "columns": [{"name": "itemId", "type": "int", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": true, "is_fk": true, "fk_Targets": ["itemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "itemName", "type": "string", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": true, "is_fk": true, "fk_Targets": ["itemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "maxDurability", "type": "int", "constraints": ["CHECK(VALUE >= 1)"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}], "errors": [], "has_error": false, "is_isolated": false, "is_missing_target": false}, {"id": "ItemEffectImmediateTable.csv", "label": "ItemEffectImmediateTable.csv", "rel_path": "Item/AdditionalTable/ItemEffectImmediateTable.csv", "row_count": 0, "columns": [{"name": "itemId", "type": "int", "constraints": ["NOT NULL"], "is_pk": true, "is_fk": true, "fk_Targets": ["itemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "itemName", "type": "string", "constraints": ["NOT NULL"], "is_pk": true, "is_fk": true, "fk_Targets": ["itemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "itemEffectId", "type": "AssetID", "constraints": ["NOT NULL"], "is_pk": true, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "effectValues", "type": "int[]", "constraints": [], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}], "errors": [], "has_error": false, "is_isolated": false, "is_missing_target": false}, {"id": "ItemEffectOnAnimTable.csv", "label": "ItemEffectOnAnimTable.csv", "rel_path": "Item/AdditionalTable/ItemEffectOnAnimTable.csv", "row_count": 1, "columns": [{"name": "itemId", "type": "int", "constraints": ["NOT NULL"], "is_pk": true, "is_fk": true, "fk_Targets": ["itemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "itemName", "type": "string", "constraints": ["NOT NULL"], "is_pk": true, "is_fk": true, "fk_Targets": ["itemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "index", "type": "int", "constraints": ["NOT NULL", "CHECK(VALUE >= 0)"], "is_pk": true, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "itemEffectId", "type": "AssetID", "constraints": ["NOT NULL"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "effectValues", "type": "int[]", "constraints": [], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}], "errors": [], "has_error": false, "is_isolated": false, "is_missing_target": false}, {"id": "ItemTable.csv", "label": "ItemTable.csv", "rel_path": "Item/ItemTable.csv", "row_count": 18, "columns": [{"name": "id", "type": "int", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": true, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "name", "type": "string", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": true, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "description", "type": "string", "constraints": ["NOT NULL"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "itemSpriteId", "type": "AssetID", "constraints": ["NOT NULL"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "maxStack", "type": "int", "constraints": ["CHECK(VALUE >= 0 AND VALUE <= 99)"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "sellPrice", "type": "int", "constraints": ["CHECK(VALUE >= 0)"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "itemType", "type": "enum", "constraints": ["DEFAULT(0)", "CHECK IN(0|1|2)"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}], "errors": [], "has_error": false, "is_isolated": false, "is_missing_target": false}, {"id": "ItemUseRuleSetTable.csv", "label": "ItemUseRuleSetTable.csv", "rel_path": "Item/AdditionalTable/ItemUseRuleSetTable.csv", "row_count": 0, "columns": [{"name": "itemId", "type": "int", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": true, "is_fk": true, "fk_Targets": ["itemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "itemName", "type": "string", "constraints": ["UNIQUE", "NOT NULL"], "is_pk": true, "is_fk": true, "fk_Targets": ["itemFK ➔ ItemTable.csv"], "is_schema": true}, {"name": "requirements", "type": "AssetID[]", "constraints": ["CHECK(VALUE >= 0)"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}, {"name": "restrictions", "type": "AssetID[]", "constraints": ["CHECK(VALUE >= 0)"], "is_pk": false, "is_fk": false, "fk_Targets": [], "is_schema": true}], "errors": [], "has_error": false, "is_isolated": false, "is_missing_target": false}], "edges": [{"id": "edge_0", "from": "CropTable.csv", "to": "CropSeasonMulTable.csv", "fk_name": "seasonMulFK", "local_cols": ["season"], "target_cols": ["season"], "is_valid": true, "error_msg": ""}, {"id": "edge_1", "from": "CropTable.csv", "to": "ItemTable.csv", "fk_name": "seedItemFK", "local_cols": ["seedId", "seedName"], "target_cols": ["id", "name"], "is_valid": true, "error_msg": ""}, {"id": "edge_2", "from": "CropTable.csv", "to": "ItemTable.csv", "fk_name": "cropItemFK", "local_cols": ["id", "name"], "target_cols": ["id", "name"], "is_valid": true, "error_msg": ""}, {"id": "edge_3", "from": "FishTable.csv", "to": "ItemTable.csv", "fk_name": "fishItemFK", "local_cols": ["id", "name"], "target_cols": ["id", "name"], "is_valid": true, "error_msg": ""}, {"id": "edge_4", "from": "ItemDurableTable.csv", "to": "ItemTable.csv", "fk_name": "itemFK", "local_cols": ["itemId", "itemName"], "target_cols": ["id", "name"], "is_valid": true, "error_msg": ""}, {"id": "edge_5", "from": "ItemEffectImmediateTable.csv", "to": "ItemTable.csv", "fk_name": "itemFK", "local_cols": ["itemId", "itemName"], "target_cols": ["id", "name"], "is_valid": true, "error_msg": ""}, {"id": "edge_6", "from": "ItemEffectOnAnimTable.csv", "to": "ItemTable.csv", "fk_name": "itemFK", "local_cols": ["itemId", "itemName"], "target_cols": ["id", "name"], "is_valid": true, "error_msg": ""}, {"id": "edge_7", "from": "ItemUseRuleSetTable.csv", "to": "ItemTable.csv", "fk_name": "itemFK", "local_cols": ["itemId", "itemName"], "target_cols": ["id", "name"], "is_valid": true, "error_msg": ""}]};
 
 let network = null;
 let nodesDataset = null;
 let edgesDataset = null;
-// 💡 모바일 브라우저의 합성(Ghost) 클릭으로 인해 열리자마자 닫히는 현상을 막기 위한 시각 기록
 let panelOpenedAt = 0;
+// 💡 현재 선택된 테이블(Node) 및 참조 화살표(Edge) ID를 모두 추적
+let selectedNodeId = null;
+let selectedEdgeId = null;
 
 function escapeXml(unsafe) {
     return String(unsafe)
@@ -439,13 +442,45 @@ function toggleOptions() {
 }
 
 function onOverlayClick(e) {
-    // 정보창이 열린 직후 400ms 이내에 들어오는 모바일 합성 click 이벤트는 무시
     if (Date.now() - panelOpenedAt < 400) {
         if (e && e.cancelable) e.preventDefault();
         if (e && e.stopPropagation) e.stopPropagation();
         return;
     }
     closeInfoPanel();
+}
+
+function setSelectedNodeHighlight(nextNodeId) {
+    if (!nodesDataset) {
+        selectedNodeId = nextNodeId;
+        return;
+    }
+    const level = parseInt(document.getElementById("levelSelect").value, 10);
+    const prevNodeId = selectedNodeId;
+    selectedNodeId = nextNodeId;
+
+    const updates = [];
+    if (prevNodeId && prevNodeId !== nextNodeId && nodesDataset.get(prevNodeId)) {
+        const prevNodeData = rawData.nodes.find(n => n.id === prevNodeId);
+        if (prevNodeData) {
+            updates.push({
+                id: prevNodeId,
+                image: buildNodeSvg(prevNodeData, level, false)
+            });
+        }
+    }
+    if (nextNodeId && nodesDataset.get(nextNodeId)) {
+        const nextNodeData = rawData.nodes.find(n => n.id === nextNodeId);
+        if (nextNodeData) {
+            updates.push({
+                id: nextNodeId,
+                image: buildNodeSvg(nextNodeData, level, true)
+            });
+        }
+    }
+    if (updates.length > 0) {
+        nodesDataset.update(updates);
+    }
 }
 
 function closeInfoPanel() {
@@ -456,10 +491,12 @@ function closeInfoPanel() {
 
     document.getElementById("infoPanel").classList.remove("open");
     document.getElementById("overlay").classList.remove("show");
+    selectedEdgeId = null;
+    setSelectedNodeHighlight(null);
     if (network) network.unselectAll();
 }
 
-function buildNodeSvg(node, level) {
+function buildNodeSvg(node, level, isSelected = false) {
     const rows = [];
     const cols = node.columns || [];
 
@@ -507,12 +544,13 @@ function buildNodeSvg(node, level) {
     const height = headerHeight + bodyHeight;
 
     const headerBg = node.is_missing_target ? "#8B0000" : (node.has_error ? "#C9302C" : "#007ACC");
-    const borderCol = node.has_error ? "#FF4444" : "#3E3E42";
-    const borderWidth = node.has_error ? 3 : 2;
+    const borderCol = isSelected ? "#FFD700" : (node.has_error ? "#FF4444" : "#3E3E42");
+    const borderWidth = isSelected ? 4.5 : (node.has_error ? 3 : 2);
 
     let svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">`;
-    svg += `<rect x="1" y="1" width="${width-2}" height="${height-2}" rx="8" ry="8" fill="#252526" stroke="${borderCol}" stroke-width="${borderWidth}"/>`;
-    svg += `<path d="M 1 9 Q 1 1 9 1 L ${width-9} 1 Q ${width-1} 1 ${width-1} 9 L ${width-1} ${headerHeight} L 1 ${headerHeight} Z" fill="${headerBg}"/>`;
+    svg += `<rect x="2" y="2" width="${width-4}" height="${height-4}" rx="8" ry="8" fill="#252526"/>`;
+    svg += `<path d="M 2 10 Q 2 2 10 2 L ${width-10} 2 Q ${width-2} 2 ${width-2} 10 L ${width-2} ${headerHeight} L 2 ${headerHeight} Z" fill="${headerBg}"/>`;
+    svg += `<rect x="2" y="2" width="${width-4}" height="${height-4}" rx="8" ry="8" fill="none" stroke="${borderCol}" stroke-width="${borderWidth}"/>`;
     svg += `<text x="14" y="24" fill="#FFFFFF" font-family="Consolas, Malgun Gothic, sans-serif" font-size="14" font-weight="bold">${escapeXml(titleText)}</text>`;
 
     let y = headerHeight + 22;
@@ -658,7 +696,6 @@ function setupDirectInputController(container) {
             holdTimer = setTimeout(function() {
                 if (isPointerDown && activeNodeId !== null) {
                     isDragConfirmed = true;
-                    network.selectNodes([activeNodeId]);
                 }
             }, NODE_TAP_MAX_MS);
 
@@ -750,7 +787,6 @@ function setupDirectInputController(container) {
             const targetEdge = activeEdgeId || findEdgeNearDomPos(lastDomPos, usingTouch ? EDGE_HIT_RADIUS : 10);
             activeEdgeId = null;
             if (targetEdge !== null && targetEdge !== undefined) {
-                // 💡 [핵심 수정] 짧은 터치 시 브라우저가 뒤늦게 발생시키는 합성 click 이벤트를 원천 차단
                 if (rawEvent && rawEvent.cancelable) {
                     rawEvent.preventDefault();
                 }
@@ -848,7 +884,7 @@ function initGraph() {
         nodes: {
             shape: "image",
             shapeProperties: { useImageSize: true },
-            chosen: true
+            chosen: false
         },
         edges: {
             arrows: { to: { enabled: true, scaleFactor: 1.0 } },
@@ -872,6 +908,7 @@ function initGraph() {
             dragView: true,
             zoomView: true,
             hover: false,
+            selectConnectedEdges: false,
             navigationButtons: false,
             keyboard: true
         }
@@ -901,7 +938,7 @@ function updateGraphLevel() {
         if (hideIsolated && n.is_isolated) continue;
         updatedNodes.push({
             id: n.id,
-            image: buildNodeSvg(n, level),
+            image: buildNodeSvg(n, level, n.id === selectedNodeId),
             title: undefined 
         });
     }
@@ -951,8 +988,30 @@ function updateGraphLevel() {
             width: e.is_valid ? 2.5 : 3.5
         });
     }
-    edgesDataset.clear();
-    edgesDataset.add(updatedEdges);
+
+    // 💡 edgesDataset.clear() 대신 부분 업데이트를 사용하여 선택 상태 증발 방지
+    const currentEdgeIds = new Set(updatedEdges.map(e => e.id));
+    const existingEdgeIds = edgesDataset.getIds();
+    const edgesToRemove = existingEdgeIds.filter(id => !currentEdgeIds.has(id));
+    if (edgesToRemove.length > 0) edgesDataset.remove(edgesToRemove);
+    edgesDataset.update(updatedEdges);
+
+    // 💡 표시 단계 변경 후에도 참조 화살표(또는 테이블) 하이라이트 선택 상태를 그대로 복원
+    if (network) {
+        if (selectedEdgeId) {
+            if (edgesDataset.get(selectedEdgeId)) {
+                network.selectEdges([selectedEdgeId]);
+            } else {
+                closeInfoPanel();
+            }
+        } else if (selectedNodeId) {
+            if (nodesDataset.get(selectedNodeId)) {
+                network.selectNodes([selectedNodeId]);
+            } else {
+                closeInfoPanel();
+            }
+        }
+    }
     
     if (window.innerWidth <= 900) {
         document.getElementById("optionsPanel").classList.remove("show");
@@ -962,6 +1021,9 @@ function updateGraphLevel() {
 function renderSidebar(nodeId) {
     const node = rawData.nodes.find(n => n.id === nodeId);
     if (!node) return;
+
+    selectedEdgeId = null;
+    setSelectedNodeHighlight(nodeId);
 
     document.querySelector('.info-panel h3').innerHTML = `📌 ${escapeXml(node.label)}`;
     document.getElementById('sb-path').innerHTML = `상대 경로: ${escapeXml(node.rel_path)}`;
@@ -1020,6 +1082,10 @@ function renderSidebar(nodeId) {
 function renderEdgeSidebar(edgeId) {
     const edge = rawData.edges.find(e => e.id === edgeId);
     if (!edge) return;
+
+    // 💡 현재 선택된 화살표 ID를 저장하고 테이블 테두리 하이라이트 해제
+    selectedEdgeId = edgeId;
+    setSelectedNodeHighlight(null);
 
     document.querySelector('.info-panel h3').innerHTML = `🔗 참조 무결성 연결 (FK)`;
     document.getElementById('sb-path').innerHTML = `<span style="color:#00E5FF;">${escapeXml(edge.from)}</span> ➔ <span style="color:#FFD700;">${escapeXml(edge.to)}</span>`;

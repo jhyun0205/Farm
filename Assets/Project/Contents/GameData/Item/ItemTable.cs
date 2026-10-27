@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace Farm.GameData.Item
 {
-    using ItemSpriteId = AssetId<Sprite, SpriteRegistry>;
+    using ItemSpriteId = AssetId<Sprite, TempSpriteRegistry>;
 
     public enum ItemType
     {

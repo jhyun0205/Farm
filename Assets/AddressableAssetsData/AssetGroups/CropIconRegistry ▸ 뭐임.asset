@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: "CropIconRegistry \u25B8 \uBB50\uC784"
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: "CropIconRegistry \u25B8 \uBB50\uC784"
+  m_GUID: 319446846eff69344bbd9487ded0c6f8
+  m_SerializeEntries:
+  - m_GUID: 05a8b35fb1f85dd418e82c67972c795b
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1900_\uBB50\uC784/1900_Crops_56.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e4de21efab1e1840a4f905323acdfaf
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1900_\uBB50\uC784/1902_Crops_58.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31ba5a8b9f1b1e84caeb1e9cfdf37ebd
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1900_\uBB50\uC784/1903_Crops_59.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41d098edb224d3e438a2f31acd3ba593
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1900_\uBB50\uC784/1904_Crops_60.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b1dde8c0eed0e34c8a1786d5b01be61
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1900_\uBB50\uC784/1901_Crops_57.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8edd67341d2110d49a9798ffcbc6c8c6
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1900_\uBB50\uC784/1906_Crops_62.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b86761446d1858b46a3cfec0fc8d0ae0
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1900_\uBB50\uC784/1907_Crops_63.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee7ff9e5e68c55c4a94c1ae3f393e581
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1900_\uBB50\uC784/1905_Crops_61.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b631d96092f96e44c8799570322cd6c6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c53cbec4220223d4298d2c46330dfea4, type: 2}
+    - {fileID: 11400000, guid: fa60974a879115741a726cba34f75c4c, type: 2}

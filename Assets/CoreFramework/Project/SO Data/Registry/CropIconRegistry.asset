@@ -1,0 +1,652 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f595a0f9f0e790d48b2ed07423a82253, type: 3}
+  m_Name: CropIconRegistry
+  m_EditorClassIdentifier: Assembly-CSharp::Farm.GameData.CropIconRegistry
+  _baseDirectory: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry
+  _entries:
+  - Id: 1000
+    PathDetail: 1000_Apple/1000_Crops_16.asset
+  - Id: 1001
+    PathDetail: 1000_Apple/1001_Crops_17.asset
+  - Id: 1002
+    PathDetail: 1000_Apple/1002_Crops_18.asset
+  - Id: 1003
+    PathDetail: 1000_Apple/1003_Crops_19.asset
+  - Id: 1004
+    PathDetail: 1000_Apple/1004_Crops_20.asset
+  - Id: 1005
+    PathDetail: 1000_Apple/1005_Crops_21.asset
+  - Id: 1006
+    PathDetail: 1000_Apple/1006_Crops_22.asset
+  - Id: 1007
+    PathDetail: 1000_Apple/1007_Crops_23.asset
+  - Id: 1100
+    PathDetail: 1100_Banana/1100_Crops_10.asset
+  - Id: 1101
+    PathDetail: 1100_Banana/1101_Crops_11.asset
+  - Id: 1102
+    PathDetail: 1100_Banana/1102_Crops_12.asset
+  - Id: 1103
+    PathDetail: 1100_Banana/1103_Crops_13.asset
+  - Id: 1104
+    PathDetail: 1100_Banana/1104_Crops_14.asset
+  - Id: 1105
+    PathDetail: 1100_Banana/1105_Crops_15.asset
+  - Id: 1106
+    PathDetail: 1100_Banana/1106_Crops_8.asset
+  - Id: 1107
+    PathDetail: 1100_Banana/1107_Crops_9.asset
+  - Id: 1200
+    PathDetail: 1200_Pumpkin/1200_Crops_64.asset
+  - Id: 1201
+    PathDetail: 1200_Pumpkin/1201_Crops_65.asset
+  - Id: 1202
+    PathDetail: 1200_Pumpkin/1202_Crops_66.asset
+  - Id: 1203
+    PathDetail: 1200_Pumpkin/1203_Crops_67.asset
+  - Id: 1204
+    PathDetail: 1200_Pumpkin/1204_Crops_68.asset
+  - Id: 1205
+    PathDetail: 1200_Pumpkin/1205_Crops_69.asset
+  - Id: 1206
+    PathDetail: 1200_Pumpkin/1206_Crops_70.asset
+  - Id: 1207
+    PathDetail: 1200_Pumpkin/1207_Crops_71.asset
+  - Id: 1300
+    PathDetail: 1300_StrawBerry/1300_Crops_48.asset
+  - Id: 1301
+    PathDetail: 1300_StrawBerry/1301_Crops_49.asset
+  - Id: 1302
+    PathDetail: 1300_StrawBerry/1302_Crops_50.asset
+  - Id: 1303
+    PathDetail: 1300_StrawBerry/1303_Crops_51.asset
+  - Id: 1304
+    PathDetail: 1300_StrawBerry/1304_Crops_52.asset
+  - Id: 1305
+    PathDetail: 1300_StrawBerry/1305_Crops_53.asset
+  - Id: 1306
+    PathDetail: 1300_StrawBerry/1306_Crops_54.asset
+  - Id: 1307
+    PathDetail: 1300_StrawBerry/1307_Crops_55.asset
+  - Id: 1400
+    PathDetail: 1400_Tomato/1400_Crops_0.asset
+  - Id: 1401
+    PathDetail: 1400_Tomato/1401_Crops_1.asset
+  - Id: 1402
+    PathDetail: 1400_Tomato/1402_Crops_2.asset
+  - Id: 1403
+    PathDetail: 1400_Tomato/1403_Crops_3.asset
+  - Id: 1404
+    PathDetail: 1400_Tomato/1404_Crops_4.asset
+  - Id: 1405
+    PathDetail: 1400_Tomato/1405_Crops_5.asset
+  - Id: 1406
+    PathDetail: 1400_Tomato/1406_Crops_6.asset
+  - Id: 1407
+    PathDetail: 1400_Tomato/1407_Crops_7.asset
+  - Id: 1500
+    PathDetail: "1500_\uAC10\uC790/1500_Crops_100.asset"
+  - Id: 1501
+    PathDetail: "1500_\uAC10\uC790/1501_Crops_101.asset"
+  - Id: 1502
+    PathDetail: "1500_\uAC10\uC790/1502_Crops_102.asset"
+  - Id: 1503
+    PathDetail: "1500_\uAC10\uC790/1503_Crops_103.asset"
+  - Id: 1504
+    PathDetail: "1500_\uAC10\uC790/1504_Crops_96.asset"
+  - Id: 1505
+    PathDetail: "1500_\uAC10\uC790/1505_Crops_97.asset"
+  - Id: 1506
+    PathDetail: "1500_\uAC10\uC790/1506_Crops_98.asset"
+  - Id: 1507
+    PathDetail: "1500_\uAC10\uC790/1507_Crops_99.asset"
+  - Id: 1600
+    PathDetail: "1600_\uADE4/1600_Crops_32.asset"
+  - Id: 1601
+    PathDetail: "1600_\uADE4/1601_Crops_33.asset"
+  - Id: 1602
+    PathDetail: "1600_\uADE4/1602_Crops_34.asset"
+  - Id: 1603
+    PathDetail: "1600_\uADE4/1603_Crops_35.asset"
+  - Id: 1604
+    PathDetail: "1600_\uADE4/1604_Crops_36.asset"
+  - Id: 1605
+    PathDetail: "1600_\uADE4/1605_Crops_37.asset"
+  - Id: 1606
+    PathDetail: "1600_\uADE4/1606_Crops_38.asset"
+  - Id: 1607
+    PathDetail: "1600_\uADE4/1607_Crops_39.asset"
+  - Id: 1700
+    PathDetail: "1700_\uB300\uD30C/1700_Crops_72.asset"
+  - Id: 1701
+    PathDetail: "1700_\uB300\uD30C/1701_Crops_73.asset"
+  - Id: 1702
+    PathDetail: "1700_\uB300\uD30C/1702_Crops_74.asset"
+  - Id: 1703
+    PathDetail: "1700_\uB300\uD30C/1703_Crops_75.asset"
+  - Id: 1704
+    PathDetail: "1700_\uB300\uD30C/1704_Crops_76.asset"
+  - Id: 1705
+    PathDetail: "1700_\uB300\uD30C/1705_Crops_77.asset"
+  - Id: 1706
+    PathDetail: "1700_\uB300\uD30C/1706_Crops_78.asset"
+  - Id: 1707
+    PathDetail: "1700_\uB300\uD30C/1707_Crops_79.asset"
+  - Id: 1800
+    PathDetail: "1800_\uBAB0\uB8E8/1800_Crops_40.asset"
+  - Id: 1801
+    PathDetail: "1800_\uBAB0\uB8E8/1801_Crops_41.asset"
+  - Id: 1802
+    PathDetail: "1800_\uBAB0\uB8E8/1802_Crops_42.asset"
+  - Id: 1803
+    PathDetail: "1800_\uBAB0\uB8E8/1803_Crops_43.asset"
+  - Id: 1804
+    PathDetail: "1800_\uBAB0\uB8E8/1804_Crops_44.asset"
+  - Id: 1805
+    PathDetail: "1800_\uBAB0\uB8E8/1805_Crops_45.asset"
+  - Id: 1806
+    PathDetail: "1800_\uBAB0\uB8E8/1806_Crops_46.asset"
+  - Id: 1807
+    PathDetail: "1800_\uBAB0\uB8E8/1807_Crops_47.asset"
+  - Id: 1900
+    PathDetail: "1900_\uBB50\uC784/1900_Crops_56.asset"
+  - Id: 1901
+    PathDetail: "1900_\uBB50\uC784/1901_Crops_57.asset"
+  - Id: 1902
+    PathDetail: "1900_\uBB50\uC784/1902_Crops_58.asset"
+  - Id: 1903
+    PathDetail: "1900_\uBB50\uC784/1903_Crops_59.asset"
+  - Id: 1904
+    PathDetail: "1900_\uBB50\uC784/1904_Crops_60.asset"
+  - Id: 1905
+    PathDetail: "1900_\uBB50\uC784/1905_Crops_61.asset"
+  - Id: 1906
+    PathDetail: "1900_\uBB50\uC784/1906_Crops_62.asset"
+  - Id: 1907
+    PathDetail: "1900_\uBB50\uC784/1907_Crops_63.asset"
+  - Id: 2000
+    PathDetail: "2000_\uBCF5\uC22D\uC544\uC77C\uC9C0\uB3C4/2000_Crops_80.asset"
+  - Id: 2001
+    PathDetail: "2000_\uBCF5\uC22D\uC544\uC77C\uC9C0\uB3C4/2001_Crops_81.asset"
+  - Id: 2002
+    PathDetail: "2000_\uBCF5\uC22D\uC544\uC77C\uC9C0\uB3C4/2002_Crops_82.asset"
+  - Id: 2003
+    PathDetail: "2000_\uBCF5\uC22D\uC544\uC77C\uC9C0\uB3C4/2003_Crops_83.asset"
+  - Id: 2004
+    PathDetail: "2000_\uBCF5\uC22D\uC544\uC77C\uC9C0\uB3C4/2004_Crops_84.asset"
+  - Id: 2005
+    PathDetail: "2000_\uBCF5\uC22D\uC544\uC77C\uC9C0\uB3C4/2005_Crops_85.asset"
+  - Id: 2006
+    PathDetail: "2000_\uBCF5\uC22D\uC544\uC77C\uC9C0\uB3C4/2006_Crops_86.asset"
+  - Id: 2007
+    PathDetail: "2000_\uBCF5\uC22D\uC544\uC77C\uC9C0\uB3C4/2007_Crops_87.asset"
+  - Id: 2100
+    PathDetail: "2100_\uC300/2100_Crops_214.asset"
+  - Id: 2101
+    PathDetail: "2100_\uC300/2101_Crops_215.asset"
+  - Id: 2102
+    PathDetail: "2100_\uC300/2102_Crops_216.asset"
+  - Id: 2103
+    PathDetail: "2100_\uC300/2103_Crops_217.asset"
+  - Id: 2104
+    PathDetail: "2100_\uC300/2104_Crops_218.asset"
+  - Id: 2105
+    PathDetail: "2100_\uC300/2105_Crops_219.asset"
+  - Id: 2106
+    PathDetail: "2100_\uC300/2106_Crops_220.asset"
+  - Id: 2107
+    PathDetail: "2100_\uC300/2107_Crops_221.asset"
+  - Id: 2200
+    PathDetail: "2200_\uC774\uAC74 \uBB50\uC9C0/2200_Crops_24.asset"
+  - Id: 2201
+    PathDetail: "2200_\uC774\uAC74 \uBB50\uC9C0/2201_Crops_25.asset"
+  - Id: 2202
+    PathDetail: "2200_\uC774\uAC74 \uBB50\uC9C0/2202_Crops_26.asset"
+  - Id: 2203
+    PathDetail: "2200_\uC774\uAC74 \uBB50\uC9C0/2203_Crops_27.asset"
+  - Id: 2204
+    PathDetail: "2200_\uC774\uAC74 \uBB50\uC9C0/2204_Crops_28.asset"
+  - Id: 2205
+    PathDetail: "2200_\uC774\uAC74 \uBB50\uC9C0/2205_Crops_29.asset"
+  - Id: 2206
+    PathDetail: "2200_\uC774\uAC74 \uBB50\uC9C0/2206_Crops_30.asset"
+  - Id: 2207
+    PathDetail: "2200_\uC774\uAC74 \uBB50\uC9C0/2207_Crops_31.asset"
+  - Id: 2300
+    PathDetail: "2300_\uD3EC\uB3C4/2300_Crops_88.asset"
+  - Id: 2301
+    PathDetail: "2300_\uD3EC\uB3C4/2301_Crops_89.asset"
+  - Id: 2302
+    PathDetail: "2300_\uD3EC\uB3C4/2302_Crops_90.asset"
+  - Id: 2303
+    PathDetail: "2300_\uD3EC\uB3C4/2303_Crops_91.asset"
+  - Id: 2304
+    PathDetail: "2300_\uD3EC\uB3C4/2304_Crops_92.asset"
+  - Id: 2305
+    PathDetail: "2300_\uD3EC\uB3C4/2305_Crops_93.asset"
+  - Id: 2306
+    PathDetail: "2300_\uD3EC\uB3C4/2306_Crops_94.asset"
+  - Id: 2307
+    PathDetail: "2300_\uD3EC\uB3C4/2307_Crops_95.asset"
+  - Id: 2400
+    PathDetail: "2400_\uD1A0\uB9C8\uD1A0/2400_Crops_104.asset"
+  - Id: 2401
+    PathDetail: "2400_\uD1A0\uB9C8\uD1A0/2401_Crops_105.asset"
+  - Id: 2402
+    PathDetail: "2400_\uD1A0\uB9C8\uD1A0/2402_Crops_106.asset"
+  - Id: 2403
+    PathDetail: "2400_\uD1A0\uB9C8\uD1A0/2403_Crops_107.asset"
+  - Id: 2404
+    PathDetail: "2400_\uD1A0\uB9C8\uD1A0/2404_Crops_108.asset"
+  - Id: 2405
+    PathDetail: "2400_\uD1A0\uB9C8\uD1A0/2405_Crops_109.asset"
+  - Id: 2406
+    PathDetail: "2400_\uD1A0\uB9C8\uD1A0/2406_Crops_110.asset"
+  - Id: 2407
+    PathDetail: "2400_\uD1A0\uB9C8\uD1A0/2407_Crops_111.asset"
+  - Id: 2500
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2500_Crops_112.asset"
+  - Id: 2501
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2501_Crops_113.asset"
+  - Id: 2502
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2502_Crops_114.asset"
+  - Id: 2503
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2503_Crops_115.asset"
+  - Id: 2504
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2504_Crops_116.asset"
+  - Id: 2505
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2505_Crops_117.asset"
+  - Id: 2506
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2506_Crops_118.asset"
+  - Id: 2507
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2507_Crops_119.asset"
+  - Id: 2508
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2508_Crops_120.asset"
+  - Id: 2509
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2509_Crops_121.asset"
+  - Id: 2510
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2510_Crops_122.asset"
+  - Id: 2511
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2511_Crops_123.asset"
+  - Id: 2512
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2512_Crops_124.asset"
+  - Id: 2513
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2513_Crops_125.asset"
+  - Id: 2514
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2514_Crops_126.asset"
+  - Id: 2515
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2515_Crops_127.asset"
+  - Id: 2516
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2516_Crops_128.asset"
+  - Id: 2517
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2517_Crops_129.asset"
+  - Id: 2518
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2518_Crops_130.asset"
+  - Id: 2519
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2519_Crops_131.asset"
+  - Id: 2520
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2520_Crops_132.asset"
+  - Id: 2521
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2521_Crops_133.asset"
+  - Id: 2522
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2522_Crops_134.asset"
+  - Id: 2523
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2523_Crops_135.asset"
+  - Id: 2524
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2524_Crops_136.asset"
+  - Id: 2525
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2525_Crops_137.asset"
+  - Id: 2526
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2526_Crops_138.asset"
+  - Id: 2527
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2527_Crops_139.asset"
+  - Id: 2528
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2528_Crops_140.asset"
+  - Id: 2529
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2529_Crops_141.asset"
+  - Id: 2530
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2530_Crops_142.asset"
+  - Id: 2531
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2531_Crops_143.asset"
+  - Id: 2532
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2532_Crops_144.asset"
+  - Id: 2533
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2533_Crops_145.asset"
+  - Id: 2534
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2534_Crops_146.asset"
+  - Id: 2535
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2535_Crops_147.asset"
+  - Id: 2536
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2536_Crops_148.asset"
+  - Id: 2537
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2537_Crops_149.asset"
+  - Id: 2538
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2538_Crops_150.asset"
+  - Id: 2539
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2539_Crops_151.asset"
+  - Id: 2540
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2540_Crops_152.asset"
+  - Id: 2541
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2541_Crops_153.asset"
+  - Id: 2542
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2542_Crops_154.asset"
+  - Id: 2543
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2543_Crops_155.asset"
+  - Id: 2544
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2544_Crops_156.asset"
+  - Id: 2545
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2545_Crops_157.asset"
+  - Id: 2546
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2546_Crops_158.asset"
+  - Id: 2547
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2547_Crops_159.asset"
+  - Id: 2548
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2548_Crops_160.asset"
+  - Id: 2549
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2549_Crops_161.asset"
+  - Id: 2550
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2550_Crops_162.asset"
+  - Id: 2551
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2551_Crops_163.asset"
+  - Id: 2552
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2552_Crops_164.asset"
+  - Id: 2553
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2553_Crops_165.asset"
+  - Id: 2554
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2554_Crops_166.asset"
+  - Id: 2555
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2555_Crops_167.asset"
+  - Id: 2556
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2556_Crops_168.asset"
+  - Id: 2557
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2557_Crops_169.asset"
+  - Id: 2558
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2558_Crops_170.asset"
+  - Id: 2559
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2559_Crops_171.asset"
+  - Id: 2560
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2560_Crops_172.asset"
+  - Id: 2561
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2561_Crops_173.asset"
+  - Id: 2562
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2562_Crops_174.asset"
+  - Id: 2563
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2563_Crops_175.asset"
+  - Id: 2564
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2564_Crops_176.asset"
+  - Id: 2565
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2565_Crops_177.asset"
+  - Id: 2566
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2566_Crops_178.asset"
+  - Id: 2567
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2567_Crops_179.asset"
+  - Id: 2568
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2568_Crops_180.asset"
+  - Id: 2569
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2569_Crops_181.asset"
+  - Id: 2570
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2570_Crops_182.asset"
+  - Id: 2571
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2571_Crops_183.asset"
+  - Id: 2572
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2572_Crops_184.asset"
+  - Id: 2573
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2573_Crops_185.asset"
+  - Id: 2574
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2574_Crops_186.asset"
+  - Id: 2575
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2575_Crops_187.asset"
+  - Id: 2576
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2576_Crops_188.asset"
+  - Id: 2577
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2577_Crops_189.asset"
+  - Id: 2578
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2578_Crops_190.asset"
+  - Id: 2579
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2579_Crops_191.asset"
+  - Id: 2580
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2580_Crops_192.asset"
+  - Id: 2581
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2581_Crops_193.asset"
+  - Id: 2582
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2582_Crops_194.asset"
+  - Id: 2583
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2583_Crops_195.asset"
+  - Id: 2584
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2584_Crops_196.asset"
+  - Id: 2585
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2585_Crops_197.asset"
+  - Id: 2586
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2586_Crops_198.asset"
+  - Id: 2587
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2587_Crops_199.asset"
+  - Id: 2588
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2588_Crops_200.asset"
+  - Id: 2589
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2589_Crops_201.asset"
+  - Id: 2590
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2590_Crops_202.asset"
+  - Id: 2591
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2591_Crops_203.asset"
+  - Id: 2592
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2592_Crops_204.asset"
+  - Id: 2593
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2593_Crops_205.asset"
+  - Id: 2594
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2594_Crops_206.asset"
+  - Id: 2595
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2595_Crops_207.asset"
+  - Id: 2596
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2596_Crops_208.asset"
+  - Id: 2597
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2597_Crops_209.asset"
+  - Id: 2598
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2598_Crops_210.asset"
+  - Id: 2599
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2599_Crops_211.asset"
+  - Id: 2600
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2600_Crops_212.asset"
+  - Id: 2601
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2601_Crops_213.asset"
+  - Id: 2602
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2602_Crops_222.asset"
+  - Id: 2603
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2603_Crops_223.asset"
+  - Id: 2604
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2604_Crops_224.asset"
+  - Id: 2605
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2605_Crops_225.asset"
+  - Id: 2606
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2606_Crops_226.asset"
+  - Id: 2607
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2607_Crops_227.asset"
+  - Id: 2608
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2608_Crops_228.asset"
+  - Id: 2609
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2609_Crops_229.asset"
+  - Id: 2610
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2610_Crops_230.asset"
+  - Id: 2611
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2611_Crops_231.asset"
+  - Id: 2612
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2612_Crops_232.asset"
+  - Id: 2613
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2613_Crops_233.asset"
+  - Id: 2614
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2614_Crops_234.asset"
+  - Id: 2615
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2615_Crops_235.asset"
+  - Id: 2616
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2616_Crops_236.asset"
+  - Id: 2617
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2617_Crops_237.asset"
+  - Id: 2618
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2618_Crops_238.asset"
+  - Id: 2619
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2619_Crops_239.asset"
+  - Id: 2620
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2620_Crops_240.asset"
+  - Id: 2621
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2621_Crops_241.asset"
+  - Id: 2622
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2622_Crops_242.asset"
+  - Id: 2623
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2623_Crops_243.asset"
+  - Id: 2624
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2624_Crops_244.asset"
+  - Id: 2625
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2625_Crops_245.asset"
+  - Id: 2626
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2626_Crops_246.asset"
+  - Id: 2627
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2627_Crops_247.asset"
+  - Id: 2628
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2628_Crops_248.asset"
+  - Id: 2629
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2629_Crops_249.asset"
+  - Id: 2630
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2630_Crops_250.asset"
+  - Id: 2631
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2631_Crops_251.asset"
+  - Id: 2632
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2632_Crops_252.asset"
+  - Id: 2633
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2633_Crops_253.asset"
+  - Id: 2634
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2634_Crops_254.asset"
+  - Id: 2635
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2635_Crops_255.asset"
+  - Id: 2636
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2636_Crops_256.asset"
+  - Id: 2637
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2637_Crops_257.asset"
+  - Id: 2638
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2638_Crops_258.asset"
+  - Id: 2639
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2639_Crops_259.asset"
+  - Id: 2640
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2640_Crops_260.asset"
+  - Id: 2641
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2641_Crops_261.asset"
+  - Id: 2642
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2642_Crops_262.asset"
+  - Id: 2643
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2643_Crops_263.asset"
+  - Id: 2644
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2644_Crops_264.asset"
+  - Id: 2645
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2645_Crops_265.asset"
+  - Id: 2646
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2646_Crops_266.asset"
+  - Id: 2647
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2647_Crops_267.asset"
+  - Id: 2648
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2648_Crops_268.asset"
+  - Id: 2649
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2649_Crops_269.asset"
+  - Id: 2650
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2650_Crops_270.asset"
+  - Id: 2651
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2651_Crops_271.asset"
+  - Id: 2652
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2652_Crops_272.asset"
+  - Id: 2653
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2653_Crops_273.asset"
+  - Id: 2654
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2654_Crops_274.asset"
+  - Id: 2655
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2655_Crops_275.asset"
+  - Id: 2656
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2656_Crops_276.asset"
+  - Id: 2657
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2657_Crops_277.asset"
+  - Id: 2658
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2658_Crops_278.asset"
+  - Id: 2659
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2659_Crops_279.asset"
+  - Id: 2660
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2660_Crops_280.asset"
+  - Id: 2661
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2661_Crops_281.asset"
+  - Id: 2662
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2662_Crops_282.asset"
+  - Id: 2663
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2663_Crops_283.asset"
+  - Id: 2664
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2664_Crops_284.asset"
+  - Id: 2665
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2665_Crops_285.asset"
+  - Id: 2666
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2666_Crops_286.asset"
+  - Id: 2667
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2667_Crops_287.asset"
+  - Id: 2668
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2668_Crops_288.asset"
+  - Id: 2669
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2669_Crops_289.asset"
+  - Id: 2670
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2670_Crops_290.asset"
+  - Id: 2671
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2671_Crops_291.asset"
+  - Id: 2672
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2672_Crops_292.asset"
+  - Id: 2673
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2673_Crops_293.asset"
+  - Id: 2674
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2674_Crops_294.asset"
+  - Id: 2675
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2675_Crops_295.asset"
+  - Id: 2676
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2676_Crops_296.asset"
+  - Id: 2677
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2677_Crops_297.asset"
+  - Id: 2678
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2678_Crops_298.asset"
+  - Id: 2679
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2679_Crops_299.asset"
+  - Id: 2680
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2680_Crops_300.asset"
+  - Id: 2681
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2681_Crops_301.asset"
+  - Id: 2682
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2682_Crops_302.asset"
+  - Id: 2683
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2683_Crops_303.asset"
+  - Id: 2684
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2684_Crops_304.asset"
+  - Id: 2685
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2685_Crops_305.asset"
+  - Id: 2686
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2686_Crops_306.asset"
+  - Id: 2687
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2687_Crops_307.asset"
+  - Id: 2688
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2688_Crops_308.asset"
+  - Id: 2689
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2689_Crops_309.asset"
+  - Id: 2690
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2690_Crops_310.asset"
+  - Id: 2691
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2691_Crops_311.asset"
+  - Id: 2692
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2692_Crops_312.asset"
+  - Id: 2693
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2693_Crops_313.asset"
+  - Id: 2694
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2694_Crops_314.asset"
+  - Id: 2695
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2695_Crops_315.asset"
+  - Id: 2696
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2696_Crops_316.asset"
+  - Id: 2697
+    PathDetail: "2500_\uC815\uB9AC \uD544\uC694/2697_Crops_317.asset"

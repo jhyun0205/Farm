@@ -21,12 +21,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1f06d7a936b494a49b925ea3a127dadc
-    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Preload
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2b7a217b269030946a420774a5dea969
     m_Address: Assets/CoreFramework/Project/SO Data/Table/ItemDurableTable.asset
     m_ReadOnly: 0
@@ -71,6 +65,18 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a85a0359dc614254e8379b4a891b7f59
     m_Address: Assets/CoreFramework/Project/SO Data/Table/ItemTable.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de49d1be456059548bc3ea4f0a337c31
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/CropIconRegistry.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4f716716d76f6d4785b53db7cbce47a
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/TempSpriteRegistry.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Preload

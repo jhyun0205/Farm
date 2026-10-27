@@ -1,0 +1,1211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: "CropIconRegistry \u25B8 \uC815\uB9AC \uD544\uC694"
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: "CropIconRegistry \u25B8 \uC815\uB9AC \uD544\uC694"
+  m_GUID: 4db80b109a62bb34abd71d6bc681edb2
+  m_SerializeEntries:
+  - m_GUID: 0203b7436049a8c45baa424591cfdff5
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2595_Crops_207.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04336f5fa0e1ebc4c81201e3f7c1d7f0
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2627_Crops_247.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04eb9e7f321b1b24783b385a7ef0deb1
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2632_Crops_252.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04ec0412f378eff45b5e6c26c9877b77
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2624_Crops_244.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0511423328575ad48a3afe994bc6c599
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2549_Crops_161.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 076cb09f24b63ad47b8300e17893d5df
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2645_Crops_265.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 083451395f51bf14c998b647b033f311
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2638_Crops_258.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0af3a6dc32584f642804fa60919b3431
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2604_Crops_224.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c2e5cfed50fa254facc112df2ab20e1
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2681_Crops_301.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c40be6395bafea4081bd478f96b7bba
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2694_Crops_314.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ce7bdce3dc1172409bee7da9e1cb82a
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2635_Crops_255.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ea8b897c0a873b40ae7f7d7e4427b5e
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2603_Crops_223.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1562e3e50e3f8cb4590e1f86412ae85e
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2583_Crops_195.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1979634070f362c429dd2c0e0659835b
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2565_Crops_177.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b8a8968fc2ecc749b76ea04baffa231
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2653_Crops_273.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1cee9f1a92ab7364cba000d29c924b39
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2552_Crops_164.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d305949c5ba6244c8aaefc9f4191519
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2621_Crops_241.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d740f1d89c8484449ff629cbe0ce284
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2600_Crops_212.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d959e58407d3e3498b690394b0dee8e
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2689_Crops_309.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e7ec03f47780a04d981b8d94fc8060c
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2519_Crops_131.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e88e6f895d9e484381f95dde95fdb72
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2560_Crops_172.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1eb940a03602650449f7c64dc3e7a5e5
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2539_Crops_151.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1eef3ef35add68d469bd6252c6fde40d
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2686_Crops_306.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21b70ed488140d847a7ff03958984071
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2663_Crops_283.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25ac033e4dc55574fa66fe3d0e5bce34
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2620_Crops_240.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26204661f769e0a49bd19e72e816327f
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2658_Crops_278.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 290c3ac93616ac44998be06ee2e2602f
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2637_Crops_257.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c184543132f66243a31d23289a8ed74
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2548_Crops_160.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ed6bfe01e5ed5e4d90bcec7cb493db6
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2530_Crops_142.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f387854e4be01140b198e6cd607923c
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2648_Crops_268.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f639cdf1d3139d4c84c4ff623c83f5d
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2535_Crops_147.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f7c556c66366244089658f2c586c251
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2616_Crops_236.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2fc5033b6acfc7948ae3e4a54e80a5ed
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2596_Crops_208.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30495a158063e6c4494a0353f6ba1363
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2532_Crops_144.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30cc3784df7466a4b99580acf51ff973
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2642_Crops_262.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3101b2518b5eccf4fadbd1d7419c4f5c
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2582_Crops_194.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 314746d64d0aa564d9ecb9b949cb69f1
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2665_Crops_285.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32031f135cae841428ca976c0bef2e8e
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2502_Crops_114.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32765737267fc3442833ec2f8b415c1f
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2691_Crops_311.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35bfa103aebb51345be19c9c5f23bee3
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2693_Crops_313.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 387268463c6a99249a32d0d2f5f7abb9
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2504_Crops_116.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3eec93785c3c7dd448da624eea86bced
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2511_Crops_123.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 401ad88c05c895043b4ecb2ce8c23258
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2599_Crops_211.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40ae03311e5efda4da30a503ce2269a4
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2602_Crops_222.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40f7ad537e5074c47bff7b617e566ea5
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2651_Crops_271.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4190f012252b4ea4cbed65fd930b0d7b
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2630_Crops_250.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41e3d1ef508c27340a3f40a4a35b7686
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2606_Crops_226.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42bfc713ddead014185657586919909e
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2525_Crops_137.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42d76ecc6967f3446b0f699dfe6e9d67
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2660_Crops_280.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 443e5e54259df5145ad27eedbaa6352e
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2641_Crops_261.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4760ef54336840a42add864e8a8a83c9
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2541_Crops_153.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4994d5b6f6c5c0e4c8cf0c82653ac594
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2633_Crops_253.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a685f5e8371cd44eae34fcb48c51ade
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2664_Crops_284.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b81b1f1893efcf42b37342aa9a5ba4a
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2585_Crops_197.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ba5b7dfdb3756b41a9c44627f174daf
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2611_Crops_231.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c474f1bbbfe6b347a65390e970a3448
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2584_Crops_196.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e9c5c4c38404404e9efb4263dce6905
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2503_Crops_115.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ec14efa29a4cc84ebc798e97085f7f5
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2696_Crops_316.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fe97cfe6f966a24c8fc61bf1fc76a62
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2508_Crops_120.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50ddf9ef5cf5009489984194c69cdb82
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2649_Crops_269.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51da851ba1acb64478e81e9db39094d3
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2677_Crops_297.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53e29527d39f9b342b6913da65aaeef0
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2573_Crops_185.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56ec2976ef575d54ea4bec3acc63dd93
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2579_Crops_191.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57211b9e9734ff64a8f494b197732570
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2628_Crops_248.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b9244b8f360d8b4486087ad5e2f3d25
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2516_Crops_128.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d7b26399d2a9e0489b3bdb96346edb0
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2676_Crops_296.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f279df42f428bd4d9cdd4c60cb4c903
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2569_Crops_181.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f2cbf158d691e74d9cc7226f84d12fb
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2501_Crops_113.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6044291610250b7458ce938656ab2f89
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2587_Crops_199.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6108b1e6dcbd395498e7efe24feb7857
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2669_Crops_289.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62e330c41b6d749438e601442738fdbb
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2580_Crops_192.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66784be23bed34a46aab75db782f81d0
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2507_Crops_119.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6729b6956bdd61640a56d7624ed4287a
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2679_Crops_299.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 688598e00d4bd9c49878a96f38d7fb4d
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2659_Crops_279.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 688dfc88347f54d47ba9a6985dd5b8ba
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2528_Crops_140.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68e00134ab52c9b49a490aa056169557
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2598_Crops_210.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 694699c23c3577248ada03e3ae06e94b
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2527_Crops_139.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69c397944b1624a47b1ce3eb6bffa440
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2561_Crops_173.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a0862b7f0bb12f42af3cde255025075
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2536_Crops_148.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6bf550cc26cd40240b48c640f08c154c
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2570_Crops_182.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c201e0219ce35145bdb725c926fc64e
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2593_Crops_205.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e1fbf7d4812c934fadf7fa17ca8675f
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2566_Crops_178.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7228ad2e9b8a05a4787570222b0199e3
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2682_Crops_302.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 722e1d8ee798e2243b197c8dc41901d5
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2594_Crops_206.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 723e2bd9884528843ab44493bf8d5f89
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2563_Crops_175.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73db0e1be38819b45a691fdce1126380
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2562_Crops_174.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7526174c020a88f4183ddb9213aa0b0d
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2690_Crops_310.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76233a90295786b439ab7f09bac630e6
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2557_Crops_169.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7738d73d5fe323340b9ee76b0cff1141
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2652_Crops_272.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a39108380dea264698913b292da5925
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2670_Crops_290.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a7f50245dce2854bbbdf15aac44cfa6
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2556_Crops_168.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a9cda9a7ea584e4cbcce8e77096eec2
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2523_Crops_135.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7badabd5aaf380d48b63a11351623f18
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2661_Crops_281.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bcd60e02cbbd794cb12fdb7157ea235
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2576_Crops_188.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d6de0ef933ac70408645bcb4b6a6f6a
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2550_Crops_162.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e6f92dde6f8b224e899182c0dd135f7
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2623_Crops_243.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f91f8c02bf1a00428ecf1b2cfb2c785
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2524_Crops_136.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7fcac30d4941ada40b6f58a99f292bb1
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2581_Crops_193.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82d33074802a6c04ab2d9dbd8cb5bef7
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2640_Crops_260.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86e28cc19d4112142a233d50be54602f
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2612_Crops_232.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86f76cc84547b7b4fb60828210af7b34
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2617_Crops_237.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 878dac3380390fd4587769f88d0eca11
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2543_Crops_155.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 881a05a3adf35cf41991ea79573e7319
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2529_Crops_141.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b4e2ffc0a1ff2b45927bde06a802af7
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2647_Crops_267.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b8996e76b889f14693abb82c10266a6
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2571_Crops_183.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91d5b2f863d04a74c872da5a173576ec
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2590_Crops_202.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93d522ba22003f94fabf526750ee7b7d
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2500_Crops_112.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94580fa778c964543a0638102e01ea62
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2688_Crops_308.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95859cd1628181849874b722b9cf7c81
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2545_Crops_157.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96cdfa925bf7465499fe5190bfe088b3
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2574_Crops_186.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97edd9116d481dc4a83e873d8f4e674c
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2538_Crops_150.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9902eeba0eecafb4a8cd285acc9d288d
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2572_Crops_184.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99bf880ea6835534da9c7bec6bb61f80
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2506_Crops_118.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b4bf491167d9f04d8b30dba8ea00e57
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2662_Crops_282.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d67517af7e030a4a9613e6b1795a901
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2674_Crops_294.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e9a8f00d7d96954fb14c4c3aa7630b0
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2509_Crops_121.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a254218c3f554f34d915ac5e6107fb7e
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2636_Crops_256.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3ad1af846711fe458f8410f8f023509
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2533_Crops_145.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3c1ff1a5ce9dc141a736a9bc7ec07f1
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2567_Crops_179.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a483f32396259eb439c79ee9ad9e271b
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2609_Crops_229.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a66956ed2b59dfa44b633be024ea6d6d
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2555_Crops_167.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a806ba17510ae9343bbd012679cb7a92
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2678_Crops_298.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a85a9feb7805a154e9e14c17240b26b8
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2607_Crops_227.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a97b779f30a840b42bafdbd7b3b0721d
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2601_Crops_213.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab3db8ec887211d45b63f2e47a7373b8
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2531_Crops_143.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab7dc222d9eda554ca6cb59541a293e1
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2643_Crops_263.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: abc32d5439a5eb147b4a56b22b0c576d
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2613_Crops_233.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: abd6487a3f0abfa4c82bb4e6c844306f
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2526_Crops_138.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af06a2a283ae34546ade3ed238a3d943
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2514_Crops_126.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af9b694a05572914f90523e139a985d2
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2537_Crops_149.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afcde88b26e2f824cba6d5ddd75b5cb3
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2680_Crops_300.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aff409e2074dab144add7388d4a217dd
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2673_Crops_293.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b27faf381a440e84d8d150151dc3816b
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2634_Crops_254.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b519142c4b07a9345a556d9c4a0bec95
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2515_Crops_127.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b676a46e72a70d8498bed1bbf982e360
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2650_Crops_270.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6aeb087502ff2f4698f526e74fea650
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2553_Crops_165.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b874bc482da9bea4ca3ab7799af90204
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2521_Crops_133.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b99b5164873b0fc4cb6e340ce9e7901e
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2546_Crops_158.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9b59f7b1464d4146b762d49bbba610b
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2559_Crops_171.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbf75651cc0cb444b8907b261a053798
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2622_Crops_242.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc62b947de754cc42b6c98b72d438fdc
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2684_Crops_304.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be1b3e2337bd67848a431c92bb411acc
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2597_Crops_209.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2167c1472166ce49888bf63bc59dbb1
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2671_Crops_291.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c28b19fbaeb3d2f478aadf639de08715
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2544_Crops_156.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c486f138300538148a85583ec028dc5c
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2615_Crops_235.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c49ad140d2e3a3d4b9dc457ca1de9ea8
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2667_Crops_287.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4cd5a6e6b700224293a733c9ff612d1
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2644_Crops_264.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c57803715da4a524785fd505983b1781
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2654_Crops_274.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c84c562dd230a1b4d8c4ce28eb2ef0eb
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2577_Crops_189.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c94b7af1c2054c242a1464831c38579a
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2614_Crops_234.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbfe50ecd08ad7445a4ca3ad00173a03
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2687_Crops_307.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc01d127d4e263743b2321e7138960da
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2512_Crops_124.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0b821981ca046541921532d95d580c5
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2657_Crops_277.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d26730c5cb791e9468e24e36a50334b4
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2619_Crops_239.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2984a7921a4dc343a78bc686893e25a
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2625_Crops_245.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4d3a6d0bacc3a24bb3a6db3748580f4
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2564_Crops_176.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d58c0848b43f37e418a2a7f77996515a
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2629_Crops_249.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d65f074ffb9eb7d408c2c64ca1964ee0
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2513_Crops_125.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7fc222eb4922ce498b65b38bb7a4e65
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2534_Crops_146.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8d919d0b30fbf24393eda4261b982bf
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2685_Crops_305.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db497341c9598df43876b32c5ab603ac
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2540_Crops_152.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dda7362332c75a84b8a505fc45a86886
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2610_Crops_230.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de86bbcec964b56439b6f50ffef307ef
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2542_Crops_154.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df7596f2ff3d5384fb942cb84ff23492
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2547_Crops_159.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df7b3074aadb7c74497f6b77c9ee75d0
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2578_Crops_190.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df9ef7f08cc6d054a862d535b0723f3b
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2672_Crops_292.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e01da5b3675e77a4abc0a97038c09b39
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2588_Crops_200.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e11808d0eac0e9c4a83f5f46c25d6700
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2626_Crops_246.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1218f15ed21bc54d8a0db64e32f4f5e
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2692_Crops_312.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1497f02799e86140a9e0fbadf4426b7
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2554_Crops_166.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1ec3ab9b5b6fd54fbef5f731cc97276
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2668_Crops_288.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2d1315a711eb054eb0bbb7b77c9697c
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2656_Crops_276.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5b483af7e21c4140a70fdd98e6b85d5
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2683_Crops_303.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8630bfd0ed935846898fe98f2350b6c
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2522_Crops_134.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e863ce292d9f7974b9e6b0df28019096
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2618_Crops_238.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e87c5a4ec5395cd478b868adbd22f40d
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2608_Crops_228.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8b8b3ebaff78d840bd3c1e66b49581c
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2586_Crops_198.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8efcb3acfeff7c4ab84af749c4acec9
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2666_Crops_286.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e961cf000d3fe8847bd789ec0668719e
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2605_Crops_225.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eafcfc8362547a3419788a447662f4b8
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2575_Crops_187.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec5315cb73f26c043bd301477481249d
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2568_Crops_180.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef6532f858f5d2b4984882c4d2b7bd8e
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2646_Crops_266.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efa14b3a3d7b2914c8db838189593dbb
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2551_Crops_163.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f05a99ec096944d4d94740495f6c11e2
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2589_Crops_201.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0e398e9269d30b46956d27720066c68
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2520_Crops_132.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f104163a7fa770f4eaf42dd3d832304b
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2517_Crops_129.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3ec952eba6d33c4583b8264833b7ace
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2697_Crops_317.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3ed3e71d9a1d814ea70367950236a9a
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2558_Crops_170.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7953a54cd2c9f74d9c81b8a7ecc40f1
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2631_Crops_251.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7c5b642fca093d4483ec0ba9015fa73
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2655_Crops_275.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f948baa03f073f942bbc2acebade3a9c
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2518_Crops_130.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: faf36bcff165a5242b12f83d495965d8
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2592_Crops_204.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb76a3fc2e84c41408d6342b414086c6
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2591_Crops_203.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb8cea1af152a644ca1f7cd2ca2f73a2
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2639_Crops_259.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd597da241309a14bbcf78e2df881551
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2675_Crops_295.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd5dbad634b98784f8d034d513b47beb
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2695_Crops_315.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: feee801e17cc28643bd716fadd947865
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2505_Crops_117.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff5b18c0be0d31042b26c5b5235d5aab
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2500_\uC815\uB9AC
+      \uD544\uC694/2510_Crops_122.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b631d96092f96e44c8799570322cd6c6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9d44a05812442344c8ca940ecb38cfdb, type: 2}
+    - {fileID: 11400000, guid: ae2264c4ac34c0148af074ffea9dcb30, type: 2}

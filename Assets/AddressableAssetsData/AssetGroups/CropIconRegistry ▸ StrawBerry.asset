@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: "CropIconRegistry \u25B8 StrawBerry"
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: "CropIconRegistry \u25B8 StrawBerry"
+  m_GUID: 9c02410a2f588c243981eeb7d4254f4c
+  m_SerializeEntries:
+  - m_GUID: 0a7c6a54b2a7c914b85b609e998d12a3
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1300_StrawBerry/1305_Crops_53.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1db8070c780758a4fabb8b8d3d79a573
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1300_StrawBerry/1306_Crops_54.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3465d81d7e0c6a64ab99e7e3171799e4
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1300_StrawBerry/1302_Crops_50.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 583dddbd3074567409a30dc6d4d74224
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1300_StrawBerry/1304_Crops_52.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62ff46c055e7b4c4e8af675775ff54b2
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1300_StrawBerry/1303_Crops_51.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0cc857ad076b1d4eaa93b5244ea8fb7
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1300_StrawBerry/1300_Crops_48.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad40a659c12291c4f91de701dff6b435
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1300_StrawBerry/1301_Crops_49.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce16069af1ebe3e45bfd1c37671af5de
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1300_StrawBerry/1307_Crops_55.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b631d96092f96e44c8799570322cd6c6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d3f0ec8e407683245b7a0556c8dfd31e, type: 2}
+    - {fileID: 11400000, guid: 3ed4138aa71ed2f478349cc5806bd629, type: 2}

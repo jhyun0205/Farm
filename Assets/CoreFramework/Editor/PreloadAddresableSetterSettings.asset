@@ -15,6 +15,9 @@ MonoBehaviour:
   TargetGroupName: Preload Group
   TargetLabel: Preload
   TypeStates:
+  - TypeFullName: Farm.GameData.CropIconRegistry
+    TypeName: CropIconRegistry
+    IsEnabled: 1
   - TypeFullName: Farm.GameData.Crop.CropTable
     TypeName: CropTable
     IsEnabled: 1
@@ -42,6 +45,6 @@ MonoBehaviour:
   - TypeFullName: Farm.GameData.Item.ItemUseRuleSetTable
     TypeName: ItemUseRuleSetTable
     IsEnabled: 1
-  - TypeFullName: Farm.GameData.SpriteRegistry
-    TypeName: SpriteRegistry
+  - TypeFullName: Farm.GameData.TempSpriteRegistry
+    TypeName: TempSpriteRegistry
     IsEnabled: 1

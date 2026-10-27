@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: "CropIconRegistry \u25B8 Banana"
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: "CropIconRegistry \u25B8 Banana"
+  m_GUID: 5139c4fa91e918d44b2225aef710c82c
+  m_SerializeEntries:
+  - m_GUID: 1dd85df6320ad2a4fb411ef652bdb411
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1100_Banana/1101_Crops_11.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fbf9272e74caa54784b74c57dfac31b
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1100_Banana/1104_Crops_14.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e02539675cd30244b13ef2100155c17
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1100_Banana/1105_Crops_15.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 695822b09a4eab348a06c935611f929f
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1100_Banana/1103_Crops_13.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80e0dfc253371084897ade1ec6e5a732
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1100_Banana/1102_Crops_12.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4f97535b1f593c468e9e4cacee0f32d
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1100_Banana/1106_Crops_8.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d00da8994d9853f49a4afe293cc870e1
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1100_Banana/1107_Crops_9.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dff5a80248b3a104da36e86e36b4b243
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1100_Banana/1100_Crops_10.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b631d96092f96e44c8799570322cd6c6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 720a74b893378244c83b1bc7a6c14705, type: 2}
+    - {fileID: 11400000, guid: 7363099c02ccf4b4f833c537fbcc0d52, type: 2}
