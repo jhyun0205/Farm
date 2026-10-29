@@ -79,9 +79,9 @@ namespace Farm.Character.Move
 
         public void SetSprint(bool isSprint)
         {
-            if (isSprint && staminaFeature != null && staminaFeature.CurStamina <= 0f)
+            if (isSprint && staminaFeature != null && !staminaFeature.CanSprint)
             {
-                isSprint = false; // 스테미너가 0이면 스프린트 요청 자체를 거부
+                isSprint = false; // 탈진 상태(회복 기준치 미만)면 스프린트 요청 자체를 거부
             }
             IsSprint = isSprint;
         }

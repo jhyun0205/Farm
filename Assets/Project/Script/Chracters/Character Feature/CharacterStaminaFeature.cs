@@ -14,14 +14,18 @@ namespace Farm.Character
         [SerializeField] private float regenPerSecond = 15f; // 초당 회복량 (스프린트 멈췄을 때)
         [SerializeField] private float staminaPerSegment = 60f; //stamina 1칸이 담당하는 스테미너 양
 
+        private const float SprintRecoverThreshold = 30f; // 탈진 후 이만큼은 차야 다시 스프린트 가능
+
         private float curStamina; // 현재 스테미너 값
         private CharacterMoveFeature moveFeature; // 이동/스프린트 상태를 확인하기 위한 참조
+        private bool isExhausted; // 완전히 바닥나서 일정량 회복 전까지 탈진 상태
 
         public float StaminaRatio => curStamina / MaxStamina; // UI에 넘겨줄 0~1 비율 값
         public float CurStamina => curStamina; //현재 스테미너 원본값 (조각별 계산에 필요)
         public float MaxStamina => staminaPerSegment * staminaCount; // 그릇 1개당 용량 × 그릇 개수로 계산
         public float StaminaPerSegment => staminaPerSegment; //  조각 1칸당 용량
         public int SegmentCount => staminaCount; // 그릇 개수 그대로 노출 (UI가 몇 개 그릴지 결정)
+        public bool CanSprint => !isExhausted; // MoveFeature가 스프린트 허용 여부를 확인할 때 씀
 
         public event Action<float> OnStaminaChanged; //값이 바뀔 때마다 "현재 스테미너 원본값"을 방송
         public event Action OnMaxStaminaChanged; // 그릇 개수(최대치)가 바뀌었을 때 알림
@@ -52,7 +56,7 @@ namespace Farm.Character
             Host.TryGetFeature(out moveFeature); // 같은 Host(캐릭터)에 붙어있는 CharacterMoveFeature를 찾아 캐싱
 
             curStamina = MaxStamina; // 시작할 때는 스테미너를 가득 채워둠
-            lastValidatedCount = staminaCount; // 시작 시점 값으로 초기화 (불필요한 첫 알림 방지)
+            lastValidatedCount = staminaCount; // 시작 시점 값으로 초기화
             OnStaminaChanged?.Invoke(curStamina); // UI가 처음 값도 바로 반영할 수 있도록 1회 방송
         }
 
@@ -73,15 +77,23 @@ namespace Farm.Character
 
             curStamina = Mathf.Clamp(curStamina, 0f, MaxStamina); // 0~최대치 범위를 벗어나지 않게 고정
 
-            if (curStamina <= 0f && moveFeature.IsSprint) // 스테미너가 바닥났는데 아직 스프린트 중이면
+            if (curStamina <= 0f) // 완전히 바닥나는 그 순간
             {
-                moveFeature.SetSprint(false); // 강제로 스프린트 해제 
+                isExhausted = true; // 탈진 상태 진입
+                if (moveFeature.IsSprint)
+                {
+                    moveFeature.SetSprint(false); // 강제로 스프린트 해제
+                }
+            }
+            else if (isExhausted && curStamina >= SprintRecoverThreshold) // 탈진 상태에서 기준치 이상 회복되면
+            {
+                isExhausted = false; // 탈진 상태 해제
             }
 
             if (curStamina != before)
             {
                 Debug.Log($"스테미너: {curStamina:F1} / {MaxStamina}");
-                OnStaminaChanged?.Invoke(curStamina); // 구독 중인 UI에 새 원본값을 방송 (원본값 전달로 변경)
+                OnStaminaChanged?.Invoke(curStamina); // 구독 중인 UI에 새 원본값을 방송
             }
         }
     }

@@ -84,7 +84,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2337324409230937567}
-  - component: {fileID: 7381478271007220955}
+  - component: {fileID: 2401189825041667558}
   m_Layer: 5
   m_Name: FishingMiniGame
   m_TagString: Untagged
@@ -109,10 +109,10 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -99.99999}
+  m_AnchoredPosition: {x: -594.5181, y: -264.95596}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &7381478271007220955
+--- !u!114 &2401189825041667558
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,15 +121,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 903365592958671646}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 282f7a473a51ee043928303a0cb7ea5a, type: 3}
+  m_Script: {fileID: 11500000, guid: 966e724e62dcf6b4db9d8e1f93dc6ca4, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Farm.Fishing.FisingMiniGame
+  m_EditorClassIdentifier: Assembly-CSharp::Farm.Fishing.FishingMiniGame
   bar: {fileID: 1532244045378924824}
   targetBox: {fileID: 8158355347875056974}
   arrow: {fileID: 8051387726492163041}
+  gaugeFillImage: {fileID: 6029492968872524548}
   targetBoxWidthRatio: 0.2
-  targetBoxSpeed: 0.2
-  arrowSpeed: 1.5
+  targetBoxSpeed: 1.5
+  miniGameDuration: 20
+  successGaugeGain: 20
+  failGaugeLoss: 10
 --- !u!1 &3050727972478426573
 GameObject:
   m_ObjectHideFlags: 0
@@ -167,7 +170,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0}
+  m_AnchoredPosition: {x: 600, y: 150}
   m_SizeDelta: {x: 800, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5381025855155388652
