@@ -32,6 +32,7 @@ namespace Farm.Character
                 UpdateVisibleCount(staminaFeature.SegmentCount); // 지금 보유한 그릇 개수만큼만 켜기
                 UpdateFill(staminaFeature.CurStamina);
                 staminaFeature.OnStaminaChanged += UpdateFill;
+                staminaFeature.OnMaxStaminaChanged += OnVesselCountChanged; // 그릇 개수가 바뀔 때마다 다시 그리기
             }
         }
 
@@ -40,7 +41,13 @@ namespace Farm.Character
             if (staminaFeature != null)
             {
                 staminaFeature.OnStaminaChanged -= UpdateFill;
+                staminaFeature.OnMaxStaminaChanged -= OnVesselCountChanged;
             }
+        }
+
+        private void OnVesselCountChanged() // 그릇 개수가 바뀔 때만 호출됨 (테스트: 인스펙터 수정 / 실제: AddVessel 호출)
+        {
+            UpdateVisibleCount(staminaFeature.SegmentCount);
         }
 
         private void CacheImages() //  미리 배치된 각 그릇에서 맞는 자식의 Image를 찾아 저장

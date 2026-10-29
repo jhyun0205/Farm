@@ -76,6 +76,7 @@ namespace Farm.Character
         {
             base.OnValidate();
             stateController.OnValidate();
+            staminaFeature.OnValidate(); // 인스펙터에서 staminaCount 바뀌는지 감지
         }
     }
 }
