@@ -32,4 +32,19 @@ namespace CoreEngine.TileSystem.Contracts
         OutOfRange = 2,     // 사거리 밖 (경고 or 반투명 표시 or Clamped)
         LockedOn = 3        // 자동 록온 고정 상태 (선택타일이 커서 위치와 별개)
     }
+
+    /// <summary>
+    /// 그리드 8방향 정의 (시계방향 순서, 짝수=직교, 홀수=대각선)
+    /// </summary>
+    public enum GridDirection : byte
+    {
+        North = 0,
+        NorthEast = 1,
+        East = 2,
+        SouthEast = 3,
+        South = 4,
+        SouthWest = 5,
+        West = 6,
+        NorthWest = 7
+    }
 }
