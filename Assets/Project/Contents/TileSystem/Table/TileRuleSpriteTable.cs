@@ -5,33 +5,40 @@ using UnityEngine;
 
 namespace Farm.GameData
 {
+    using TileSpriteId = AssetId<Sprite, TileSpriteAssetRegistry>;
+
     [Serializable]
     public class TileRuleSpriteRecord : BaseRecord
     {
-        [TableColumn, SerializeField] protected byte maskIndex;
-        [TableColumn, SerializeField] protected AssetId<Sprite, TileSpriteAssetRegistry> spriteAssetId;
-        [SerializeField] protected ForeignKey<TileMetaRecord, TileMetaTable> tileKey;
+        #region Schema
 
-        public ForeignKey<TileMetaRecord, TileMetaTable> TileKey => tileKey;
+        [TableColumn, SerializeField] protected int tileId;
+        [TableColumn, SerializeField] protected string tileName;
+        [SerializeField] protected ForeignKey<TileMetaRecord, TileMetaTable> tileFK;
+        [TableColumn, SerializeField] protected byte maskIndex;
+        [TableColumn, SerializeField] protected TileSpriteId spriteAssetId;
+
+        #endregion
+
+        public int TileId => tileId;
+        public string TileName => tileName;
+        public ForeignKey<TileMetaRecord, TileMetaTable> TileFK => tileFK;
         public byte MaskIndex => maskIndex;
-        public AssetId<Sprite, TileSpriteAssetRegistry> SpriteAssetId => spriteAssetId;
+        public Sprite TileSprite => spriteAssetId.Get();
     }
 
     public class TileRuleSpriteTable : BaseTable<TileRuleSpriteRecord>
     {
-        public const uint REF_INDEX_TILE_KEY = 0;
+        public const uint REF_INDEX_TILE_FK = 0;
 
         protected override List<KeyValuePair<uint, GetForeignKeyHash>> GetReverseIndexBuilder()
         {
             return new List<KeyValuePair<uint, GetForeignKeyHash>>
             {
                 new KeyValuePair<uint, GetForeignKeyHash>(
-                    REF_INDEX_TILE_KEY,
-                    record => record.TileKey.TargetHashedPK)
+                    REF_INDEX_TILE_FK,
+                    record => record.TileFK.TargetHashedPK)
             };
         }
-
-        public List<TileRuleSpriteRecord> GetSpritesByTileId(ulong tileId) =>
-            GetReferencingRecords(REF_INDEX_TILE_KEY, tileId);
     }
 }

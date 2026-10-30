@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using CoreEngine.GameData;
 using CoreEngine.TileSystem.Contracts;
 using UnityEngine;
 
@@ -8,28 +9,20 @@ namespace Farm.GameData
     {
         private const int MAX_BLOB8_SPRITE_COUNT = 47;
 
-        private readonly TileMetaTable _tileMetaTable;
-        private readonly ItemRangeTable _itemRangeTable;
-        private readonly TileRuleSpriteTable _spriteRuleTable;
+        private readonly TableHandler<TileMetaTable, TileMetaRecord> _tileMetaHandler = new();
+        private readonly TableHandler<ItemRangeTable, ItemRangeRecord> _itemRangeHandler = new();
+        private readonly TableHandler<TileRuleSpriteTable, TileRuleSpriteRecord> _spriteRuleHandler = new();
 
         private readonly Dictionary<ulong, Sprite[]> _resolvedSpriteCache;
 
-        public TileDataRegistry(
-            TileMetaTable tileMetaTable,
-            ItemRangeTable itemRangeTable,
-            TileRuleSpriteTable spriteRuleTable,
-            int initialTileCapacity = 64)
+        public TileDataRegistry(int initialTileCapacity = 64)
         {
-            _tileMetaTable = tileMetaTable;
-            _itemRangeTable = itemRangeTable;
-            _spriteRuleTable = spriteRuleTable;
             _resolvedSpriteCache = new Dictionary<ulong, Sprite[]>(initialTileCapacity);
         }
 
-        public bool TryGetTileCreationInfo(ulong tileId, out TileCreationInfo info)
+        public bool TryGetTileCreationInfo(ulong tileKey, out TileCreationInfo info)
         {
-            TileMetaRecord record = _tileMetaTable != null ? _tileMetaTable.GetTypedRecord(tileId) : null;
-            if (record != null)
+            if (_tileMetaHandler.TryGetRecord(tileKey, out TileMetaRecord record))
             {
                 info = record.ToCreationInfo();
                 return true;
@@ -39,21 +32,15 @@ namespace Farm.GameData
             return false;
         }
 
-        public bool TryGetTileMeta(ulong tileId, out TileMetaRecord record)
-        {
-            record = _tileMetaTable != null ? _tileMetaTable.GetTypedRecord(tileId) : null;
-            return record != null;
-        }
+        public bool TryGetTileMeta(ulong tileKey, out TileMetaRecord record) =>
+            _tileMetaHandler.TryGetRecord(tileKey, out record);
 
-        public bool TryGetItemRange(ulong itemId, out ItemRangeRecord record)
-        {
-            record = _itemRangeTable != null ? _itemRangeTable.GetTypedRecord(itemId) : null;
-            return record != null;
-        }
+        public bool TryGetItemRange(ulong itemKey, out ItemRangeRecord record) =>
+            _itemRangeHandler.TryGetRecord(itemKey, out record);
 
-        public Sprite GetTileSprite(ulong tileId, byte maskIndex)
+        public Sprite GetTileSprite(ulong tileKey, byte maskIndex)
         {
-            if (!TryGetOrBuildSpriteArray(tileId, out Sprite[] sprites) || sprites.Length == 0)
+            if (!TryGetOrBuildSpriteArray(tileKey, out Sprite[] sprites) || sprites.Length == 0)
             {
                 return null;
             }
@@ -68,23 +55,19 @@ namespace Farm.GameData
 
         public void ClearSpriteCache() => _resolvedSpriteCache.Clear();
 
-        private bool TryGetOrBuildSpriteArray(ulong tileId, out Sprite[] sprites)
+        private bool TryGetOrBuildSpriteArray(ulong tileKey, out Sprite[] sprites)
         {
-            if (_resolvedSpriteCache.TryGetValue(tileId, out sprites))
+            if (_resolvedSpriteCache.TryGetValue(tileKey, out sprites))
             {
                 return sprites != null;
             }
 
-            if (_spriteRuleTable == null)
+            if (!_spriteRuleHandler.TryGetReferencingRecords(
+                    TileRuleSpriteTable.REF_INDEX_TILE_FK,
+                    tileKey,
+                    out IReadOnlyList<TileRuleSpriteRecord> records))
             {
-                sprites = null;
-                return false;
-            }
-
-            List<TileRuleSpriteRecord> records = _spriteRuleTable.GetSpritesByTileId(tileId);
-            if (records == null || records.Count == 0)
-            {
-                _resolvedSpriteCache[tileId] = null;
+                _resolvedSpriteCache[tileKey] = null;
                 sprites = null;
                 return false;
             }
@@ -95,11 +78,11 @@ namespace Farm.GameData
                 TileRuleSpriteRecord rec = records[i];
                 if (rec.MaskIndex < MAX_BLOB8_SPRITE_COUNT)
                 {
-                    sprites[rec.MaskIndex] = rec.SpriteAssetId.Get();
+                    sprites[rec.MaskIndex] = rec.TileSprite;
                 }
             }
 
-            _resolvedSpriteCache[tileId] = sprites;
+            _resolvedSpriteCache[tileKey] = sprites;
             return true;
         }
     }
