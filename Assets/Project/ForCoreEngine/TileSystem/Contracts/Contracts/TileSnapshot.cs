@@ -3,37 +3,39 @@ using UnityEngine;
 
 namespace CoreEngine.TileSystem.Contracts
 {
-    /// <summary>
-    /// 타일 조회 결과 전달 및 록온 대상의 무결성 검증을 위한 불변(Immutable) 값 타입
-    /// </summary>
     public readonly struct TileSnapshot : IEquatable<TileSnapshot>
     {
         public readonly Vector2Int CellPos;
-        public readonly int TileID;
         public readonly byte LayerIndex;
+        public readonly ulong TileID;
+        public readonly ulong ConnectGroupID;
         public readonly int CategoryMask;
-        public readonly int ConnectGroupID;
         public readonly int RemainingDurability;
+        public readonly BitmaskRuleType RuleType;
+        public readonly byte MaskIndex;
 
         public bool IsValid => TileID > 0;
 
         public TileSnapshot(
             Vector2Int cellPos,
-            int tileId,
             byte layerIndex,
+            ulong tileId,
+            ulong connectGroupId,
             int categoryMask,
-            int connectGroupId,
-            int remainingDurability)
+            int remainingDurability,
+            BitmaskRuleType ruleType,
+            byte maskIndex)
         {
             CellPos = cellPos;
-            TileID = tileId;
             LayerIndex = layerIndex;
-            CategoryMask = categoryMask;
+            TileID = tileId;
             ConnectGroupID = connectGroupId;
+            CategoryMask = categoryMask;
             RemainingDurability = remainingDurability;
+            RuleType = ruleType;
+            MaskIndex = maskIndex;
         }
 
-        // 기능 4 예외 방어: 좌표, 레이어, 타일 ID가 모두 일치해야 동일 타겟으로 인정
         public bool Equals(TileSnapshot other) =>
             CellPos == other.CellPos &&
             TileID == other.TileID &&

@@ -16,7 +16,7 @@ namespace CoreEngine.TileSystem.Contracts
 
         // 특정 레이어, 특정 TileID, 또는 특정 카테고리 마스크에 부합하는 타일이 있는지 반환
         bool TryGetTileAtLayer(Vector2Int cellPos, byte layerIndex, out TileSnapshot tile);
-        bool TryGetTileById(Vector2Int cellPos, int targetTileId, out TileSnapshot matchedTile);
+        bool TryGetTileById(Vector2Int cellPos, ulong targetTileId, out TileSnapshot matchedTile);
         bool TryGetTileByCategory(Vector2Int cellPos, int categoryMask, out TileSnapshot matchedTile);
 
         // 캐릭터 중심 셀 기준 정사각형(Chebyshev) 범위 내 여부 판정
