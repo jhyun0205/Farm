@@ -1,9 +1,8 @@
 using System;
 using CoreEngine.GameData;
-using Farm.GameData.Item;
 using UnityEngine;
 
-namespace Farm.GameData
+namespace Farm.GameData.Item
 {
     [Serializable]
     public class ItemRangeRecord : BaseRecord

@@ -3,7 +3,7 @@ using CoreEngine.GameData;
 using CoreEngine.TileSystem.Contracts;
 using UnityEngine;
 
-namespace Farm.GameData
+namespace Farm.GameData.Tile
 {
     [Serializable]
     public class TileMetaRecord : BaseRecord

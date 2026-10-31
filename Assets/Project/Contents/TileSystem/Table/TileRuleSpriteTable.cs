@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using CoreEngine.GameData;
 using UnityEngine;
 
-namespace Farm.GameData
+namespace Farm.GameData.Tile
 {
     using TileSpriteId = AssetId<Sprite, TileSpriteAssetRegistry>;
 

@@ -1,7 +1,7 @@
 using CoreEngine.GameData;
 using UnityEngine;
 
-namespace Farm.GameData
+namespace Farm.GameData.Tile
 {
     public class TileSpriteAssetRegistry : BaseAssetRegistry<Sprite>
     {

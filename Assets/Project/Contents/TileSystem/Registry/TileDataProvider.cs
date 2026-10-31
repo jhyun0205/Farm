@@ -1,11 +1,12 @@
 using System.Collections.Generic;
 using CoreEngine.GameData;
 using CoreEngine.TileSystem.Contracts;
+using Farm.GameData.Item;
 using UnityEngine;
 
-namespace Farm.GameData
+namespace Farm.GameData.Tile
 {
-    public sealed class TileDataRegistry : ITileDataProvider
+    public sealed class TileDataProvider : ITileDataProvider
     {
         private const int MAX_BLOB8_SPRITE_COUNT = 47;
 
@@ -15,7 +16,7 @@ namespace Farm.GameData
 
         private readonly Dictionary<ulong, Sprite[]> _resolvedSpriteCache;
 
-        public TileDataRegistry(int initialTileCapacity = 64)
+        public TileDataProvider(int initialTileCapacity = 64)
         {
             _resolvedSpriteCache = new Dictionary<ulong, Sprite[]>(initialTileCapacity);
         }
