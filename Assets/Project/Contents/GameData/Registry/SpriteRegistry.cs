@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Farm.GameData
 {
-    public class TempSpriteRegistry : BaseAssetRegistry<Sprite>
+    public class SpriteRegistry : BaseAssetRegistry<Sprite>
     {
 
     }
