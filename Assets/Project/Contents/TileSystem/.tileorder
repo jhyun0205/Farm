@@ -1,0 +1,234 @@
+[00] 고립
+x x x
+x o x
+x x x
+
+[01] 북 연결
+x o x
+x o x
+x x x
+
+[02] 동 연결
+x x x
+x o o
+x x x
+
+[03] 남 연결
+x x x
+x o x
+x o x
+
+[04] 서 연결
+x x x
+o o x
+x x x
+
+[05] 남북 직선
+x o x
+x o x
+x o x
+
+[06] 동서 직선
+x x x
+o o o
+x x x
+
+[07] 북동 코너 (대각 x)
+x o x
+x o o
+x x x
+
+[08] 북동 코너 (대각 o)
+x o o
+x o o
+x x x
+
+[09] 동남 코너 (대각 x)
+x x x
+x o o
+x o x
+
+[10] 동남 코너 (대각 o)
+x x x
+x o o
+x o o
+
+[11] 남서 코너 (대각 x)
+x x x
+o o x
+x o x
+
+[12] 남서 코너 (대각 o)
+x x x
+o o x
+o o x
+
+[13] 서북 코너 (대각 x)
+x o x
+o o x
+x x x
+
+[14] 서북 코너 (대각 o)
+o o x
+o o x
+x x x
+
+[15] 서쪽 끊긴 T자 (대각 둘다 x)
+x o x
+x o o
+x o x
+
+[16] 서쪽 끊긴 T자 (북동만 o)
+x o o
+x o o
+x o x
+
+[17] 서쪽 끊긴 T자 (동남만 o)
+x o x
+x o o
+x o o
+
+[18] 서쪽 끊긴 T자 (대각 둘다 o)
+x o o
+x o o
+x o o
+
+[19] 북쪽 끊긴 T자 (대각 둘다 x)
+x x x
+o o o
+x o x
+
+[20] 북쪽 끊긴 T자 (동남만 o)
+x x x
+o o o
+x o o
+
+[21] 북쪽 끊긴 T자 (남서만 o)
+x x x
+o o o
+o o x
+
+[22] 북쪽 끊긴 T자 (대각 둘다 o)
+x x x
+o o o
+o o o
+
+[23] 동쪽 끊긴 T자 (대각 둘다 x)
+x o x
+o o x
+x o x
+
+[24] 동쪽 끊긴 T자 (남서만 o)
+x o x
+o o x
+o o x
+
+[25] 동쪽 끊긴 T자 (서북만 o)
+o o x
+o o x
+x o x
+
+[26] 동쪽 끊긴 T자 (대각 둘다 o)
+o o x
+o o x
+o o x
+
+[27] 남쪽 끊긴 T자 (대각 둘다 x)
+x o x
+o o o
+x x x
+
+[28] 남쪽 끊긴 T자 (서북만 o)
+o o x
+o o o
+x x x
+
+[29] 남쪽 끊긴 T자 (북동만 o)
+x o o
+o o o
+x x x
+
+[30] 남쪽 끊긴 T자 (대각 둘다 o)
+o o o
+o o o
+x x x
+
+[31] 십자 교차로 (대각 0개)
+x o x
+o o o
+x o x
+
+[32] 십자 교차로 (북동만 o)
+x o o
+o o o
+x o x
+
+[33] 십자 교차로 (동남만 o)
+x o x
+o o o
+x o o
+
+[34] 십자 교차로 (남서만 o)
+x o x
+o o o
+o o x
+
+[35] 십자 교차로 (서북만 o)
+o o x
+o o o
+x o x
+
+[36] 십자 교차로 (북동, 동남 o)
+x o o
+o o o
+x o o
+
+[37] 십자 교차로 (동남, 남서 o)
+x o x
+o o o
+o o o
+
+[38] 십자 교차로 (남서, 서북 o)
+o o x
+o o o
+o o x
+
+[39] 십자 교차로 (서북, 북동 o)
+o o o
+o o o
+x o x
+
+[40] 십자 교차로 (북동, 남서 o)
+x o o
+o o o
+o o x
+
+[41] 십자 교차로 (서북, 동남 o)
+o o x
+o o o
+x o o
+
+[42] 십자 교차로 (서북만 x)
+x o o
+o o o
+o o o
+
+[43] 십자 교차로 (북동만 x)
+o o x
+o o o
+o o o
+
+[44] 십자 교차로 (동남만 x)
+o o o
+o o o
+o o x
+
+[45] 십자 교차로 (남서만 x)
+o o o
+o o o
+x o o
+
+[46] 십자 교차로 (대각 4개 o)
+o o o
+o o o
+o o o
