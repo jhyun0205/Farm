@@ -126,8 +126,15 @@
     },
     "cropItemFK": {
       "columns": [
-        "id",
-        "name"
+        "CropItemId",
+        "CropItemName"
+      ],
+      "targetTable": "ItemTable.csv"
+    },
+    "premiumCropItemFK": {
+      "columns": [
+        "premiumCropItemId",
+        "premiumCropItemName"
       ],
       "targetTable": "ItemTable.csv"
     }

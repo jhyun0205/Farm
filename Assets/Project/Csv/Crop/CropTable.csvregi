@@ -1,0 +1,12 @@
+{
+  "tableFileName": "CropTable.csv",
+  "bindings": {
+    "growthSpriteIds": {
+      "registryName": "CropIconRegistry",
+      "registrySoGuid": "de49d1be456059548bc3ea4f0a337c31",
+      "assetType": "UnityEngine.Sprite",
+      "regiMetaPath": "../../CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/.regimeta",
+      "syncedRevision": 2
+    }
+  }
+}
