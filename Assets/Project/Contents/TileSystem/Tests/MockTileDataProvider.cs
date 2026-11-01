@@ -10,15 +10,13 @@ namespace Farm.Systems.TileContent.Tests
 
         public MockTileDataProvider(ulong tileId, BitmaskRuleType ruleType, Sprite[] sprites)
         {
-            // 임의의 타일 메타 생성
             _mockInfo = new TileCreationInfo(
                 tileId: tileId,
                 layerIndex: 0,
                 categoryMask: 1,
                 connectGroupId: 100,
                 ruleType: ruleType,
-                maxDurability: 3);
-
+                maxDurability: 1);
             _mockSprites = sprites;
         }
 
@@ -28,7 +26,7 @@ namespace Farm.Systems.TileContent.Tests
             return true;
         }
 
-        public Sprite GetTileSprite(ulong tileId, byte maskIndex)
+        public Sprite GetSprite(byte maskIndex)
         {
             if (_mockSprites == null || _mockSprites.Length == 0) return null;
             if (maskIndex >= _mockSprites.Length || _mockSprites[maskIndex] == null)
