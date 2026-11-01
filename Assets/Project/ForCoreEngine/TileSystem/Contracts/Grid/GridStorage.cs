@@ -1,6 +1,6 @@
 using System;
 using CoreEngine.TileSystem.Contracts;
-using CoreEngine.TileSystem.Math; // GridRangeCalculator 참조용
+using CoreEngine.TileSystem.Math;
 using UnityEngine;
 
 namespace CoreEngine.TileSystem.Grid
@@ -15,6 +15,9 @@ namespace CoreEngine.TileSystem.Grid
         private readonly byte _layerCount;
         private readonly Vector2Int _origin;
 
+        private Vector3 _worldOrigin;
+        private Vector2 _cellSize;
+
         private readonly InternalTileCell[][] _layerCells;
         private readonly ITileDataProvider _dataProvider;
 
@@ -22,18 +25,23 @@ namespace CoreEngine.TileSystem.Grid
         public int Height => _height;
         public byte LayerCount => _layerCount;
         public Vector2Int Origin => _origin;
+        public Vector3 WorldOrigin => _worldOrigin;
+        public Vector2 CellSize => _cellSize;
 
         public GridStorage(
             int width,
             int height,
             byte layerCount,
             Vector2Int origin,
-            ITileDataProvider dataProvider)
+            ITileDataProvider dataProvider,
+            Vector3 worldOrigin = default,
+            Vector2 cellSize = default)
         {
             if (width <= 0) throw new ArgumentOutOfRangeException(nameof(width));
             if (height <= 0) throw new ArgumentOutOfRangeException(nameof(height));
             if (layerCount == 0) throw new ArgumentOutOfRangeException(nameof(layerCount));
             if (dataProvider == null) throw new ArgumentNullException(nameof(dataProvider));
+            if (cellSize.x < 0f || cellSize.y < 0f) throw new ArgumentOutOfRangeException(nameof(cellSize));
 
             _width = width;
             _height = height;
@@ -41,7 +49,9 @@ namespace CoreEngine.TileSystem.Grid
             _origin = origin;
             _dataProvider = dataProvider;
 
-            // 오타 수정: width * height
+            _worldOrigin = worldOrigin;
+            _cellSize = cellSize == default ? Vector2.one : cellSize;
+
             int cellCountPerLayer = width * height;
             _layerCells = new InternalTileCell[layerCount][];
             for (int i = 0; i < layerCount; i++)
@@ -50,32 +60,41 @@ namespace CoreEngine.TileSystem.Grid
             }
         }
 
+        public void SetWorldOrigin(Vector3 worldOrigin)
+        {
+            _worldOrigin = worldOrigin;
+        }
+
+        public void SetCellSize(Vector2 cellSize)
+        {
+            if (cellSize.x <= 0f || cellSize.y <= 0f) return;
+            _cellSize = cellSize;
+        }
+
         #region ITileGridQuery - 좌표 변환 및 기본 판정
 
         public Vector2Int WorldToCell(Vector3 worldPos)
         {
-            // 기본 1x1 유닛 타일 기준 (추후 UnityEngine.Grid와 연동하여 보정 가능)
-            return new Vector2Int(Mathf.FloorToInt(worldPos.x), Mathf.FloorToInt(worldPos.y));
+            int cellX = Mathf.FloorToInt((worldPos.x - _worldOrigin.x) / _cellSize.x);
+            int cellY = Mathf.FloorToInt((worldPos.y - _worldOrigin.y) / _cellSize.y);
+            return new Vector2Int(cellX, cellY);
         }
 
         public Vector3 CellToWorldCenter(Vector2Int cellPos)
         {
-            // 타일의 정중앙(0.5, 0.5) 좌표 반환
-            return new Vector3(cellPos.x + 0.5f, cellPos.y + 0.5f, 0f);
+            float worldX = _worldOrigin.x + (cellPos.x + 0.5f) * _cellSize.x;
+            float worldY = _worldOrigin.y + (cellPos.y + 0.5f) * _cellSize.y;
+            return new Vector3(worldX, worldY, _worldOrigin.z);
         }
 
         public bool IsWithinSquareRange(Vector2Int centerCell, Vector2Int targetCell, int range)
         {
-            // 1단계에서 구현한 수학 모듈 재사용
             return GridRangeCalculator.IsWithinSquareRange(centerCell, targetCell, range);
         }
 
         public bool IsWalkable(Vector2Int cellPos)
         {
             if (!IsInBounds(cellPos)) return false;
-
-            // 추후 충돌체(장애물) CategoryMask를 받아 검사하는 로직으로 확장 가능
-            // 현재는 맵 범위를 벗어나지 않으면 이동 가능한 것으로 기본 판정
             return true;
         }
 
@@ -114,7 +133,6 @@ namespace CoreEngine.TileSystem.Grid
             return false;
         }
 
-        // 이름 불일치 수정: TryGetTileByLayer -> TryGetTileAtLayer
         public bool TryGetTileAtLayer(Vector2Int cellPos, byte layerIndex, out TileSnapshot tile)
         {
             if (layerIndex >= _layerCount || !TryGetFlatIndex(cellPos, out int flatIndex))
@@ -134,7 +152,6 @@ namespace CoreEngine.TileSystem.Grid
             return false;
         }
 
-        // 이름 불일치 수정: ContainsTile -> TryGetTileById
         public bool TryGetTileById(Vector2Int cellPos, ulong targetTileId, out TileSnapshot matchedTile)
         {
             if (targetTileId == 0 || !TryGetFlatIndex(cellPos, out int flatIndex))
@@ -200,7 +217,6 @@ namespace CoreEngine.TileSystem.Grid
                 return false;
             }
 
-            // 오타 수정: localY * _width + localX
             flatIndex = localY * _width + localX;
             return true;
         }
