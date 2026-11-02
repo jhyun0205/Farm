@@ -14,47 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
   m_GroupName: "CropIconRegistry \u25B8 Apple"
   m_GUID: df4b4a166baf908468525bd026b0d422
-  m_SerializeEntries:
-  - m_GUID: 137d7a058f908b54591545562bdf9574
-    m_Address: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1000_Apple/1002_Crops_18.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 60b12023073606f4bba5404f9a336929
-    m_Address: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1000_Apple/1001_Crops_17.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6673ba5856b46fe46886bd01f4e6caae
-    m_Address: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1000_Apple/1004_Crops_20.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 71458babe0d9cee469b1cb3754810e68
-    m_Address: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1000_Apple/1005_Crops_21.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8ac7844750b48b84ba848e68817c0447
-    m_Address: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1000_Apple/1000_Crops_16.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9a0a7fbc05102864fb1cc3484dfdaf18
-    m_Address: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1000_Apple/1007_Crops_23.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c9986a82dbc88da4f978ba392e0c8570
-    m_Address: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1000_Apple/1006_Crops_22.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f39bcd9f342f28c4c9357568e79ca0cb
-    m_Address: Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/1000_Apple/1003_Crops_19.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: b631d96092f96e44c8799570322cd6c6, type: 2}
   m_SchemaSet:

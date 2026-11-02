@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: "SpriteRegistry \u25B8 CropIcon \u25B8 \uD3EC\uB3C4"
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: "SpriteRegistry \u25B8 CropIcon \u25B8 \uD3EC\uB3C4"
+  m_GUID: 8cc1a86dc4a717048ab5ea2bc9f03e42
+  m_SerializeEntries:
+  - m_GUID: 145722537df075542b2db691de870353
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/1000_CropIcon/3600_\uD3EC\uB3C4/3601_Crops_89.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e822c6c4d939bf4eafe87e33807a490
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/1000_CropIcon/3600_\uD3EC\uB3C4/3603_Crops_91.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f12852660b57484a8b27ca64427a4a1
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/1000_CropIcon/3600_\uD3EC\uB3C4/3600_Crops_88.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8dd16a6c5b7f4564896b55c6f6c8b2ee
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/1000_CropIcon/3600_\uD3EC\uB3C4/3606_Crops_94.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b5bb693c81982eb4b89531b94ba7f8d5
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/1000_CropIcon/3600_\uD3EC\uB3C4/3605_Crops_93.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2f4188b9c22f9c40a89bd7fff74d8c3
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/1000_CropIcon/3600_\uD3EC\uB3C4/3604_Crops_92.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb846060f4fd4b045ab9d62f86c01319
+    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry/1000_CropIcon/3600_\uD3EC\uB3C4/3607_Crops_95.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b631d96092f96e44c8799570322cd6c6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e20beca552729a74bac4fa4aff2a60c3, type: 2}
+    - {fileID: 11400000, guid: 3d9ae4fe246a0d445a80548fa974d57f, type: 2}

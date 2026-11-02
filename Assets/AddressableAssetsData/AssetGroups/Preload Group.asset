@@ -45,14 +45,32 @@ MonoBehaviour:
     m_SerializedLabels:
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a597a79a22d4334791c3e6b0253edc1
+    m_Address: Assets/CoreFramework/Project/SO Data/Table/TileRuleSpriteTable.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5d05bd0266b91f843a4358adac46d2fa
     m_Address: Assets/CoreFramework/Project/SO Data/Table/ItemUseRuleSetTable.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6815424801d0c5841a43817781fba3e5
+    m_Address: Assets/CoreFramework/Project/SO Data/Table/ItemRangeTable.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6ec789aba08bf2c4fb9a74764ce8d2f7
     m_Address: Assets/CoreFramework/Project/SO Data/Table/CropTable.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7004b08eedeb5c94c8ceb12da61c8bd2
+    m_Address: Assets/CoreFramework/Project/SO Data/Table/TileMetaTable.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Preload
@@ -71,12 +89,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: de49d1be456059548bc3ea4f0a337c31
     m_Address: Assets/CoreFramework/Project/SO Data/Registry/CropIconRegistry.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Preload
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e4f716716d76f6d4785b53db7cbce47a
-    m_Address: Assets/CoreFramework/Project/SO Data/Registry/TempSpriteRegistry.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Preload

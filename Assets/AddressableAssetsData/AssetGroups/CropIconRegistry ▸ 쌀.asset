@@ -14,47 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
   m_GroupName: "CropIconRegistry \u25B8 \uC300"
   m_GUID: 985193534a27856419fdfbd17146697f
-  m_SerializeEntries:
-  - m_GUID: 24b602b9d6054fa4a85f391a163d6276
-    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2100_\uC300/2100_Crops_214.asset"
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 29c7fdccf2c78d742ad9d8bf24f77e34
-    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2100_\uC300/2104_Crops_218.asset"
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5dc1046e783fae1468a174dcdff46083
-    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2100_\uC300/2102_Crops_216.asset"
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8c19565ed5161894cadab580f29f14c6
-    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2100_\uC300/2105_Crops_219.asset"
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a32077a003747b449b61b22b7ba14971
-    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2100_\uC300/2103_Crops_217.asset"
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b7483224714668440b3f4724832dd6ab
-    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2100_\uC300/2106_Crops_220.asset"
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: decf1186a8b985842be4706fb07b4edf
-    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2100_\uC300/2107_Crops_221.asset"
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ed0efd579ccff6242a35a0ee4e7e399d
-    m_Address: "Assets/CoreFramework/Project/SO Data/Registry/Sprites/CropIconRegistry/2100_\uC300/2101_Crops_215.asset"
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: b631d96092f96e44c8799570322cd6c6, type: 2}
   m_SchemaSet:
