@@ -34,6 +34,8 @@ namespace Farm.GameData.Item
         public const ulong _1300_딸기 = 17699870478293781058UL;
         /// <summary> Key: "2000Anchovy" </summary>
         public const ulong _2000_Anchovy = 5899143905698679140UL;
+        /// <summary> Key: "2001Bream" </summary>
+        public const ulong _2001_Bream = 4805926529658476984UL;
         /// <summary> Key: "2100Sea snake" </summary>
         public const ulong _2100_Sea_snake = 7787822229840541659UL;
         /// <summary> Key: "2200Seahorse" </summary>

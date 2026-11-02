@@ -23,6 +23,15 @@ MonoBehaviour:
     fishItemFK:
       _key: "2000\x1FAnchovy"
       _hash: 5899143905698679140
+  - _hash: 4805926529658476984
+    _primarykey: "2001\x1FBream"
+    id: 2001
+    name: Bream
+    grade: 0
+    weight: 1000
+    fishItemFK:
+      _key: "2001\x1FBream"
+      _hash: 4805926529658476984
   - _hash: 7787822229840541659
     _primarykey: "2100\x1FSea snake"
     id: 2100
