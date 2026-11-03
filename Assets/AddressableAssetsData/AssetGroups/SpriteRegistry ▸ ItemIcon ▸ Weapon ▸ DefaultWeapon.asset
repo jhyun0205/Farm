@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: "SpriteRegistry \u25B8 ItemIcon \u25B8 Weapon \u25B8 DefaultWeapon"
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: "SpriteRegistry \u25B8 ItemIcon \u25B8 Weapon \u25B8 DefaultWeapon"
+  m_GUID: f5bd598c54326fe4b9ff1a8f71db6273
+  m_SerializeEntries:
+  - m_GUID: 0bb5e0c706bd707418d9f94776112ecc
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/10000_Weapon/10000_DefaultWeapon/10007_FishingRod!.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 104548766360612439f9092abc229328
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/10000_Weapon/10000_DefaultWeapon/10018_Sowrd.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20093fc2ab80cfd44bac941842288fc1
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/10000_Weapon/10000_DefaultWeapon/10011_Hook!.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2330f1b6a3fbd1f4c85125a6c75bd806
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/10000_Weapon/10000_DefaultWeapon/10002_Ax.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3648dc525ee2a084086daba47ce84ca0
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/10000_Weapon/10000_DefaultWeapon/10021_Staff!.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 373fb635780de884fa7833518f35f184
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/10000_Weapon/10000_DefaultWeapon/10017_Shovel!.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b9240fab852d034c8af6ef85e20a4cd
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/10000_Weapon/10000_DefaultWeapon/10008_Hoe.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 605cf1d6657ffd043923e41e1bf5c17e
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/10000_Weapon/10000_DefaultWeapon/10020_Staff.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63f5957200232be4c8666f0584265400
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/10000_Weapon/10000_DefaultWeapon/10009_Hoe!.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68070390e85ca5c40ac728f0adc49a0b
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/10000_Weapon/10000_DefaultWeapon/10015_Quiver!.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e09f9f177e788b4cb0540630584dec6
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/10000_Weapon/10000_DefaultWeapon/10023_WateringCan!.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e813f739d014184bbc5b154f50ca4d0
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/10000_Weapon/10000_DefaultWeapon/10006_FishingRod.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83b0b5fe14732a94ba51fa635197df92
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/10000_Weapon/10000_DefaultWeapon/10013_Pick!.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9267d9a4cdca13c40a2984f42dbcd7a8
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/10000_Weapon/10000_DefaultWeapon/10022_WateringCan.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aaa8509cb13fc7e4490f036896ccfdf7
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/10000_Weapon/10000_DefaultWeapon/10001_Arrow!.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afea7ef3b4ea4aa44aa7d02e6fc27e4f
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/10000_Weapon/10000_DefaultWeapon/10003_Ax!.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b25ffa71af35e964891112e3d77bee8d
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/10000_Weapon/10000_DefaultWeapon/10019_Sowrd!.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd082562767de454e9ec1fac8f37edac
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/10000_Weapon/10000_DefaultWeapon/10016_Shovel.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c65962c70004e874ba9221edabbe4a6c
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/10000_Weapon/10000_DefaultWeapon/10004_Bow.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc84ba8ae65091d45a6210a30391835c
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/10000_Weapon/10000_DefaultWeapon/10012_Pick.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2ea03d8d3a017f488de634c74f8da00
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/10000_Weapon/10000_DefaultWeapon/10010_Hook.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dadb9266a560e0d41a529e9af48e7141
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/10000_Weapon/10000_DefaultWeapon/10005_Bow!.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6d0b58ab8bf6aa4584cf875f63b3335
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/10000_Weapon/10000_DefaultWeapon/10014_Quiver.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fba9ca94ec2ee544685125502e9416ff
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/10000_Weapon/10000_DefaultWeapon/10000_Arrow.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b631d96092f96e44c8799570322cd6c6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 37ac5e30cfa56e740910ca3273b0b673, type: 2}
+    - {fileID: 11400000, guid: 0e3a057380d615f4a880a0c3b8743bb9, type: 2}

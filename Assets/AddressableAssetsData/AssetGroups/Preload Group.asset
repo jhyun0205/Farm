@@ -87,6 +87,18 @@ MonoBehaviour:
     m_SerializedLabels:
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af2b4f0d87f8a9e49841f626ac0b28b6
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/SpriteRegistry.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc5fdc428819562488a6d38ef5253c27
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/TileSpriteAssetRegistry.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: de49d1be456059548bc3ea4f0a337c31
     m_Address: Assets/CoreFramework/Project/SO Data/Registry/CropIconRegistry.asset
     m_ReadOnly: 0

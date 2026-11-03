@@ -3151,7 +3151,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crops_104
+      name: TomatoSeedPack
       rect:
         serializedVersion: 2
         x: 144
@@ -3173,7 +3173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crops_105
+      name: TomatoSeedPack!
       rect:
         serializedVersion: 2
         x: 160
@@ -3195,7 +3195,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crops_106
+      name: TomatoCrop
       rect:
         serializedVersion: 2
         x: 176
@@ -3217,7 +3217,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crops_107
+      name: No
       rect:
         serializedVersion: 2
         x: 192
@@ -3239,7 +3239,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crops_108
+      name: TomatoCropStar
       rect:
         serializedVersion: 2
         x: 208
@@ -3283,7 +3283,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crops_110
+      name: TomatoCrop!
       rect:
         serializedVersion: 2
         x: 240
@@ -5571,7 +5571,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crops_214
+      name: RiceSeedPack
       rect:
         serializedVersion: 2
         x: 0
@@ -5593,7 +5593,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crops_215
+      name: RiceSeedPack!
       rect:
         serializedVersion: 2
         x: 16
@@ -5615,7 +5615,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crops_216
+      name: RiceCrop
       rect:
         serializedVersion: 2
         x: 32
@@ -5637,7 +5637,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crops_217
+      name: None
       rect:
         serializedVersion: 2
         x: 48
@@ -5659,7 +5659,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crops_218
+      name: RiceCropStar
       rect:
         serializedVersion: 2
         x: 64
@@ -5681,7 +5681,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crops_219
+      name: Non
       rect:
         serializedVersion: 2
         x: 80
@@ -5703,7 +5703,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crops_220
+      name: RiceCrop!
       rect:
         serializedVersion: 2
         x: 96
@@ -7881,14 +7881,8 @@ TextureImporter:
       Crops_101: -1368242011544380887
       Crops_102: -9004892251159916311
       Crops_103: -3967237929857205426
-      Crops_104: -1840034058219844767
-      Crops_105: -5765791401770910884
-      Crops_106: 5302348848808465107
-      Crops_107: -7015276441256703656
-      Crops_108: -5545492575456576821
       Crops_109: 4422337733266787571
       Crops_11: 4150229347420907923
-      Crops_110: 166006926289291715
       Crops_111: 1459060478139086426
       Crops_112: 5097395158670741650
       Crops_113: 2264594466298315286
@@ -8003,14 +7997,7 @@ TextureImporter:
       Crops_211: 1453303236612003683
       Crops_212: 1914180200999943996
       Crops_213: 340643185571389856
-      Crops_214: -3719100800942754066
-      Crops_215: -6373011671397823947
-      Crops_216: 1648118626245324138
-      Crops_217: 6185434746875808174
-      Crops_218: 6689434372514353482
-      Crops_219: 1507772890128447432
       Crops_22: 6088432766868391303
-      Crops_220: -130601923464191389
       Crops_221: -1355582678168784504
       Crops_222: 281913882660944223
       Crops_223: -1781603889143226277
@@ -8192,6 +8179,19 @@ TextureImporter:
       Crops_97: 113666469060316179
       Crops_98: -6627099328418179905
       Crops_99: 3614151479051087722
+      No: -7015276441256703656
+      Non: 1507772890128447432
+      None: 6185434746875808174
+      RiceCrop: 1648118626245324138
+      RiceCrop!: -130601923464191389
+      RiceCropStar: 6689434372514353482
+      RiceSeedPack: -3719100800942754066
+      RiceSeedPack!: -6373011671397823947
+      TomatoCrop: 5302348848808465107
+      TomatoCrop!: 166006926289291715
+      TomatoCropStar: -5545492575456576821
+      TomatoSeedPack: -1840034058219844767
+      TomatoSeedPack!: -5765791401770910884
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

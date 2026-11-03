@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: "Sprites \u25B8 ItemIcon \u25B8 Crop \u25B8 Tomato"
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: "Sprites \u25B8 ItemIcon \u25B8 Crop \u25B8 Tomato"
+  m_GUID: 89966083e0efdde4fa00fcb659e3e02c
+  m_SerializeEntries: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b631d96092f96e44c8799570322cd6c6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: daec50d5519b09b4e9644ce35d581882, type: 2}
+    - {fileID: 11400000, guid: 4ee2604f37ded0b40be0d0441b27c44f, type: 2}

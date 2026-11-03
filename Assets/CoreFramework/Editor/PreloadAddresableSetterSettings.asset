@@ -36,6 +36,9 @@ MonoBehaviour:
   - TypeFullName: Farm.GameData.Item.ItemEffectRegistry
     TypeName: ItemEffectRegistry
     IsEnabled: 1
+  - TypeFullName: Farm.GameData.Item.ItemRangeTable
+    TypeName: ItemRangeTable
+    IsEnabled: 1
   - TypeFullName: Farm.GameData.Item.ItemTable
     TypeName: ItemTable
     IsEnabled: 1
@@ -45,6 +48,15 @@ MonoBehaviour:
   - TypeFullName: Farm.GameData.Item.ItemUseRuleSetTable
     TypeName: ItemUseRuleSetTable
     IsEnabled: 1
-  - TypeFullName: Farm.GameData.TempSpriteRegistry
-    TypeName: TempSpriteRegistry
+  - TypeFullName: Farm.GameData.SpriteRegistry
+    TypeName: SpriteRegistry
+    IsEnabled: 1
+  - TypeFullName: Farm.GameData.Tile.TileMetaTable
+    TypeName: TileMetaTable
+    IsEnabled: 1
+  - TypeFullName: Farm.GameData.Tile.TileRuleSpriteTable
+    TypeName: TileRuleSpriteTable
+    IsEnabled: 1
+  - TypeFullName: Farm.GameData.Tile.TileSpriteAssetRegistry
+    TypeName: TileSpriteAssetRegistry
     IsEnabled: 1

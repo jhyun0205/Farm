@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: "SpriteRegistry \u25B8 ItemIcon \u25B8 Crop \u25B8 Tomato"
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: "SpriteRegistry \u25B8 ItemIcon \u25B8 Crop \u25B8 Tomato"
+  m_GUID: 005388338be55dc46a7e763cad229bb5
+  m_SerializeEntries:
+  - m_GUID: 6248c16a7d13cd04a9b7a3a309e0c1fa
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/11000_Crop/11010_Tomato/11012_TomatoCropStar.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6575970e33b250447be5f5a7e7741791
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/11000_Crop/11010_Tomato/11011_TomatoCrop!.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e7833a531d7e9f4195742defbe67ab2
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/11000_Crop/11010_Tomato/11014_TomatoSeedPack!.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8d2b85d9f2ed0f4cb31a09a4aea58dc
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/11000_Crop/11010_Tomato/11013_TomatoSeedPack.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6ec41bccb8746e4aad7481474829fa8
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/10000_ItemIcon/11000_Crop/11010_Tomato/11010_TomatoCrop.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b631d96092f96e44c8799570322cd6c6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4125fccba70d53d4e889b2ff00dfa1ab, type: 2}
+    - {fileID: 11400000, guid: 72d28a336dcc9fe438a7e1583530280f, type: 2}
