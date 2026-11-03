@@ -1,6 +1,8 @@
 using CoreEngine;
 using CoreEngine.Actor;
 using CoreEngine.Helpers;
+using CoreEngine.EventBus;
+using CoreEngine.TileSystem.Contracts;
 using UnityEngine;
 
 namespace Farm.Character.Move
@@ -36,10 +38,16 @@ namespace Farm.Character.Move
             Physics_Move(fixedDeltaTime);
         }
 
-        public virtual void Move(Vector2 input)
+        // isManual=false 일 경우 자동 이동으로 간주하여 이벤트 발행 생략
+        public virtual void Move(Vector2 input, bool isManual = true)
         {
             inputMove = input;
             isMove = input.sqrMagnitude > 0.01f;
+
+            if (isManual && isMove)
+            {
+                EventBus<ManualMoveInputDetectedEvent>.Publish(new ManualMoveInputDetectedEvent());
+            }
 
             // Scale -1을 이용한 좌우 반전 로직
             // x값이 0일 때는 마지막 방향을 유지하기 위해 '0이 아닐 때만' 업데이트
@@ -59,17 +67,11 @@ namespace Farm.Character.Move
 
         private void Physics_Move(float fixedDataTime)
         {
-            if(isMove && canMove)
+            if (isMove && canMove)
             {
-                // 탑다운 선형 움직임
                 Vector2 nextVec = inputMove.normalized * moveSpeed;
                 if (IsSprint) nextVec *= SprintMul;
-                _rigidbody.linearVelocity = nextVec; 
-
-                // 가속 감속 움직임
-                //Vector2 nextVec = inputMove.normalized * moveSpeed * fixedDataTime;
-                //if (IsSprint) nextVec *= SprintMul;
-                //_rigidbody.AddForce(nextVec, ForceMode2D.Impulse);
+                _rigidbody.linearVelocity = nextVec;
             }
             else
             {
