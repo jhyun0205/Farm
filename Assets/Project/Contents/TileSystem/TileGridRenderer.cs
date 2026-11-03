@@ -1,6 +1,7 @@
+using System.Collections.Generic;
 using CoreEngine.EventBus;
 using CoreEngine.TileSystem.Contracts;
-using Farm.GameData.Tile; // 수정된 TileDataRegistry 위치
+using Farm.GameData.Tile;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -8,14 +9,15 @@ namespace Farm.Systems.TileContent
 {
     public class TileGridRenderer : MonoBehaviour
     {
-        [Header("References")]
-        [SerializeField] private Tilemap _tilemap;
+        [Header("Layer Tilemaps (Index = LayerIndex)")]
+        [SerializeField] private Tilemap[] _layerTilemaps;
 
-        private TileDataProvider _tileDataRegistry;
+        private TileDataProvider _dataProvider;
+        private readonly Dictionary<Sprite, Tile> _tileInstanceCache = new(128);
 
-        public void Initialize(TileDataProvider dataRegistry)
+        public void Initialize(TileDataProvider dataProvider)
         {
-            _tileDataRegistry = dataRegistry;
+            _dataProvider = dataProvider;
         }
 
         private void OnEnable()
@@ -28,29 +30,50 @@ namespace Farm.Systems.TileContent
             EventBus<TileChangedEvent>.Unsubscribe(OnTileChanged);
         }
 
+        private void OnDestroy()
+        {
+            foreach (Tile cachedTile in _tileInstanceCache.Values)
+            {
+                if (cachedTile != null)
+                {
+                    Destroy(cachedTile);
+                }
+            }
+            _tileInstanceCache.Clear();
+        }
+
         private void OnTileChanged(TileChangedEvent evt)
         {
-            if (_tilemap == null || _tileDataRegistry == null) return;
+            if (_dataProvider == null || _layerTilemaps == null) return;
+            if (evt.LayerIndex >= _layerTilemaps.Length) return;
+
+            Tilemap targetTilemap = _layerTilemaps[evt.LayerIndex];
+            if (targetTilemap == null) return;
 
             Vector3Int position = new Vector3Int(evt.CellPos.x, evt.CellPos.y, 0);
 
             if (evt.TileId == 0)
             {
-                _tilemap.SetTile(position, null);
+                targetTilemap.SetTile(position, null);
                 return;
             }
 
-            Sprite sprite = _tileDataRegistry.GetTileSprite(evt.TileId, evt.MaskIndex);
-            if (sprite != null)
+            Sprite sprite = _dataProvider.GetTileSprite(evt.TileId, evt.MaskIndex);
+            if (sprite == null)
             {
-                Tile tile = ScriptableObject.CreateInstance<Tile>();
-                tile.sprite = sprite;
-                _tilemap.SetTile(position, tile);
+                targetTilemap.SetTile(position, null);
+                return;
             }
-            else
+
+            if (!_tileInstanceCache.TryGetValue(sprite, out Tile tileAsset))
             {
-                _tilemap.SetTile(position, null);
+                tileAsset = ScriptableObject.CreateInstance<Tile>();
+                tileAsset.hideFlags = HideFlags.DontSave;
+                tileAsset.sprite = sprite;
+                _tileInstanceCache[sprite] = tileAsset;
             }
+
+            targetTilemap.SetTile(position, tileAsset);
         }
     }
 }

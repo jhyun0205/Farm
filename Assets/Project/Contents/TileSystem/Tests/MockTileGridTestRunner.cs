@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using CoreEngine.EventBus;
 using CoreEngine.TileSystem.Contracts;
 using CoreEngine.TileSystem.Grid;
@@ -27,6 +28,7 @@ namespace Farm.Systems.TileContent.Tests
         private GridStorage _gridStorage;
         private MockTileDataProvider _mockProvider;
         private CellChangeDetector _cellDetector;
+        private readonly Dictionary<Sprite, Tile> _tileInstanceCache = new(64);
 
         private void Start()
         {
@@ -57,6 +59,15 @@ namespace Farm.Systems.TileContent.Tests
         private void OnDestroy()
         {
             EventBus<TileChangedEvent>.Unsubscribe(OnTileChanged);
+
+            foreach (Tile cachedTile in _tileInstanceCache.Values)
+            {
+                if (cachedTile != null)
+                {
+                    Destroy(cachedTile);
+                }
+            }
+            _tileInstanceCache.Clear();
         }
 
         private void Update()
@@ -114,12 +125,21 @@ namespace Farm.Systems.TileContent.Tests
             }
 
             Sprite sprite = _mockProvider.GetSprite(evt.MaskIndex);
-            if (sprite != null)
+            if (sprite == null)
             {
-                Tile tile = ScriptableObject.CreateInstance<Tile>();
-                tile.sprite = sprite;
-                _tilemap.SetTile(pos, tile);
+                _tilemap.SetTile(pos, null);
+                return;
             }
+
+            if (!_tileInstanceCache.TryGetValue(sprite, out Tile tileAsset))
+            {
+                tileAsset = ScriptableObject.CreateInstance<Tile>();
+                tileAsset.hideFlags = HideFlags.DontSave;
+                tileAsset.sprite = sprite;
+                _tileInstanceCache[sprite] = tileAsset;
+            }
+
+            _tilemap.SetTile(pos, tileAsset);
         }
     }
 }
