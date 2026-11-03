@@ -24,9 +24,14 @@ namespace CoreEngine.TileSystem.UI
 
         private Transform _cachedTransform;
         private Vector2Int _currentCellPos;
+        private Vector3 _currentWorldCenter;
         private TileCheckerState _currentState = TileCheckerState.Hidden;
         private bool _isVisible = true;
         private bool _hasPositionInitialized;
+
+        public Canvas SubCanvas => _subCanvas;
+        public Vector2Int CurrentCellPos => _currentCellPos;
+        public TileCheckerState CurrentState => _currentState;
 
         protected virtual void Awake()
         {
@@ -35,9 +40,13 @@ namespace CoreEngine.TileSystem.UI
             if (_subCanvas == null) _subCanvas = GetComponent<Canvas>();
             if (_canvasGroup == null) _canvasGroup = GetComponent<CanvasGroup>();
 
-            // 커서 UI가 마우스 레이캐스트를 가로채지 않도록 차단
             _canvasGroup.interactable = false;
             _canvasGroup.blocksRaycasts = false;
+
+            if (_cursorImage != null)
+            {
+                _cursorImage.raycastTarget = false;
+            }
 
             SetVisible(false);
         }
@@ -53,15 +62,15 @@ namespace CoreEngine.TileSystem.UI
 
             SetVisible(true);
 
-            // 셀 좌표나 월드 위치가 변경되었을 때만 트랜스폼 갱신
-            if (!_hasPositionInitialized || _currentCellPos != cellPos || _cachedTransform.position != worldCenter)
+            // C++ Transform.position 역조회 없이 순수 C# 캐시 값으로만 비교
+            if (!_hasPositionInitialized || _currentCellPos != cellPos || _currentWorldCenter != worldCenter)
             {
                 _currentCellPos = cellPos;
+                _currentWorldCenter = worldCenter;
                 _cachedTransform.position = worldCenter;
                 _hasPositionInitialized = true;
             }
 
-            // 상태가 변경되었을 때만 그래픽 속성(색상 등) 갱신
             if (_currentState != state)
             {
                 _currentState = state;
