@@ -23,6 +23,9 @@ namespace Farm.Character
         private readonly InterfaceReceiver<IQuickSlotUpdate> _quickSlotUpdateReceiver = new();
         private CharacterActionController actionController;
 
+        public int CurItemIndex => curItemIndex;
+        public ItemInstance CurrentItem => GetItem(curItemIndex);
+
         protected override void OnInitialized()
         {
             base.OnInitialized();
@@ -75,6 +78,8 @@ namespace Farm.Character
                     quickSlotUpdate.OnItemSlotChanged(i);
                 }
             }
+
+            NotifySelectedSlotChanged();
         }
 
         public ItemInstance GetItem(int index)
@@ -153,6 +158,11 @@ namespace Farm.Character
 
                     // null이었던 슬롯에 새 객체가 할당되었으므로 UI에 재연결 요청
                     quickSlotUpdate?.OnItemSlotChanged(i);
+
+                    if (i == curItemIndex)
+                    {
+                        NotifySelectedSlotChanged();
+                    }
                 }
             }
 
@@ -161,6 +171,8 @@ namespace Farm.Character
                 LogHelper.LogWarning($"인벤토리(퀵슬롯)가 꽉 차서 {record.Name} {remainCount}개를 획득하지 못했습니다.");
                 // TODO: 남은 수량(remainCount)만큼 필드에 드랍 아이템 생성
             }
+
+            
         }
 
         public void UseItem(int count = 1)
@@ -189,6 +201,7 @@ namespace Farm.Character
                     {
                         repository.Remove(item);
                         items[curItemIndex] = null;
+                        NotifySelectedSlotChanged();
 
                         if (_quickSlotUpdateReceiver.TryGet(out var quickSlotUpdate))
                         {
