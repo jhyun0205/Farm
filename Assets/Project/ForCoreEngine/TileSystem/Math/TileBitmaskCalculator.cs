@@ -26,19 +26,6 @@ namespace CoreEngine.TileSystem.Math
         private const byte BITMASK_SW = BIT_S | BIT_W | BIT_SW;
         private const byte BITMASK_NW = BIT_W | BIT_N | BIT_NW;
 
-        // 시계방향 순회 8방향 오프셋: 북(0)부터 시작하여 짝수는 직교, 홀수는 대각선
-        public static readonly Vector2Int[] NeighborOffsets = new Vector2Int[8]
-        {
-            new Vector2Int( 0,  1), // 0: 북 (N)
-            new Vector2Int( 1,  1), // 1: 북동 (NE)
-            new Vector2Int( 1,  0), // 2: 동 (E)
-            new Vector2Int( 1, -1), // 3: 남동 (SE)
-            new Vector2Int( 0, -1), // 4: 남 (S)
-            new Vector2Int(-1, -1), // 5: 남서 (SW)
-            new Vector2Int(-1,  0), // 6: 서 (W)
-            new Vector2Int(-1,  1)  // 7: 북서 (NW)
-        };
-
         // 8방향 게이팅 비트마스크(0~255)를 스프라이트 배열 인덱스(0~46)로 압축하는 룩업 테이블
         private static readonly byte[] Blob47LookupTable = InitializeBlob47Lookup();
 
@@ -47,7 +34,8 @@ namespace CoreEngine.TileSystem.Math
         /// </summary>
         public static Vector2Int GetOffset(GridDirection direction)
         {
-            return NeighborOffsets[(int)direction];
+            // 기존 내부 배열 대신 공통 방향 배열(TileDirections.Clockwise8)을 참조
+            return TileDirections.Clockwise8[(int)direction];
         }
 
         /// <summary>
