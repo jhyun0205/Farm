@@ -26,7 +26,7 @@ namespace Farm.Character
         [SerializeField] protected CharacterActionController actionController = new();
         [SerializeField] protected CharacterMoveFeature moveFeature = new();
         [SerializeField] protected CharacterStaminaFeature staminaFeature = new();
-        [SerializeField] protected CharacterStaminaRing staminaRing = new();
+        [SerializeField] protected CharacterFatigueFeature fatigueFeature = new();
         //[SerializeField] protected FishFeture fishFeature = new();
         #endregion
 
@@ -52,7 +52,7 @@ namespace Farm.Character
             FeatureHandler.RegisterFeature(actionController);
             FeatureHandler.RegisterFeature(staminaFeature);
             FeatureHandler.RegisterFeature(moveFeature);
-            FeatureHandler.RegisterFeature(staminaRing);
+            FeatureHandler.RegisterFeature(fatigueFeature);
             //FeatureHandler.RegisterFeature(fishFeature);
         }
 

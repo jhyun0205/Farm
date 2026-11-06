@@ -7,7 +7,7 @@ using UnityEngine;
 namespace Farm.Character 
 {
     [System.Serializable] 
-    public class CharacterStaminaFeature : BaseActorFeature, ITick 
+    public class CharacterStaminaFeature : BaseActorFeature, ITick, IDisposable
     {
         [SerializeField] private int staminaCount = 1; // 보유한 그릇 개수 (기본 1개부터 시작)
         [SerializeField] private float drainPerSecond = 10f; // 초당 소모량 (스프린트 중)
@@ -19,6 +19,8 @@ namespace Farm.Character
         private float curStamina; // 현재 스테미너 값
         private CharacterMoveFeature moveFeature; // 이동/스프린트 상태를 확인하기 위한 참조
         private bool isExhausted; // 완전히 바닥나서 일정량 회복 전까지 탈진 상태
+
+        private readonly CharacterStaminaRing ring = new(); // 화면 표시용 Ring을 직접 소유 (BaseCharacter에는 노출 안 함)
 
         public float StaminaRatio => curStamina / MaxStamina; // UI에 넘겨줄 0~1 비율 값
         public float CurStamina => curStamina; //현재 스테미너 원본값 (조각별 계산에 필요)
@@ -58,6 +60,13 @@ namespace Farm.Character
             curStamina = MaxStamina; // 시작할 때는 스테미너를 가득 채워둠
             lastValidatedCount = staminaCount; // 시작 시점 값으로 초기화
             OnStaminaChanged?.Invoke(curStamina); // UI가 처음 값도 바로 반영할 수 있도록 1회 방송
+
+            ring.Initialize(Host); // 같은 Host로 Ring도 직접 초기화 (FeatureHandler 거치지 않음)
+        }
+
+        public void Dispose() // StaminaFeature가 사라질 때 Ring의 구독 해제까지 대신 처리
+        {
+            ring.Dispose();
         }
 
         public void Tick(float deltaTime) // 매 틱마다 호출되어 스테미너를 갱신
@@ -95,6 +104,8 @@ namespace Farm.Character
                 Debug.Log($"스테미너: {curStamina:F1} / {MaxStamina}");
                 OnStaminaChanged?.Invoke(curStamina); // 구독 중인 UI에 새 원본값을 방송
             }
+
+            ring.Tick(deltaTime); // Ring의 Tick도 직접 호출 (FeatureHandler 거치지 않음)
         }
     }
 }
