@@ -6,6 +6,8 @@ namespace Farm.GameData.Item
     {
         /// <summary> Key: "0괭이" </summary>
         public const ulong _0_괭이 = 11766870585033640650UL;
+        /// <summary> Key: "1가방" </summary>
+        public const ulong _1_가방 = 7913733881732279464UL;
         /// <summary> Key: "10물뿌리개" </summary>
         public const ulong _10_물뿌리개 = 13825979612340675799UL;
         /// <summary> Key: "11대용량 물뿌리개" </summary>

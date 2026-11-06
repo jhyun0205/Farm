@@ -19,6 +19,10 @@
     ],
     [
       "id",
+      "itemSpriteId"
+    ],
+    [
+      "id",
       "maxStack"
     ],
     [
@@ -35,6 +39,10 @@
     ],
     [
       "name",
+      "itemSpriteId"
+    ],
+    [
+      "name",
       "maxStack"
     ],
     [
@@ -44,6 +52,10 @@
     [
       "name",
       "itemType"
+    ],
+    [
+      "description",
+      "itemSpriteId"
     ],
     [
       "description",
