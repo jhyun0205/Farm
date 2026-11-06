@@ -1,5 +1,5 @@
-using CoreEngine; 
-using CoreEngine.Actor; 
+using CoreEngine;
+using CoreEngine.Actor;
 using Farm.Character.Move;
 using System;
 using UnityEngine;

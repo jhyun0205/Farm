@@ -9,9 +9,14 @@ namespace Farm.UI
 {
     public class FatigueBarUI : CoreMonoBehaviour // 화면 고정 HUD용, World Space 아님
     {
-        [SerializeField] private Image barImage; // Image Type = Filled, Fill Method = Horizontal로 설정해둘 것
+        private Image barImage; // Image Type = Filled, Fill Method = Horizontal로 설정해둘 것 — Awake에서 자동으로 찾음
 
         private CharacterFatigueFeature fatigueFeature; // 구독 해제를 위해 보관
+
+        private void Awake()
+        {
+            barImage = GetComponent<Image>(); // 이 오브젝트에 붙어있는 Image를 자동으로 가져옴 (Inspector 드래그 불필요)
+        }
 
         protected override void OnEnable()
         {
