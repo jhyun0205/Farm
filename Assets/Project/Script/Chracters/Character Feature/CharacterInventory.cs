@@ -166,13 +166,23 @@ namespace Farm.Character
                 }
             }
 
+            int acquiredCount = count - remainCount;   // 실제로 인벤토리에 들어간 개수 계산
+            if (acquiredCount > 0)                     // 1개라도 들어갔으면
+            {
+                EventBus<ItemAcquiredEvent>.Publish(new ItemAcquiredEvent   // 이벤트 발행 (구독자 없으면 그냥 무시됨)
+                {
+                    ItemKey = itemKey,
+                    Count = acquiredCount
+                });
+            }
+
             if (remainCount > 0)
             {
                 LogHelper.LogWarning($"인벤토리(퀵슬롯)가 꽉 차서 {record.Name} {remainCount}개를 획득하지 못했습니다.");
                 // TODO: 남은 수량(remainCount)만큼 필드에 드랍 아이템 생성
             }
 
-            
+
         }
 
         public void UseItem(int count = 1)
@@ -222,6 +232,12 @@ namespace Farm.Character
         public struct SelectedSlotChangedEvent : IEvent
         {
             public int SlotIndex;
+        }
+
+        public struct ItemAcquiredEvent : IEvent   // 어떤 아이템을 먹었는지 다른 시스템에 알리는 용도
+        {
+            public ulong ItemKey;   // 어떤 아이템인지 (ItemTableKeys._1_가방 같은 값)
+            public int Count;       // 실제로 획득된 개수
         }
     }
 }

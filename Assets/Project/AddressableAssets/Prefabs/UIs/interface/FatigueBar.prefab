@@ -135,14 +135,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.454902, g: 0.454902, b: 0.454902, a: 1}
+  m_Color: {r: 0.4811321, g: 0.4811321, b: 0.4811321, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3644504312357451964, guid: f124e674fed74bf49a934e491aa1af28, type: 3}
+  m_Sprite: {fileID: -3995279204074804730, guid: 71f7f8f90ba0bfc40b1900c8fabac0be, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -164,4 +164,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10e45f1e1f2dfc4448ff300fe0f54636, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Farm.UI.FatigueBarUI
-  barImage: {fileID: 5912688854991134684}
