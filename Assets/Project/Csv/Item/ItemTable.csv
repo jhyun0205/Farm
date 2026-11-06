@@ -1,5 +1,6 @@
 {id/int/UNIQUE/NOT NULL},{name/string/UNIQUE/NOT NULL},{description/string/NOT NULL},{itemSpriteId/AssetID/NOT NULL},{maxStack/int/CHECK(VALUE >= 0 AND VALUE <= 99)},{sellPrice/int/CHECK(VALUE >= 0)},{itemType/enum/DEFAULT(0)/CHECK IN(0|1|2)}
 0,괭이,대충,99999,1,100,0
+1,가방,일단 담아,99999,1,2000,0
 10,물뿌리개,아무,99999,1,100,0
 11,대용량 물뿌리개,더 많은 물을 담을 수 있다.,99999,1,200,0
 20,낫,설명,99999,1,100,0

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ItemTable
   m_EditorClassIdentifier: Assembly-CSharp::Farm.GameData.Item.ItemTable
   _preloadCommands:
-  - rid: 1540464695327588444
+  - rid: 3231372458128834642
   _table:
   - _hash: 11766870585033640650
     _primarykey: "0\x1F\uAD2D\uC774"
@@ -25,6 +25,16 @@ MonoBehaviour:
     description: "\uB300\uCDA9"
     maxStack: 1
     sellPrice: 100
+  - _hash: 7913733881732279464
+    _primarykey: "1\x1F\uAC00\uBC29"
+    id: 1
+    name: "\uAC00\uBC29"
+    itemType: 0
+    itemSpriteId:
+      _id: 99999
+    description: "\uC77C\uB2E8 \uB2F4\uC544"
+    maxStack: 1
+    sellPrice: 2000
   - _hash: 13825979612340675799
     _primarykey: "10\x1F\uBB3C\uBFCC\uB9AC\uAC1C"
     id: 10
@@ -214,7 +224,7 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 1540464695327588444
+    - rid: 3231372458128834642
       type: {class: 'AssetPreloadCommand`2[[UnityEngine.Sprite, UnityEngine.CoreModule],[Farm.GameData.SpriteRegistry, Assembly-CSharp]]', ns: CoreEngine.GameData, asm: CoreEngine}
       data:
         ids: 9f86010000000000

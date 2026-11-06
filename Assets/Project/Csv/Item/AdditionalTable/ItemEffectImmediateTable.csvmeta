@@ -20,11 +20,6 @@
     [
       "itemName",
       "itemEffectId"
-    ],
-    [
-      "itemId",
-      "itemName",
-      "itemEffectId"
     ]
   ],
   "primaryKey": [

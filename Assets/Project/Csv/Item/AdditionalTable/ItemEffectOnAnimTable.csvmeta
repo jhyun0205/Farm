@@ -35,26 +35,6 @@
     [
       "index",
       "itemEffectId"
-    ],
-    [
-      "itemId",
-      "itemName",
-      "index"
-    ],
-    [
-      "itemId",
-      "itemName",
-      "itemEffectId"
-    ],
-    [
-      "itemId",
-      "index",
-      "itemEffectId"
-    ],
-    [
-      "itemName",
-      "index",
-      "itemEffectId"
     ]
   ],
   "primaryKey": [
