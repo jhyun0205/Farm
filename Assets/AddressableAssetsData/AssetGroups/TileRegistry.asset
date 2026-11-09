@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: TileRegistry
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: TileRegistry
+  m_GUID: 9446a70a7c7185b4d845621ba5bb1986
+  m_SerializeEntries:
+  - m_GUID: 94566dbb89d9afc4e9155ec584c8cd98
+    m_Address: Assets/AssetRegistryTarget/TileRegistry/1557_Tileset Grass Cliff Tileset
+      Spring_0.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b631d96092f96e44c8799570322cd6c6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: cb942ffe9e4134b4db955a1161672a91, type: 2}
+    - {fileID: 11400000, guid: ed675ac832c6bfb4d9f11100ac008292, type: 2}
