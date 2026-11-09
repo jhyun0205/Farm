@@ -54,6 +54,9 @@ MonoBehaviour:
   - TypeFullName: Farm.GameData.Tile.TileMetaTable
     TypeName: TileMetaTable
     IsEnabled: 1
+  - TypeFullName: Farm.LevelDesign.TileRegistry
+    TypeName: TileRegistry
+    IsEnabled: 1
   - TypeFullName: Farm.GameData.Tile.TileRuleSpriteTable
     TypeName: TileRuleSpriteTable
     IsEnabled: 1
