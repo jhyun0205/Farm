@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Farm.GameData.Tile
 {
-    using TileSpriteId = AssetId<Sprite, TileSpriteAssetRegistry>;
+    using TileSpriteId = AssetId<Sprite, SpriteRegistry>;
 
     [Serializable]
     public class TileRuleSpriteRecord : BaseRecord
