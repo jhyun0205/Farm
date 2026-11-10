@@ -48,18 +48,18 @@ MonoBehaviour:
   - TypeFullName: Farm.GameData.Item.ItemUseRuleSetTable
     TypeName: ItemUseRuleSetTable
     IsEnabled: 1
+  - TypeFullName: Farm.GameData.LevelDesign.SeasonalTileTable
+    TypeName: SeasonalTileTable
+    IsEnabled: 1
   - TypeFullName: Farm.GameData.SpriteRegistry
     TypeName: SpriteRegistry
+    IsEnabled: 1
+  - TypeFullName: Farm.GameData.TileBaseRegistry
+    TypeName: TileBaseRegistry
     IsEnabled: 1
   - TypeFullName: Farm.GameData.Tile.TileMetaTable
     TypeName: TileMetaTable
     IsEnabled: 1
-  - TypeFullName: Farm.LevelDesign.TileRegistry
-    TypeName: TileRegistry
-    IsEnabled: 1
   - TypeFullName: Farm.GameData.Tile.TileRuleSpriteTable
     TypeName: TileRuleSpriteTable
-    IsEnabled: 1
-  - TypeFullName: Farm.GameData.Tile.TileSpriteAssetRegistry
-    TypeName: TileSpriteAssetRegistry
     IsEnabled: 1

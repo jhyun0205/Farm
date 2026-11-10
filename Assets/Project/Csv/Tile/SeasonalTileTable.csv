@@ -1,0 +1,2 @@
+{tileBaseId/AssetID/UNIQUE/NOT NULL},{tileName/string},{springSpriteId/AssetID/UNIQUE/NOT NULL},{summerSpriteId/AssetID/UNIQUE/NOT NULL},{fallSpriteId/AssetID/UNIQUE/NOT NULL},{winterSpriteId/AssetID/UNIQUE/NOT NULL}
+1,testTile,10000,20000,30000,40000

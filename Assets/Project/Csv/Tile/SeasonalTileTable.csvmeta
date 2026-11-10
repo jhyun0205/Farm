@@ -1,7 +1,7 @@
 {
   "superKeys": [
     [
-      "tileAssetId"
+      "tileBaseId"
     ],
     [
       "tileName"
@@ -19,23 +19,23 @@
       "winterSpriteId"
     ],
     [
-      "tileAssetId",
+      "tileBaseId",
       "tileName"
     ],
     [
-      "tileAssetId",
+      "tileBaseId",
       "springSpriteId"
     ],
     [
-      "tileAssetId",
+      "tileBaseId",
       "summerSpriteId"
     ],
     [
-      "tileAssetId",
+      "tileBaseId",
       "fallSpriteId"
     ],
     [
-      "tileAssetId",
+      "tileBaseId",
       "winterSpriteId"
     ],
     [
@@ -80,7 +80,7 @@
     ]
   ],
   "primaryKey": [
-    "tileAssetId",
+    "tileBaseId",
     "tileName"
   ],
   "foreignKeys": {}

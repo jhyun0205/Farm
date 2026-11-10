@@ -1,7 +1,7 @@
 {
   "tableFileName": "SeasonalTileTable.csv",
   "bindings": {
-    "tileAssetId": {
+    "tileBaseId": {
       "registryName": "TileRegistry",
       "registrySoGuid": "4dc942dc927594f4b85cfb10255d6982",
       "assetType": "UnityEngine.Tilemaps.Tile",

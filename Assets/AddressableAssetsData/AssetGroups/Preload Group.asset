@@ -21,6 +21,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19e0fc22c8916534489c59fd9001080f
+    m_Address: Assets/CoreFramework/Project/SO Data/Table/SeasonalTileTable.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2b7a217b269030946a420774a5dea969
     m_Address: Assets/CoreFramework/Project/SO Data/Table/ItemDurableTable.asset
     m_ReadOnly: 0
@@ -35,6 +41,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4afd9018dccf37c40af3ec4b16d877b2
     m_Address: Assets/CoreFramework/Project/SO Data/Registry/ItemUseRuleRegistry.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4dc942dc927594f4b85cfb10255d6982
+    m_Address: Assets/CoreFramework/Project/SO Data/Registry/TileBaseRegistry.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Preload
