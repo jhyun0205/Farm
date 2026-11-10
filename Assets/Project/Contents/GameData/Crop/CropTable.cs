@@ -5,8 +5,6 @@ using UnityEngine;
 
 namespace Farm.GameData.Crop
 {
-    public enum Season {Spring, Summer, Autumn, Winter }
-
     [System.Serializable]
     public class CropRecord : BaseRecord
     {

@@ -1,3 +1,4 @@
+using Farm.GameData;
 using NUnit.Framework.Internal;
 using System.Threading;
 using UnityEngine;
@@ -6,13 +7,6 @@ using UnityEngine.UI;
 
 namespace Farm.TileSystem.Test
 {
-    public enum StartSeason
-    {
-        Spring,
-        Summer,
-        Fall,
-        Winter,
-    }
     public class TestTileChange : MonoBehaviour
     {
         [Header("Tile Opntion")]
@@ -20,7 +14,7 @@ namespace Farm.TileSystem.Test
         public Tile LevelTile; // 파일 에셋으로 존재하는 타일
         private Tile RunTimeTile; // 런타임에 생성해서 Sprite를 변경할 타일
 
-        public StartSeason startSeason;
+        public Season startSeason;
 
 
         [Header("Seasonal Buttons")]
@@ -39,8 +33,9 @@ namespace Farm.TileSystem.Test
 
         private void Awake()
         {
-            RunTimeTile = new();
+            RunTimeTile = ScriptableObject.CreateInstance<Tile>();
             RunTimeTile.sprite = LevelTile.sprite;
+
             tilemap.SwapTile(LevelTile, RunTimeTile);
 
             SpringButton.onClick.AddListener(() => ChangeTileSprite(Spring));
@@ -50,19 +45,19 @@ namespace Farm.TileSystem.Test
 
             switch (startSeason)
             {
-                case StartSeason.Spring:
+                case Season.Spring:
                     ChangeTileSprite(Spring);
                     break;
 
-                case StartSeason.Summer:
+                case Season.Summer:
                     ChangeTileSprite(Summer);
                     break;
 
-                case StartSeason.Fall:
+                case Season.Fall:
                     ChangeTileSprite(Fall);
                     break;
 
-                case StartSeason.Winter:
+                case Season.Winter:
                     ChangeTileSprite(Winter);
                     break;
             }
