@@ -4,7 +4,15 @@ namespace Farm.GameData.LevelDesign
 {
     public static class SeasonalTileTableKeys
     {
-        /// <summary> Key: "1testTile" </summary>
-        public const ulong _1_testTile = 16804327641444387694UL;
+        /// <summary> Key: "20000test0" </summary>
+        public const ulong _20000_test0 = 6122822952379992265UL;
+        /// <summary> Key: "20001test1" </summary>
+        public const ulong _20001_test1 = 3764942480580562120UL;
+        /// <summary> Key: "20002test2" </summary>
+        public const ulong _20002_test2 = 10773413665242785055UL;
+        /// <summary> Key: "20003test3" </summary>
+        public const ulong _20003_test3 = 9789243677145396626UL;
+        /// <summary> Key: "20004test4" </summary>
+        public const ulong _20004_test4 = 8508046074922060050UL;
     }
 }

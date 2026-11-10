@@ -1,6 +1,6 @@
 {
     "registrySoGuid": "af2b4f0d87f8a9e49841f626ac0b28b6",
-    "currentRevision": 2,
+    "currentRevision": 4,
     "assets": [
         {
             "guid": "0050dde7ac7524d4eaeb1cc0c7882a5d",
@@ -10,6 +10,17 @@
                     "rev": 2,
                     "id": 11002,
                     "date": "2026-11-03T15:00:12Z"
+                }
+            ]
+        },
+        {
+            "guid": "0157087fda4feca47ae64ea4718eada0",
+            "lastKnownName": "GroundGrassSpring03.asset",
+            "history": [
+                {
+                    "rev": 3,
+                    "id": 20003,
+                    "date": "2026-11-10T07:40:37Z"
                 }
             ]
         },
@@ -42,6 +53,17 @@
                     "rev": 2,
                     "id": 0,
                     "date": "2026-11-03T15:00:12Z"
+                }
+            ]
+        },
+        {
+            "guid": "029484e1786af1b4ebf6e15e36178f96",
+            "lastKnownName": "GroundGrassWinter02.asset",
+            "history": [
+                {
+                    "rev": 4,
+                    "id": 50002,
+                    "date": "2026-11-10T07:57:11Z"
                 }
             ]
         },
@@ -106,6 +128,17 @@
                     "rev": 2,
                     "id": 0,
                     "date": "2026-11-03T15:00:12Z"
+                }
+            ]
+        },
+        {
+            "guid": "051efea875b617645afcbc7a20e01b0d",
+            "lastKnownName": "GroundGrassWinter00.asset",
+            "history": [
+                {
+                    "rev": 4,
+                    "id": 50000,
+                    "date": "2026-11-10T07:57:11Z"
                 }
             ]
         },
@@ -384,6 +417,17 @@
                     "rev": 2,
                     "id": 0,
                     "date": "2026-11-03T15:00:12Z"
+                }
+            ]
+        },
+        {
+            "guid": "1728bc71c02d1af41bee240c77f10d25",
+            "lastKnownName": "GroundGrassFall04.asset",
+            "history": [
+                {
+                    "rev": 4,
+                    "id": 40004,
+                    "date": "2026-11-10T07:57:11Z"
                 }
             ]
         },
@@ -671,6 +715,17 @@
             ]
         },
         {
+            "guid": "22754365d47e7cd4eaa450953a2e9e98",
+            "lastKnownName": "GroundGrassSpring00.asset",
+            "history": [
+                {
+                    "rev": 3,
+                    "id": 20000,
+                    "date": "2026-11-10T07:40:37Z"
+                }
+            ]
+        },
+        {
             "guid": "2330f1b6a3fbd1f4c85125a6c75bd806",
             "lastKnownName": "Ax.asset",
             "history": [
@@ -742,6 +797,28 @@
                     "rev": 2,
                     "id": 0,
                     "date": "2026-11-03T15:00:12Z"
+                }
+            ]
+        },
+        {
+            "guid": "266dd3ff556d87e46bd8b52ddb0fd25a",
+            "lastKnownName": "GroundGrassFall02.asset",
+            "history": [
+                {
+                    "rev": 4,
+                    "id": 40002,
+                    "date": "2026-11-10T07:57:11Z"
+                }
+            ]
+        },
+        {
+            "guid": "28b29f35aaab47e4f9fda544352f4564",
+            "lastKnownName": "GroundGrassSpring04.asset",
+            "history": [
+                {
+                    "rev": 3,
+                    "id": 20004,
+                    "date": "2026-11-10T07:40:37Z"
                 }
             ]
         },
@@ -1485,6 +1562,17 @@
                     "rev": 2,
                     "id": 0,
                     "date": "2026-11-03T15:00:12Z"
+                }
+            ]
+        },
+        {
+            "guid": "4829ac9b2563a714b805fd6ecf6a6242",
+            "lastKnownName": "GroundGrassFall01.asset",
+            "history": [
+                {
+                    "rev": 4,
+                    "id": 40001,
+                    "date": "2026-11-10T07:57:11Z"
                 }
             ]
         },
@@ -2868,6 +2956,17 @@
             ]
         },
         {
+            "guid": "8ae071df47e12bd40867040989c0b4f0",
+            "lastKnownName": "GroundGrassSpring01.asset",
+            "history": [
+                {
+                    "rev": 3,
+                    "id": 20001,
+                    "date": "2026-11-10T07:40:37Z"
+                }
+            ]
+        },
+        {
             "guid": "8b4e2ffc0a1ff2b45927bde06a802af7",
             "lastKnownName": "Crops_267.asset",
             "history": [
@@ -3814,6 +3913,17 @@
             ]
         },
         {
+            "guid": "b501223fbef91294d996b1629c175b01",
+            "lastKnownName": "GroundGrassSummer02.asset",
+            "history": [
+                {
+                    "rev": 4,
+                    "id": 30002,
+                    "date": "2026-11-10T07:57:11Z"
+                }
+            ]
+        },
+        {
             "guid": "b519142c4b07a9345a556d9c4a0bec95",
             "lastKnownName": "Crops_127.asset",
             "history": [
@@ -3974,6 +4084,17 @@
             ]
         },
         {
+            "guid": "bc3c9663a00b6944c919730ec8c060a9",
+            "lastKnownName": "GroundGrassSummer01.asset",
+            "history": [
+                {
+                    "rev": 4,
+                    "id": 30001,
+                    "date": "2026-11-10T07:57:11Z"
+                }
+            ]
+        },
+        {
             "guid": "bc62b947de754cc42b6c98b72d438fdc",
             "lastKnownName": "Crops_304.asset",
             "history": [
@@ -3986,6 +4107,17 @@
                     "rev": 2,
                     "id": 0,
                     "date": "2026-11-03T15:00:12Z"
+                }
+            ]
+        },
+        {
+            "guid": "bc85dfc91d3dd2d4c92c6863e7c217bb",
+            "lastKnownName": "GroundGrassFall03.asset",
+            "history": [
+                {
+                    "rev": 4,
+                    "id": 40003,
+                    "date": "2026-11-10T07:57:11Z"
                 }
             ]
         },
@@ -4275,6 +4407,28 @@
                     "rev": 2,
                     "id": 0,
                     "date": "2026-11-03T15:00:12Z"
+                }
+            ]
+        },
+        {
+            "guid": "c9a17f133b6623b42958e48f35e6629c",
+            "lastKnownName": "GroundGrassSummer00.asset",
+            "history": [
+                {
+                    "rev": 4,
+                    "id": 30000,
+                    "date": "2026-11-10T07:57:11Z"
+                }
+            ]
+        },
+        {
+            "guid": "c9a6119797eac4745a2717a4e5164afc",
+            "lastKnownName": "GroundGrassFall00.asset",
+            "history": [
+                {
+                    "rev": 4,
+                    "id": 40000,
+                    "date": "2026-11-10T07:57:11Z"
                 }
             ]
         },
@@ -4755,6 +4909,17 @@
             ]
         },
         {
+            "guid": "dfc0b921b3bd21345af0547c6b849253",
+            "lastKnownName": "GroundGrassSpring02.asset",
+            "history": [
+                {
+                    "rev": 3,
+                    "id": 20002,
+                    "date": "2026-11-10T07:40:37Z"
+                }
+            ]
+        },
+        {
             "guid": "dff5a80248b3a104da36e86e36b4b243",
             "lastKnownName": "Crops_10.asset",
             "history": [
@@ -4783,6 +4948,17 @@
                     "rev": 2,
                     "id": 0,
                     "date": "2026-11-03T15:00:12Z"
+                }
+            ]
+        },
+        {
+            "guid": "e037095fd6743424a9a405da18ec513d",
+            "lastKnownName": "GroundGrassSummer03.asset",
+            "history": [
+                {
+                    "rev": 4,
+                    "id": 30003,
+                    "date": "2026-11-10T07:57:11Z"
                 }
             ]
         },
@@ -5038,6 +5214,17 @@
             ]
         },
         {
+            "guid": "ead1894a0c6a30048999d902311d9f14",
+            "lastKnownName": "GroundGrassWinter01.asset",
+            "history": [
+                {
+                    "rev": 4,
+                    "id": 50001,
+                    "date": "2026-11-10T07:57:11Z"
+                }
+            ]
+        },
+        {
             "guid": "eafcfc8362547a3419788a447662f4b8",
             "lastKnownName": "Crops_187.asset",
             "history": [
@@ -5214,6 +5401,17 @@
             ]
         },
         {
+            "guid": "f233690b1d8e06e4e85b78f854f2f9b1",
+            "lastKnownName": "GroundGrassWinter03.asset",
+            "history": [
+                {
+                    "rev": 4,
+                    "id": 50003,
+                    "date": "2026-11-10T07:57:11Z"
+                }
+            ]
+        },
+        {
             "guid": "f24788b38b69e2749acb4cf9a4c3c6ef",
             "lastKnownName": "Crops_72.asset",
             "history": [
@@ -5226,6 +5424,17 @@
                     "rev": 2,
                     "id": 0,
                     "date": "2026-11-03T15:00:12Z"
+                }
+            ]
+        },
+        {
+            "guid": "f2a213fba5fb91a40aa8263f78423d03",
+            "lastKnownName": "GroundGrassSummer04.asset",
+            "history": [
+                {
+                    "rev": 4,
+                    "id": 30004,
+                    "date": "2026-11-10T07:57:11Z"
                 }
             ]
         },
@@ -5274,6 +5483,17 @@
                     "rev": 2,
                     "id": 0,
                     "date": "2026-11-03T15:00:12Z"
+                }
+            ]
+        },
+        {
+            "guid": "f4c17545ecd17bf459fb7ebaac9cb755",
+            "lastKnownName": "GroundGrassWinter04.asset",
+            "history": [
+                {
+                    "rev": 4,
+                    "id": 50004,
+                    "date": "2026-11-10T07:57:11Z"
                 }
             ]
         },

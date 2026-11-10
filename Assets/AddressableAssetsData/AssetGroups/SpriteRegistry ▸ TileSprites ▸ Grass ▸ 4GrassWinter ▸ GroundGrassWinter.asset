@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: "SpriteRegistry \u25B8 TileSprites \u25B8 Grass \u25B8 4GrassWinter \u25B8
+    GroundGrassWinter"
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: "SpriteRegistry \u25B8 TileSprites \u25B8 Grass \u25B8 4GrassWinter
+    \u25B8 GroundGrassWinter"
+  m_GUID: 778caac1ec43dc64b9d34ba3b1776b8e
+  m_SerializeEntries:
+  - m_GUID: 029484e1786af1b4ebf6e15e36178f96
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/20000_TileSprites/20000_Grass/50000_4GrassWinter/50000_GroundGrassWinter/50002_GroundGrassWinter02.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 051efea875b617645afcbc7a20e01b0d
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/20000_TileSprites/20000_Grass/50000_4GrassWinter/50000_GroundGrassWinter/50000_GroundGrassWinter00.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ead1894a0c6a30048999d902311d9f14
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/20000_TileSprites/20000_Grass/50000_4GrassWinter/50000_GroundGrassWinter/50001_GroundGrassWinter01.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f233690b1d8e06e4e85b78f854f2f9b1
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/20000_TileSprites/20000_Grass/50000_4GrassWinter/50000_GroundGrassWinter/50003_GroundGrassWinter03.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4c17545ecd17bf459fb7ebaac9cb755
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/20000_TileSprites/20000_Grass/50000_4GrassWinter/50000_GroundGrassWinter/50004_GroundGrassWinter04.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b631d96092f96e44c8799570322cd6c6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 67b3e1569221a7a4bb33e0b10e2df54a, type: 2}
+    - {fileID: 11400000, guid: 24587f007423a374c92efc7869192db8, type: 2}

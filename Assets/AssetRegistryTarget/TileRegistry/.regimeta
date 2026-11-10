@@ -1,7 +1,7 @@
 {
-    "registryName": "TileRegistry",
+    "registryName": "TileBaseRegistry",
     "registrySoGuid": "4dc942dc927594f4b85cfb10255d6982",
-    "assetType": "UnityEngine.Tilemaps.Tile",
-    "currentRevision": 1,
-    "lastBakedUtc": "2026-11-09T11:09:03Z"
+    "assetType": "UnityEngine.Tilemaps.TileBase",
+    "currentRevision": 3,
+    "lastBakedUtc": "2026-11-10T07:41:22Z"
 }

@@ -13,30 +13,82 @@ MonoBehaviour:
   m_Name: SeasonalTileTable
   m_EditorClassIdentifier: Assembly-CSharp::Farm.GameData.LevelDesign.SeasonalTileTable
   _preloadCommands:
-  - rid: 1918010305573290064
-  - rid: 1918010305573290065
+  - rid: 1918010305573290067
+  - rid: 1918010305573290068
   _table:
-  - _hash: 16804327641444387694
-    _primarykey: "1\x1FtestTile"
+  - _hash: 6122822952379992265
+    _primarykey: "20000\x1Ftest0"
     tileBaseId:
-      _id: 1
-    tileName: testTile
-    springSpriteId:
-      _id: 10000
-    summerSpriteId:
       _id: 20000
-    fallSpriteId:
+    tileName: test0
+    springSpriteId:
+      _id: 20000
+    summerSpriteId:
       _id: 30000
-    winterSpriteId:
+    fallSpriteId:
       _id: 40000
+    winterSpriteId:
+      _id: 50000
+  - _hash: 3764942480580562120
+    _primarykey: "20001\x1Ftest1"
+    tileBaseId:
+      _id: 20001
+    tileName: test1
+    springSpriteId:
+      _id: 20001
+    summerSpriteId:
+      _id: 30001
+    fallSpriteId:
+      _id: 40001
+    winterSpriteId:
+      _id: 50001
+  - _hash: 10773413665242785055
+    _primarykey: "20002\x1Ftest2"
+    tileBaseId:
+      _id: 20002
+    tileName: test2
+    springSpriteId:
+      _id: 20002
+    summerSpriteId:
+      _id: 30002
+    fallSpriteId:
+      _id: 40002
+    winterSpriteId:
+      _id: 50002
+  - _hash: 9789243677145396626
+    _primarykey: "20003\x1Ftest3"
+    tileBaseId:
+      _id: 20003
+    tileName: test3
+    springSpriteId:
+      _id: 20003
+    summerSpriteId:
+      _id: 30003
+    fallSpriteId:
+      _id: 40003
+    winterSpriteId:
+      _id: 50003
+  - _hash: 8508046074922060050
+    _primarykey: "20004\x1Ftest4"
+    tileBaseId:
+      _id: 20004
+    tileName: test4
+    springSpriteId:
+      _id: 20004
+    summerSpriteId:
+      _id: 30004
+    fallSpriteId:
+      _id: 40004
+    winterSpriteId:
+      _id: 50004
   references:
     version: 2
     RefIds:
-    - rid: 1918010305573290064
+    - rid: 1918010305573290067
       type: {class: 'AssetPreloadCommand`2[[UnityEngine.Tilemaps.TileBase, UnityEngine.TilemapModule],[Farm.GameData.TileBaseRegistry, Assembly-CSharp]]', ns: CoreEngine.GameData, asm: CoreEngine}
       data:
-        ids: 0100000000000000
-    - rid: 1918010305573290065
+        ids: 204e000000000000214e000000000000224e000000000000234e000000000000244e000000000000
+    - rid: 1918010305573290068
       type: {class: 'AssetPreloadCommand`2[[UnityEngine.Sprite, UnityEngine.CoreModule],[Farm.GameData.SpriteRegistry, Assembly-CSharp]]', ns: CoreEngine.GameData, asm: CoreEngine}
       data:
-        ids: 1027000000000000204e0000000000003075000000000000409c000000000000
+        ids: 204e000000000000214e000000000000224e000000000000234e000000000000244e00000000000030750000000000003175000000000000327500000000000033750000000000003475000000000000409c000000000000419c000000000000429c000000000000439c000000000000449c00000000000050c300000000000051c300000000000052c300000000000053c300000000000054c3000000000000

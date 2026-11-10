@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: "SpriteRegistry \u25B8 TileSprites \u25B8 Grass \u25B8 1GrassSpring \u25B8
+    GroundGrassSpring"
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: "SpriteRegistry \u25B8 TileSprites \u25B8 Grass \u25B8 1GrassSpring
+    \u25B8 GroundGrassSpring"
+  m_GUID: 2a126a0eb47452949a8b2ae064ee52f1
+  m_SerializeEntries:
+  - m_GUID: 0157087fda4feca47ae64ea4718eada0
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/20000_TileSprites/20000_Grass/20000_1GrassSpring/20000_GroundGrassSpring/20003_GroundGrassSpring03.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22754365d47e7cd4eaa450953a2e9e98
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/20000_TileSprites/20000_Grass/20000_1GrassSpring/20000_GroundGrassSpring/20000_GroundGrassSpring00.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28b29f35aaab47e4f9fda544352f4564
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/20000_TileSprites/20000_Grass/20000_1GrassSpring/20000_GroundGrassSpring/20004_GroundGrassSpring04.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ae071df47e12bd40867040989c0b4f0
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/20000_TileSprites/20000_Grass/20000_1GrassSpring/20000_GroundGrassSpring/20001_GroundGrassSpring01.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dfc0b921b3bd21345af0547c6b849253
+    m_Address: Assets/AssetRegistryTarget/SpriteRegistry/20000_TileSprites/20000_Grass/20000_1GrassSpring/20000_GroundGrassSpring/20002_GroundGrassSpring02.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b631d96092f96e44c8799570322cd6c6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 31d43a5d3dc2c744fbbd587660e13296, type: 2}
+    - {fileID: 11400000, guid: 5d521a5701a4a70448288812b7e8d2fc, type: 2}

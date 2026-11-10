@@ -1,7 +1,71 @@
 {
     "registrySoGuid": "4dc942dc927594f4b85cfb10255d6982",
-    "currentRevision": 1,
+    "currentRevision": 3,
     "assets": [
+        {
+            "guid": "0108e5e818daca143b359b3ede1c8059",
+            "lastKnownName": "GroundGrassSpring04.asset",
+            "history": [
+                {
+                    "rev": 2,
+                    "id": 10004,
+                    "date": "2026-11-10T07:39:42Z"
+                },
+                {
+                    "rev": 3,
+                    "id": 20004,
+                    "date": "2026-11-10T07:41:22Z"
+                }
+            ]
+        },
+        {
+            "guid": "3accf30ffc80cbe4d9773ab5f95ead97",
+            "lastKnownName": "GroundGrassSpring03.asset",
+            "history": [
+                {
+                    "rev": 2,
+                    "id": 10003,
+                    "date": "2026-11-10T07:39:42Z"
+                },
+                {
+                    "rev": 3,
+                    "id": 20003,
+                    "date": "2026-11-10T07:41:22Z"
+                }
+            ]
+        },
+        {
+            "guid": "479b61897962b3442a941a53b63fc4e3",
+            "lastKnownName": "GroundGrassSpring01.asset",
+            "history": [
+                {
+                    "rev": 2,
+                    "id": 10001,
+                    "date": "2026-11-10T07:39:42Z"
+                },
+                {
+                    "rev": 3,
+                    "id": 20001,
+                    "date": "2026-11-10T07:41:22Z"
+                }
+            ]
+        },
+        {
+            "guid": "636d9c346405b94478eab3d6a886c54f",
+            "lastKnownName": "GroundGrassSpring02.asset",
+            "history": [
+                {
+                    "rev": 2,
+                    "id": 10002,
+                    "date": "2026-11-10T07:39:42Z"
+                },
+                {
+                    "rev": 3,
+                    "id": 20002,
+                    "date": "2026-11-10T07:41:22Z"
+                }
+            ]
+        },
         {
             "guid": "94566dbb89d9afc4e9155ec584c8cd98",
             "lastKnownName": "Tileset Grass Cliff Tileset Spring_0.asset",
@@ -10,6 +74,27 @@
                     "rev": 1,
                     "id": 1557,
                     "date": "2026-11-09T11:09:03Z"
+                },
+                {
+                    "rev": 2,
+                    "id": 0,
+                    "date": "2026-11-10T07:39:42Z"
+                }
+            ]
+        },
+        {
+            "guid": "bb70c37acb6d15b4591529613a737f00",
+            "lastKnownName": "GroundGrassSpring00.asset",
+            "history": [
+                {
+                    "rev": 2,
+                    "id": 10000,
+                    "date": "2026-11-10T07:39:42Z"
+                },
+                {
+                    "rev": 3,
+                    "id": 20000,
+                    "date": "2026-11-10T07:41:22Z"
                 }
             ]
         }

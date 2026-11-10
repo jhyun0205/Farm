@@ -14,5 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Farm.LevelDesign.TileRegistry
   _baseDirectory: Assets/AssetRegistryTarget/TileRegistry
   _entries:
-  - Id: 1557
-    PathDetail: 1557_Tileset Grass Cliff Tileset Spring_0.asset
+  - Id: 20000
+    PathDetail: 20000_GrassSpring/20000_GroundGrassSpring/20000_GroundGrassSpring00.asset
+  - Id: 20001
+    PathDetail: 20000_GrassSpring/20000_GroundGrassSpring/20001_GroundGrassSpring01.asset
+  - Id: 20002
+    PathDetail: 20000_GrassSpring/20000_GroundGrassSpring/20002_GroundGrassSpring02.asset
+  - Id: 20003
+    PathDetail: 20000_GrassSpring/20000_GroundGrassSpring/20003_GroundGrassSpring03.asset
+  - Id: 20004
+    PathDetail: 20000_GrassSpring/20000_GroundGrassSpring/20004_GroundGrassSpring04.asset
