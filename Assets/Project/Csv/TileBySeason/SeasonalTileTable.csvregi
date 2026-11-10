@@ -1,5 +1,5 @@
 {
-  "tableFileName": "TileBySeason.csv",
+  "tableFileName": "SeasonalTileTable.csv",
   "bindings": {
     "tileAssetId": {
       "registryName": "TileRegistry",
