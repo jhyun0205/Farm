@@ -1,0 +1,13 @@
+{month/int/CHECK(VALUE >= 1 AND VALUE <= 12)/UNIQUE},{season/enum/NOT NULL},{probabilityOfRain/int/NOT NULL/CHECK(VALUE >= 0 AND VALUE <= 100)},{probabilityOfThunder/int/NOT NULL/CHECK(VALUE >= 0 AND VALUE <= 100)},{sunriseTime/int/CHECK(VALUE >= 0 AND VALUE <= 23)},{sunsetTime/int/CHECK(VALUE >= 0 AND VALUE <= 23)}
+1,Winter,20,0,7,17
+2,Winter,10,0,7,18
+3,Winter,20,0,6,18
+4,Spring,30,20,5,19
+5,Spring,40,30,5,19
+6,Summer,40,70,5,19
+7,Summer,50,90,5,19
+8,Summer,90,80,5,19
+9,Summer,70,70,6,18
+10,Fall,40,40,6,17
+11,Fall,20,30,7,17
+12,Winter,10,0,7,17
