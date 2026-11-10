@@ -3,7 +3,8 @@
     "settings": {
         "maxSuperkeyLength": 2,
         "includeSubDirectories": true,
-        "excludePrefix": "Disabled"
+        "excludePrefix": "Disabled",
+        "externalRegiMetaPaths": []
     },
     "created_at": "Migrated from .root",
     "erdHtmlPath": "Healing Farm_ERD.html"

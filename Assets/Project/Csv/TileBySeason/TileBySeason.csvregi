@@ -1,0 +1,40 @@
+{
+  "tableFileName": "TileBySeason.csv",
+  "bindings": {
+    "tileAssetId": {
+      "registryName": "TileRegistry",
+      "registrySoGuid": "4dc942dc927594f4b85cfb10255d6982",
+      "assetType": "UnityEngine.Tilemaps.Tile",
+      "regiMetaPath": "../../AssetRegistryTarget/TileRegistry/.regimeta",
+      "syncedRevision": 1
+    },
+    "springSpriteId": {
+      "registryName": "SpriteRegistry",
+      "registrySoGuid": "af2b4f0d87f8a9e49841f626ac0b28b6",
+      "assetType": "UnityEngine.Sprite",
+      "regiMetaPath": "../../AssetRegistryTarget/SpriteRegistry/.regimeta",
+      "syncedRevision": 2
+    },
+    "summerSpriteId": {
+      "registryName": "SpriteRegistry",
+      "registrySoGuid": "af2b4f0d87f8a9e49841f626ac0b28b6",
+      "assetType": "UnityEngine.Sprite",
+      "regiMetaPath": "../../AssetRegistryTarget/SpriteRegistry/.regimeta",
+      "syncedRevision": 2
+    },
+    "fallSpriteId": {
+      "registryName": "SpriteRegistry",
+      "registrySoGuid": "af2b4f0d87f8a9e49841f626ac0b28b6",
+      "assetType": "UnityEngine.Sprite",
+      "regiMetaPath": "../../AssetRegistryTarget/SpriteRegistry/.regimeta",
+      "syncedRevision": 2
+    },
+    "winterSpriteId": {
+      "registryName": "SpriteRegistry",
+      "registrySoGuid": "af2b4f0d87f8a9e49841f626ac0b28b6",
+      "assetType": "UnityEngine.Sprite",
+      "regiMetaPath": "../../AssetRegistryTarget/SpriteRegistry/.regimeta",
+      "syncedRevision": 2
+    }
+  }
+}
