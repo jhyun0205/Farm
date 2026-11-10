@@ -1,5 +1,6 @@
 using CoreEngine;
 using CoreEngine.Actor;
+using CoreEngine.EventBus;
 using Farm.Character.Move;
 using System;
 using UnityEngine;
@@ -32,9 +33,10 @@ namespace Farm.Character
         public event Action<float> OnStaminaChanged; //값이 바뀔 때마다 "현재 스테미너 원본값"을 방송
         public event Action OnMaxStaminaChanged; // 그릇 개수(최대치)가 바뀌었을 때 알림
 
-        private int lastValidatedCount = -1; // 인스펙터 변화 감지용 (테스트용)
+        private int lastValidatedCount = -1; // [Ring 테스트용] 인스펙터 변화 감지용
+        private float fatigueTimer; // [피로도 테스트용] 스프린트 중 피로도 발행 누적 타이머
 
-        public void OnValidate() // 인스펙터에서 값이 바뀔 때 호출됨 (BaseCharacter.OnValidate에서 수동으로 불러줘야 함)
+        public void OnValidate() // [Ring 테스트용] 인스펙터에서 staminaCount 바뀔 때 Ring 칸 수를 바로 확인하기 위함 (BaseCharacter.OnValidate에서 수동으로 불러줘야 함)
         {
             if (staminaCount != lastValidatedCount)
             {
@@ -72,6 +74,17 @@ namespace Farm.Character
         public void Tick(float deltaTime) // 매 틱마다 호출되어 스테미너를 갱신
         {
             bool isSprinting = moveFeature.isMove && moveFeature.IsSprint; // 지금 실제로 움직이면서 스프린트 중인지 판단
+
+            // [피로도 테스트용] 스프린트 중이면 1초마다 피로도 1 발행 (실제 트리거 연결 전까지 확인용, 나중에 삭제할 것)
+            if (isSprinting)
+            {
+                fatigueTimer += deltaTime;
+                if (fatigueTimer >= 1f)
+                {
+                    fatigueTimer -= 1f;
+                    EventBus<FatigueGainEvent>.Publish(new FatigueGainEvent(1));
+                }
+            }
 
             float before = curStamina; // 변화 감지를 위해 갱신 전 값을 저장
 
