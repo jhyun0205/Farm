@@ -2,6 +2,7 @@ using CoreEngine.GameData;
 using UnityEngine.Tilemaps;
 using UnityEngine;
 using System;
+using System.Collections.Generic;
 
 namespace Farm.GameData.LevelDesign
 {
@@ -19,6 +20,12 @@ namespace Farm.GameData.LevelDesign
         [TableColumn, SerializeField] protected SpriteId fallSpriteId;
         [TableColumn, SerializeField] protected SpriteId winterSpriteId;
         #endregion
+
+        public TileBaseId TileBaseId => tileBaseId;
+        public SpriteId SpringSpriteId => springSpriteId;
+        public SpriteId SummerSpriteId => summerSpriteId;
+        public SpriteId FallSpriteId => fallSpriteId;
+        public SpriteId WinterSpriteId => winterSpriteId;
     }
     public class SeasonalTileTable : BaseTable<SeasonalTileRecord>
     {
