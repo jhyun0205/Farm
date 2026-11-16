@@ -1,0 +1,279 @@
+{
+  "image_path": "1.png",
+  "image_width": 320,
+  "image_height": 48,
+  "export_config": {
+    "output_dir": "C:/Users/ycjun/OneDrive/문서/Projects/Git/Dairy Farm/Assets/Farm RPG - Tiny Asset Pack - (All in One)/Icons/Weapons/RPG/Wepons1",
+    "separator": "_",
+    "padding_digits": 2,
+    "skip_transparent_tiles": true
+  },
+  "regions": [
+    {
+      "region_id": "ea6e9faa",
+      "base_name": "Unselected",
+      "x": 0,
+      "y": 0,
+      "width": 160,
+      "height": 48,
+      "tile_width": 16,
+      "tile_height": 16,
+      "tile_order_path": "Unselected.tileorder",
+      "custom_mappings": [
+        {
+          "id": 0,
+          "col": 0,
+          "row": 0
+        },
+        {
+          "id": 1,
+          "col": 1,
+          "row": 0
+        },
+        {
+          "id": 2,
+          "col": 2,
+          "row": 0
+        },
+        {
+          "id": 3,
+          "col": 3,
+          "row": 0
+        },
+        {
+          "id": 4,
+          "col": 4,
+          "row": 0
+        },
+        {
+          "id": 5,
+          "col": 5,
+          "row": 0
+        },
+        {
+          "id": 6,
+          "col": 6,
+          "row": 0
+        },
+        {
+          "id": 7,
+          "col": 7,
+          "row": 0
+        },
+        {
+          "id": 8,
+          "col": 8,
+          "row": 0
+        },
+        {
+          "id": 9,
+          "col": 0,
+          "row": 1
+        },
+        {
+          "id": 10,
+          "col": 1,
+          "row": 1
+        },
+        {
+          "id": 11,
+          "col": 2,
+          "row": 1
+        },
+        {
+          "id": 12,
+          "col": 3,
+          "row": 1
+        },
+        {
+          "id": 13,
+          "col": 4,
+          "row": 1
+        },
+        {
+          "id": 14,
+          "col": 0,
+          "row": 2
+        },
+        {
+          "id": 15,
+          "col": 1,
+          "row": 2
+        },
+        {
+          "id": 16,
+          "col": 2,
+          "row": 2
+        },
+        {
+          "id": 17,
+          "col": 3,
+          "row": 2
+        },
+        {
+          "id": 18,
+          "col": 4,
+          "row": 2
+        },
+        {
+          "id": 19,
+          "col": 5,
+          "row": 2
+        },
+        {
+          "id": 20,
+          "col": 6,
+          "row": 2
+        },
+        {
+          "id": 21,
+          "col": 7,
+          "row": 2
+        },
+        {
+          "id": 22,
+          "col": 8,
+          "row": 2
+        },
+        {
+          "id": 23,
+          "col": 9,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "region_id": "15be7d16",
+      "base_name": "Selected",
+      "x": 160,
+      "y": 0,
+      "width": 160,
+      "height": 48,
+      "tile_width": 16,
+      "tile_height": 16,
+      "tile_order_path": "Unselected.tileorder",
+      "custom_mappings": [
+        {
+          "id": 0,
+          "col": 0,
+          "row": 0
+        },
+        {
+          "id": 1,
+          "col": 1,
+          "row": 0
+        },
+        {
+          "id": 2,
+          "col": 2,
+          "row": 0
+        },
+        {
+          "id": 3,
+          "col": 3,
+          "row": 0
+        },
+        {
+          "id": 4,
+          "col": 4,
+          "row": 0
+        },
+        {
+          "id": 5,
+          "col": 5,
+          "row": 0
+        },
+        {
+          "id": 6,
+          "col": 6,
+          "row": 0
+        },
+        {
+          "id": 7,
+          "col": 7,
+          "row": 0
+        },
+        {
+          "id": 8,
+          "col": 8,
+          "row": 0
+        },
+        {
+          "id": 9,
+          "col": 0,
+          "row": 1
+        },
+        {
+          "id": 10,
+          "col": 1,
+          "row": 1
+        },
+        {
+          "id": 11,
+          "col": 2,
+          "row": 1
+        },
+        {
+          "id": 12,
+          "col": 3,
+          "row": 1
+        },
+        {
+          "id": 13,
+          "col": 4,
+          "row": 1
+        },
+        {
+          "id": 14,
+          "col": 0,
+          "row": 2
+        },
+        {
+          "id": 15,
+          "col": 1,
+          "row": 2
+        },
+        {
+          "id": 16,
+          "col": 2,
+          "row": 2
+        },
+        {
+          "id": 17,
+          "col": 3,
+          "row": 2
+        },
+        {
+          "id": 18,
+          "col": 4,
+          "row": 2
+        },
+        {
+          "id": 19,
+          "col": 5,
+          "row": 2
+        },
+        {
+          "id": 20,
+          "col": 6,
+          "row": 2
+        },
+        {
+          "id": 21,
+          "col": 7,
+          "row": 2
+        },
+        {
+          "id": 22,
+          "col": 8,
+          "row": 2
+        },
+        {
+          "id": 23,
+          "col": 9,
+          "row": 2
+        }
+      ]
+    }
+  ]
+}
