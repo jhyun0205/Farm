@@ -24,7 +24,7 @@ namespace Farm.GameLogic.Time
         private const float REAL_SECONDS_PER_GAME_MINUTE = 1f;
 
         [Tooltip("현실의 60초 = 게임 속 1시간")]
-        private const float REAL_SECONDS_PER_GAME_HOUR = 60f;
+        private const float REAL_SECONDS_PER_GAME_HOUR = 3f; // [시계 테스트용] 원래 60f
 
         public static float DayLength { get; private set; } = 24f * 60f;
         public double TotalGameSeconds { get; private set; }

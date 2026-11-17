@@ -272,13 +272,33 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2171169292940843047, guid: 17b36a3862d473c46a9b50c4c404f512, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 622304840}
   m_SourcePrefab: {fileID: 100100000, guid: 17b36a3862d473c46a9b50c4c404f512, type: 3}
 --- !u!4 &622304838 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1591654585956599818, guid: 17b36a3862d473c46a9b50c4c404f512, type: 3}
   m_PrefabInstance: {fileID: 622304837}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &622304839 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2171169292940843047, guid: 17b36a3862d473c46a9b50c4c404f512, type: 3}
+  m_PrefabInstance: {fileID: 622304837}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &622304840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622304839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16774d42b21430c489267847d25f188f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: CoreEngine::CoreEngine.TimeSystem.TimeDirector
 --- !u!4 &651494166 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4883254047611838046, guid: 4d145f4af75321b488078b391f6ba6d9, type: 3}
