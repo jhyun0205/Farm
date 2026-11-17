@@ -137,19 +137,19 @@ TextureImporter:
       name: clock hand_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 13
-        width: 7
-        height: 12
+        x: 9
+        y: 8
+        width: 15
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 569f4c4b8880356f0800000000000000
+      spriteID: 42ddaaee169db4d45abc1711cb20e176
       internalID: -697204134070912667
       vertices: []
       indices: 
@@ -159,19 +159,19 @@ TextureImporter:
       name: clock hand_1
       rect:
         serializedVersion: 2
-        x: 45
-        y: 13
-        width: 10
-        height: 10
+        x: 40
+        y: 8
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 63e86cfc850695b20800000000000000
+      spriteID: dbd4e1b3a5c26ef46b663572d27f4897
       internalID: 3123633751117434422
       vertices: []
       indices: 
@@ -181,19 +181,19 @@ TextureImporter:
       name: clock hand_2
       rect:
         serializedVersion: 2
-        x: 77
-        y: 12
-        width: 12
-        height: 7
+        x: 72
+        y: 8
+        width: 16
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f11709cf502b39fc0800000000000000
+      spriteID: 2ff3e46f86e871443b7a1e45da0e6fd0
       internalID: -3489249547500097249
       vertices: []
       indices: 
@@ -203,19 +203,19 @@ TextureImporter:
       name: clock hand_3
       rect:
         serializedVersion: 2
-        x: 109
-        y: 9
-        width: 10
-        height: 10
+        x: 104
+        y: 8
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5a41989a48070fc90800000000000000
+      spriteID: b1ad26fb07622644c9a888ab759f693d
       internalID: -7138081694299908955
       vertices: []
       indices: 
@@ -225,19 +225,19 @@ TextureImporter:
       name: clock hand_4
       rect:
         serializedVersion: 2
-        x: 141
-        y: 7
-        width: 7
-        height: 12
+        x: 137
+        y: 8
+        width: 15
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5644a8fcda37b79a0800000000000000
+      spriteID: 79d25148595499e44b5b57cd1e159bef
       internalID: -6234262068815838107
       vertices: []
       indices: 
@@ -247,19 +247,19 @@ TextureImporter:
       name: clock hand_5
       rect:
         serializedVersion: 2
-        x: 169
-        y: 9
-        width: 10
-        height: 10
+        x: 168
+        y: 8
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eda7ae75d55e97c70800000000000000
+      spriteID: 397577a66d1b15c40b4351a33e070b72
       internalID: 8969452321954757342
       vertices: []
       indices: 
@@ -269,19 +269,19 @@ TextureImporter:
       name: clock hand_6
       rect:
         serializedVersion: 2
-        x: 199
-        y: 13
-        width: 12
-        height: 7
+        x: 200
+        y: 9
+        width: 16
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c4a924404add8b800800000000000000
+      spriteID: 218421798909d8a41a78a6602c4e7006
       internalID: 628495844534032972
       vertices: []
       indices: 
@@ -291,19 +291,19 @@ TextureImporter:
       name: clock hand_7
       rect:
         serializedVersion: 2
-        x: 233
-        y: 13
-        width: 10
-        height: 10
+        x: 232
+        y: 8
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e54415e528a788220800000000000000
+      spriteID: 6a5b66b4492c2324d93a049cd0736b37
       internalID: 2488373494468920414
       vertices: []
       indices: 
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ae3be88313a71474ba921fb0d9957f90
     internalID: 0
     vertices: []
     indices: 
@@ -321,7 +321,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":8.0,"y":8.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       clock hand_0: -697204134070912667
       clock hand_1: 3123633751117434422
